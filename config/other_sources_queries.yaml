@@ -1,43 +1,64 @@
-# Multi-source discovery queries (fetch_other_sources.py)
-# Sources supported: dblp, crossref, europepmc, openalex, semantic_scholar
-
-- source: crossref
+- category: ai-marketing
   query: generative artificial intelligence marketing consumer
-  category: ai-marketing
+  source: crossref
   subcategory_hint: empirical
-- source: crossref
+- category: ai-marketing
   query: digital marketing artificial intelligence personalization
-  category: ai-marketing
+  source: crossref
   subcategory_hint: framework
-- source: crossref
+- category: social-media
   query: social media influencer marketing
-  category: social-media
+  source: crossref
   subcategory_hint: empirical
-- source: crossref
+- category: privacy-data
   query: privacy personalization advertising trade-off
-  category: privacy-data
+  source: crossref
   subcategory_hint: empirical
-- source: crossref
+- category: analytics
   query: marketing mix modeling advertising effectiveness
-  category: analytics
+  source: crossref
   subcategory_hint: measurement
-- source: crossref
+- category: cx-retail
   query: omnichannel customer experience retail
-  category: cx-retail
+  source: crossref
   subcategory_hint: framework
-- source: dblp
+- category: social-media
   query: social media marketing
-  category: social-media
+  source: dblp
   subcategory_hint: empirical
-- source: dblp
+- category: digital-marketing
   query: recommender systems advertising personalization
-  category: digital-marketing
+  source: dblp
   subcategory_hint: measurement
-- source: dblp
+- category: consumer-behavior
   query: consumer behavior online
-  category: consumer-behavior
+  source: dblp
   subcategory_hint: empirical
-- source: europepmc
+- category: consumer-behavior
   query: marketing consumer behavior digital
-  category: consumer-behavior
+  source: europepmc
+  subcategory_hint: empirical
+- category: ai-marketing
+  query: artificial intelligence lead generation marketing B2B
+  source: crossref
+  subcategory_hint: framework
+- category: ai-marketing
+  query: generative AI lead scoring marketing automation
+  source: crossref
+  subcategory_hint: empirical
+- category: ai-marketing
+  query: AI personalized lead nurturing marketing
+  source: crossref
+  subcategory_hint: empirical
+- category: b2b
+  query: artificial intelligence lead generation B2B marketing
+  source: dblp
+  subcategory_hint: empirical
+- category: ai-marketing
+  query: machine learning lead scoring marketing
+  source: dblp
+  subcategory_hint: measurement
+- category: ai-marketing
+  query: AI powered lead generation digital marketing
+  source: europepmc
   subcategory_hint: empirical

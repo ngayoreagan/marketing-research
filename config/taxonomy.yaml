@@ -86,6 +86,12 @@ arxiv_queries:
   - query: 'cat:econ.GN AND (abs:"advertising" OR abs:"digital marketing" OR abs:"consumer")'
     category: consumer-behavior
     subcategory_hint: empirical
+  - query: 'cat:cs.AI AND (abs:"lead generation" OR abs:"lead scoring" OR abs:"B2B marketing")'
+    category: ai-marketing
+    subcategory_hint: empirical
+  - query: 'cat:cs.LG AND (abs:"machine learning" AND (abs:"marketing" OR abs:"lead"))'
+    category: ai-marketing
+    subcategory_hint: measurement
 
 # ── Discovery: multi-source queries (fetch_other_sources.py) ─────────────────
 # Each entry defines one query against a source (dblp, crossref, europepmc, …).
@@ -130,6 +136,30 @@ other_sources_queries:
     query: marketing consumer behavior digital
     category: consumer-behavior
     subcategory_hint: empirical
+  - source: crossref
+    query: artificial intelligence lead generation marketing B2B
+    category: ai-marketing
+    subcategory_hint: framework
+  - source: crossref
+    query: generative AI lead scoring marketing automation
+    category: ai-marketing
+    subcategory_hint: empirical
+  - source: crossref
+    query: AI personalized lead nurturing marketing
+    category: ai-marketing
+    subcategory_hint: empirical
+  - source: dblp
+    query: artificial intelligence lead generation B2B marketing
+    category: b2b
+    subcategory_hint: empirical
+  - source: dblp
+    query: machine learning lead scoring marketing
+    category: ai-marketing
+    subcategory_hint: measurement
+  - source: europepmc
+    query: AI powered lead generation digital marketing
+    category: ai-marketing
+    subcategory_hint: empirical
 
 # ── OpenAlex bulk fetch (fetch_openalex_bulk.py) ─────────────────────────────
 # Per-category OpenAlex search phrases (title_and_abstract.search semantics:
@@ -142,6 +172,15 @@ openalex_queries:
   - category: ai-marketing
     query: '"artificial intelligence" marketing personalization'
     subcategory_hint: framework
+  - category: ai-marketing
+    query: '"artificial intelligence" "lead generation" marketing'
+    subcategory_hint: empirical
+  - category: ai-marketing
+    query: '"machine learning" "lead scoring" marketing'
+    subcategory_hint: measurement
+  - category: b2b
+    query: '"AI" "B2B marketing" "lead generation"'
+    subcategory_hint: empirical
   - category: ai-marketing
     query: 'marketing chatbots consumers'
     subcategory_hint: empirical
