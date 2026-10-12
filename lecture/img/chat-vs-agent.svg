@@ -1,30 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="920" height="225" viewBox="0 0 980 240" font-family="Segoe UI,system-ui,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" font-family="Segoe UI,system-ui,sans-serif">
   <defs><marker id="ar1" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#6c757d"/></marker></defs>
-  <line x1="492" y1="15" x2="492" y2="228" stroke="#adb5bd" stroke-width="2" stroke-dasharray="7 6"/>
-  <circle cx="492" cy="32" r="15" fill="#ffffff" stroke="#165A97" stroke-width="2"/>
-  <text x="492" y="38" text-anchor="middle" font-size="17" font-weight="700" fill="#165A97">≠</text>
+  <line x1="600" y1="15" x2="600" y2="238" stroke="#adb5bd" stroke-width="2" stroke-dasharray="7 6"/>
+  <circle cx="600" cy="32" r="15" fill="#ffffff" stroke="#165A97" stroke-width="2"/>
+  <text x="600" y="38" text-anchor="middle" font-size="17" font-weight="700" fill="#165A97">≠</text>
 
-  <rect x="8" y="46" width="436" height="182" rx="12" fill="#f4f7fa" stroke="#ced4da"/>
-  <text x="226" y="72" text-anchor="middle" font-size="21" font-weight="700" fill="#212529">Chat</text>
-  <rect x="35" y="113" width="105" height="48" rx="8" fill="#e8eff6" stroke="#adb5bd"/><text x="87" y="141" text-anchor="middle" font-size="18" fill="#212529">You</text>
-  <rect x="170" y="113" width="120" height="48" rx="8" fill="#e8eff6" stroke="#adb5bd"/><text x="230" y="141" text-anchor="middle" font-size="18" fill="#212529">Model</text>
-  <rect x="320" y="113" width="110" height="48" rx="8" fill="#e8eff6" stroke="#adb5bd"/><text x="375" y="141" text-anchor="middle" font-size="18" fill="#212529">Answer</text>
-  <line x1="142" y1="137" x2="166" y2="137" stroke="#6c757d" stroke-width="2" marker-end="url(#ar1)"/>
-  <line x1="292" y1="137" x2="316" y2="137" stroke="#6c757d" stroke-width="2" marker-end="url(#ar1)"/>
-  <text x="226" y="212" text-anchor="middle" font-size="15" font-style="italic" fill="#6c757d">one question, one answer</text>
+  <rect x="16" y="50" width="552" height="186" rx="12" fill="#f4f7fa" stroke="#ced4da"/>
+  <text x="292" y="78" text-anchor="middle" font-size="21" font-weight="700" fill="#212529">Chat</text>
+  <rect x="46" y="113" width="140" height="48" rx="8" fill="#e8eff6" stroke="#adb5bd"/><text x="116" y="141" text-anchor="middle" font-size="18" fill="#212529">You</text>
+  <rect x="222" y="113" width="140" height="48" rx="8" fill="#e8eff6" stroke="#adb5bd"/><text x="292" y="141" text-anchor="middle" font-size="18" fill="#212529">Model</text>
+  <rect x="398" y="113" width="140" height="48" rx="8" fill="#e8eff6" stroke="#adb5bd"/><text x="468" y="141" text-anchor="middle" font-size="18" fill="#212529">Answer</text>
+  <line x1="189" y1="137" x2="218" y2="137" stroke="#6c757d" stroke-width="2" marker-end="url(#ar1)"/>
+  <line x1="365" y1="137" x2="394" y2="137" stroke="#6c757d" stroke-width="2" marker-end="url(#ar1)"/>
+  <text x="292" y="224" text-anchor="middle" font-size="15" font-style="italic" fill="#6c757d">one question, one answer</text>
 
-  <rect x="536" y="46" width="436" height="182" rx="12" fill="#f4f7fa" stroke="#ced4da"/>
-  <text x="754" y="72" text-anchor="middle" font-size="21" font-weight="700" fill="#212529">Agent</text>
-  <rect x="548" y="113" width="80" height="48" rx="8" fill="#e8eff6" stroke="#adb5bd"/><text x="588" y="141" text-anchor="middle" font-size="17" fill="#212529">Goal</text>
-  <rect x="665" y="70" width="300" height="152" rx="10" fill="none" stroke="#165A97" stroke-dasharray="6 4"/>
-  <text x="680" y="88" font-size="14" fill="#165A97">harness</text>
-  <rect x="673" y="113" width="75" height="48" rx="8" fill="#e8eff6" stroke="#adb5bd"/><text x="710" y="141" text-anchor="middle" font-size="16" fill="#212529">Plan</text>
-  <rect x="768" y="113" width="75" height="48" rx="8" fill="#e8eff6" stroke="#adb5bd"/><text x="805" y="141" text-anchor="middle" font-size="16" fill="#212529">Tools</text>
-  <rect x="863" y="113" width="75" height="48" rx="8" fill="#e8eff6" stroke="#adb5bd"/><text x="900" y="141" text-anchor="middle" font-size="16" fill="#212529">Verify</text>
-  <line x1="632" y1="137" x2="669" y2="137" stroke="#6c757d" stroke-width="2" marker-end="url(#ar1)"/>
-  <line x1="750" y1="137" x2="764" y2="137" stroke="#6c757d" stroke-width="2" marker-end="url(#ar1)"/>
-  <line x1="845" y1="137" x2="859" y2="137" stroke="#6c757d" stroke-width="2" marker-end="url(#ar1)"/>
-  <path d="M 900 161 L 900 190 L 710 190 L 710 165" fill="none" stroke="#c47f0e" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#ar1)"/>
-  <text x="805" y="205" text-anchor="middle" font-size="14" fill="#c47f0e">iterate until verified</text>
-  <text x="754" y="222" text-anchor="middle" font-size="15" font-style="italic" fill="#6c757d">goal in, verified result out</text>
+  <rect x="632" y="50" width="552" height="186" rx="12" fill="#f4f7fa" stroke="#ced4da"/>
+  <text x="908" y="78" text-anchor="middle" font-size="21" font-weight="700" fill="#212529">Agent</text>
+  <rect x="644" y="113" width="80" height="48" rx="8" fill="#e8eff6" stroke="#adb5bd"/><text x="684" y="141" text-anchor="middle" font-size="17" fill="#212529">Goal</text>
+  <rect x="768" y="70" width="404" height="136" rx="10" fill="none" stroke="#165A97" stroke-dasharray="6 4"/>
+  <text x="783" y="88" font-size="14" fill="#165A97">harness</text>
+  <rect x="794" y="113" width="100" height="48" rx="8" fill="#e8eff6" stroke="#adb5bd"/><text x="844" y="141" text-anchor="middle" font-size="16" fill="#212529">Plan</text>
+  <rect x="920" y="113" width="100" height="48" rx="8" fill="#e8eff6" stroke="#adb5bd"/><text x="970" y="141" text-anchor="middle" font-size="16" fill="#212529">Tools</text>
+  <rect x="1046" y="113" width="100" height="48" rx="8" fill="#e8eff6" stroke="#adb5bd"/><text x="1096" y="141" text-anchor="middle" font-size="16" fill="#212529">Verify</text>
+  <line x1="727" y1="137" x2="790" y2="137" stroke="#6c757d" stroke-width="2" marker-end="url(#ar1)"/>
+  <line x1="897" y1="137" x2="916" y2="137" stroke="#6c757d" stroke-width="2" marker-end="url(#ar1)"/>
+  <line x1="1023" y1="137" x2="1042" y2="137" stroke="#6c757d" stroke-width="2" marker-end="url(#ar1)"/>
+  <path d="M 1096 161 L 1096 186 L 844 186 L 844 165" fill="none" stroke="#c47f0e" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#ar1)"/>
+  <text x="970" y="202" text-anchor="middle" font-size="14" fill="#c47f0e">iterate until verified</text>
+  <text x="908" y="224" text-anchor="middle" font-size="15" font-style="italic" fill="#6c757d">goal in, verified result out</text>
 </svg>
