@@ -3,7 +3,7 @@ marp: true
 theme: default
 paginate: true
 header: '![h:56](img/jlu-logo.png)'
-footer: 'Marketing Chair · Agentic AI for Lead Generation · WS 2026/27 · 45 min'
+footer: 'Marketing Chair · Agentic AI for Lead Generation · Tobias Weiß'
 style: |
   /* JLU Gießen look: white background, JLU blue #165A97 */
   :root { --jlu-blue: #165A97; --jlu-light: #e8eff6; --jlu-green: #E5F0CF; --ink: #212529; --muted: #6c757d; }
@@ -308,6 +308,9 @@ Show a mistake on purpose if possible: pause, let the agent correct —
 that IS the "loop". One line on data handling: the demo runs on real,
 public company data through a cloud API — fine here; never paste
 private or customer data into a commercial harness.
+Fallback: if the run fails (network/API/browser), show the untouched
+recording of the same contract run (fallback-demo.mp4) and narrate over
+it — full procedure in demo/demo-script.md.
 -->
 
 ---
