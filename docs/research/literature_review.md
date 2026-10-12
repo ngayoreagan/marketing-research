@@ -1,7 +1,7 @@
 # Literature Review
 
 **Generated:** 2026-10-12  
-**Corpus:** 13,096 papers across 11 categories
+**Corpus:** 13,765 papers across 11 categories
 
 > Synthesis of the corpus. Category insights are grounded in title/abstract analysis of the papers themselves.
 
@@ -11,17 +11,17 @@
 
 | Rank | Category | Papers |
 |------|----------|--------|
-| 1 | AI & Marketing | 2581 |
-| 2 | Surveys, Trends & Meta-Studies | 1953 |
-| 3 | Social Media & Creator Marketing | 1461 |
-| 4 | Consumer Behavior & Psychology | 1452 |
-| 5 | Digital & Performance Marketing | 1392 |
-| 6 | Brand Strategy & Management | 1342 |
-| 7 | Customer Experience, Omnichannel & Retail | 1064 |
-| 8 | Analytics, Attribution & Measurement | 577 |
+| 1 | AI & Marketing | 2682 |
+| 2 | Surveys, Trends & Meta-Studies | 2068 |
+| 3 | Social Media & Creator Marketing | 1567 |
+| 4 | Consumer Behavior & Psychology | 1523 |
+| 5 | Digital & Performance Marketing | 1486 |
+| 6 | Brand Strategy & Management | 1456 |
+| 7 | Customer Experience, Omnichannel & Retail | 1116 |
+| 8 | Analytics, Attribution & Measurement | 581 |
 
 **Time span:** 1987–2026 (median year 2016)
-**Dominant aspects:** Empirical Studies (4811), Frameworks & Models (2448), Reviews & Surveys (2017)
+**Dominant aspects:** Empirical Studies (5125), Frameworks & Models (2588), Reviews & Surveys (2128)
 
 ---
 
@@ -29,17 +29,17 @@
 
 | Category | Total | Last 12m | Prior 12m | Growth | 12-m share | Papers/mo |
 |----------|------:|---------:|----------:|-------:|----------:|----------:|
-| Survey | 1953 | 1530 | 229 | +568% | 78% | 127.5 |
-| Brand | 1342 | 911 | 242 | +276% | 68% | 75.9 |
-| Social Media | 1461 | 950 | 261 | +264% | 65% | 79.2 |
-| Digital Marketing | 1392 | 901 | 255 | +253% | 65% | 75.1 |
-| Consumer Behavior | 1452 | 950 | 275 | +246% | 65% | 79.2 |
-| Cx Retail | 1064 | 679 | 252 | +169% | 64% | 56.6 |
-| Analytics | 577 | 350 | 160 | +119% | 61% | 29.2 |
-| Ai Marketing | 2581 | 1395 | 704 | +98% | 54% | 116.2 |
-| B2B | 346 | 177 | 98 | +81% | 51% | 14.8 |
-| Content Marketing | 484 | 259 | 165 | +57% | 54% | 21.6 |
-| Privacy Data | 444 | 210 | 160 | +31% | 47% | 17.5 |
+| Survey | 2068 | 1645 | 229 | +618% | 80% | 137.1 |
+| Brand | 1456 | 1025 | 242 | +324% | 70% | 85.4 |
+| Social Media | 1567 | 1056 | 261 | +305% | 67% | 88.0 |
+| Digital Marketing | 1486 | 995 | 255 | +290% | 67% | 82.9 |
+| Consumer Behavior | 1523 | 1021 | 275 | +271% | 67% | 85.1 |
+| Cx Retail | 1116 | 731 | 252 | +190% | 66% | 60.9 |
+| Analytics | 581 | 354 | 160 | +121% | 61% | 29.5 |
+| Ai Marketing | 2682 | 1496 | 704 | +112% | 56% | 124.7 |
+| B2B | 347 | 178 | 98 | +82% | 51% | 14.8 |
+| Content Marketing | 491 | 266 | 165 | +61% | 54% | 22.2 |
+| Privacy Data | 448 | 214 | 160 | +34% | 48% | 17.8 |
 
 ---
 
@@ -52,7 +52,7 @@
 | `b2b/review` | 40 |
 | `b2b/theory` | 43 |
 | `content-marketing/measurement` | 44 |
-| `content-marketing/empirical` | 48 |
+| `content-marketing/empirical` | 49 |
 | `b2b/case-study` | 51 |
 | `privacy-data/case-study` | 54 |
 
@@ -63,7 +63,7 @@
 
 ### AI & Marketing (`ai-marketing`)
 
-**Corpus size:** 2581 papers
+**Corpus size:** 2682 papers
 
 **Recent papers:**
 
@@ -75,7 +75,7 @@
 
 ### Surveys, Trends & Meta-Studies (`survey`)
 
-**Corpus size:** 1953 papers
+**Corpus size:** 2068 papers
 
 **Recent papers:**
 
@@ -87,7 +87,7 @@
 
 ### Social Media & Creator Marketing (`social-media`)
 
-**Corpus size:** 1461 papers
+**Corpus size:** 1567 papers
 
 **Recent papers:**
 
@@ -99,7 +99,7 @@
 
 ### Consumer Behavior & Psychology (`consumer-behavior`)
 
-**Corpus size:** 1452 papers
+**Corpus size:** 1523 papers
 
 **Recent papers:**
 
@@ -111,7 +111,7 @@
 
 ### Digital & Performance Marketing (`digital-marketing`)
 
-**Corpus size:** 1392 papers
+**Corpus size:** 1486 papers
 
 **Recent papers:**
 
@@ -123,7 +123,7 @@
 
 ### Brand Strategy & Management (`brand`)
 
-**Corpus size:** 1342 papers
+**Corpus size:** 1456 papers
 
 **Recent papers:**
 
@@ -135,7 +135,7 @@
 
 ### Customer Experience, Omnichannel & Retail (`cx-retail`)
 
-**Corpus size:** 1064 papers
+**Corpus size:** 1116 papers
 
 **Recent papers:**
 
@@ -147,7 +147,7 @@
 
 ### Analytics, Attribution & Measurement (`analytics`)
 
-**Corpus size:** 577 papers
+**Corpus size:** 581 papers
 
 **Recent papers:**
 
@@ -159,7 +159,7 @@
 
 ### Content & Storytelling (`content-marketing`)
 
-**Corpus size:** 484 papers
+**Corpus size:** 491 papers
 
 **Recent papers:**
 
@@ -171,25 +171,25 @@
 
 ### Data, Privacy & Cookieless Advertising (`privacy-data`)
 
-**Corpus size:** 444 papers
+**Corpus size:** 448 papers
 
 **Recent papers:**
 
 - [2026-10] Beyond the Black Box: Algorithmic Accountability and the Legal Regulation of Predictive Analyti — https://doi.org/10.63108/ijlmh.12913
-- [2026-09] The personalization–privacy paradox in social media advertising: a cross-national study of ad a — https://doi.org/10.1108/imr-11-2025-0572
-- [2026-09] AI-driven personalized advertising and consumer purchase decisions: Examining the effects of ad — https://doi.org/10.66728/sshi.v4i7.515526
+- [2026-10] Impact of SMA on Consumer Attitudes, Engagement, and Purchase Intentions: A Systematic Theory-O — https://doi.org/10.11114/smc.v14i4.8868
+- [2026-10] Platform Uncertainty and Strategic Decision-Making in Digital Advertising: An Empirical Investi — https://kommerstad.org/journal/article/view/1036
 
 ---
 
 ### B2B & Account-Based Marketing (`b2b`)
 
-**Corpus size:** 346 papers
+**Corpus size:** 347 papers
 
 **Recent papers:**
 
 - [2026-10] The yin–yang of coopetition: reframing paradox in business-to-business marketing — https://doi.org/10.1108/jbim-08-2025-0818
+- [2026-10] Dejavniki in posledice uporabe pogovornih robotov s strani poslovnih kupcev — https://repozitorij.uni-lj.si/IzpisGradiva.php?id=189255
 - [2026-09] The greenwashing dilemma: Understanding tolerance to sustainability deception in buyer-supplier — https://doi.org/10.1016/j.indmarman.2026.09.002
-- [2026-09] Integrating RFM Analysis and Customer Pain Point Ethnography for Customer Segmentation and Chur — https://doi.org/10.58344/jmi.v5i8.2935
 
 ---
 
