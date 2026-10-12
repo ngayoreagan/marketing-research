@@ -1,10 +1,11 @@
 # Agentic AI for Lead Generation — Guest Lecture (45 min, EN)
 
-English guest lecture for **BWL Master students** in the marketing seminar:
+English guest lecture for **BWL Master students** in "Advanced Issues
+in Marketing and Sales" (guest slot: Thursday, 22 Oct 2026, 15:15–16:00):
 how **agentic AI** finds, qualifies and ranks partner companies for the chair —
 delivered as a **live walkthrough** in an AI harness. The ranked partner
-shortlist produced in the demo becomes the **input dataset for the Bachelor
-seminar**.
+shortlist produced in the demo becomes **evidence the Bachelor course
+"Sales Strategy and Execution" may take up next summer semester**.
 
 ## Files
 
@@ -23,7 +24,7 @@ seminar**.
 |---|---|---|
 | 1 · Foundations | agentic ≠ chat · model · harness · loop | ~8 min |
 | 2 · Method | contracts · the lead-gen loop · corpus evidence | ~6 min |
-| 3 · Walkthrough | live demo: contract → agent at work → the three questions | ~14 min |
+| 3 · Walkthrough | live demo: contract → agent at work → the three questions | ~13 min |
 | 4 · Reflection | AI providers for students · take-aways · resources | ~5 min |
 | 5 · Q&A | your questions · discussion | 10 min |
 
