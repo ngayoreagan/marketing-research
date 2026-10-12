@@ -11,7 +11,7 @@ folder; the target result looks like [`shortlist-template.md`](shortlist-templat
 - [ ] `pi` starts, model selected (fast model is fine — speed beats depth)
 - [ ] Browser tool (BrowserMCP/MCP) connects — open one company page once
 - [ ] This folder open in the editor: `lecture/demo/`
-- [ ] **Fallback:** run the demo at home beforehand and save the pi transcript to `fallback-session.md` next to this file (offline backup)
+- [ ] **Fallback artefacts ready:** `fallback-session.md` (transcript) + `fallback-demo.mp4` (recording), both in this folder
 
 ## Kickoff prompt (paste after showing AGENTS.md)
 
@@ -41,9 +41,14 @@ Small scope on purpose: 2 companies, one industry — the demo must finish.
 - Hard stop at 16:00 absolute: the course's Übung follows in the same room.
 - Bank questions: "Hold that for Q&A — we have 10 minutes at the end."
 
-## Fallback (no network in the hall)
+## Fallback — three tiers (if the live demo fails)
 
-1. Show `AGENTS.md` and walk through what *would* happen (slide 11–12).
-2. Open the saved `fallback-session.md` transcript and walk the audience
-   through it.
-3. Still apply the three questions to the saved result — the method lands either way.
+1. **Play the recording.** Run `fallback-demo.mp4` (same contract, same run,
+   recorded at home, ~8–10 min) and narrate over it: "I'm showing the
+   untouched recording of the same contract run." Pause at the stumble and
+   ask the students the same question — the loop still lands.
+2. **Walk the transcript.** No video either → show `AGENTS.md`, open
+   `fallback-session.md` and the final shortlist table, walk the audience
+   through what the agent did at each pipeline box.
+3. **Apply the three questions either way.** Judge the saved result
+   (checked? citable? repeatable?) — the method lands regardless.
