@@ -3,7 +3,7 @@ marp: true
 theme: default
 paginate: true
 header: '![h:56](img/jlu-logo.png)'
-footer: 'Marketing Chair · Agentic AI for Lead Generation · 45 min'
+footer: 'Marketing Chair · Agentic AI for Lead Generation · WS 2026/27 · 45 min'
 style: |
   /* JLU Gießen look: white background, JLU blue #165A97 */
   :root { --jlu-blue: #165A97; --jlu-light: #e8eff6; --jlu-green: #E5F0CF; --ink: #212529; --muted: #6c757d; }
@@ -56,13 +56,17 @@ style: |
 
 Tobias Weiß · Guest Lecture · Marketing Chair
 
-45 minutes · BWL Master students
+Thursday, 22 October 2026 · 15:15–16:00
+within "Advanced Issues in Marketing and Sales" (Prof. Haas)
+
+45 minutes · BWL Master students · WS 2026/27 edition
 
 <!-- notes:
 (45 s) Welcome. What this lecture is: what agentic AI is, and how
 to operate it through a harness. Everything we do maps to one real
 task: helping the chair find and qualify B2B partner companies.
-The output of this session is the input for the Bachelor seminar.
+The results feed the Bachelor course "Sales Strategy and Execution" —
+next summer semester, the chair decides what and how much to take up.
 -->
 
 ---
@@ -72,15 +76,19 @@ The output of this session is the input for the Bachelor seminar.
 - The chair partners with companies: funding, data, cases
 - Finding + qualifying partners is manual, slow, unscalable
 - Agentic AI can research, score and rank prospects
-- **Demo output = input for your Bachelor seminar**
+- **Demo output = evidence for "Sales Strategy and Execution" (SS 2027)**
 
 > Nobody wins from another lecture about chatbots.
 
 <!-- notes:
-(45 s) Concrete goal for the students: by the end you can RECOGNISE
-and judge an agentic workflow — and read the contract that drives it.
+(45 s) Bridge from the preceding part first: you just heard about
+modern marketing & sales in a digital world — agentic AI is the tooling
+that operationalises exactly that. Then set the concrete goal: by the
+end you can RECOGNISE and judge an agentic workflow — and read the
+contract that drives it.
 The artefact shown in the walkthrough (a ranked lead list with sources)
-becomes the working dataset the Bachelor students build on.
+becomes evidence the Bachelor course "Sales Strategy and Execution"
+may build on next summer semester.
 -->
 
 ---
@@ -112,7 +120,7 @@ models the method; trying it yourself is the exercise afterwards.
 |---|---|---|
 | 1 · Foundations | agentic ≠ chat · model · harness · loop | ~8 min |
 | 2 · Method | contracts · the lead-gen loop · evidence | ~6 min |
-| 3 · Walkthrough | live demo: contract → agent → verify | ~14 min |
+| 3 · Walkthrough | live demo: contract → agent → verify | ~13 min |
 | 4 · Reflection | providers · take-aways · resources | ~5 min |
 | 5 · Q&A | your questions · discussion | 10 min |
 
@@ -130,7 +138,7 @@ buffer for transitions and demo hiccups.
 
 ## Agentic ≠ chat
 
-![h:230](img/chat-vs-agent.svg)
+![w:1200](img/chat-vs-agent.svg)
 
 > "Agentic" is a working environment — not a better chat.
 
@@ -147,15 +155,19 @@ touch the world (browser, files, APIs) and check its own work.
 
 ## The parts: model · harness · loop
 
-![h:300](img/model-harness-loop.svg)
+![w:1200](img/model-harness-loop.svg)
 
 **Harnesses (2026):** pi, OpenCode, Claude Code — same model, different results. The harness decides.
+
+*(Full disclosure: pi is my own project — I currently default to it because of its smaller memory footprint; OpenCode and Claude Code are solid alternatives.)*
 
 <!-- notes:
 (2.5 min) Keep it simple. The model is the part students already know.
 The harness is the missing piece this lecture adds: an executable
 environment (terminal, browser, files) + permissions + memory.
 The loop is what makes it "agentic": it iterates, checks, corrects.
+Why pi as my default today: smaller memory footprint — the honest
+reason, not because the other harnesses are worse.
 -->
 
 ---
@@ -172,22 +184,26 @@ The loop is what makes it "agentic": it iterates, checks, corrects.
 | Papers on **lead generation** | 27 |
 | **Both** (agentic × lead-gen) | 0 |
 
-> The field is exploding — and nobody connects the two yet. This chair can be first.
+*Counts: literal keyword search of title + abstract in the chair's open corpus (marketing-research).*
+
+> The field is exploding — and in this corpus of 13,096 papers, nobody connects the two yet. This chair can be first.
 
 <!-- notes:
-(2 min) Ground the hype in data from the chair's own open research
-corpus (marketing-research, public on GitHub). Agentic papers exist,
-lead-gen papers exist, but the intersection is literally ZERO. Say
-that number out loud — it lands harder than "nearly nobody": a
-research gap AND a practical opportunity. 2026 alone produced 7,771
-of the 13,096 papers.
+(1.5 min) Ground the hype in data from the chair's own open corpus
+(marketing-research, public on GitHub). Agentic papers exist, lead-gen
+papers exist, but the intersection is literally ZERO — say that number
+out loud: a research gap AND a practical opportunity. 2026 alone
+produced 7,771 of the 13,096 papers. Method note for Q&A: literal
+keyword matches on title+abstract — papers about "AI agents" or
+"prospecting" without the word "agentic" are not counted, and ~390
+entries have no abstract, so the counts are conservative lower bounds.
 -->
 
 ---
 
 ## How to talk to the machine: prompts vs contracts
 
-![h:290](img/contract-vs-prompt.svg)
+![w:1200](img/contract-vs-prompt.svg)
 
 > Prompt = how you ask a chat · Contract = how you run an agent.
 
@@ -202,7 +218,7 @@ an AI "idea generator" into a reproducible research pipeline.
 
 ## A lead-generation loop as an agentic workflow
 
-![h:320](img/leadgen-pipeline.svg)
+![w:1200](img/leadgen-pipeline.svg)
 
 > Six steps — the agent executes 2–5, you own definition and evaluation.
 
@@ -210,9 +226,10 @@ an AI "idea generator" into a reproducible research pipeline.
 (3 min) Walk the diagram left to right: DEFINE (human, blue) → SOURCE
 → QUALIFY → RECORD → VERIFY → OUTPUT (human, green). The agent runs
 the middle four; the human sets criteria and judges the result. The
-amber feedback line: learned data tightens the next iteration's
-criteria. This exact pipeline is what the walkthrough demonstrates
-live in the next block.
+amber feedback line: what you learn from a run updates the contract —
+you edit the criteria before the next run; the agent stays inside the
+loop, the human stays in charge. This exact pipeline is what the
+walkthrough demonstrates live in the next block.
 -->
 
 ---
@@ -223,13 +240,14 @@ Task: build the **partner-candidate shortlist** — top 10 B2B companies (live t
 
 - Fit signal per company vs. the chair's partnership goals
 - Named source URL per claim (citable, verifiable)
-- Ranked output — your input for the Bachelor seminar
+- Ranked output — evidence base for the Bachelor course "Sales Strategy and Execution"
 
 I run this live in a harness — what you see is what the agent does.
 
 <!-- notes:
 (30 s) Frame the demo: no hands-on today, a walkthrough instead. The
-task is the same one the Bachelor seminar will pick up. We watch the
+task mirrors the one the Bachelor course "Sales Strategy and Execution"
+may pick up next summer semester. We watch the
 harness do steps 2-5 live; I narrate what happens and why.
 -->
 
@@ -255,6 +273,9 @@ Rules:     no invented facts; if unsure, mark as unverified
 lecture/demo/AGENTS.md in this repo. The students see that "prompting"
 an agent starts with writing rules, not typing a question. Full demo
 narration + kickoff prompt: lecture/demo/demo-script.md.
+Critical-literacy beat: every source the contract lists — company
+sites, press, registries — is self-reported or promotional. A URL
+proves a claim EXISTS, not that it is TRUE. Ask: whose evidence?
 -->
 
 ---
@@ -273,7 +294,9 @@ Watch the six-step loop run live:
 > Nothing happens off-screen — the loop is fully visible.
 
 <!-- notes:
-(8 min) THE core demo. Run the analysis loop live in pi. Narrate:
+(8 min) THE core demo — part of the ~13 min walkthrough block
+(slides 10–13; full narration timeline in demo/demo-script.md).
+Run the analysis loop live in pi. Narrate:
 (1) it opens the browser via MCP/BrowserMCP, searches for prospect
 companies; (2) it reads real pages and extracts fit signals; (3) it
 scores against the contract; (4) it writes a markdown table with URLs;
@@ -282,7 +305,9 @@ The visual loop is on the pipeline slide before — reference it so
 students map what they see to the six boxes. Strategy: use a small
 real example (2-3 companies, one industry) — speed beats completeness.
 Show a mistake on purpose if possible: pause, let the agent correct —
-that IS the "loop".
+that IS the "loop". One line on data handling: the demo runs on real,
+public company data through a cloud API — fine here; never paste
+private or customer data into a commercial harness.
 -->
 
 ---
@@ -290,15 +315,21 @@ that IS the "loop".
 ## Walkthrough · Step 3 — The three questions
 
 1. **Checked?** Did the agent verify its output, not just generate it?
-2. **Citable?** Does every claim have a URL that resolves?
-3. **Repeatable?** Re-run the same contract → same result?
+2. **Citable?** Does every claim have a URL that resolves — and actually supports it?
+3. **Repeatable?** Same contract → same method → a result you can re-run and audit?
+
+*The 1–5 scores are a transparent heuristic — each criterion with evidence — not a measurement.*
 
 > The final slide of the walkthrough: apply them to the live result.
 
 <!-- notes:
 (2 min) Apply the three-question bar to the just-seen output. If it
 passes, it is a deliverable; if not, it is a draft. This turns the
-demo result into the artefact the Bachelor seminar receives.
+demo result into the artefact a Bachelor course can build on next summer semester.
+Repeatability is process-level, not byte-identical output — the model
+is stochastic; the method is re-runnable and auditable. And "citable"
+means the URL resolves AND supports the sentence. Sales connection:
+you verify a prospect's claims before you sign — same discipline here.
 -->
 
 ---
@@ -327,7 +358,7 @@ Point to resources slide for how to start.
 - A reproducible partner-sourcing method (not a one-off search)
 - A ranked, sourced shortlist — usable immediately
 - Students who can run agentic workflows (a real skill for the CV)
-- Input data for the **Bachelor seminar** — thematically linked
+- Evidence base for the **Bachelor course "Sales Strategy and Execution"** (SS 2027)
 
 > The lecture is not the output. The shortlist is.
 
@@ -345,27 +376,23 @@ students may embed it in internships and theses.
 
 | Provider / offer | What you get | Where |
 |---|---|---|
-| **JLU HRZ API-Service** ⭐ | LLMs for all JLU members: free local Qwen models (256K–1M ctx) + commercial, works with OpenCode / Claude Code | [uni-giessen.de HRZ API-Service](https://www.uni-giessen.de/de/fbz/svc/hrz/svc/services/ki/api-service) · access via **ki@uni-giessen.de** |
+| **JLU HRZ API-Service** ⭐ | LLMs for all JLU members: free local Qwen models (256K–1M ctx) + commercial, works with OpenCode / Claude Code | [uni-giessen.de → HRZ → KI → API-Service](https://www.uni-giessen.de/de/fbz/svc/hrz/svc/services/ki/api-service) · access via **ki@uni-giessen.de** |
 | **Google AI student plan** | 1 year Google AI **Plus** free · Gemini, higher limits, 400 GB | [one.google.com/ai-student](https://one.google.com/ai-student?g1_landing_page=75) — verify via SheerID (student status) |
 | **OpenRouter** | one API key → many models (OpenAI, Anthropic, Google, open) · free models + pay-as-you-go | [openrouter.ai](https://openrouter.ai) |
-| **Harnesses** | the tools from today's demo — **OpenCode**, pi (work with any key above) | [opencode.ai](https://opencode.ai) · [pi.dev](https://pi.dev) |
+| **Harnesses** | the tools from today's demo — **OpenCode**, pi *(full disclosure: pi is my own project)* — work with any key above | [opencode.ai](https://opencode.ai) · [pi.dev](https://pi.dev) |
 | **Local models (Ollama)** | free, run on your own laptop, no account, private | [ollama.com](https://ollama.com) |
 
 > Start with **HRZ API**: free for JLU members · Google deal expires **Dec 31, 2026**.
 
 <!-- notes:
-(1.5 min) Practical slide — what students can use NOW. Lead with the
-JLU HRZ API-Service: LLM endpoints for all JLU members, open-source
-(qwen3-coder-next 256K, qwen3.8-27b 1M) and commercial models; access
-by emailing ki@uni-giessen.de; configured in OpenCode via LiteLLM
-provider block (baseURL api.hrz.uni-giessen.de) or Claude Code via
-ANTHROPIC_BASE_URL. Google row: 12-month free Google AI Plus for
-eligible students, verify via SheerID, redeem by Dec 31 2026.
-OpenRouter: one key for many vendors, free models and pay-as-you-go
-(no subscription) — good if they want a specific commercial model
-without per-vendor signups. Ollama = local + free + private.
-Harnesses: OpenCode (first-class with HRZ API + OpenRouter) and pi are
-what the walkthrough just used.
+(1.25 min) Practical slide — what students can use NOW. Lead with the
+JLU HRZ API-Service: free LLM endpoints for all JLU members (Qwen
+256K–1M ctx + commercial); access via ki@uni-giessen.de; OpenCode via
+LiteLLM (baseURL api.hrz.uni-giessen.de) or Claude Code via
+ANTHROPIC_BASE_URL. Google: 12 months free AI Plus, verify via
+SheerID, redeem by Dec 31 2026. OpenRouter: one key, many models,
+pay-as-you-go. Ollama: local + free + private. Harnesses: OpenCode and
+pi are what the walkthrough just used.
 -->
 
 ---
@@ -377,12 +404,15 @@ what the walkthrough just used.
 3. Contract first: define "done" before you start
 4. Verify, cite, repeat — the three questions
 
-> Next week: this shortlist becomes the Bachelor seminar's input.
+> Next summer semester: the chair decides what this evidence feeds into
+> the Bachelor course "Sales Strategy and Execution".
 
 <!-- notes:
 (1 min) Recap the four take-aways. Close the loop: the artefact —
-the ranked shortlist — is the handover point to the Bachelor
-seminar. That is the "output as input" promise from the title slide.
+the ranked shortlist — is the evidence base for the Bachelor course
+"Sales Strategy and Execution" next summer semester; the chair decides
+what and how much to use. That is the "output as input" promise from
+the title slide.
 -->
 
 ---
@@ -390,7 +420,8 @@ seminar. That is the "output as input" promise from the title slide.
 ## Resources
 
 - **JLU HRZ API-Service** (free LLMs for JLU members) — [uni-giessen.de → HRZ → KI → API-Service](https://www.uni-giessen.de/de/fbz/svc/hrz/svc/services/ki/api-service) · [model overview](https://api.hrz.uni-giessen.de/ui/model_hub_table/)
-- **pi** — [pi.dev](https://pi.dev) · docs: [pi.dev/docs](https://pi.dev/docs) · **OpenCode** — [opencode.ai](https://opencode.ai) · **OpenRouter** (one key, many models) — [openrouter.ai](https://openrouter.ai)
+- **HRZ access one-pager** (student quick start, 1 page) — [`hrz-access-one-pager.md`](hrz-access-one-pager.md)
+- **pi** — [pi.dev](https://pi.dev) · docs: [pi.dev/docs](https://pi.dev/docs) *(full disclosure: my own project)* · **OpenCode** — [opencode.ai](https://opencode.ai) · **OpenRouter** (one key, many models) — [openrouter.ai](https://openrouter.ai)
 - **Google AI student plan** — [one.google.com/ai-student](https://one.google.com/ai-student?g1_landing_page=75) (1 year free for students)
 - **marketing-research** (chair corpus, public) — [github.com/tobias-weiss-ai-xr/marketing-research](https://github.com/tobias-weiss-ai-xr/marketing-research)
 - **skeleton-research** (forkable corpus skeleton) — [github.com/tobias-weiss-ai-xr/skeleton-research](https://github.com/tobias-weiss-ai-xr/skeleton-research)
@@ -418,7 +449,7 @@ curated corpus.
 
 Tobias Weiß · guest lecture · Marketing Chair
 
-Agentic AI for Lead Generation · 45 min
+Agentic AI for Lead Generation · 22 Oct 2026 · 45 min
 
 <!-- notes:
 (10 min) Q&A + apply the three questions to the walkthrough result.
@@ -426,4 +457,9 @@ Likely questions: model choice (harness is model-agnostic; pi switches
 model with Ctrl+L), costs (cheap models + tight contracts), data
 privacy (local models), what "qualified" means (the contract), and how
 to try it themselves (resources slide).
+If asked about non-determinism: repeatability is process-level —
+same contract → same method → auditable, re-runnable result; output
+is never guaranteed byte-identical with a stochastic model.
+Hard stop at 16:00: the course's Übung starts in the same room right
+after — never overrun Q&A; the ten minutes belong to the students.
 -->
