@@ -5,6 +5,8 @@ folder; the target result looks like [`shortlist-template.md`](shortlist-templat
 
 ## Pre-flight (before the lecture, ~5 min)
 
+- [ ] Room: **Licher Straße 68, Raum 45** (FB02) — arrive 14:15–14:30 and set up during Prof. Haas's part
+- [ ] Beamer/port: test HDMI adapter + cable in the room before the break
 - [ ] Network works **in the lecture hall** — test hall Wi-Fi, not office Wi-Fi
 - [ ] `pi` starts, model selected (fast model is fine — speed beats depth)
 - [ ] Browser tool (BrowserMCP/MCP) connects — open one company page once
@@ -25,17 +27,18 @@ Small scope on purpose: 2 companies, one industry — the demo must finish.
 
 | Minute | What happens | What you say |
 |---|---|---|
-| 0–2 | Show `AGENTS.md` (slide 11) | "This is the contract — the agent reads this at every start. Done means: verified, cited, repeatable." |
+| 0–2 | Show `AGENTS.md` (slide 11) | "This is the contract — the agent reads this at every start. Done means: verified, cited, repeatable. And look at the sources — company sites, press, registries. Those are the companies' own reports. **Whose evidence?**" |
 | 2–3 | Paste kickoff prompt, agent plans | "Watch the plan — it maps to the six boxes from the pipeline slide." |
 | 3–8 | Agent browses, extracts, scores | Narrate each tick: source → fit signal → score → URL. Point at the pipeline boxes. |
 | ~6 | **Deliberate stumble** | If the agent invents or over-claims, stop it: "Which URL says that?" — let it correct itself. **This is the loop.** |
-| 8–11 | Agent writes the table, re-checks URLs | "It verifies its own citations — that is step 5." |
+| 8–11 | Agent writes the table, re-checks URLs | "It verifies its own citations — that is step 5. Each URL must resolve **and** support the sentence." At the stumble, ask two students: "What would you check here?" before the agent corrects itself. |
 | 11–13 | Final table → slide 13 (three questions) | "Now we judge it: checked? citable? repeatable?" |
 
 ## Timing guard
 
 - Hard stop at minute 11 for the final table — if the demo runs long, cut the
   second company and show the table with one.
+- Hard stop at 16:00 absolute: the course's Übung follows in the same room.
 - Bank questions: "Hold that for Q&A — we have 10 minutes at the end."
 
 ## Fallback (no network in the hall)

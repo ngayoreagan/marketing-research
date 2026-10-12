@@ -19,6 +19,7 @@ marketing chair (research co-operations, teaching cases, funded projects).
 - Company websites and newsrooms
 - Press coverage (search engine news)
 - Funding registries and university press releases
+- Remember: company sources are **self-reported** — they claim, they don't prove. (Ask: whose evidence?)
 
 ## Output
 
