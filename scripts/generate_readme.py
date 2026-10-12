@@ -13,12 +13,81 @@ STATS_ONLY = False  # Set True to skip full paper list generation
 import argparse
 import json
 import sys
-from collections import defaultdict
+from collections import Counter, defaultdict
+from datetime import datetime, timezone
 from pathlib import Path
 
 import yaml
 
 import research_config
+
+
+def _twelve_months_ago(now):
+    y, m = now.year, now.month - 12
+    while m <= 0:
+        y -= 1
+        m += 12
+    return (y, m)
+
+
+def _date_in(datestring, lo, end):
+    if not datestring:
+        return False
+    try:
+        y, m = int(datestring[:4]), int(datestring[5:7])
+        return (y, m) >= lo and (y, m) < end
+    except (ValueError, AttributeError):
+        return False
+
+
+def render_stats_section(papers, cfg):
+    """Render the Corpus Statistics section from papers.yaml (not cached)."""
+    total = len(papers)
+    arxiv_n = sum(1 for p in papers if "arxiv" in p.get("url", ""))
+    doi_n = sum(1 for p in papers
+                if "doi.org" in p.get("url", "") or p.get("url", "").startswith("10."))
+    other_n = total - arxiv_n - doi_n
+
+    def pct(n):
+        return round(n / total * 100) if total else 0
+
+    cur_lo = _twelve_months_ago(datetime.now(timezone.utc))
+
+    def is_recent(p):
+        return _date_in(p.get("date", ""), cur_lo, (9999, 1))
+
+    cat_count = Counter(p.get("category", "unknown") for p in papers)
+    cat_recent = Counter(p.get("category", "unknown") for p in papers if is_recent(p))
+    cats = [c for c in research_config.get_categories(cfg) if c["id"] in cat_count]
+    cats.sort(key=lambda c: -cat_count[c["id"]])
+    max_n = max((cat_count[c["id"]] for c in cats), default=0)
+
+    lines = [
+        "## 📊 Corpus Statistics",
+        "",
+        f"**{total:,} papers** across **{len(cats)} categories**.",
+        (
+            f"Sources: **arXiv** {arxiv_n} ({pct(arxiv_n)}%) · **DOI** {doi_n} ({pct(doi_n)}%) · "
+            f"**Other** {other_n} ({pct(other_n)}%)."
+        ),
+        (
+            "Full paper list: [GitHub Pages site]"
+            "(https://tobias-weiss-ai-xr.github.io/marketing-research)."
+        ),
+        "",
+        "### Top categories",
+        "",
+        "| Category | Papers | Recent | |",
+        "|----------|--------|--------|-",
+    ]
+    for c in cats:
+        n = cat_count[c["id"]]
+        r = cat_recent[c["id"]]
+        filled = round(n / max_n * 12) if max_n else 0
+        bar = "█" * filled + "░" * (12 - filled)
+        name = c.get("display", c["id"])
+        lines.append(f"| {name} | **{n}** | {r} | {bar} |")
+    return "\n".join(lines)
 
 
 def render_paper_list(papers, cfg):
@@ -108,7 +177,14 @@ def generate_readme(papers, readme_path, cfg, check_mode=False):
         )
         sys.exit(1)
 
-    before = readme_text[:start_idx]
+    stats_start_idx = readme_text.find("## 📊 Corpus Statistics")
+    if stats_start_idx == -1:
+        stats_start_idx = start_idx
+    head = readme_text[:stats_start_idx]
+
+    # Refresh the Corpus Statistics section too — it previously went stale
+    # (7,521 vs 13,096) because it sat in the preserved prefix.
+    before = head + render_stats_section(papers, cfg) + "\n\n"
     after = readme_text[end_idx:]
 
     # Full list lives in PAPERS.md (README would be >2 MB otherwise);
