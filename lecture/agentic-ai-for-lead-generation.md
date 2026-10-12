@@ -456,8 +456,9 @@ Agentic AI for Lead Generation · 22 Oct 2026 · 45 min
 
 <!-- notes:
 (10 min) Q&A + apply the three questions to the walkthrough result.
-Likely questions: model choice (harness is model-agnostic; pi switches
-model with Ctrl+L), costs (cheap models + tight contracts), data
+Likely questions: model choice (the demo runs on **big pickle**; the
+harness is model-agnostic — pi switches model with Ctrl+L), costs (cheap
+models + tight contracts), data
 privacy (local models), what "qualified" means (the contract), and how
 to try it themselves (resources slide).
 If asked about non-determinism: repeatability is process-level —
