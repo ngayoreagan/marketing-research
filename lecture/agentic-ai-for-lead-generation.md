@@ -176,7 +176,7 @@ reason, not because the other harnesses are worse.
 
 ## Why now — the evidence inside the research corpus
 
-13,096 marketing papers · 7,771 published in 2026 alone
+The chair's open corpus of marketing research
 
 | Signal | Count |
 |---|---|
@@ -186,14 +186,13 @@ reason, not because the other harnesses are worse.
 
 *Counts: literal keyword search of title + abstract in the chair's open corpus (marketing-research).*
 
-> The field is exploding — and in this corpus of 13,096 papers, nobody connects the two yet. This chair can be first.
+> The field is exploding — and in this whole corpus, nobody connects the two yet. This chair can be first.
 
 <!-- notes:
 (1.5 min) Ground the hype in data from the chair's own open corpus
 (marketing-research, public on GitHub). Agentic papers exist, lead-gen
 papers exist, but the intersection is literally ZERO — say that number
-out loud: a research gap AND a practical opportunity. 2026 alone
-produced 7,771 of the 13,096 papers. Method note for Q&A: literal
+out loud: a research gap AND a practical opportunity. Method note for Q&A: literal
 keyword matches on title+abstract — papers about "AI agents" or
 "prospecting" without the word "agentic" are not counted, and ~390
 entries have no abstract, so the counts are conservative lower bounds.
