@@ -64,10 +64,10 @@ python3 scripts/analysis/generate_reports.py
 config/taxonomy.yaml ──► papers.yaml ──► validate_papers.py
                           │   ▲              │
                           ▼   └── fetch_* ───┘
-                   generate_readme.py ──► README.md (auto)
+                   generate_readme.py ──► README.md (auto), PAPERS.md, docs/papers.json
                           │
                           ▼
-                  standard_stats.py ──► statistics.json, docs/papers.json
+                  standard_stats.py ──► statistics.json, assets/graph_analysis.json
                           │
                           ▼
               analysis/generate_reports.py ──► docs/research/*.md

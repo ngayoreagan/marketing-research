@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 """analyze_concept_graph.py — basic graph analysis of the concept graph.
 
-Minimal, portable, deterministic. Reads concept_graph.json (from
+Minimal, portable, deterministic. Reads docs/concept_graph.json (from
 relate_concepts.py) and computes basic network metrics: degree / weighted
 degree, degree centrality, PageRank, betweenness (nodes + edges), clustering
 coefficient, connected components, and label-propagation communities.
 Writes concept_graph_analysis.json and (optionally) a human-readable
 concept_graph_analysis.md.
 
-    python3 tools/relate_concepts.py --concepts concepts.json --write-doc \
-        > concept_graph.json
-    python3 tools/analyze_concept_graph.py --graph concept_graph.json --write-doc
+    python3 tools/relate_concepts.py --concepts docs/concepts.json --write-doc \
+        > docs/concept_graph.json
+    python3 tools/analyze_concept_graph.py --graph docs/concept_graph.json --write-doc
 
 Only stdlib. Composes with extract/relate; works on any repo that has a
 concept_graph.json (i.e. any *-research repo after the concept pipeline).
@@ -191,7 +191,7 @@ def modularity(adj, comms):
 
 def main():
     ap = argparse.ArgumentParser(description="Basic graph analysis of concept_graph.json.")
-    ap.add_argument("--graph", default="concept_graph.json")
+    ap.add_argument("--graph", default="docs/concept_graph.json")
     ap.add_argument("--write-doc", action="store_true",
                     help="write docs/research/concept_graph_analysis.md")
     args = ap.parse_args()

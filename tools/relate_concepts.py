@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """relate_concepts.py — relate extracted concepts into a knowledge graph.
 
-Minimal, portable, deterministic. Reads papers.yaml + concepts.json (from
+Minimal, portable, deterministic. Reads papers.yaml + docs/concepts.json (from
 extract_concepts.py) and builds a relationship graph where edges are
 *co-occurrence*: two concepts that appear in the same paper relate, weighted
-by the number of shared papers. Writes concept_graph.json and (optionally)
+by the number of shared papers. Writes docs/concept_graph.json and (optionally)
 a human-readable concept_map.md.
 
-    python3 tools/extract_concepts.py --papers papers.yaml > concepts.json
+    python3 tools/extract_concepts.py --papers papers.yaml > docs/concepts.json
     python3 tools/relate_concepts.py --papers papers.yaml \
-        --concepts concepts.json --write-doc
+        --concepts docs/concepts.json --write-doc
 
 Concept paper-sets are rebuilt here from the `match` descriptor each concept
 carries: taxonomy categories are matched STRUCTURALLY (paper.category field);
@@ -62,7 +62,7 @@ def paper_set(ei, papers, match):
 def main():
     ap = argparse.ArgumentParser(description="Relate concepts into a graph.")
     ap.add_argument("--papers", default="papers.yaml")
-    ap.add_argument("--concepts", default="concepts.json")
+    ap.add_argument("--concepts", default="docs/concepts.json")
     ap.add_argument("--top", type=int, default=80,
                     help="max concepts (by df) to relate; seeds always included")
     ap.add_argument("--min-co", type=int, default=2,

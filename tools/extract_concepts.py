@@ -5,9 +5,9 @@ Minimal, portable, deterministic. Reads papers.yaml (+ optional
 config/taxonomy.yaml and config/concepts.yaml) and emits a ranked concept
 list as JSON. Composes with relate_concepts.py:
 
-    python3 tools/extract_concepts.py --papers papers.yaml > concepts.json
+    python3 tools/extract_concepts.py --papers papers.yaml > docs/concepts.json
     python3 tools/relate_concepts.py --papers papers.yaml \
-        --concepts concepts.json --write-doc
+        --concepts docs/concepts.json --write-doc
 
 Concept sources:
   1. taxonomy categories — from config/taxonomy.yaml, associated

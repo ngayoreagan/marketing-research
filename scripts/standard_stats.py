@@ -5,7 +5,6 @@ Writes the standard structured outputs every research repo exposes:
   - statistics.json (metadata, by_category, by_subcategory, by_year, by_cell,
     momentum, category_trajectory, keyword_bursts, source_breakdown, venues,
     gaps, top_authors, emerging_themes_12m)
-  - papers.json (paper metadata, newest first)
   - assets/graph_analysis.json (D3-style visualization data)
 
 Self-contained: derives the taxonomy dynamically from papers.yaml.
@@ -205,14 +204,6 @@ def main():
 
     (REPO / "statistics.json").write_text(json.dumps(stats, indent=2), encoding="utf-8")
     print(f"Wrote statistics.json ({total} papers, {saturation}% saturation)")
-
-    export = []
-    for e in entries:
-        export.append({k: e.get(k, "") for k in
-                       ("title", "date", "url", "category", "subcategory", "authors", "abstract", "venue")})
-    export.sort(key=lambda p: p.get("date", ""), reverse=True)
-    (REPO / "papers.json").write_text(json.dumps(export, indent=1), encoding="utf-8")
-    print(f"Wrote papers.json ({len(export)} papers)")
 
     pub_dates = [(e.get("date", "")[:7], e.get("category", ""), e.get("subcategory", ""))
                  for e in entries if e.get("date")]

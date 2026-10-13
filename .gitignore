@@ -13,3 +13,6 @@ results/
 .af-state/
 af-campaigns/research-sophistication/run.log
 af-campaigns/research-sophistication/run-code.log
+
+# Agent/tooling state (local only)
+.omo/
