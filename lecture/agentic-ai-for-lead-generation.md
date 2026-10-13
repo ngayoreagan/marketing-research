@@ -119,7 +119,7 @@ models the method; trying it yourself is the exercise afterwards.
 | Block | Content | Time |
 |---|---|---|
 | 1 · Foundations | agentic ≠ chat · model · harness · loop | ~8 min |
-| 2 · Method | contracts · the lead-gen loop · evidence | ~6 min |
+| 2 · Method | contracts · the lead-gen loop · sector decision · evidence | ~7 min |
 | 3 · Walkthrough | live demo: contract → agent → verify | ~13 min |
 | 4 · Reflection | providers · take-aways · resources | ~5 min |
 | 5 · Q&A | your questions · discussion | 10 min |
@@ -229,7 +229,38 @@ the middle four; the human sets criteria and judges the result. The
 amber feedback line: what you learn from a run updates the contract —
 you edit the criteria before the next run; the agent stays inside the
 loop, the human stays in charge. This exact pipeline is what the
-walkthrough demonstrates live in the next block.
+walkthrough demonstrates live in the next block. The next slide makes
+DEFINE concrete: the sector choice — still human work.
+-->
+
+---
+
+<!-- _class: smaller -->
+
+## Define the hunt: scoring the sector
+
+Lead generation starts with a **human** decision: *which sector do we hunt?*
+
+| Criterion (1–5) | Mech. & plant engineering | Optics / photonics | Grocery retail |
+|---|---|---|---|
+| Chair research fit — sales management | 5 | 5 | 2 |
+| Course fit — "Sales Strategy and Execution" | 5 | 5 | 2 |
+| Regional employers (Mittelhessen) | 5 | 5 | 3 |
+| Lead-gen relevance — B2B, long cycles | 5 | 4 | 2 |
+| Demo data availability | 4 | 4 | 5 |
+| **Total** | **24** | **23** | **14** |
+
+> Hard guard: sector is out if chair fit < 4 **or** lead-gen relevance < 4 — grocery retail (our first default) fails. **Decision: German mechanical & plant engineering.**
+
+<!-- notes:
+(45 s) Before the agent acts, a human decides the hunting ground — the
+DEFINE box, made concrete. Five criteria, scored 1–5, one hard guard.
+Our first default — grocery retail — failed the guard: lead generation
+there is a B2C, demand-gen game, not a sales-strategy one. Optics came
+close; mechanical & plant engineering wins on every axis. This is the
+sector you are about to see in the demo.
+Sales-strategy beat: choosing target segments is a core sales-strategy
+decision — a method the Bachelor course can lift next summer semester.
 -->
 
 ---
@@ -295,7 +326,7 @@ Watch the six-step loop run live:
 
 <!-- notes:
 (8 min) THE core demo — part of the ~13 min walkthrough block
-(slides 10–13; full narration timeline in demo/demo-script.md).
+(slides 11–14; full narration timeline in demo/demo-script.md).
 Run the analysis loop live in pi. Narrate:
 (1) it opens the browser via MCP/BrowserMCP, searches for prospect
 companies; (2) it reads real pages and extracts fit signals; (3) it

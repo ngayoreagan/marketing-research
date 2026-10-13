@@ -17,8 +17,9 @@ folder; the target result looks like [`shortlist-template.md`](shortlist-templat
 
 ```text
 Read AGENTS.md in this folder and follow it. Build the shortlist for
-2 companies from the German grocery retail sector (e.g. a discounter
-and a wholesaler). Show your plan first, then work step by step.
+2 companies from the German mechanical and plant engineering sector
+(e.g. a global market leader and a Mittelstand specialist). Show your
+plan first, then work step by step.
 ```
 
 Small scope on purpose: 2 companies, one industry — the demo must finish.
@@ -27,12 +28,12 @@ Small scope on purpose: 2 companies, one industry — the demo must finish.
 
 | Minute | What happens | What you say |
 |---|---|---|
-| 0–2 | Show `AGENTS.md` (slide 11) | "This is the contract — the agent reads this at every start. Done means: verified, cited, repeatable. And look at the sources — company sites, press, registries. Those are the companies' own reports. **Whose evidence?**" |
+| 0–2 | Show `AGENTS.md` (slide 12) | "This is the contract — the agent reads this at every start. Done means: verified, cited, repeatable. And look at the sources — company sites, press, registries. Those are the companies' own reports. **Whose evidence?**" |
 | 2–3 | Paste kickoff prompt, agent plans | "Watch the plan — it maps to the six boxes from the pipeline slide." |
 | 3–8 | Agent browses, extracts, scores | Narrate each tick: source → fit signal → score → URL. Point at the pipeline boxes. |
 | ~6 | **Deliberate stumble** | If the agent invents or over-claims, stop it: "Which URL says that?" — let it correct itself. **This is the loop.** |
 | 8–11 | Agent writes the table, re-checks URLs | "It verifies its own citations — that is step 5. Each URL must resolve **and** support the sentence." At the stumble, ask two students: "What would you check here?" before the agent corrects itself. |
-| 11–13 | Final table → slide 13 (three questions) | "Now we judge it: checked? citable? repeatable?" |
+| 11–13 | Final table → slide 14 (three questions) | "Now we judge it: checked? citable? repeatable?" |
 
 ## Timing guard
 
