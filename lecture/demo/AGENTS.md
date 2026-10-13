@@ -8,7 +8,7 @@ marketing chair (research co-operations, teaching cases, funded projects).
 ## Criteria (score each 1–5, with evidence)
 
 1. **Industry fit** — the company's business connects to marketing research
-   (consumer data, retail, media, MarTech, analytics).
+   (industrial B2B sales, sales management, customer orientation, go-to-market).
 2. **Innovation agenda** — visible AI / data / digitalisation initiatives
    (press releases, job postings, product pages).
 3. **University links** — existing co-operations with universities, research

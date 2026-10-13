@@ -4,8 +4,8 @@
 
 | Rank | Company | Fit signal | Score | Source URL(s) |
 |---|---|---|---|---|
-| 1 | *Example AG* | Runs an in-house customer-data platform; hires data scientists at HQ | 12/15 | [newsroom](https://example.com/news) · [careers](https://example.com/jobs) |
-| 2 | *Example B e.K.* | Funds a retail-analytics chair at a university; AI price-label pilot in 40 stores | 9/15 | [press](https://example-b.de/presse) · [university news](https://uni.example.de) |
+| 1 | *Example Maschinenbau AG* | Sells machinery with a remote-service platform; industrial IoT sales teams at HQ | 12/15 | [newsroom](https://example.com/news) · [careers](https://example.com/jobs) |
+| 2 | *Example Antriebstechnik e.K.* | Co-funds a chair for sales management; AI-based predictive-maintenance pilot in 200 plants | 9/15 | [press](https://example-b.de/presse) · [university news](https://uni.example.de) |
 
 *Fill this shape live in the walkthrough — every cell must trace to a URL.
 Rows the agent could not verify are marked `unverified`, not dropped.*

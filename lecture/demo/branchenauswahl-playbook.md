@@ -17,7 +17,7 @@ Der Ablauf aus V1 (13.10.2026), ausgelöst durch die Frage *„wieso Handel?"*:
 | **P0 · Trigger/Default hinterfragen** | Die bisherige Branche (deutscher Lebensmittelhandel) auf offensichtliche Schwächen prüfen: Passt sie zum Lehrstuhl? | Handel = B2C/Demand-Gen, kein Vertriebsstrategie-Fall → Zweifel |
 | **P1 · Evidenz sammeln** | Quellen lt. Katalog (Abschnitt 3) abfragen: Lehrstuhl, Lehre, Region, Unternehmen, Register | Forschungsthemen der Professur + Branchenstruktur Mittelhessens erhoben |
 | **P2 · Metriken definieren** | Metriken M1–M5 (Abschnitt 4) mit je einer konkreten Datenprobe festlegen | Kriterienraster steht |
-| **P3 · Scoring & Ranking** | Je Branche 1–5 pro Metrik, Summe, Rangfolge (Abschnitt 5) | M+E 23, Optik/Photonik 22, … Handel 14 |
+| **P3 · Scoring & Ranking** | Je Branche 1–5 pro Metrik, Summe, Rangfolge (Abschnitt 5) | M+E 24, Optik/Photonik 23, … Handel 14 |
 | **P4 · Entscheidung & Umsetzung** | Sektor-Wahl durch User; Kickoff-Prompts in `demo-script.md` + `test-protocol.md` anpassen; Deck um Sektor-Slide ergänzt | **Maschinen-/Anlagenbau gewählt** (User, 13.10.2026); Prompts + Deck-Slide umgesetzt |
 
 ---
