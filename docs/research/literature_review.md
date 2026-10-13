@@ -1,7 +1,7 @@
 # Literature Review
 
 **Generated:** 2026-10-13  
-**Corpus:** 13,765 papers across 11 categories
+**Corpus:** 13,894 papers across 11 categories
 
 > Synthesis of the corpus. Category insights are grounded in title/abstract analysis of the papers themselves.
 
@@ -11,17 +11,17 @@
 
 | Rank | Category | Papers |
 |------|----------|--------|
-| 1 | AI & Marketing | 2682 |
+| 1 | AI & Marketing | 2793 |
 | 2 | Surveys, Trends & Meta-Studies | 2068 |
-| 3 | Social Media & Creator Marketing | 1567 |
-| 4 | Consumer Behavior & Psychology | 1523 |
-| 5 | Digital & Performance Marketing | 1486 |
+| 3 | Social Media & Creator Marketing | 1569 |
+| 4 | Consumer Behavior & Psychology | 1527 |
+| 5 | Digital & Performance Marketing | 1497 |
 | 6 | Brand Strategy & Management | 1456 |
 | 7 | Customer Experience, Omnichannel & Retail | 1116 |
 | 8 | Analytics, Attribution & Measurement | 581 |
 
 **Time span:** 1987–2026 (median year 2016)
-**Dominant aspects:** Empirical Studies (5125), Frameworks & Models (2588), Reviews & Surveys (2128)
+**Dominant aspects:** Empirical Studies (5210), Frameworks & Models (2595), Reviews & Surveys (2128)
 
 ---
 
@@ -31,15 +31,15 @@
 |----------|------:|---------:|----------:|-------:|----------:|----------:|
 | Survey | 2068 | 1645 | 229 | +618% | 80% | 137.1 |
 | Brand | 1456 | 1025 | 242 | +324% | 70% | 85.4 |
-| Social Media | 1567 | 1056 | 261 | +305% | 67% | 88.0 |
-| Digital Marketing | 1486 | 995 | 255 | +290% | 67% | 82.9 |
-| Consumer Behavior | 1523 | 1021 | 275 | +271% | 67% | 85.1 |
+| Social Media | 1569 | 1058 | 261 | +305% | 67% | 88.2 |
+| Digital Marketing | 1497 | 1006 | 255 | +294% | 67% | 83.8 |
+| Consumer Behavior | 1527 | 1025 | 275 | +273% | 67% | 85.4 |
 | Cx Retail | 1116 | 731 | 252 | +190% | 66% | 60.9 |
 | Analytics | 581 | 354 | 160 | +121% | 61% | 29.5 |
-| Ai Marketing | 2682 | 1496 | 704 | +112% | 56% | 124.7 |
+| Ai Marketing | 2793 | 1590 | 717 | +122% | 57% | 132.5 |
 | B2B | 347 | 178 | 98 | +82% | 51% | 14.8 |
 | Content Marketing | 491 | 266 | 165 | +61% | 54% | 22.2 |
-| Privacy Data | 448 | 214 | 160 | +34% | 48% | 17.8 |
+| Privacy Data | 449 | 215 | 160 | +34% | 48% | 17.9 |
 
 ---
 
@@ -63,7 +63,7 @@
 
 ### AI & Marketing (`ai-marketing`)
 
-**Corpus size:** 2682 papers
+**Corpus size:** 2793 papers
 
 **Recent papers:**
 
@@ -87,7 +87,7 @@
 
 ### Social Media & Creator Marketing (`social-media`)
 
-**Corpus size:** 1567 papers
+**Corpus size:** 1569 papers
 
 **Recent papers:**
 
@@ -99,7 +99,7 @@
 
 ### Consumer Behavior & Psychology (`consumer-behavior`)
 
-**Corpus size:** 1523 papers
+**Corpus size:** 1527 papers
 
 **Recent papers:**
 
@@ -111,7 +111,7 @@
 
 ### Digital & Performance Marketing (`digital-marketing`)
 
-**Corpus size:** 1486 papers
+**Corpus size:** 1497 papers
 
 **Recent papers:**
 
@@ -171,7 +171,7 @@
 
 ### Data, Privacy & Cookieless Advertising (`privacy-data`)
 
-**Corpus size:** 448 papers
+**Corpus size:** 449 papers
 
 **Recent papers:**
 
