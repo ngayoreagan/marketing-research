@@ -137,10 +137,8 @@ Jede RQ = eine Study; der Grad bestimmt **Tiefe/Scope**, nicht den Zuschnitt der
 **Offene Fragen**
 1. Welche Methodenmodule haben die BWL-Bachelor absolviert (Statistik / empirische Methoden /
    Python)? Bestimmt die H1/H4-Zuordnung.
-- wie viele Betreuungsressourcen (HiWi / Master-Studierende / Zeit) für technische RQs?
-- Zielgröße des Lead-Registers (Panel-N) und ob die Lead-Aufgabe benotet oder als Bonus gewertet
-  wird.
-- Panel-/Assessment-Gewicht: benotet oder Bonus?
+2. Wie viele Betreuungsressourcen (HiWi / Master-Studierende / Zeit) stehen für technische RQs zur Verfügung?
+3. Zielgröße des Lead-Registers (Panel-N) und ob die Lead-Aufgabe benotet oder als Bonus gewertet wird (Assessment-Gewicht)?
 
 ---
 
