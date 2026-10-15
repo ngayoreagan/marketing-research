@@ -2,12 +2,12 @@
 ## Benchmark Paper
 
 > **File:** `g4_academic_paper.md`  
-> **Status:** DRAFT (v1.3) — results auto-generated from CAM-Sim v0.4; peer-reviewed (5 rounds: stats-audit, citation-audit, threats-to-validity, 5× journal-editor, 5× adversarial-reviewer, 5× domain-expert, 5× ml-methodology); all numbers regenerate from cam_sim.py, cam_sim_ablations.py, and cam_sim_extensions.py  
+> **Status:** DRAFT (v1.3) — results auto-generated from the CAM-Sim benchmark (v0.4 core + v1.3 extensions); peer-reviewed (5 rounds: stats-audit, citation-audit, threats-to-validity, 5× journal-editor, 5× adversarial-reviewer, 5× domain-expert, 5× ml-methodology); all numbers regenerate from cam_sim.py, cam_sim_ablations.py, and cam_sim_extensions.py  
 > **Target:** *NeurIPS Datasets & Benchmarks* / *KDD* / *Journal of Interactive Marketing* / *Journal of Marketing Analytics* (reframed as benchmark paper per round-3 reviewer consensus: JM/MS requires field data; computational venues reward reproducible benchmarks)  
 > **Type:** Empirical (Reproducible Benchmark + Ablation Study)  
 > **Word Target:** 8,000-10,000 words  
 > **Key Contribution:** A reproducible paired-seed benchmark (CAM-Sim) for situational-awareness ablations in marketing agents: 11-agent ladder, 9 environments, matched-family ablation (same NCC classifier, 1 vs 3 signals, +$103.85 signal-driven gap), standard classifier baselines (LR + RF on 1 and 3 signals — multi-signal gain confirmed across 3 classifier families: NCC +$103.85, LR +$65.48, RF +$75.98), context-blind policy search (channel-cost arbitrage: EDUCATIONAL|EMAIL|bid 0.3 = +$252 beats every deployable context-aware agent in 7 of 9 environments — §8.7), macro-F1 per-class metric, CRN check, paired-difference bootstrap (B = 2000); v1.3: adversarial-mapping condition (0.4% match, -$269), channel-dependent reward (arbitrage fixed), bandit baselines (epsilon-greedy, LinUCB), class-conditional noise, convergence trend (Spearman + Geweke), perception dose-response (rho=0.998), crisis bid policy (pause > counter), sensing fidelity (identical)  
-**Caveat:** The "first" claim rests on a title/abstract keyword search of our 9,994-paper corpus, not a systematic review; contextual-bandit and context-aware-recommender literatures are adjacent but use different terminology (§5.3, §9.2 #13)  
+**Caveat:** The "first" claim rests on a title/abstract keyword search of our 13,323-paper corpus (snapshot 2026-10-15), not a systematic review; contextual-bandit and context-aware-recommender literatures are adjacent but use different terminology (§5.3, §9.2 #13)  
 
 ---
 
@@ -29,7 +29,7 @@ We present **CAM-Sim**, a reproducible paired-seed benchmark for situational-awa
 ## 3. Introduction
 
 ### 3.1 The Agentic Revolution in Marketing
-The marketing corpus shows **70 agentic papers** (all from 2025-2026; 58 in 2026 alone), **burst growth of 1.8×** — the highest momentum trend. Yet **zero papers** connect agentic capabilities with **marketing situational awareness** (115 contextual papers, 6 situational papers, 0 combined with agentic).
+The marketing corpus (snapshot 2026-10-15; 13,323 papers) shows **102 agentic papers** (all from 2025-2026; up from 12 in 2025 to 90 in 2026 alone) — the highest-momentum trend. Yet **zero papers** connect agentic capabilities with **marketing situational awareness** (253 contextual papers, 19 situational papers, 0 combined with agentic).
 
 **Research Gap:** Agents can plan and execute, but cannot **understand marketing context**.
 
@@ -44,7 +44,7 @@ Emil Häglund's 2025 thesis (*"Contextual intelligence: leveraging AI for target
 - **RQ3 (Performance):** Do context-aware agents outperform non-context-aware agents on marketing outcomes?
 - **RQ4 (Mechanism):** Through which mechanisms does situational awareness improve marketing performance?
 
-**Key Insight:** The intersection of agentic + contextual + marketing is **empty** in our corpus.
+**Key Insight:** No paper in our corpus combines agentic reasoning with an explicit situational-awareness framework (agentic ∩ situational = 0); agentic ∩ contextual has only 5 lexical co-mentions (snapshot 2026-10-15).
 
 ---
 
@@ -59,7 +59,7 @@ CAM is theoretically grounded in **Endsley's Three-Level Model** of Situational 
 | **Level 2: Comprehension** | Understanding of the current situation | **Context Model** — unified representation of audience, channel, temporal, situational, social, market context |
 | **Level 3: Projection** | Ability to predict future states | **Awareness Engine** — Context Predictor for next-best context |
 
-**Citation:** Endsley, M. R. (1988). Situation Awareness in Dynamic Systems. Proceedings of the Human Factors Society Annual Meeting. Endsley, M. R. (1995). Toward a Theory of Situation Awareness in Dynamic Systems. Human Factors.
+**Citation:** Endsley, M. R. (1988). Design and Evaluation for Situation Awareness Enhancement. Proceedings of the Human Factors Society Annual Meeting, 32(2), 97–101. Endsley, M. R. (1995). Toward a Theory of Situation Awareness in Dynamic Systems. Human Factors, 37(1), 32–64.
 
 ### 4.2 Agent Theory (Russell & Norvig, 2020)
 Russell & Norvig define an **agent** as "anything that can be viewed as perceiving its environment through sensors and acting upon that environment through actuators."
@@ -84,38 +84,38 @@ Russell & Norvig define an **agent** as "anything that can be viewed as perceivi
 
 ## 5. Related Work
 
-### 5.1 The Agentic Literature in Marketing (70 papers from corpus)
-From our marketing-research corpus (9,994 papers):
+### 5.1 The Agentic Literature in Marketing (102 papers from corpus)
+From our marketing-research corpus (13,323 papers; snapshot 2026-10-15):
 - **Definition:** Works that mention "agentic" in title/abstract
-- **Total:** 70 papers
-- **2025-2026:** 70 papers (58 in 2026 alone)
-- **Burst Factor:** 1.8× (highest in corpus)
+- **Total:** 102 papers
+- **2025-2026:** 102 papers (12 in 2025, 90 in 2026 alone)
 - **Categories:**
-  - AI-Marketing: 35 papers
-  - Digital-Marketing: 16 papers
-  - Consumer-Behavior: 8 papers
+  - AI-Marketing: 60 papers
+  - Digital-Marketing: 17 papers
+  - Consumer-Behavior: 9 papers
+  - Brand: 4 papers
   - Survey: 4 papers
   - B2B: 2 papers
-  - Others: 5 papers (Analytics, Brand, Privacy-Data, CX-Retail, Social-Media)
+  - Others: 6 papers (CX-Retail 2, Analytics, Privacy-Data, Social-Media, Content-Marketing)
 
 **Common Themes:**
 - Agent-based simulation
 - World models for marketing
 - Autonomous decision systems
 
-**Gap:** No paper systematically bridges agentic capabilities with contextual intelligence (1 superficial co-mention; §5.3). Zero papers combine agentic with situational awareness.
+**Gap:** No paper systematically bridges agentic capabilities with contextual intelligence (5 lexical co-mentions; §5.3). Zero papers combine agentic with situational awareness.
 
-### 5.2 The Contextual Literature in Marketing (115 papers from corpus)
-- **Total:** 115 papers mentioning "contextual"
-- **2024-2026:** 112 papers
+### 5.2 The Contextual Literature in Marketing (253 papers from corpus)
+- **Total:** 253 papers mentioning "contextual"
+- **2024-2026:** 250 papers (20 in 2024, 26 in 2025, 204 in 2026)
 - **Categories:**
-  - AI-Marketing: 46 papers
-  - Survey: 40 papers
-  - Consumer-Behavior: 6 papers
-  - Privacy-Data: 6 papers
-  - Social-Media: 6 papers
-  - Digital-Marketing: 5 papers
-  - Others: 6 papers (CX-Retail, Content-Marketing, B2B)
+  - Survey: 72 papers
+  - AI-Marketing: 69 papers
+  - Consumer-Behavior: 27 papers
+  - Digital-Marketing: 19 papers
+  - Brand: 18 papers
+  - Social-Media: 16 papers
+  - Others: 32 papers (CX-Retail 14, Privacy-Data 7, Content-Marketing 5, Analytics 4, B2B 2)
 
 **Common Themes:**
 - Contextual advertising (Kotler & Armstrong, 2021)
@@ -124,13 +124,13 @@ From our marketing-research corpus (9,994 papers):
 
 **Gap:** No address **agentic systems**. All contextual work assumes **human-driven** systems.
 
-### 5.3 The Zero-Intersection Problem
-**Critical Finding:**
-- Only **1 paper** in the entire corpus mentions both "agentic" and "contextual"
-- Paper: "Can AI Agents Simulate A/B Test Outcomes? A Validation Framework for Agentic Experimentation" (2026-08, AI-Marketing) — **superficial mention**
-- **No paper** systematically bridges the two concepts
+### 5.3 The Near-Zero-Intersection Problem
+**Critical Finding (snapshot 2026-10-15):**
+- **5 papers** in the corpus mention both "agentic" and "contextual" (all 2026); the closest is "Can AI Agents Simulate A/B Test Outcomes? A Validation Framework for Agentic Experimentation" (2026-08, AI-Marketing), and all five are lexical co-mentions
+- **0 papers** mention both "agentic" and "situational" — the intersection relevant to this paper's construct
+- **No paper** systematically bridges agentic reasoning with an explicit situational-awareness framework
 
-**Scope caveat:** This is a keyword co-occurrence search (title/abstract) within our 9,994-paper corpus, not a systematic literature review. Adjacent literatures — **contextual bandits** (Agrawal & Goyal, 2013; Li et al., 2010; production deployments at every major ad platform), **context-aware recommender systems** (Adomavicius & Tuzhilin, 2011), and **pervasive/ubiquitous computing** (Dey, 2001) — address context-aware action selection but do not use the "agentic + situational awareness" terminology. The zero-intersection finding is a terminological gap, not evidence of conceptual novelty; a systematic review is needed to substantiate a first-mover claim (§9.2 #13).
+**Scope caveat:** This is a keyword co-occurrence search (title/abstract) within our 13,323-paper corpus (snapshot 2026-10-15), not a systematic literature review, and the corpus is live and growing — counts drift between snapshots. Adjacent literatures — **contextual bandits** (Agrawal & Goyal, 2013; Li et al., 2010; production deployments at every major ad platform), **context-aware recommender systems** (Adomavicius & Tuzhilin, 2011), and **pervasive/ubiquitous computing** (Dey, 2001) — address context-aware action selection but do not use the "agentic + situational awareness" terminology. The near-zero-intersection finding is a terminological gap, not evidence of conceptual novelty; a systematic review is needed to substantiate a first-mover claim (§9.2 #13).
 
 ### 5.4 Häglund (2025) — CS/NLP
 **Key Differentiation:**
@@ -286,6 +286,7 @@ C_t = {A_t, Ch_t, T_t, S_t, So_t, M_t}
 - **α = 0.05**; p-values reported in scientific notation
 - **Multiplicity:** 10 agents × 6 metrics vs baseline per environment (60 tests); the smallest p-value is 3.3e-70 and the largest is 8.5e-15, both far below a Bonferroni-corrected α = 0.05/60 = 8.3e-4, so all reported comparisons survive familywise correction within a single environment. Across 9 environments plus exploratory grids (α-sweep, label-noise, budget-pacing), the full family is 540 confirmatory tests (10 agents × 6 metrics × 9 environments) + 3 ablation contrasts + 5 context-blind policies + 5 standard-baseline contrasts (LR/RF, §8.8) + 12 v1.3 extension contrasts (§8.10–§8.17) = 565 total; all confirmatory p-values remain far below any reasonable correction; the §9.2.1 near-equivalence caveat (p = 2.5e-04) does not survive Bonferroni at α/565, which itself confirms the agents are near-identical.
 - ROAS computed at **aggregate level** (total value / total spend), not as a mean of per-action ratios (which is unstable under near-zero-cost actions)
+- **Interpretation — simulation, not sampling:** The environment and all agents are deterministic given the seed; the only randomness is the seed. Reported p-values (as small as 3.3e-70) therefore quantify *simulation reproducibility across seeds*, not sampling error from a population of real campaigns. Effect sizes (Δ profit, Δ match rate) and their CIs are the interpretable quantities; p-values are reported for completeness and must not be read as field-deployment evidence. Accordingly, d_z is a reproducibility index (t/√n on a deterministic paired comparison), not a generalizable effect size.
 
 ---
 
@@ -662,7 +663,7 @@ We presented **CAM-Sim** — a reproducible paired-seed benchmark for situationa
 - Russell, S. J., & Norvig, P. (2020). *Artificial Intelligence: A Modern Approach* (4th ed.). Pearson.
 
 ### Situational Awareness Theory  
-- Endsley, M. R. (1988). Situation Awareness in Dynamic Systems. *Proceedings of the Human Factors Society Annual Meeting*, 32(1), 97-101.
+- Endsley, M. R. (1988). Design and Evaluation for Situation Awareness Enhancement. *Proceedings of the Human Factors Society Annual Meeting*, 32(2), 97–101.
 - Endsley, M. R. (1995). Toward a Theory of Situation Awareness in Dynamic Systems. *Human Factors*, 37(1), 32-64.
 
 ### Marketing Foundations
@@ -672,11 +673,11 @@ We presented **CAM-Sim** — a reproducible paired-seed benchmark for situationa
 
 ### NLP / Contextual Intelligence
 - Häglund, E. (2025). *Contextual intelligence: leveraging AI for targeted marketing* [PhD Thesis]. Umeå University, Department of Computing Science. URN: urn:nbn:se:umu:diva-1955463.
-- Böhm, M., et al. (2020). Value-opportunity recognition in B2B marketing. *Journal of Personal Selling & Sales Management*, 40(3), 211–232.
+- Böhm, E., Eggert, A., Terho, H., Ulaga, W., & Haas, A. (2020). Drivers and outcomes of salespersons' value opportunity recognition competence in solution selling. *Journal of Personal Selling & Sales Management*, 40(3), 180–197.
 
 ### Marketing AI Corpus Papers
-- All 70 agentic papers from the marketing-research corpus (papers.yaml)
-- All 115 contextual papers from the marketing-research corpus (papers.yaml)
+- All 102 agentic papers from the marketing-research corpus (papers.yaml; snapshot 2026-10-15)
+- All 253 contextual papers from the marketing-research corpus (papers.yaml; snapshot 2026-10-15)
 - Paper: "Can AI Agents Simulate A/B Test Outcomes? A Validation Framework for Agentic Experimentation" (2026-08)
 
 ---
@@ -722,14 +723,25 @@ We presented **CAM-Sim** — a reproducible paired-seed benchmark for situationa
 Raw per-seed data is **never hand-maintained**. Regenerate with:
 
 ```bash
+# Core benchmark (Sections 8.1–8.3, 8.5–8.9)
 python3 paper/cam_sim.py --scenarios 200 --seeds $(seq -s, 1 50) \
     --robustness --alpha-sweep --label-noise --budget-pacing \
     --output-md results/cam_sim_results.md
+
+# Ablation ladder / regen command for the multi-signal contrasts
+python3 paper/cam_sim_ablations.py
+
+# v1.3 extension suite (adversarial mapping, channel-dependent reward,
+# bandit baselines, class-conditional noise, convergence, dose-response,
+# crisis policy, sensing fidelity)
+python3 paper/cam_sim_extensions.py
 ```
 
 - Full JSON: `results/cam_sim_results.json` (aggregate + statistics + robustness sweep + alpha sweep + label-noise + budget pacing)
 - Markdown report: `results/cam_sim_results.md` (auto-generated tables incl. stress-test sections)
 - Robustness table: `results/cam_sim_results_robustness.md` (9 presets, paired F3 statistics, per-seed ρ)
+- Ablation ladder: `results/cam_sim_ablations.json` / `.md`
+- Extension suite: `results/cam_sim_extensions.json` / `.md`
 - `results/` is gitignored — outputs are reproducible from seed alone
 
 Reproducibility contract: identical `--seeds` + `--scenarios` reproduce byte-identical aggregates (both RNGs seeded; verified).
@@ -738,7 +750,7 @@ Reproducibility contract: identical `--seeds` + `--scenarios` reproduce byte-ide
 
 *Reproducibility: all numbers regenerate from `paper/cam_sim.py`, `paper/cam_sim_ablations.py`, and `paper/cam_sim_extensions.py` with fixed seeds. Peer reviews: 5 rounds (stats-audit, citation-audit, threats-to-validity, 5× journal-editor, 5× adversarial-reviewer, 5× domain-expert, 5× ml-methodology). Next steps: field-validate with a B2B partner (§10.3 #1); learned bidding (§10.3 #2); adversarial & dynamic environments (§10.3 #7).*
 
-### References (added in v0.6–v0.7)
+### References (contextual-bandit & context-aware related work)
 - Agrawal, S., & Goyal, N. (2013). Thompson sampling for contextual bandits with linear payoffs. *ICML*.
 - Li, L., Chu, W., Langford, J., & Schapire, R. E. (2010). A contextual-bandit approach to personalized news article recommendation. *WWW*.
 - Adomavicius, G., & Tuzhilin, A. (2011). Context-aware recommender systems. *ACM RecSys*.

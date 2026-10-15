@@ -238,6 +238,8 @@ def main():
     print("[3/7] 9-environment comparison: cb_edu_email_030 vs cam_multisignal ...")
     env_results = {}
     for env_name, overrides in ENVIRONMENT_PRESETS.items():
+        if env_name == "channel_dependent":
+            continue
         env_agg, _, _, _, _ = run_env(overrides, seeds=SEEDS, scenarios=N_SCEN,
                                       agent_names=["cam_multisignal", "cb_edu_email_030"])
         env_results[env_name] = {"cam_multisignal": env_agg["cam_multisignal"].get("total_profit_mean", 0),

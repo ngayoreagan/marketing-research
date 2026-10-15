@@ -2,8 +2,10 @@
 
 ## Goal
 
-Build a **ranked shortlist of 10 B2B companies** as partner candidates for the
+Build a **ranked shortlist of B2B partner-candidate companies** for the
 marketing chair (research co-operations, teaching cases, funded projects).
+The scope (number of companies, sector) is set by the kickoff prompt — for the
+live demo this is deliberately small (2–3 companies, one sector).
 
 ## Criteria (score each 1–5, with evidence)
 
