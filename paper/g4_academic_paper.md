@@ -7,7 +7,7 @@
 > **Type:** Empirical (Reproducible Benchmark + Ablation Study)  
 > **Word Target:** 8,000-10,000 words  
 > **Key Contribution:** A reproducible paired-seed benchmark (CAM-Sim) for situational-awareness ablations in marketing agents: 11-agent ladder, 9 environments, matched-family ablation (same NCC classifier, 1 vs 3 signals, +$103.85 signal-driven gap), standard classifier baselines (LR + RF on 1 and 3 signals — multi-signal gain confirmed across 3 classifier families: NCC +$103.85, LR +$65.48, RF +$75.98), context-blind policy search (channel-cost arbitrage: EDUCATIONAL|EMAIL|bid 0.3 = +$252 beats every deployable context-aware agent in 7 of 9 environments — §8.7), macro-F1 per-class metric, CRN check, paired-difference bootstrap (B = 2000); v1.3: adversarial-mapping condition (0.4% match, -$269), channel-dependent reward (arbitrage fixed), bandit baselines (epsilon-greedy, LinUCB), class-conditional noise, convergence trend (Spearman + Geweke), perception dose-response (rho=0.998), crisis bid policy (pause > counter), sensing fidelity (identical)  
-**Caveat:** The "first" claim rests on a title/abstract keyword search of our 13,323-paper corpus (snapshot 2026-10-15), not a systematic review; contextual-bandit and context-aware-recommender literatures are adjacent but use different terminology (§5.3, §9.2 #13)  
+**Caveat:** The "first" claim rests on a title/abstract keyword search of our corpus of over 10,000 papers (snapshot 2026-10-15), not a systematic review; contextual-bandit and context-aware-recommender literatures are adjacent but use different terminology (§5.3, §9.2 #13)  
 
 ---
 
@@ -29,7 +29,7 @@ We present **CAM-Sim**, a reproducible paired-seed benchmark for situational-awa
 ## 3. Introduction
 
 ### 3.1 The Agentic Revolution in Marketing
-The marketing corpus (snapshot 2026-10-15; 13,323 papers) shows **102 agentic papers** (all from 2025-2026; up from 12 in 2025 to 90 in 2026 alone) — the highest-momentum trend. Yet **zero papers** connect agentic capabilities with **marketing situational awareness** (253 contextual papers, 19 situational papers, 0 combined with agentic).
+The marketing corpus (snapshot 2026-10-15; over 10,000 papers) shows **102 agentic papers** (all from 2025-2026; up from 12 in 2025 to 90 in 2026 alone) — the highest-momentum trend. Yet **zero papers** connect agentic capabilities with **marketing situational awareness** (253 contextual papers, 19 situational papers, 0 combined with agentic).
 
 **Research Gap:** Agents can plan and execute, but cannot **understand marketing context**.
 
@@ -85,7 +85,7 @@ Russell & Norvig define an **agent** as "anything that can be viewed as perceivi
 ## 5. Related Work
 
 ### 5.1 The Agentic Literature in Marketing (102 papers from corpus)
-From our marketing-research corpus (13,323 papers; snapshot 2026-10-15):
+From our marketing-research corpus (over 10,000 papers; snapshot 2026-10-15):
 - **Definition:** Works that mention "agentic" in title/abstract
 - **Total:** 102 papers
 - **2025-2026:** 102 papers (12 in 2025, 90 in 2026 alone)
@@ -130,7 +130,7 @@ From our marketing-research corpus (13,323 papers; snapshot 2026-10-15):
 - **0 papers** mention both "agentic" and "situational" — the intersection relevant to this paper's construct
 - **No paper** systematically bridges agentic reasoning with an explicit situational-awareness framework
 
-**Scope caveat:** This is a keyword co-occurrence search (title/abstract) within our 13,323-paper corpus (snapshot 2026-10-15), not a systematic literature review, and the corpus is live and growing — counts drift between snapshots. Adjacent literatures — **contextual bandits** (Agrawal & Goyal, 2013; Li et al., 2010; production deployments at every major ad platform), **context-aware recommender systems** (Adomavicius & Tuzhilin, 2011), and **pervasive/ubiquitous computing** (Dey, 2001) — address context-aware action selection but do not use the "agentic + situational awareness" terminology. The near-zero-intersection finding is a terminological gap, not evidence of conceptual novelty; a systematic review is needed to substantiate a first-mover claim (§9.2 #13).
+**Scope caveat:** This is a keyword co-occurrence search (title/abstract) within our corpus of over 10,000 papers (snapshot 2026-10-15), not a systematic literature review, and the corpus is live and growing — counts drift between snapshots. Adjacent literatures — **contextual bandits** (Agrawal & Goyal, 2013; Li et al., 2010; production deployments at every major ad platform), **context-aware recommender systems** (Adomavicius & Tuzhilin, 2011), and **pervasive/ubiquitous computing** (Dey, 2001) — address context-aware action selection but do not use the "agentic + situational awareness" terminology. The near-zero-intersection finding is a terminological gap, not evidence of conceptual novelty; a systematic review is needed to substantiate a first-mover claim (§9.2 #13).
 
 ### 5.4 Häglund (2025) — CS/NLP
 **Key Differentiation:**
