@@ -13,7 +13,7 @@
 
 ## 🎯 Executive Summary
 
-**Problem:** Agentic marketing systems can plan and execute, but **cannot understand marketing context** (audience situation, channel journey, moment-of-truth) — the corpus has **≥100 agentic papers** but **at most a handful** connect agentic with contextual understanding (live lower bound; the corpus only grows).
+**Problem:** Agentic marketing systems can plan and execute, but **cannot understand marketing context** (audience situation, channel journey, moment-of-truth) — the corpus has **≥100 agentic papers** but **only 5** connect agentic with contextual understanding (as of 2026-10-18; live corpus, counts drift).
 
 **Solution:** **Context-Aware Agentic Marketing (CAM)** — a framework that gives autonomous marketing agents **situational awareness** by:
 1. **Sensing Layer** — real-time ingestion of multi-modal marketing context signals
@@ -39,7 +39,7 @@ From `papers.yaml` (live; counts are lower bounds as of snapshot — the corpus 
 ### The Contextual Vacuum
 | Keyword | Lower bound | Combined with "agentic" |
 |---------|-------------|------------------------|
-| contextual | ≥250 | **≤5** |
+| contextual | ≥250 | **5 (2026-10-18)** |
 | context-aware | ≥3 | **0** |
 | situational | ≥20 | **0** |
 | intent | ≥800 | **0** |
@@ -687,7 +687,7 @@ Concentrated in **AI-marketing** and **Survey**, with the remainder across Digit
 **None are in agentic categories.**
 
 ### Zero-Intersection Confirmation
-At the snapshot, at most a handful of papers mention both "agentic" and "contextual" — all superficial lexical co-mentions; **no academic paper builds the bridge** (agentic ∩ situational = 0). See `paper/g4_academic_paper.md` §5.3.
+As of 2026-10-18, exactly 5 papers mention both "agentic" and "contextual" — all superficial lexical co-mentions; **no academic paper builds the bridge** (agentic ∩ situational = 0). See `paper/g4_academic_paper.md` §5.3.
 
 ---
 
