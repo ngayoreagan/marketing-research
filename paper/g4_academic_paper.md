@@ -29,7 +29,7 @@ We present **CAM-Sim**, a reproducible paired-seed benchmark for situational-awa
 ## 3. Introduction
 
 ### 3.1 The Agentic Revolution in Marketing
-The marketing corpus (snapshot 2026-10-15; over 10,000 papers) shows **102 agentic papers** (all from 2025-2026; up from 12 in 2025 to 90 in 2026 alone) — the highest-momentum trend. Yet **zero papers** connect agentic capabilities with **marketing situational awareness** (253 contextual papers, 19 situational papers, 0 combined with agentic).
+The marketing corpus (snapshot 2026-10-15; over 10,000 papers) shows **at least 100 agentic papers** (all from 2025-2026; the count is a live lower bound — the corpus only grows) — the highest-momentum trend. Yet **zero papers** connect agentic capabilities with **marketing situational awareness** (at least 250 contextual papers, a small number of situational papers, and none combined with agentic).
 
 **Research Gap:** Agents can plan and execute, but cannot **understand marketing context**.
 
@@ -44,7 +44,7 @@ Emil Häglund's 2025 thesis (*"Contextual intelligence: leveraging AI for target
 - **RQ3 (Performance):** Do context-aware agents outperform non-context-aware agents on marketing outcomes?
 - **RQ4 (Mechanism):** Through which mechanisms does situational awareness improve marketing performance?
 
-**Key Insight:** No paper in our corpus combines agentic reasoning with an explicit situational-awareness framework (agentic ∩ situational = 0); agentic ∩ contextual has only 5 lexical co-mentions (snapshot 2026-10-15).
+**Key Insight:** No paper in our corpus combines agentic reasoning with an explicit situational-awareness framework (agentic ∩ situational = 0); agentic ∩ contextual has at most a handful of lexical co-mentions (snapshot 2026-10-15).
 
 ---
 
@@ -84,38 +84,23 @@ Russell & Norvig define an **agent** as "anything that can be viewed as perceivi
 
 ## 5. Related Work
 
-### 5.1 The Agentic Literature in Marketing (102 papers from corpus)
-From our marketing-research corpus (over 10,000 papers; snapshot 2026-10-15):
+### 5.1 The Agentic Literature in Marketing (≥100 papers from corpus)
+From our marketing-research corpus (over 10,000 papers; snapshot 2026-10-15; counts are live lower bounds — the corpus only grows):
 - **Definition:** Works that mention "agentic" in title/abstract
-- **Total:** 102 papers
-- **2025-2026:** 102 papers (12 in 2025, 90 in 2026 alone)
-- **Categories:**
-  - AI-Marketing: 60 papers
-  - Digital-Marketing: 17 papers
-  - Consumer-Behavior: 9 papers
-  - Brand: 4 papers
-  - Survey: 4 papers
-  - B2B: 2 papers
-  - Others: 6 papers (CX-Retail 2, Analytics, Privacy-Data, Social-Media, Content-Marketing)
+- **Total:** ≥100 papers, all from 2025–2026 (a sustained, highest-momentum trend; the exact total grows with the corpus)
+- **Categories:** concentrated in AI-Marketing (≥60) and Digital-Marketing (≥15), with smaller counts across Consumer-Behavior, Brand, Survey, and B2B
 
 **Common Themes:**
 - Agent-based simulation
 - World models for marketing
 - Autonomous decision systems
 
-**Gap:** No paper systematically bridges agentic capabilities with contextual intelligence (5 lexical co-mentions; §5.3). Zero papers combine agentic with situational awareness.
+**Gap:** No paper systematically bridges agentic capabilities with contextual intelligence (≤5 lexical co-mentions; §5.3). Zero papers combine agentic with situational awareness.
 
-### 5.2 The Contextual Literature in Marketing (253 papers from corpus)
-- **Total:** 253 papers mentioning "contextual"
-- **2024-2026:** 250 papers (20 in 2024, 26 in 2025, 204 in 2026)
-- **Categories:**
-  - Survey: 72 papers
-  - AI-Marketing: 69 papers
-  - Consumer-Behavior: 27 papers
-  - Digital-Marketing: 19 papers
-  - Brand: 18 papers
-  - Social-Media: 16 papers
-  - Others: 32 papers (CX-Retail 14, Privacy-Data 7, Content-Marketing 5, Analytics 4, B2B 2)
+### 5.2 The Contextual Literature in Marketing (≥250 papers from corpus)
+- **Total:** ≥250 papers mentioning "contextual" (live lower bound)
+- **Recency:** concentrated in 2024–2026, with a strong 2026 uptick
+- **Categories:** most common in Survey and AI-Marketing, followed by Consumer-Behavior, Digital-Marketing, Brand, and Social-Media; the remainder spread across CX-Retail, Privacy-Data, Content-Marketing, Analytics, and B2B
 
 **Common Themes:**
 - Contextual advertising (Kotler & Armstrong, 2021)
@@ -126,7 +111,7 @@ From our marketing-research corpus (over 10,000 papers; snapshot 2026-10-15):
 
 ### 5.3 The Near-Zero-Intersection Problem
 **Critical Finding (snapshot 2026-10-15):**
-- **5 papers** in the corpus mention both "agentic" and "contextual" (all 2026); the closest is "Can AI Agents Simulate A/B Test Outcomes? A Validation Framework for Agentic Experimentation" (2026-08, AI-Marketing), and all five are lexical co-mentions
+- **≤5 papers** in the corpus mention both "agentic" and "contextual" (all 2026); the closest is "Can AI Agents Simulate A/B Test Outcomes? A Validation Framework for Agentic Experimentation" (2026-08, AI-Marketing), and all are lexical co-mentions
 - **0 papers** mention both "agentic" and "situational" — the intersection relevant to this paper's construct
 - **No paper** systematically bridges agentic reasoning with an explicit situational-awareness framework
 
@@ -676,8 +661,8 @@ We presented **CAM-Sim** — a reproducible paired-seed benchmark for situationa
 - Böhm, E., Eggert, A., Terho, H., Ulaga, W., & Haas, A. (2020). Drivers and outcomes of salespersons' value opportunity recognition competence in solution selling. *Journal of Personal Selling & Sales Management*, 40(3), 180–197.
 
 ### Marketing AI Corpus Papers
-- All 102 agentic papers from the marketing-research corpus (papers.yaml; snapshot 2026-10-15)
-- All 253 contextual papers from the marketing-research corpus (papers.yaml; snapshot 2026-10-15)
+- All agentic papers in the marketing-research corpus (papers.yaml; ≥100 at snapshot 2026-10-15, live)
+- All contextual papers in the marketing-research corpus (papers.yaml; ≥250 at snapshot 2026-10-15, live)
 - Paper: "Can AI Agents Simulate A/B Test Outcomes? A Validation Framework for Agentic Experimentation" (2026-08)
 
 ---

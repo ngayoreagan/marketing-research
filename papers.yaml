@@ -293267,7 +293267,7 @@ papers:
     trust, influencer marketing, and sales promotions.
   venue: Jurnal Ilmiah Ekonomi dan Manajemen Indonesia
 - title: 'Figure 7: Privacy-performance trade-off analysis.'
-  date: '2026-06'
+  date: 2026-06
   url: https://doi.org/10.7717/peerj-cs.3972/fig-7
   category: privacy-data
   subcategory: empirical
@@ -293275,7 +293275,7 @@ papers:
   doi: 10.7717/peerj-cs.3972/fig-7
 - title: 'Neuromarketing and the gaming consumer: a systematic review of attention,
     emotion, and memory in player engagement and retention'
-  date: '2026-09'
+  date: 2026-09
   url: https://europepmc.org/article/pmc/PMC13601311
   category: consumer-behavior
   subcategory: empirical
@@ -293360,7 +293360,7 @@ papers:
   doi: 10.64388/irev8i10-1716694
   venue: Iconic Research and Engineering Journals
 - title: Generative AI-powered Automated Essay Scoring System
-  date: '2025-04'
+  date: 2025-04
   url: https://doi.org/10.2139/ssrn.5203163
   category: ai-marketing
   subcategory: empirical
@@ -293369,7 +293369,7 @@ papers:
   doi: 10.2139/ssrn.5203163
 - title: 'Modernizing Vulnerability Prioritization: Automated Risk Scoring Using Generative
     AI'
-  date: '2025-09'
+  date: 2025-09
   url: https://doi.org/10.36227/techrxiv.174495391.16123741/v2
   category: ai-marketing
   subcategory: empirical
@@ -293452,7 +293452,7 @@ papers:
   doi: 10.5220/0013612200004664
   venue: Proceedings of the 3rd International Conference on Futuristic Technology
 - title: Personalized Content Selection in Marketing Using BERT and GPT-Based AI Models
-  date: '2026-03'
+  date: 2026-03
   url: https://doi.org/10.64971/j.cph.eijtem.v13.i1.18.2026
   category: ai-marketing
   subcategory: empirical
@@ -293460,7 +293460,7 @@ papers:
   doi: 10.64971/j.cph.eijtem.v13.i1.18.2026
 - title: Enhancing Personalized Marketing Strategies and Customer Experiences Through
     AI-Driven Personalization
-  date: '2024-08'
+  date: 2024-08
   url: https://doi.org/10.14293/pr2199.000976.v1
   category: ai-marketing
   subcategory: empirical
@@ -293472,7 +293472,7 @@ papers:
     addressing privacy concerns. Through a detailed methodology inv'
   doi: 10.14293/pr2199.000976.v1
 - title: The Role of AI-Powered Personalized Marketing in Sustainable Mountain Tourism
-  date: '2026-02'
+  date: 2026-02
   url: https://doi.org/10.2139/ssrn.6064867
   category: ai-marketing
   subcategory: empirical
@@ -296792,3 +296792,3139 @@ papers:
     lower bound up to logarithmic factors. Simulation results demonstrate that our
     algorithms achieve low regret and remain stable as both the number of arms and
     the update cost vary.'
+- title: 'Declared but Unaccountable: Measuring the Seller-Identity Gap in Advertising
+    Supply-Chain Transparency'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.14661v2
+  category: digital-marketing
+  subcategory: empirical
+  authors:
+  - Tommaso Grotto
+  - Alessandro Cantelli-Forti
+  - Alessio Merlo
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Public advertising transparency relies on a minimum accountability condition:
+    an account authorized by a publisher in ads$.$txt or app-ads$.$txt should appear
+    in the applicable sellers$.$json registry. When an available registry omits the
+    declared seller ID, the authorization remains visible and machine-readable, but
+    its public verification path breaks. We call this failure the seller-identity
+    gap. We measure the gap using 233.4 million normalized advertising-transparency
+    records and an absent-only, coverage-aware evidence rule. A declaration enters
+    the numerator only when the applicable registry is available and omits its seller
+    ID; unavailable, malformed, confidential, and other non-evaluable states remain
+    separate. The resulting row-level floor is 24.25% in a high-popularity, low-removal
+    reference population and 30.71% among publishers associated with at least 100
+    copyright-removal requests, a 6.45 percentage-point increase. The gap then remains
+    near one third at stricter cumulative thresholds. Standardizing the populations
+    to common weights over 1,469 shared ad systems reduces the primary contrast to
+    4.65 points: about 72% remains within systems, while 28% forms a composition-associated
+    residual. We connect these population estimates to recurring seller-account coordinates,
+    byte-identical declaration configurations, and provenance-bearing case packets.
+    We frame this declaration-centered investigative use of public advertising records
+    as Ad Transparency Intelligence: it reconstructs declared supply-chain relationships,
+    identifies where public verification stops, and prioritizes evidence for corroboration
+    without equating correlation with attribution. Advertising transparency supports
+    accountability and investigation only when visible authorizations remain publicly
+    verifiable.'
+- title: 'Institutionalizing Trust in Data Exchange: Trust-Anchor Model of the Data
+    Credit Guarantee Organization and Its Simulation-Based Comparison'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.18400v1
+  category: digital-marketing
+  subcategory: empirical
+  authors:
+  - Hiroshi Mano
+  - Chie Sugiyama
+  - Teruaki Hayashi
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Data trading markets that span industries and regions are expanding,
+    but the implicit trust that supports data use within an organization does not
+    carry over to cross-domain exchange. This paper examines the Data Credit Guarantee
+    Organization (DCGO), a proposal to institutionalize trust through third-party
+    verification and certification, and asks what it means to trust data, what such
+    certification can support, and under what conditions DCGO outperforms existing
+    trading models. We decompose trust in data into four layers: authenticity of entity,
+    authenticity and integrity of data, rights and conditions of use, and history
+    and auditability. A third party can certify authenticity but not the correctness
+    of content, and DCGO is positioned as a trust anchor spanning existing marketplaces
+    and data spaces. We then extend the Law Merchant model with three data-specific
+    properties, namely imperfect ex-post detection, cheap pseudonyms, and non-rivalry
+    of harm, and compare bilateral trading with DCGO by agent-based simulation. DCGO
+    keeps the buyer''s payoff near its theoretical upper bound regardless of the market
+    environment, whereas bilateral trading loses even when fraud is always detected.
+    Identity verification proves to be a prerequisite for record sharing, and pre-verification
+    is the only function that limits the spread of harm. On the seller side, honest
+    sellers join voluntarily whenever the price premium exceeds the fee. Lock-in and
+    a critical mass for diffusion, however, call for fee governance and support for
+    entry.'
+- title: Cross-Market Meta-Learning for Electricity Price Forecasting
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.17387v1
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Delaram Pirhayatifard
+  - Terrence Alsup
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Day-ahead (DA) electricity price forecasting is usually posed per market,
+    with a separate model fitted to each grid''s own history. This caps accuracy:
+    statistical and tree-based baselines saturate, while higher-capacity sequence
+    models need more training data than a single market''s few years of hourly prices
+    can supply. Such methods also treat each node as an independent series, discarding
+    the spatial dependencies induced by network topology and congestion. Because price
+    formation across independent system operators (ISOs) is driven by shared physics
+    and largely common market design, we instead treat cross-market history as a pretraining
+    corpus. We present MetaGrid, a topology-aware transformer, meta-trained across
+    markets so that a single zone-count-independent parameter set adapts to an unseen
+    grid. On a leak-free benchmark of five U.S. ISOs, where every model receives the
+    same prices, DA load forecasts and calendar features, MetaGrid attains the lowest
+    average MAE, improving on the best baseline by 3.1\% and on the same architecture
+    trained from scratch by 7.7\%.'
+- title: 'AlphaRLM: Aligning Language Models for Literature-Grounded Symbolic Factor
+    Discovery'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.14959v3
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Jie Huang
+  - Yuecheng Hong
+  - Yao Chen
+  - Hao Zhong
+  - Linfeng Xiao
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Formulaic alpha mining seeks to discover executable expressions that capture
+    predictive market signals in a vast, noisy search space. Recent LLM-based approaches
+    use prompting, iterative search, or seed-factor evolution, leaving direct factor
+    construction through policy learning less explored. To address this, we introduce
+    AlphaRLM, a reinforcement-learning framework that trains LLMs to construct executable
+    symbolic factors from financial literature without input factor expressions. AlphaRLM
+    incorporates Literature-Guided Operator Assembly (LEGO), which conditions factor
+    construction on literature-derived ideas and executable operators, providing semantic
+    priors for exploration. It further aligns the generation policy with market feedback
+    through executable-validity and grouped-return-separation rewards that capture
+    non-monotonic structures across factor quantiles. Extensive experiments on CSI
+    300, CSI 1000, and S&amp;P 500 show that AlphaRLM outperforms strong factor-mining
+    and LLM-based baselines in annualized excess return. Notably, the 8B model achieves
+    strong cross-market performance, highlighting the promise of literature-conditioned,
+    market-aligned factor generation.
+- title: Decentralized LLM Workflows via Sequential Auctions
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.22201v1
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Ian Gemp
+  - Shubhendu Trivedi
+  - Adam Fisch
+  - Fantine Huot
+  - Michael Kaisers
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: We present a scalable framework for solving multi-step tasks through a
+    decentralized market of self-interested agents. Prior theoretical work demonstrated
+    that agents organized through sequential auctions can converge to a globally optimal
+    policy in a Markov decision process (MDP), but relied on the restrictive assumption
+    of the existence of perfect clones as a model of perfect competition. In reality,
+    exact clones drive agent profit to zero, violating the natural risk-reward incentives
+    of participants. Conversely, we empirically demonstrate that the opposite extreme,
+    absence of competition, also leads to market failure and value extraction collapse.
+    Between these two extremes, we investigate how heterogeneous agents can survive
+    in markets that span the critical middle ground of imperfect competition. To be
+    profitable, agents learn to strategically shade bids to secure positive individual
+    profit margins, while still ensuring that the marketplace functions effectively
+    enough so that collaborative tasks posed by market consumers can still be solved.
+    We formulate and evaluate four bidding algorithms (Mirror Descent, Thompson Sampling,
+    Bayes-Optimal, and PPO) across three auction protocols (1st-Price, 2nd-Price,
+    and Credit-Conserving Vickrey). Across a diverse set of domains, we demonstrate
+    that imperfect competition successfully sustains necessary agent profit margins
+    while maintaining high task success rates at low costs.
+- title: 'Agentic Trading: When LLM Agents Meet Financial Markets'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.19337v2
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Yihan Xia
+  - Panpan You
+  - Taotao Wang
+  - Fang Liu
+  - Han Qi
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Large Language Models (LLMs) combined with autonomous agent architectures
+    are shifting quantitative finance from isolated predictive modeling toward closed-loop
+    trading agents. These systems perceive multimodal market signals, maintain context
+    and memory, reason about decisions, emit executable trading actions, and adapt
+    to non-stationary market regimes. This survey provides a systematic synthesis
+    of agentic trading through an Architecture--Capability--Adaptation (A-C-A) conceptual
+    framework. Architecture covers perception (textual, numerical, and multimodal),
+    memory (working memory, vector storage, and knowledge bases), reasoning (reactive,
+    reflective, and planning-driven), and execution (order routing and friction management).
+    Capability examines alpha discovery, portfolio optimization, and multi-tier risk
+    control. Adaptation covers in-context learning, supervised fine-tuning, reinforcement
+    learning, multi-agent coordination, and architectural self-evolution. Drawing
+    on 185 systematically selected studies, including a core empirical subset of 80
+    systems evaluated under closed-loop market conditions, we analyze design spaces,
+    operational trade-offs, and emerging paradigms. We also examine evaluation practices,
+    including backtesting split schemes, transaction-cost realism, survivorship-bias
+    handling, and execution fidelity, and distill methodological best practices for
+    future research. By bridging artificial intelligence, market microstructure, and
+    quantitative finance, this survey provides a roadmap for designing, benchmarking,
+    and deploying reliable agentic trading systems.
+- title: 'AdCoEvo: A Co-Evolving Multi-Agent Advertising Delivery System'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.19454v1
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Tianzhu Hu
+  - Hang Yu
+  - Zeyuan Zhao
+  - Zeyu Pan
+  - Huan Luo
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Digital advertising is an important means for platforms to reach potential
+    users and drive business growth. Advertising delivery is the core link between
+    marketing objectives and actual returns. Existing methods have achieved partial
+    automation in individual tasks such as bidding and budget allocation, but they
+    still rely on human operators for overall coordination, making it difficult to
+    support large-scale operations. They also often fail to achieve optimal performance,
+    and individual experience remains difficult to turn into reusable operational
+    capabilities. In addition, as advertising markets change, advertising delivery
+    systems need timely strategy updates to remain effective in dynamic markets. To
+    automate the entire advertising operations process and improve adaptability to
+    market changes, we propose AdCoEvo, a co-evolving multi-agent advertising delivery
+    system. Specifically, the system connects delivery decisions across different
+    timescales and operational granularities through role specialization. Diagnostic
+    results guide account planning and strategy adjustment in the next period. The
+    multi-agent system updates its model parameters based on actual delivery outcomes
+    and continually improves delivery strategies through mutual feedback among planning,
+    adjustment, and diagnosis, thereby achieving co-evolution. Experiments show that,
+    relative to the rule-based operational baseline (Rule), AdCoEvo increases advertiser
+    value by 14.02% while reducing cost per acquisition by 7.07%. Compared with a
+    multi-agent system with fixed parameters, AdCoEvo increases advertiser value by
+    3.96% and reduces cost per acquisition by 1.24%, indicating that co-evolution
+    can yield greater delivery returns.
+- title: Price of Anarchy of First-Price Auctions in Agentic Markets
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.20587v1
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Shubhendu Trivedi
+  - Jacob Eisenstein
+  - Alekh Agarwal
+  - Ian Gemp
+  - Michael Kaisers
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'An agentic market is a decentralized serving-time market where AI agents
+    bid to claim each user prompt. An agent''s bid is based on its expected value
+    for the prompt, which is the expectation of the reward for its response minus
+    its inference costs. First-price auctions (FPAs), in which the highest bidder
+    pays its bid and receives the prompt, are a natural way to allocate prompts in
+    such a market, since they are simple and transparent to run, and do not require
+    central knowledge of private capabilities and costs. However, FPAs are not truthful:
+    participants may bid less than their true value in the hope of a larger profit,
+    and the prompt may then be allocated to someone other than the bidder who values
+    it the most. This welfare loss is quantified by the $\textit{price-of-anarchy}$
+    (PoA). In this paper, we argue that agentic markets are likely to possess features
+    that reduce the price-of-anarchy. The first is a $\textit{competitive floor}$,
+    which occurs when multiple bidders usually value the prompt above some baseline
+    share of the optimal welfare (e.g., because the best models are often distilled
+    into cheaper alternatives, which perform similarly). We show that competition
+    among them then limits the welfare loss, which can be driven to zero as the floor
+    rises. The second feature is $\textit{near-independence}$ of values after conditioning
+    on the prompt, which occurs when most of the predictable variation in the expected
+    value is determined by the difficulty of the prompt. As the value distribution
+    approaches conditional independence, we can derive an efficiency guarantee that
+    approaches a factor of $1 - 1/e^2$ of the optimal welfare. Thus, both features
+    give rise to welfare lower bounds that are significantly better than the well-known
+    general case of $1 - 1/e$. We validate these results empirically using auctions
+    with strategic bidders simulated on the EmbedLLM prompt routing dataset.'
+- title: 'PortBench: A Correlation-Aware, Full-Pipeline Benchmark for LLM-Driven Portfolio
+    Management'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.27887v6
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Yuxuan Zhao
+  - Sijia Chen
+  - Ningxin Su
+  venue: ''
+  code_url: https://github.com/AgenticFinLab/portbench
+  project_url: ''
+  abstract: 'Large language models (LLMs) have shown strong performance across diverse
+    financial tasks, yet portfolio management (PM) remains poorly evaluated. Existing
+    benchmarks exhibit two gaps: they are often equity-only and ignore cross-asset
+    correlations; they provide limited insight into where errors arise and how they
+    affect subsequent decisions. We introduce PortBench, a benchmark with market data
+    spanning six asset classes from 2015 to 2025. PortBench comprises a static QA
+    dataset of 6,269 questions across seven task templates and a dynamic five-stage
+    portfolio evaluation. Dynamic evaluation uses a class-level correlation score
+    for allocation and CEPS to summarize reference-based stage scores. We further
+    evaluate under three stress windows and three risk profiles, and support real-time
+    evaluation on newly arriving market data. Evaluating ten LLMs reveals a disconnect:
+    high financial QA scores do not ensure consistent portfolio outperformance. LLMs
+    concentrate exposure in correlated assets, and their portfolios achieve higher
+    Sharpe than equal weighting in 54.2\% of 120 evaluations across four market periods.
+    Our source code is available at \href{https://github.com/AgenticFinLab/portbench}{this
+    https URL}.'
+- title: 'Data Portability Revisited: Toward the Human-Centric, AI-Driven Data Ecosystems
+    of Tomorrow'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.15503v1
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Mark Fenwick
+  - Michael Fertik
+  - Paulius Jurcys
+  - Timo Minssen
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: This Article critically examines the contemporary regulatory framework
+    and discourse surrounding data portability in the United States. Using recent
+    regulatory developments in the European Union as an illustration, this Article
+    suggests that although data access and portability are identified as vital issues
+    in multiple policy instruments, in its current iteration, at least, legal conceptions
+    of portability continue to reinforce the interests of service providers and data
+    controller enterprises rather than individual end users. This Article argues that
+    a paradigm shift toward a more human-centric data approach to data governance
+    must occur, under which data would be recognized as fundamental to an individual's
+    identity in a digital age. Therefore, it should be placed in the hands of individuals
+    rather than service providers or data controller enterprises. This Article considers
+    technical and market trends in the European Union that reveal and facilitate such
+    a change. It suggests that regulatory frameworks should better align with these
+    technological and market developments to encourage change-inducing trends among
+    market actors. In short, this Article identifies a transformative approach to
+    data portability that empowers individuals with the freedom and ability to aggregate
+    their data in secure personal spaces under their control or dominion. Such a human-centric
+    perspective on data portability is crucial in building Artificial Intelligence
+    (AI)-powered applications for individual consumers that can pave the way for the
+    human-centric, AI-driven data ecosystems of the future.
+- title: The Effect of Expertise Signaling when Sharing Medical Information in Opinion
+    Dynamics
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.16623v1
+  category: social-media
+  subcategory: empirical
+  authors:
+  - Moyi Li
+  - Chuqiao Yan
+  - Jesus Jair Reyes Gutierrez
+  - Aleksandra Urman
+  - Stefania Ionescu
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Social media heavily influences health decisions, yet few opinion dynamics
+    models account for how information is delivered. This work investigates how signaling
+    source expertise shapes trust and long-term opinion formation. Through an online
+    experiment, we find that adding a professional title to the sender's display name
+    significantly increases a post's perceived credibility. Incorporating these findings
+    to create a data-driven opinion dynamics model, we prove that (1) connecting users
+    through some paths to an expert guarantees consensus with experts' opinion, while
+    (2) higher rates of expertise signaling accelerate reaching consensus. Simulations
+    show that (3) convincing even 20% of users to signal their title reduces consensus
+    time to nearly one-third in Erdos-Renyi networks and (4) higher title adoption
+    brings average opinion much closer to that of experts in scale-free and real-world
+    networks. Altogether, our work highlights expertise signaling as a viable intervention
+    to promote validated medical information online.
+- title: 'Creative destruction: Human-AI competition in an experimental market'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.18921v1
+  category: consumer-behavior
+  subcategory: empirical
+  authors:
+  - John Conlon
+  - Peter Schwardmann
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: We study two hypotheses for how a human role in production could persist
+    despite growing AI capabilities. Humans might have a durable advantage in taste,
+    designing better products even as AI agents automate routine tasks, or consumers
+    might intrinsically prefer that humans have a hand in production. In our experiment,
+    participants act as producers, designing computer games with an AI coding agent,
+    and as consumers who buy them. Across three studies (N = 1,025), we find no evidence
+    for either hypothesis. Games designed by an AI on its own outperform those of
+    human producers, including both amateurs and professional creatives. Human producers
+    do not anticipate the AI's advantage. Revealing whether a game is human-designed
+    does not raise consumers' willingness to pay for the product.
+- title: Auction-based allocation of routes in capacity-constrained networks
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.20125v1
+  category: consumer-behavior
+  subcategory: empirical
+  authors:
+  - Gergely Csáji
+  - Dávid Csercsik
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: We study the route-set allocation problem between end nodes in capacity-constrained
+    flow networks with transfer costs. We introduce an origin--destination (OD) bidding
+    language, in which a participant bids for bounded conic combinations of inlet--outlet--quantity
+    licences and the mechanism performs the routing through a network-flow optimising
+    winner-determination problem. We then study payment rules for the OD mechanism.
+    Under a restricted model with openly and uniformly priced sources and bidders
+    who are indifferent to the source of the gas, the Vickrey--Clarke--Groves (VCG)
+    payment is core-stable; the key structural fact is that in this regime some optimal
+    aggregate flows never use a physical pipe in both directions, so the winner-determination
+    problem reduces to a single-commodity network flow whose value is submodular in
+    the set of active bidders. If source access is allowed to depend on the individual
+    consumer -- a realistic feature, e.g. when gas deals are embedded in bilateral
+    political bargaining -- the reduction fails and VCG payments may lie strictly
+    outside the core. For this general model we propose a dual (nodal) pricing rule
+    derived from the shadow prices of the flow-conservation constraints, and prove
+    it is always core-stable, at the cost of dominant-strategy incentive compatibility.
+    Illustrative examples accompany each result.
+- title: 'A Regulator''s Career Option: Revolving Doors, Regulatory Signals, and Firm
+    Tail Risk'
+  date: 2026-08
+  url: https://arxiv.org/abs/2610.08804v1
+  category: consumer-behavior
+  subcategory: empirical
+  authors:
+  - G. Charles-Cadogan
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'This paper develops a revolving-door model in which a regulator designs
+    policy signals that affect a regulated firm''s capital structure while holding
+    an implicit career option to leave public service for the regulated firm or its
+    advisers. The model has three linked mechanisms. First, regulatory signals alter
+    the firm''s pricing, leverage, and risk choices by changing the tradeoff between
+    consumer surplus and firm profit. Second, because the regulator''s outside payoff
+    is convex in regulated-firm value, the career option rises with firm value, leverage,
+    and signal-induced volatility. Third, when signal-induced volatility raises the
+    option vega of firm equity, the same mechanism can increase tail risk and reduce
+    distance to default. A proof-of-concept calibration illustrates leverage-vega
+    warning regions and shows how a regulator-induced signal can move a firm from
+    a go-leverage region into an early-warning or crash-risk region. The calibration
+    includes maturity comparisons, sensitivity grids over compensation convexity and
+    initial leverage, a bank-like parameter anchor, stochastic signal simulations,
+    and a stopping-horizon diagnostic. Evidence from federal payroll data on post-employment
+    restrictions supports the career-option primitive by showing that limits on revolving-door
+    opportunities affect post-agency pay. The exercises also organize historical regulatory
+    failures: Lehman Brothers as a regulatory-vacuum case, Silicon Valley Bank as
+    a distorted-signal and weak-supervision case, and Signature Bank as a converted-signal
+    case involving post-public-service incentives, lighter oversight, rapid growth,
+    uninsured-deposit exposure, and tail risk. The model does not predict collapse
+    dates; it identifies conditions under which regulatory forbearance, weak debt
+    penalties, and career-option incentives can delay oversight until firms cross
+    a leverage-vega warning threshold.'
+- title: Demand Curvature and Pass-Through in Multiproduct Oligopoly
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.21423v2
+  category: consumer-behavior
+  subcategory: empirical
+  authors:
+  - Paul S. Koh
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Economic interventions change firms' pricing incentives, but their effects
+    depend on how those incentives propagate across products and firms. This paper
+    develops tractable characterizations of that propagation under multiproduct Bertrand
+    competition. A decomposition of the pricing system isolates demand curvature,
+    substitution, and ownership, linking the equilibrium response matrix to commonly
+    used empirical demand models. It yields approximations with explicit error bounds
+    and separates individual adjustment from equilibrium feedback. Small-share limits
+    reveal when interactions disappear and when substitution within nests or selection
+    among heterogeneous consumers preserves them. For nested logit, a closed-form
+    response reduces the limiting product-level system to averages within firm--nest
+    groups, exposing the direction of price spillovers. The same framework organizes
+    local responses to changes in costs, demand, and ownership. The results clarify
+    which features of demand support simple incidence predictions and which interactions
+    those predictions must retain.
+- title: Rethinking Sales Lead Scoring with LLM-based Hierarchical Preference Ranking
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.04387v1
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Chenyu Zhang
+  - Yiwen Liu
+  - Yin Sun
+  - Xinyuan Zhang
+  - Yuji Cao
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Sales lead conversion in high-stakes domains (e.g., automotive, real
+    estate) differs fundamentally from e-commerce recommendation due to prolonged
+    decision cycles and multi-stage funnels. Traditional lead scoring methods rule-based
+    scorecards, machine learning, or pointwise CTR models face severe challenges:
+    sparse supervision, a semantic gap in unstructured CRM logs, and inability to
+    capture relative lead priority. While Large Language Models(LLMs) offer superior
+    semantic understanding of customer interactions, general-purpose LLMs are ill-suited
+    for lead ranking: they generate text rather than comparable scores, and lack alignment
+    with the hierarchical priorities of sales funnels. We introduce an LLM-based discriminative
+    framework for sales lead scoring, which supports joint modeling of structured
+    CRM features and unstructured customer interactions. On top of this framework,
+    we propose HPRO (Hierarchical Preference Ranking Optimization), which augments
+    sales lead scoring with a hierarchical preference ranking objective. HPRO employs
+    a margin-aware Bradley-Terry formulation to transform sparse binary labels into
+    dense, funnel-aware preference pairs, enabling lead scoring to leverage both pointwise
+    and pairwise supervision. Experiments on large-scale data from a leading NEV brand
+    demonstrate state-of-the-art classification (AUC 0.8161) and ranking performance
+    (+39.7% precision among top-ranked leads). A 132-day online A/B test validates
+    9.5% sales volume uplift, confirming real-world commercial impact.'
+- title: 'Coloring the Noise: Adversarial Sobolev Alignment for Faithful Image Super
+    Resolution'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.23264v2
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Hongbo Wang
+  - Huaibo Huang
+  - Pin Wang
+  - Jinhua Hao
+  - Chao Zhou
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Generative priors in Image Super-Resolution (SR) often compromise faithful
+    restoration, we attribute this limitation to a fundamental spectral misalignment
+    between isotropic objectives and the intrinsic natural image manifold. While Direct
+    Preference Optimization offers a path to alignment, its reliance on spectrally
+    flat Gaussian noise fails to distinguish authentic high-frequency details from
+    hallucinations. To bridge this geometric gap, we propose ASASR, a theoretically
+    grounded framework that recasts the generative flow into a Sobolev-induced Riemannian
+    geometry by explicitly coloring the noise transition kernel to mirror natural
+    spectral decay. Driving this geometric alignment, we integrate a parametric adversary
+    grounded in the Riesz Representation Theorem, which synthesizes targeted negative
+    samples equivalent to worst-case Sobolev gradients to direct optimization along
+    the tangent space of plausible structural failures. Extensive evaluations demonstrate
+    that ASASR outperforms leading generative baselines, particularly in preserving
+    spectral consistency and structural fidelity, offering a robust solution that
+    effectively mitigates artifacts.
+- title: 'MedStreamBench: A Time-Aware Benchmark for Streaming and Proactive Medical
+    Video Understanding'
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.01751v1
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Yuan Wang
+  - Shujian Gao
+  - Songtao Jiang
+  - Zhengyu Hu
+  - Zuozhu Liu
+  venue: ''
+  code_url: ''
+  project_url: https://huggingface.co/datasets/Venn2024/MedStreamBench
+  abstract: 'Existing medical video benchmarks primarily evaluate whether a model
+    produces the correct answer, but rarely assess whether it answers at the right
+    time. In real clinical settings, AI systems must decide not only what to predict,
+    but also when to answer, defer judgment, or proactively raise alerts. This creates
+    a critical gap between benchmark evaluation and deployment requirements. We present
+    MedStreamBench, a benchmark for time-aware medical video understanding. MedStreamBench
+    integrates 22 medical datasets and 5,419 QA instances across four temporal settings:
+    retrospective, present, future, and proactive. Unlike conventional benchmarks
+    that assume full-video access, MedStreamBench restricts models to temporally bounded
+    evidence windows and supports both single-turn and streaming evaluation. We further
+    introduce a proactive monitoring setting that requires models to determine whether
+    and when clinically relevant alerts should be triggered. Beyond answer correctness,
+    MedStreamBench evaluates temporal behavior through responsiveness and post-evidence
+    stability. Experiments on leading general-purpose and medical vision-language
+    models reveal a substantial gap between offline recognition and temporally grounded
+    decision-making, with performance dropping markedly in streaming and proactive
+    settings. Our benchmark is available at https://huggingface.co/datasets/Venn2024/MedStreamBench.'
+- title: 'AI and Authenticity in Islamic Research: A Critical Evaluation of Generative
+    AI Reliability, Hallucination, and Source Fidelity in Quranic, Hadith, and Fiqh
+    Knowledge'
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.28237v1
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Muhammad Sajjad Akbar
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Generative Artificial Intelligence (AI) is increasingly used by Muslims
+    for religious guidance, Qur''anic interpretation, Hadith explanation, jurisprudential
+    rulings, and Islamic education. Despite its growing adoption, there is limited
+    empirical evidence on whether current AI systems provide authentic, verifiable,
+    and trustworthy Islamic knowledge suitable for high-trust religious contexts.
+    This study evaluates six leading generative AI systems using fifty realistic open-ended
+    Islamic questions covering Qur''anic interpretation, Hadith, Fiqh, ethics, pastoral
+    advice, and Madhhab-sensitive topics. Responses were collected under real-world
+    conditions from participants in Australia and the United Kingdom and analysed
+    using a mixed-method framework examining domain accuracy, citation verification,
+    hallucinations, jurisprudential consistency, uncertainty handling, source provenance,
+    and geographical variation. The study addresses four research questions: (1) How
+    accurate and authentic are AI-generated responses across major Islamic knowledge
+    domains? (2) To what extent do AI systems produce hallucinations, incomplete citations,
+    or unverifiable religious references? (3) How consistently do models handle jurisprudential
+    disagreement, Madhhab diversity, and uncertainty? (4) Are current AI systems sufficiently
+    reliable for religious guidance, Islamic education, and scholarly research? Overall,
+    current generative AI systems are valuable as assistive tools for introductory
+    Islamic learning but should not be treated as authoritative sources for religious
+    rulings or Islamic research without verification against authenticated primary
+    sources and qualified scholarly expertise. This study provides one of the first
+    comprehensive empirical evaluations of AI reliability within Islamic knowledge,
+    offering practical guidance for researchers, educators, AI developers, and the
+    wider Muslim community.'
+- title: 'Exploiting Verification-Generation Gap: Test-Time Reinforcement Learning
+    with Confidence-Conditioned Verification'
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.03608v1
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Jiahui Li
+  - Jianfeng Shan
+  - Wenpei Chen
+  - Shunyu Wu
+  - Jian Lou
+  venue: ''
+  code_url: https://github.com/shanjf666/CoCoV
+  project_url: ''
+  abstract: 'Test-time reinforcement learning has emerged as a promising paradigm
+    for enhancing the complex reasoning abilities of large language models in a completely
+    label-free manner. Despite existing studies focusing on Pass@1 performance, optimizing
+    Pass@k remains under-explored yet critical in label-free settings, which measures
+    generation coverage for sustained exploration. Optimizing Pass@k in label-free
+    setting is highly non-trivial, as directly applying the Pass@k advantage designs
+    effective for RLVR yields unsatisfactory performance. Through in-depth empirical
+    analysis, we discover the root causes hindering performance: pseudo-label estimations
+    for low-confidence samples have a high probability of being incorrect, while candidate
+    answers for high-confidence samples suffer from severe diversity collapse. To
+    overcome these hurdles, we propose TTRL-CoCoV (Test-Time Reinforcement Learning
+    with Confidence-Conditioned Verification), a novel confidence-adaptive framework
+    that expands Pass@k coverage and improves Pass@1 performance. Based on our key
+    insight that verification capability generally leads generation capability, TTRL-CoCoV
+    employs a confidence-conditioned mechanism: for high-confidence samples, it bootstraps
+    verifier and applies an exploration-enhancing reward to prevent diversity collapse;
+    for low-confidence samples, it delegates pseudo-label selection to the verifier
+    to filter incorrect pseudo-labels; and for medium-confidence samples, it bypasses
+    verification entirely. Extensive experiments demonstrate that TTRL-CoCoV outperforms
+    the best competing methods across 6 widely-recognized benchmarks, achieves average
+    absolute gains of +9.8% in Pass@1 and +18.7% in Pass@16 over TTRL, and even achieves
+    absolute Pass@1 improvements of up to +5.0% across multiple reasoning benchmarks
+    when compared against fully supervised RL methods. Our code repository: https://github.com/shanjf666/CoCoV.'
+- title: Fraud Detection in Cryptocurrency Markets with Spatio-Temporal Graph Neural
+    Networks
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.24590v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Lidia Losavio
+  - Luca Persia
+  - Madan Sathe
+  - Dimosthenis Pasadakis
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Technological advancements in cryptocurrency markets have increased accessibility
+    for investors, but concurrently exposed them to the risks of market manipulations.
+    Existing fraud detection mechanisms typically rely on machine learning methods
+    that treat each financial asset (i.e., token) and its related transactions independently.
+    However, market manipulation strategies are rarely isolated events, but are rather
+    characterized by coordination, repetition, and frequent transfers among related
+    assets. This suggests that relational structure constitutes an integral component
+    of the signal and can be effectively represented through graphical means. In this
+    paper, we propose three graph construction methods that rely on aggregated hourly
+    market data. The proposed graphs are processed by a unified spatio-temporal Graph
+    Neural Network (GNN) architecture that combines attention-based spatial aggregation
+    with temporal Transformer encoding. We evaluate our methodology on a real-world
+    dataset comprised of pump-and-dump schemes in cryptocurrency markets, spanning
+    a period of over three years. Our comparative results showcase that our graph-based
+    models achieve significant improvements over standard machine learning baselines
+    in detecting anomalous events. Our work highlights that learned market connectivity
+    provides substantial gains for detecting coordinated market manipulation schemes.
+- title: 'Data-Driven Telecom Marketing Optimization: A Machine Learning-Based Churn
+    Prediction and Customer Segmentation Framework'
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.10260v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Nada Ali
+  - Lina Ahmed
+  - Tahani Abdalla Attia Gasmalla
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Customer churn is a major challenge for telecommunication companies, directly
+    eroding revenue and long term customer relationships. Traditional retention programs
+    rely on generic, not personalized incentives and lack the precision to identify
+    high risk customers before they leave. This paper presents a data driven marketing
+    optimization framework integrating machine learning based churn prediction, customer
+    segmentation combining churn risk with customer value, and tailored, segment specific
+    marketing and Return on Investment ROI strategies. Using the IBM Telco Customer
+    Churn dataset with 7043 customers and 21 features, three gradient boosting ensembles,
+    XGBoost, LightGBM, and CatBoost, were trained and tuned via randomized search
+    with stratified 5 fold cross validation, class weighting, and F1 score driven
+    decision threshold optimization to counter a class imbalance of 73.4% versus 26.6%.
+    CatBoost was selected as the deployment model, achieving 77.68% accuracy, an F1
+    score of 0.6366, a PR AUC of 0.6553, and a ROC AUC of 0.8403 on the held out test
+    set. Customers were partitioned with K Means clustering, validated via the Elbow
+    method and visualized with Principal Component Analysis, into High, Medium, and
+    Low Value segments, cross tabulated against churn risk labels to define four actionable
+    clusters. Segment specific retention, upsell, and engagement strategies were designed
+    for each cluster, and a theoretical ROI and CLV framework quantifies the financial
+    impact of the proposed interventions. The pipeline was operationalized in an interactive
+    Streamlit web application allowing marketing teams to upload data, filter by segment,
+    visualize churn drivers via SHAP, and download automated segment reports. Results
+    confirm that combining predictive churn modeling with value aware segmentation
+    yields more actionable and profitable marketing decisions than churn prediction
+    alone.
+- title: Empirical evaluation of Time Series Foundation Models for Day-ahead and Imbalance
+    Electricity Price Forecasting in Belgium
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.17045v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Chi Bui
+  - Maria Margarida Mascarenhas
+  - Arnaud Verstraeten
+  - Hussain Kazmi
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Recent advances in Time Series Foundation Models (TSFMs) promise zero-shot
+    forecasting capabilities with minimal task-specific training. While these models
+    have shown strong performance across generic benchmarks, their applicability in
+    volatile, complex electricity markets remains underexplored. Addressing this gap,
+    this study provides a systematic empirical evaluation of several TSFMs, specifically
+    Chronos-2 and Chronos-Bolt (developed by Amazon), and TimesFM 2.5 (provided by
+    Google), for forecasting Belgian day-ahead and imbalance electricity prices. For
+    both considered markets, Chronos-2 in ARX mode produces the most accurate forecasts.
+    Compared with the best ensemble prediction from other machine learning methods,
+    Chronos-2's Mean Absolute Error (MAE) is 5% lower for the day-ahead market. In
+    contrast, the model yields 10% higher MAE predicting imbalance prices across all
+    forecast horizons, except for the two-hour-ahead horizon. Moreover, we find that
+    TSFMs exhibit genuine zero-shot forecasting skills but still struggle under extreme
+    market conditions.
+- title: 'Decoding Market Emotion from Blockchain Activity: A Data-Driven Sentiment
+    Classifier'
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.15258v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Arthur G. Bubolz
+  - Abreu Quevedo
+  - Giancarlo Lucca
+  - Rafael A. Berri
+  - Eduardo Borges
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: The growing use of Bitcoin as a decentralized digital asset and investment
+    tool has sparked strong interest in understanding its market behavior. This study
+    presents a new approach to analyze Bitcoin market sentiment by combining on-chain
+    and financial data with social media posts. Unlike models that aim to predict
+    prices, this work focuses on explaining market sentiment using blockchain transactions,
+    historical price data of Bitcoin, and daily Twitter sentiment classifications.
+    The method merges sentiment trends with on-chain and financial metrics, normalized
+    into a dataset for detailed market analysis. Multiple machine learning models
+    were tested using cross-validation, with Gradient Boosting (XGBoost) emerging
+    as the most reliable model for classifying sentiment, achieving an average F1-score
+    of about 0.84. SHAP (SHapley Additive exPlanations), a game theory-based method
+    for model interpretability, was used to quantify the contribution of on-chain
+    features to the model's predictions, improving transparency. The results indicate
+    that this data combination yields meaningful predictive signals and insights,
+    supporting data-driven cryptocurrency analysis and future improvements with deep
+    learning.
+- title: 'Quantum Spectral Model: Data Reuploading with Input-Conditioned Frequency
+    Support'
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.22516v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Peiyong Wang
+  - Udaya Parampalli
+  - Casey R. Myers
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'A central design principle in modern machine learning and artificial
+    intelligence is to align a model''s inductive bias with the structure of its input
+    data. For matrix-valued inputs, relevant matrix-level relationships can be characterised
+    through spectral values and spectral subspaces; however, common coordinate-wise
+    rotation-gate data-encoding unitaries used in most quantum machine learning models
+    do not explicitly construct such a matrix-level representation. We introduce Quantum
+    Spectral Models (QSMs), in which we construct the generator of the data-encoding
+    unitary directly from each input matrix. We study three QSM variants based on
+    symmetric, global block, and non-overlapping patch-local block Hamiltonians. Their
+    outputs admit truncated Fourier representations in which input-dependent spectral
+    gaps supply candidate phase carriers, while spectral subspaces help determine
+    their coefficients. We evaluate the QSMs and comparison quantum models on two
+    matrix representations of Pendigits and two controlled synthetic tasks defined
+    by spectral statistics. At the largest evaluated circuit depth, QSM variants lead
+    the tested quantum models in mean test accuracy across all four benchmarks. The
+    patch-local QSM leads on Pendigits, whereas the global block-Hamiltonian QSM leads
+    on the controlled spectral tasks. Ablations show a task-dependent reversal: subspace-preserving
+    controls perform better on Pendigits, whereas spectral-value-only controls lead
+    among the tested ablations on the synthetic tasks. Together, these results shed
+    new light on quantum machine-learning model design by showing how input-conditioned
+    spectral representations can provide an analysable inductive bias, while offering
+    a broader perspective on structure-aware model design in machine learning and
+    artificial intelligence.'
+- title: Focused PU learning from imbalanced data
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.14467v2
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Elias Zavitsanos
+  - Georgios Paliouras
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: We propose a new method of learning from positive and unlabeled (PU) examples
+    in highly imbalanced datasets. Many real-world problems, such as disease gene
+    identification, targeted marketing, fraud detection, and recommender systems,
+    are hard to address with machine learning methods, due to limited labeled data.
+    Often, training data comprises positive and unlabeled instances, the latter typically
+    being dominated by negative, but including also several positive instances. While
+    PU learning is well-studied, few methods address imbalanced settings or hard-to-detect
+    positive examples that resemble negative ones. Our approach uses a focused empirical
+    risk estimator, incorporating both positive and unlabeled examples to train binary
+    classifiers. Empirical evaluations demonstrate state-of-the-art performance on
+    imbalanced datasets under two labeling mechanisms - selecting positives completely
+    at random (SCAR) and selecting at random (SAR). Beyond these controlled experiments,
+    we demonstrate the value of the proposed method in the real-world application
+    of financial misstatement detection.
+- title: Population-Level Generative Modeling for Ranking Data
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.08422v2
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Zhaoyang Shi
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Ranking data arise in scientific and machine learning applications, including
+    recommendation systems, information retrieval, voting, marketing, and AI preference
+    ranking from human feedback. Existing statistical work has primarily focused on
+    inference tasks such as preference estimation, rank aggregation, and ranking prediction.
+    However, generating realistic synthetic rankings from an observed population is
+    important for privacy-preserving data sharing, benchmark construction, simulation,
+    and uncertainty quantification. This task is challenging because rankings are
+    high-dimensional combinatorial objects with non-Euclidean dependence structures,
+    while ranking populations often exhibit substantial preference heterogeneity.
+    We propose a framework for population-level generative modeling through a latent
+    preference simplex embedding. It estimates a low-dimensional latent preference
+    simplex through a likelihood-based ranking model, leverages flow matching to learn
+    the population distribution of latent preferences, and generates new rankings
+    through the fitted probabilistic ranking model. We show that ranking generation
+    admits an oracle reduction to latent distribution learning and derive finite-sample
+    generative guarantees that clarify how the number of items, ranking length, and
+    latent dimension affect accuracy. Experiments on synthetic and real datasets demonstrate
+    improved population-level fidelity and provide a statistically interpretable representation
+    of preference heterogeneity.
+- title: Volatility-Aware Extreme Event Detection in High-Frequency Financial Markets
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.17555v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Maorufa Zaman
+  - Haris Md Sahed
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Predicting extreme price movements in high-frequency financial markets
+    is a challenging task due to non-stationarity, heavy-tailed return distributions,
+    and severe class imbalance. In particular, rare but impactful events are often
+    difficult to detect using conventional modeling approaches, which typically treat
+    extreme movements as isolated observations. This study proposes a volatility-aware
+    approach for extreme event detection using high-frequency Bitcoin limit order
+    book (LOB) data. Motivated by empirical evidence of volatility clustering, the
+    target formulation is extended to incorporate both large future returns and high-volatility
+    regimes. This redefinition increases the proportion of informative samples and
+    aligns the learning objective with the underlying market dynamics. Using a tree-based
+    model (XGBoost) with time-series cross-validation and imbalance-aware evaluation,
+    the proposed method achieves a Precision-Recall AUC of approximately 0.40, significantly
+    outperforming the baseline formulation with a PR-AUC of around 0.06. This represents
+    more than a sixfold improvement in detecting rare events. The results highlight
+    that target design plays a critical role in financial machine learning, often
+    exceeding the impact of model complexity. By incorporating volatility structure
+    into the labeling process, the proposed approach provides a more effective and
+    realistic framework for extreme event detection in high-frequency cryptocurrency
+    markets.
+- title: Early Yield Prediction for Sugar Beet Fields using Satellite Data -- Learnings
+    from Specialized Vision Transformers
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.17661v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Philipp Vaeth
+  - Bhumika Laxman Sadbhave
+  - Denise Dejon
+  - Gunther Schorcht
+  - Magda Gregorova
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Remote sensing has become an increasingly valuable tool for agricultural
+    monitoring, particularly through the use of publicly available satellite imagery.
+    However, effectively integrating domain knowledge into machine learning methods
+    remains challenging. This study presents a real-world example of early sugar beet
+    harvest yield forecasting from purely optical Sentinel-2 imagery, demonstrating
+    how a tight integration of domain knowledge and machine learning can lead to synergistic
+    gains. We empirically find that using very small vision transformer patch sizes
+    and all available Sentinel-2 spectral bands improves our model despite being uncommon
+    design choices in the domain. As a practical contribution, we were able to identify
+    a large fraction of low-yield fields in a different year early on in the growth
+    cycle through a modified training setup and a ranking-based detection of underperforming
+    fields.
+- title: When Does Small Data Work? Accuracy and Efficiency Trade-offs Between Tabular
+    Foundation Models and Conventional Methods for Crowd-State Classification at Hajj
+    and Umrah
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.04013v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - AlJawharh S. AlOtaibi
+  - Mohamed Eltahir
+  - Jude AlSubaie
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Learning from few labeled examples is a central challenge in tabular machine
+    learning, and it becomes the binding constraint in domains where labeling is costly,
+    such as crowd monitoring during Hajj and Umrah. Tabular foundation models, which
+    predict from only a handful of examples without task-specific training, were recently
+    introduced to address this very-few-label regime. In this study we test them on
+    crowd-state classification to assess how much they help when labels are scarce,
+    and we compare them against standard machine learning methods to characterize
+    the accuracy and efficiency trade-offs between the two approaches. Using three
+    real datasets we evaluate different machine learning models, in untuned and tuned
+    forms, against three foundation models. Results show that no single family is
+    best everywhere. The right choice depends on the label budget. When labels are
+    very few, foundation models lead. As labels grow, tuned conventional models catch
+    up and significantly surpass the foundation models on the more structural geometry
+    target. Efficiency separates them further where tuned machine learning models
+    incur a large tuning cost that foundation models avoid, although foundation models
+    reprocess their context at every prediction. We summarize these results as a practical
+    map of which approach to prefer under a given label budget and computational budget.
+- title: 'When Prices Double in a Week: Forecasting of Agricultural Volatility in
+    Import-Isolated Markets'
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.29248v3
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Ranuga Weerasekara
+  - Heshan Nethmina
+  - Manuja Ranathunga
+  - Vinma Wettasinghe
+  - Dinithi Navodya
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Vegetable prices in Sri Lanka are highly volatile because the market is
+    largely import-isolated, so supply disruptions quickly drive prices up. This study
+    develops a machine learning framework to forecast such volatility by incorporating
+    supply-chain-aware features and explicitly modelling the country's two cultivation
+    seasons, Maha (October-April) and Yala (May-September). An integrated dataset
+    was constructed by combining retail and farmer-gate prices with origin-aligned
+    weather variables, diesel costs, and exchange rates across 12 vegetable varieties
+    and 14 market centres from 2013 to 2019. A gradient-boosted ensemble model (XGBoost
+    and LightGBM) was trained and optimised using Optuna, and unified and season-specific
+    configurations were compared. Results show that season-specific models improve
+    within-season fit, with the Yala-specific model achieving the highest R2 of 0.9420
+    (95% CI [0.690, 1.000]), while the unified model delivers the best overall predictive
+    accuracy of 90.84% (95% CI [88.34%, 91.52%]) and an R2 of 0.9281 (95% CI [0.760,
+    1.000]). Notably, the unified model maintains 85.96% accuracy on a completely
+    unseen 2024 hyperinflationary period without retraining, successfully tracking
+    major price surges. These findings suggest that agricultural price movements in
+    import-constrained markets are meaningfully predictable when models capture supply-chain
+    dynamics, offering practical value for early warning and decision making by farmers,
+    traders, and policymakers. Existing studies on Sri Lankan vegetable prices are
+    confined to Autoregressive Integrated Moving Average (ARIMA) and Generalized Autoregressive
+    Conditional Heteroskedasticity (GARCH) applied to single markets, with no supply-chain
+    features, seasonal segmentation, or cross-regime validation.
+- title: 'REFLEX: Reflexive Equilibrium Fixed-point Learning for Endogenous eXchanges'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.16155v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Vignesh Nagarajan
+  - Shriraghav Ashok
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'In over-the-counter corporate bond markets, dealers compete for client
+    trades by quoting bid and ask prices. Tighter quotes attract more business, but
+    also informed customers more likely to trade ahead of adverse price moves, leaving
+    the dealer holding the risk. As dealers increasingly use machine learning to set
+    quotes, they retrain these models on the trades their own quotes attract, creating
+    a feedback loop in which each model reshapes the market that generates its next
+    training data. The question is therefore not only whether a quoting model performs
+    well, but whether the market it creates stays stable as the model learns from
+    it. Existing performative prediction theory gives a sharp stability condition,
+    yet expresses it through abstract properties of the learning objective a trading
+    desk cannot measure before deployment. We introduce REFLEX, a framework that replaces
+    those unobservable quantities with three measurable features of dealer behavior:
+    how strongly trading volume responds to tighter quotes, how sharply the dealer''s
+    objective bends around its optimum, and how quickly informed flow increases as
+    spreads narrow. REFLEX combines these into a single retraining modulus, a pre-deployment
+    stability margin estimated from a desk''s own quote and execution history that
+    predicts whether repeated retraining will converge or amplify itself. In simulation,
+    predicted and measured stability agree within 8%, and competing dealers increase
+    instability by 1.74x with two and 3.16x with three, as predicted. Where ordinary
+    retraining becomes unstable at modulus 1.21, a structurally anchored correction
+    converges as blind retraining collapses. Calibrated over 36 years of public market
+    data, stability headroom falls roughly 4.4x for investment grade and 4.3x for
+    high yield from calm to crisis regimes. Ultimately, REFLEX turns an abstract convergence
+    theorem into a market-level safety margin.'
+- title: 'CLVAE: A Variational Autoencoder for Long-Term Customer Revenue Forecasting'
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.22636v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Jeffrey Näf
+  - Riana Valera Mbelson
+  - Markus Meierer
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Predicting customers' long-term revenue from sparse and irregular transaction
+    data is central to marketing resource allocation in non-contractual settings,
+    yet existing approaches face a trade-off. Traditional probabilistic customer base
+    models deliver robust long-horizon forecasts by imposing strong structural assumptions,
+    while flexible machine-learning models often require substantial training data
+    and careful tuning. We propose a variational-autoencoder-based model that preserves
+    the process-based likelihood of established attrition-transaction-spend models
+    conditional on customer heterogeneity, but replaces the restrictive parametric
+    mixing distribution with a flexible latent representation learned by encoder-decoder
+    networks. The resulting approach (i) provides a single model for customer attrition,
+    transactions and spending, (ii) remains reliable when contextual covariates are
+    unavailable, and (iii) flexibly incorporates rich covariates and nonlinear effects
+    when they are available. This design balances structural stability with the flexibility
+    needed to capture complex purchase dynamics. Across multiple real-world datasets
+    and prediction horizons, the proposed model improves upon the latest benchmarks.
+    Businesses benefit directly, as a better assessment of customers' future revenues
+    improves the efficiency of campaign targeting. For research, this work provides
+    guidance on how to embed domain-specific models into the variational autoencoder
+    framework, enabling flexible representation learning while retaining an econometrically
+    meaningful process structure.
+- title: 'Learning to Detect Symbolic Failure: Machine Learning and the Limits of
+    Black-Scholes'
+  date: 2026-08
+  url: https://arxiv.org/abs/2609.27764v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Juli Huang
+  - Jake Cheng
+  - Rupert Lu
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'We treat options pricing as a representation problem: can machine learning
+    detect systematic deviations from Black-Scholes using 2.6M real option contracts?
+    We compare three regimes: learned abstract embeddings (Kernel PCA), preserved
+    domain structure (tree-based ensembles), and neural network validation. Tree-based
+    methods outperform kernel dimensionality reduction by 21.5 percentage points (93.8%
+    vs 72.3%), and domain-expert features (Greeks, moneyness) outperform engineered
+    features. NN-based and BS-based deviation labels agree 99.9974% of the time, suggesting
+    deviations reflect market structure rather than model artifact. We conclude that
+    in domains with expert-designed symbolic features, preserving structure beats
+    learning abstractions. We make no claim of exploitable mispricings.'
+- title: Learning under Opponent Unawareness in Linear-Quadratic Stochastic Games
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.08268v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Dantong Chu
+  - Xuefeng Gao
+  - Yufei Zhang
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: As firms increasingly deploy machine learning for strategic decision-making,
+    understanding algorithmic interactions has become central to operations research
+    and economics. This paper studies learning in infinite-horizon, nonzero-sum linear-quadratic
+    stochastic games under a radically uncoupled information structure, where players
+    are either unaware of opponents or strategically oblivious, observing only a common
+    state and their own action history. Under this minimal information, we analyze
+    an asynchronous decentralized learning process in which each player independently
+    runs a single-agent $ε$-greedy iterated least-squares algorithm. We prove that,
+    despite being unable to identify the system parameters, players' learning dynamics
+    converge almost surely to the complete-information Nash equilibrium and characterize
+    the convergence rate. We then apply the framework to a dynamic Cournot competition
+    with sticky prices. Numerical experiments validate the theoretical results and
+    show that learning under limited information reduces firm profits under both low
+    and high price stickiness, while total surplus declines and market concentration
+    increases when price stickiness is high. Publicly revealing aggregate market output
+    substantially accelerates convergence and mitigates these welfare losses.
+- title: Investigating Inductive Biases for Machine Learning Emulation of Sudden Stratospheric
+    Warmings in Idealised Isca Simulations
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.18857v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Oskar Bohn Lassen
+  - Simon Driscoll
+  - Stephen I. Thomson
+  - Sebastian Schemm
+  - Francisco C. Pereira
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Machine-learning emulators are increasingly used for weather prediction
+    and have the potential to extend skill on subseasonal-to-seasonal timescales by
+    learning dynamically important sources of predictability. A key challenge is whether
+    the models can exploit predictability anchors, such as stratospheric variability,
+    that influence tropospheric circulation beyond short lead times. We test how architectural
+    inductive bias affects emulation of sudden stratospheric warming (SSW) dynamics
+    using paired idealised Isca simulations that differ only in an imposed wave-2
+    heating perturbation. Across convolutional, transformer, and graph-based architectures
+    trained for one-step prediction, model differences are modest when the stratosphere
+    is dynamically quiet but widen substantially when SSW-like variability is active.
+    Our results identify explicit three-dimensional vertical coupling as a key inductive
+    bias for machine-learning emulation of stratospheric dynamics. However, Eliassen-Palm
+    flux diagnostics show that low forecast error does not guarantee physically faithful
+    wave-mean-flow interaction, with coherent errors remaining in stratospheric wave-driving
+    structure.
+- title: District-Level Food Environment Indicators and Social Vulnerability in São
+    Paulo
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.26299v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Pedro Lemes Sixel Lobo
+  - Eric Tokuda
+  - Kuruvilla Joseph Abraham
+  - Roberto Fray
+  - Dirce Maria Marchioni
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Urban food environments may reflect broader socioeconomic inequalities,
+    but district-level evidence remains limited in Brazilian cities. This study examined
+    whether indicators of food retail and street-market availability discriminate
+    between levels of social vulnerability across the 96 districts of São Paulo. We
+    conducted an exploratory cross-sectional ecological analysis integrating the São
+    Paulo Social Vulnerability Index (IPVS), establishment records from the Relação
+    Anual de Informações Sociais (RAIS), and street-market data from CAISAN. Census-sector
+    information was aggregated at the district level. Twenty districts without an
+    IPVS classification were excluded, resulting in 76 observations. The outcome distinguished
+    districts classified as IPVS level 1 from those classified as levels 2--7. Predictors
+    described the densities of healthy and unhealthy food establishments, the number
+    of street markets, and the availability of establishments selling fresh or in
+    natura food. Eight conventional machine-learning classifiers were evaluated using
+    leave-one-out cross-validation. Reported mean F-scores ranged from 0.62 to 0.75,
+    with XGBoost obtaining the highest value. In the Random Forest model, the densities
+    of healthy and unhealthy food establishments jointly accounted for approximately
+    60% of the total impurity-based feature importance. These findings indicate that
+    publicly available food-environment indicators contain information associated
+    with the district-level distribution of social vulnerability. However, the small
+    ecological sample, class imbalance, outcome binarization, and cross-sectional
+    design limit predictive generalization and preclude causal or household-level
+    interpretations.
+- title: 'Quota Marketplace: Dynamic Pricing for Efficient Allocation of ML Training
+    Resources'
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.09802v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Balasubramanian Sivan
+  - Renato Paes Leme
+  - Mihai Tiuca
+  - Ian McFarlane
+  - Vasilis Gkatzelis
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: The escalating demand for Machine Learning (ML) training resources in
+    recent years has resulted in a substantial gap between the high demand and the
+    available supply. Efficient allocation of these scarce and expensive resources
+    is crucial for organizations to maximize their return on investment. Existing
+    resource allocation mechanisms, like Karma [OSDI'23], are designed to guarantee
+    Pareto efficiency and max-min fairness in settings with dynamic (time-varying)
+    user demands, but fail to preserve these key properties in the presence of demands
+    with heterogeneous values. Given the ubiquity and inevitability of heterogeneity
+    in organizational values of different workloads, effective resource allocation
+    policies must accommodate these variations. In this paper, we describe the design,
+    implementation, deployment, and theoretical analysis of Quota Marketplace, a market-based
+    mechanism to efficiently allocate ML training chips (like GPUs), explicitly addressing
+    scenarios with demands of heterogeneous value. We detail the implementation of
+    this mechanism within Google and present metrics that demonstrate its impact.
+    We also discuss many business-critical requirements that the Quota Marketplace
+    handles quite effectively, and document the gains and opportunities it has unlocked.
+    We establish theoretically how this market-based approach achieves the essential
+    properties of Pareto efficiency and max-min fairness by allowing the users to
+    express the value of their workloads and enabling dynamic resource pricing based
+    on supply and demand fluctuations. Ultimately, the market facilitates resource
+    allocation that aligns with organizational priorities.
+- title: A Machine Learning Framework for Weighted Least Squares GNSS Positioning
+    based on Activation Functions
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.21461v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Pin-Hsun Lee
+  - Harry Leib
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Global Navigation Satellite Systems (GNSS) are widely used to provide
+    position, velocity, and timing (PVT) information for various applications, including
+    transportation, location-based communication services, and intelligent agriculture.
+    In urban canyons, high-rise buildings and narrow streets can cause signal obstruction,
+    non-line-of-sight (NLOS) reception, and multipath effects that introduce errors
+    in GNSS pseudorange measurements. Although multi-constellations GNSS effectively
+    increase the number of available satellites, the inclusion of degraded signals
+    can lead to severe positioning errors. This study proposes a machine learning
+    framework for the weighted least squares (WLS) algorithm incorporating activation
+    functions to enhance positioning accuracy. Several signal quality indicators are
+    employed as training features for ensemble learning algorithms to identify poor
+    quality signals by providing quality scores. Then, activation functions are employed
+    to transform the machine learning predicted scores to appropriate weights for
+    WLS positioning. To evaluate the performance of our approach, experiments are
+    conducted using real-world datasets from Hong Kong and Tokyo urban areas. Comparative
+    analysis of activation functions reveals that sigmoid functions consistently yield
+    the greatest improvements with different machine learning algorithms and GNSS
+    constellation configurations. The proposed algorithm demonstrates substantial
+    reductions in positioning errors for both single- and multiconstellation scenarios.
+    Furthermore, our results indicate that the proposed algorithm exhibits strong
+    geographical transferability. The proposed algorithm maintains comparable level
+    of performance when trained on data from other regions with similar levels of
+    urbanization.
+- title: Hierarchical Graph Learning for Calendar Spread Strategies in Commodity Futures
+    Markets
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.25811v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Yoonsik Hong
+  - Diego Klabjan
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Commodity futures can be represented hierarchically, with underlying
+    assets at the upper level and individual futures contracts at the lower level.
+    Entities at each level can be connected by edges reflecting inherent correlations,
+    with cross-level edges capturing contract-to-underlying asset connections. Building
+    on our observations of these structures, we propose a hierarchical graph learning
+    approach for calendar spread (CS) strategies in commodity futures markets, addressing
+    two significant gaps in the machine-learning literature: (i) the absence of learning-based
+    methods for CS strategies in futures markets, and (ii) the lack of consideration
+    of maturity-dependent interrelationships across commodity futures. We first establish
+    the efficacy of CS strategies by analytically showing that CS strategies can possess
+    higher risk-adjusted returns, measured by the information ratio, and lower risk,
+    measured by variance and delta, than long-only strategies. We then introduce a
+    method to convert learning-based predictions into CS positions. Next, we develop
+    a hierarchical graph learning method that predicts futures price movements by
+    utilizing the maturity-dependent interrelationships, thereby yielding a CS trading
+    algorithm. Empirical results on commodity futures markets traded on the Chicago
+    Mercantile Exchange Group demonstrate that our method outperforms benchmark models
+    in both prediction and trading performance. We find that maturity-dependent interrelationships
+    across commodity futures are instrumental in prediction and that CS trading based
+    on hierarchical graph learning is effective for statistical arbitrage.'
+- title: 'Matching Markets meet Cumulative Prospect Theory: Towards Optimal and Adversarially
+    Robust Learning'
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.19883v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Ananya Kunisetty
+  - Avishek Ghosh
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: We study a multi-agent multi-armed bandit problem in the competitive setup
+    with two-sided matching markets under a human centric decision making model. To
+    capture human preferences, we use cumulative prospect theory (CPT) that weighs
+    the actions of the agent in a nonlinear fashion using a ($α$-Hölder continuous)
+    weight function. CPT has been widely used in behavioral economics and risk sensitive
+    machine learning to emulate human preferences. We analyze the state-of-the-art
+    learning algorithm with CPT weight distorted rewards and obtain a player optimal
+    regret of $\mathcal{O}(K\log T \left(\frac{1}Δ\right)^{2/α})$, where $K$ denotes
+    the number of arms, $T$ is the learning horizon, and $Δ$ represents (suitably
+    defined) players' minimum preference gap. Noticing the dependence on $Δ$ to be
+    sub-optimal, we further improve this regret by judiciously selecting the active
+    set of arms during exploration, which removes the dependence on $K$ in the dominant
+    term and achieves an improved (optimal) regret guarantees in the setting where
+    the number of arms $K$ is significantly larger than the number of players $N$.
+    In addition, we consider adversarial markets where the observed rewards of the
+    agents may be corrupted. We propose and analyze algorithms for robust markets
+    with CPT as risk sensitive measure in both settings where the total corruption
+    budget is known and where it is unknown, and establish logarithmic player-optimal
+    regret guarantees in both cases.
+- title: Cautious optimism for deep parameterized quantum circuits
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.21409v2
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Marie Kempkes
+  - Elies Gil-Fuster
+  - Carlos Bravo-Prieto
+  - Aroosa Ijaz
+  - Alissa Wilms
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: A central challenge in quantum machine learning is understanding the scaling
+    behavior of parameterized quantum circuits (PQCs). In particular, it remains unclear
+    how their performance on unseen data changes as the number of trainable parameters
+    increases. Prior works have derived formal generalization guarantees for quantum
+    models, but it is well-known that many such results do not fully characterize
+    generalization behavior in practice. In this work, we show that gradient-based
+    PQCs can exhibit improved performance on unseen data as model size increases,
+    displaying the phenomenon of double descent. This contrasts with the traditional
+    view that larger models lead to degraded generalization. We provide analytical
+    results rigorously underpinning this behavior by leveraging add-one-in perturbation
+    techniques and spectral properties of random matrices. We support these results
+    with numerical experiments on re-uploading PQCs across several data sets and training
+    set sizes, consistently observing the predicted double descent behavior. While
+    other obstacles on the path toward practical quantum machine learning remain,
+    our finding that deeper parameterized quantum circuits do not necessarily exhibit
+    degraded performance provides reasons for cautious optimism.
+- title: 'Implementation of Big Data Analytics for Diabetes Management: Needs Assessment
+    in the Rwanda Healthcare System'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.26786v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Silas Majyambere
+  - Tony Lindgren
+  - Workneh Y. Ayele
+  - Celestin Twizere
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Diabetes is a chronic metabolic disease that can lead to serious health
+    problems if not diagnosed and managed early. Big Data Analytics (BDA) and machine
+    learning offer practical tools for analyzing large health datasets and supporting
+    early detection and better treatment decisions. However, their use in routine
+    clinical practice is still limited. This study examines the readiness of Rwanda's
+    healthcare system to adopt big data analytics for diabetes management. As the
+    country continues to expand its use of electronic medical records and health information
+    systems, new opportunities arise for improving prediction, monitoring, and clinical
+    decision-making. A five-day workshop involving 25 key stakeholders, including
+    clinicians, data managers, policymakers, medical researchers, nutritionists, and
+    technology providers, was conducted to assess preparedness and identify existing
+    gaps. The findings highlight both the potential and the main challenges of BDA
+    implementation. Based on these results, the paper proposes a practical BDA framework
+    to support diabetes management strategies using explainable machine learning models.
+- title: Learning Fair Demand Models
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.06830v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Adam N. Elmachtoub
+  - Hyemi Kim
+  - Jonathan Y. Tan
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Data-driven pricing is increasingly prevalent in sectors such as airlines,
+    lending, insurance, and retail. By learning demand models from customer features
+    and setting prices accordingly, these systems may generate discriminatory outcomes
+    that raise fairness concerns. This leads to fundamental questions - how and where
+    should systems incorporate fairness considerations in the pricing pipeline, and
+    how does it ultimately affect societal outcomes? To answer these, we study a stylized
+    model where a seller has a two-stage decision pipeline comprising linear demand
+    model estimation followed by price optimization. The seller considers fairness
+    notions in training loss, price, and demand, under both parity-wise and Rawlsian
+    perspectives. We show that equalizing training loss across consumer groups leads
+    to multiple solutions, which in turn can result in undesirable outcomes despite
+    being a standard approach in fair machine learning. Focusing instead on fairness
+    applied directly to prices or demand, we compare two strategies that enforce fairness
+    in either the demand estimation stage or the price optimization stage. For parity-wise
+    fairness, we characterize when each strategy yields higher social welfare under
+    small fairness levels. We show that when market sizes and prices in the dataset
+    are similar, imposing price fairness in the estimation stage is more beneficial
+    to consumers, whereas imposing demand fairness in the optimization stage yields
+    better consumer outcomes. For Rawlsian fairness, the two strategies coincide exactly.
+    Lastly, we extend our model to alternate demand functions and conduct a case study
+    using real-world vaccine pricing data.
+- title: 'TEDD: Robust Detection of Unstable Temporal Features'
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.12643v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Ricardo Ribeiro Pereira
+  - Bruno Casal Laraña
+  - Nádia Soares
+  - Miguel Araújo
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'When working with real-world temporal data, it is common to encounter
+    features whose distribution is changing over time. The naive employment of Machine
+    Learning models on this unstable data might lead to rapidly degrading performance,
+    especially if the new distribution is much different from what was previously
+    seen during training. In order to cope with this problem, it is critical to automatically
+    identify features that are changing over time. With these features detected, data
+    scientists and other practitioners will be able to mitigate the issue (for instance,
+    by applying data transformations), deploying more robust models that retain high
+    performance for longer periods of time. In this paper, we describe which temporal
+    changes a feature should not suffer from, and propose TEDD, a technique to a)
+    identify when a dataset might lead to an unstable Machine Learning model and b)
+    automatically detect which features cause such lack of robustness. In order to
+    achieve it, we leverage a regression model to highlight which features contribute
+    to a good prediction of an instance''s timestamp. We compare our approach to other
+    methods in real and synthetic data, testing their detection capability on all
+    simple change patterns. We show that our method: detects all types of basic changes,
+    both for numerical and categorical features; can detect multivariate drifts; returns
+    a comparable value measuring the amount of change of each feature; requires no
+    parameter tuning; and is scalable both on number of features and instances of
+    the dataset.'
+- title: Accelerating Optimization and Machine Learning through Decentralization
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.19518v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Ziqin Chen
+  - Zuang Wang
+  - Yongqiang Wang
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Decentralized optimization enables multiple devices to learn a global
+    machine learning model while each individual device only has access to its local
+    dataset. By avoiding the need for training data to leave individual users' devices,
+    it enhances privacy and scalability compared to conventional centralized learning,
+    where all data has to be aggregated to a central server. However, decentralized
+    optimization has traditionally been viewed as a necessary compromise, used only
+    when centralized processing is impractical due to communication constraints or
+    data privacy concerns. In this study, we show that decentralization can paradoxically
+    accelerate convergence, outperforming centralized methods in the number of iterations
+    needed to reach optimal solutions. Through examples in logistic regression and
+    neural network training, we demonstrate that distributing data and computation
+    across multiple agents can lead to faster learning than centralized approaches,
+    even when each iteration is assumed to take the same amount of time, whether performed
+    centrally on the full dataset or decentrally on local subsets. This finding challenges
+    longstanding assumptions and reveals decentralization as a strategic advantage,
+    offering new opportunities for more efficient optimization and machine learning.
+- title: OOD Detection for EEG-based Machine Learning in High-Risk Environments
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.17620v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Philipp Bomatter
+  - Henry Gouk
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Machine learning models for electroencephalography (EEG) analysis show
+    great promise across a wide range of applications, but their deployment in high-risk
+    domains is hindered by their vulnerability to distribution shifts. Encountering
+    out-of-distribution (OOD) data can lead to catastrophic, overconfident predictive
+    failures. While OOD detection methods can mitigate these risks, they remain heavily
+    under-explored for EEG. Moreover, evaluations in the broader literature typically
+    evaluate OOD detection performance in isolation, ignoring their practical impact
+    on downstream applications. To bridge this gap, we introduce a benchmark for EEG
+    OOD detection, evaluate a broad range of methods, and furthermore evaluate their
+    value in two clinical downstream prediction task. Our results disentangle OOD
+    detection and model uncertainty estimation capabilities, which are frequently
+    conflated in the literature, provide actionable insights about the current state
+    of the art for EEG OOD detection and model uncertainty estimation, and demonstrate
+    how complementary methods for both aspects can be combined to form a robust safety
+    net for the deployment of EEG-based machine learning models in real-world applications.
+- title: On design-unbiased algorithmic Machine Learning
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.28795v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Li-Chun Zhang
+  - Siu-Ming Tam
+  - Luis Sanguiao-Sande
+  - Wesley Yung
+  - Anders Holmberg
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Machine Learning (ML) algorithms, such as k-Nearest Neighbours (kNN) or
+    random forest, eschew the ideal of true data models in favour of predictive performance.
+    However, minimising the MSE or F-score cannot lead to unbiasedness directly, which
+    is important in many situations such as official statistics. We study the conditions
+    of algorithmic ML, other than the existence and knowledge of true data models,
+    which lead to unbiased prediction or classification for a given finite population,
+    including how the training data may be sampled from the population, how a trained
+    prediction algorithm can be tuned to achieve unbiased prediction or classification
+    for that population, and how the performance of out-of-sample prediction or classification
+    can be assessed unbiasedly. The inference is based on the known probability design
+    of samples and training sets, rather than any assumed distributions or models.
+- title: Are You Learning Biological Signal or Shortcuts? Auditing and Mitigating
+    Bias in Protein-Protein Interaction Datasets
+  date: 2026-09
+  url: https://arxiv.org/abs/2609.10193v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Judith Bernett
+  - Anton Spannagl
+  - Joel Ås
+  - Markus List
+  - David B. Blumenthal
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Protein-protein interaction (PPI) databases do not faithfully reflect
+    biological realities. Instead, they are influenced by study and technical biases
+    that distort certain protein and interaction attributes. Machine learning models
+    can exploit these as learning shortcuts if the negative dataset is not constructed
+    with care. So far, the shortcuts introduced during PPI dataset construction have
+    only been examined in isolation. Here, we systematically characterize both reported
+    and, to our knowledge, previously unreported biases in PPI datasets that lead
+    machine learning models to learn shortcuts instead of biological signal. We analyze
+    HIPPIE, IntAct, and STRING, dedicated PPI databases, as well as two datasets derived
+    from 3D-structural information in the Protein Data Bank (PDB). We show that random
+    data splitting introduces strong topological shortcuts. When train-test protein
+    overlap is removed, the resulting datasets still retain usable shortcuts stemming
+    from self-interactions, taxonomic identity, and functional relatedness, whose
+    prevalence interestingly depends on the data source. We further show that sampling
+    negatives from a set of high-confidence non-interactors, an intuitively appealing
+    choice, can amplify the shortcut stemming from functional relatedness. To detect
+    and mitigate these biases, we provide an open Nextflow pipeline that combines
+    similarity-aware, data-loss-minimizing dataset splitting with bias-minimizing
+    negative sampling, both formulated as integer linear programs. Its key concept
+    of quantifying biases to minimize them through optimization-based negative sampling
+    can, in principle, be extended to any machine learning problem where the pool
+    of negative candidates is much larger than the positives and is thus of interest
+    also beyond PPI prediction.
+- title: 'From Nowcasting to Forecasting: Adapting a Reanalysis-Trained'
+  date: 2026-09
+  url: https://arxiv.org/abs/2609.03763v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Mikko Partio
+  - Leila Hieta
+  - Ossi Laine
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Accurate cloud-cover forecasts are important for temperature prediction,
+    radiation forecasting, and solar-power operations. Short-range forecasting methods
+    can preserve observed cloud placement during the first forecast hours, but their
+    skill decreases when cloud fields evolve through formation, dissipation and deformation.
+    Longer lead times require accounting for atmospheric evolution, but operational
+    numerical weather prediction (NWP) forecasts may not accurately represent the
+    satellite-observed cloud state at initialization. We develop CloudCast v2, a machine-learning
+    model for 12-hour cloud-cover forecasting from observation-based initial conditions.
+    The model is first trained on the Copernicus European Regional Reanalysis (Ridal2024)
+    to learn cloud-evolution dynamics, and is then adapted to satellite-derived cloud
+    fields using conditional flow matching (Lipman2023), a generative method that
+    transforms noise into cloud-cover forecasts conditioned on the observed initial
+    cloud fields and NWP inputs. CloudCast v2 reduces mean absolute error by 10% relative
+    to its predecessor, CloudCast v1 (Partio2025), over the 1-12 h range. It also
+    overtakes CloudCast v1 in fractions skill score, a neighborhood-based measure
+    of spatial agreement, after approximately 3-6 h, depending on the cloudiness category.
+    These results show that observation-initialized machine-learning forecasts can
+    extend beyond the usual 1-3-hour nowcasting range while retaining spatial detail
+    from satellite cloud fields.
+- title: 'MassSpecGym in the Wild: Uncovering and Correcting Evaluation Pitfalls in
+    AI-Driven Molecule Discovery'
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.19624v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Hongxuan Liu
+  - Roman Bushuiev
+  - Ivy Lightheart
+  - Mrunali Manjrekar
+  - Anton Bushuiev
+  venue: ''
+  code_url: https://github.com/pluskal-lab/MassSpecGym
+  project_url: ''
+  abstract: 'Reliable benchmarking is critical for developing machine learning models
+    for tandem mass spectrometry (MS/MS) based molecule discovery. Subtle issues in
+    experimental design and model evaluation procedures can degrade the trustworthiness
+    of such benchmarks and lead to erroneous conclusions. We conduct a thorough review
+    of model evaluation issues in the recent MS/MS machine learning literature, using
+    the standard MassSpecGym benchmark suite as a case study to illustrate the impact
+    of these issues. We find evaluation issues in at least 17 of 26 papers reporting
+    MassSpecGym benchmark results in the first year of its adoption. We isolate three
+    classes of failures: (i) data leakage, (ii) shortcut learning, and (iii) implementation
+    bugs and metric divergence. Through extensive experimentation and code replication,
+    we quantify the impact of these issues and show how they corrupt the evaluation
+    standards MassSpecGym was designed to enforce. We distill our findings into recommendations
+    generalizable to MS/MS challenges, benchmarks, and custom evaluation setups. We
+    also release MassSpecGym v1.5, an implementation of our recommendations in the
+    MassSpecGym benchmarking suite which addresses the failure modes identified in
+    this audit. MassSpecGym v1.5 is publicly available at https://github.com/pluskal-lab/MassSpecGym.'
+- title: 'Supply Chain Analytics: A Data-Driven Approach'
+  date: 2026-08
+  url: https://arxiv.org/abs/2609.10563v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Elioth Sanabria
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Modern supply chain networks increasingly rely on real-time data to navigate
+    structural uncertainties, market volatility, and operational disruptions. This
+    manuscript bridges the gap between statistical data-driven learning and robust
+    decision-making frameworks in logistics and operations management. We present
+    a comprehensive, mathematically rigorous treatment of supply chain analytics,
+    moving from empirical demand forecasting to optimal inventory and network control
+    under uncertainty. Key topics explored include sample minimization, dynamic programming
+    recursions for time-varying inventory replenishment, network fulfillment frameworks,
+    and advanced distributionally robust optimization (DRO) via transport theory to
+    hedge against rare events. By integrating predictive statistical models with prescriptive
+    control algorithms, such as column generation for vehicle routing and non-homogeneous
+    queueing regimes, this text provides the foundational tools necessary for designing
+    resilient, data-driven automated systems. It serves as both a theoretical blueprint
+    and an algorithmic guide for researchers and practitioners operating at the intersection
+    of machine learning, mathematical optimization, and applied probability.
+- title: Classification and detection of multiple UAVs using rational Gaussian wavelet
+    neural networks
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.26310v2
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Ungvári Gergő
+  - Ferenc Braun
+  - Attila Ámon
+  - Péter Kackstädter
+  - János Volk
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: The detection of unmanned aerial vehicles (UAVs) is important for the
+    protection of civilian and military infrastructure. In this paper we propose a
+    cost effective UAV detection system using sound signals obtained from microphones.
+    The recorded signals are passed through a signal processing pipeline which employs
+    interpretable adaptive feature extractors using so-called rational Gaussian wavelets.
+    These adaptive wavelet transformations are embedded into and trained together
+    with an underlying small neural network which detects and classifies UAVs based
+    on the obtained features. This leads to a physically interpretable machine learning
+    algorithm that in addition to classifying UAVs is also capable of detecting UAV
+    swarms. We demonstrate our results using data collected in indoor studio and noisy
+    outdoor environments. We conclude that the proposed method outperforms traditional
+    machine learning approaches for detecting and classifying single UAVs as well
+    as drone swarms, while retaining a high degree of interpretability. Our implementation
+    of the proposed methods is made publicly available for reproducibility.
+- title: Clustering based on Stochastic Dominance with application for risk averters
+    and risk seekers
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.24422v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Hua Li
+  - Xue Jia
+  - Yilin Kang
+  - Wing-Keung Wong
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Stochastic Dominance (SD) theory provides a rigorous framework for selecting
+    superior assets tailored to the asset allocation needs of investors with varying
+    risk preferences (i.e., risk-averse, risk-seeking, and risk-neutral). However,
+    traditional stock clustering methods typically rely on geometric metrics such
+    as Euclidean distance, which often fail to effectively capture the intrinsic risk
+    dominance relationships among assets. To address this limitation, this paper proposes
+    an innovative clustering analysis framework based on SD test statistics. Methodologically,
+    this study deeply integrates SD theory with machine learning algorithms. Transcending
+    the limitations of traditional reliance on geometric distance, we innovatively
+    utilize test statistics from first-, second-, and third-order SD to construct
+    a "Stochastic Dominance Coefficient Matrix." Building upon this matrix, we modify
+    the classic K-means and Hierarchical Clustering algorithms. Specifically, we derive
+    12 distinct algorithm variants tailored to different orders of SD relationships.
+    Simultaneously, we construct the SD-SC coefficient and the SD-DBI index as specialized
+    validity indices to evaluate the clustering performance. Empirically, we analyze
+    constituent stock data from a representative developed market (the US NASDAQ Index)
+    and an emerging market (China's CSI 100 Index). The results verify the effectiveness
+    and robustness of the proposed method. Furthermore, we apply the clustering results
+    to the modification of the Single Index Model and the construction of Global Minimum
+    Variance Portfolios (GMVP). The findings demonstrate that the proposed method
+    effectively facilitates customized asset allocation for investors, holding significant
+    theoretical value and practical implications.
+- title: 'From Index to Equity: Pre-Training Transformers for Stock Return Prediction'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.23962v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Marie Soehl Coolsaet
+  - Roberto Gallardo
+  - Zhen Gao
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: This research aims to leverage machine learning to improve stock price
+    prediction and support informed investment decisions related to buying, selling,
+    and holding assets. Specifically, this work investigates transformer-based models
+    for stock prediction and examines the impact of pre-training strategies on forecasting
+    performance. A transformer model was first pre-trained on the Toronto Stock Exchange
+    Index (TSX) to predict intra-day return direction and subsequently fine-tuned
+    on individual TSX stocks. The model was further adapted for return-value regression
+    tasks. Performance was benchmarked against Long Short-Term Memory (LSTM) and XGBoost
+    models. Pre-training on the market index improved the binary cross-entropy loss
+    for individual stock prediction from 0.69 to 0.64. The fine-tuned transformer
+    regression model achieved lower mean squared error than the benchmark models,
+    although the ensemble and XGBoost models achieved higher average daily returns.
+    In addition, a practical application was developed to deliver real-time stock
+    predictions for trading support. Future work will focus on increasing transformer
+    model capacity, incorporating broader global technical indicators, and filtering
+    out stocks with low predictability.
+- title: Optimal Value Inference for Reinforcement Learning
+  date: 2026-09
+  url: https://arxiv.org/abs/2609.09981v2
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Nan Lu
+  - Ethan Lee
+  - James M. Robins
+  - David Simchi-Levi
+  - Junwei Lu
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: We study offline inference for the optimal value in reinforcement learning
+    under finite state and action spaces. Two new nuisances are derived as fixed points
+    of a self-induced Bellman equation, in which we approximate the maximum Bellman
+    operator by its softmax correspondence. We propose a debiased estimator through
+    the Neyman orthogonality and establish its asymptotic normality under diverging
+    horizons even when the behavior policy changes with time, as long as the nuisances
+    have the statistical rates that can be achieved by many machine learning methods.
+    We provide a concrete estimating procedure for these nuisances and show they can
+    lead to valid inference. Synthetic experiments validate the numerical performance
+    of our inference method, and we implement it in real-life decision-making problems,
+    including bike repositioning and AI agentic tool use.
+- title: 'PLSP (Pre-hoc Liminal Space Profiling): OOD Prediction over Detection --
+    An Anticipatory Approach for Machine Learning Model Reliability'
+  date: 2026-09
+  url: https://arxiv.org/abs/2609.12225v2
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Vipul Bansal
+  - Himanshu Buckchash
+  - Balasubramanian Raman
+  - Deepak Dhungana
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Out-of-Distribution (OOD) data poses a significant threat to machine
+    learning models, often leading to model failure during deployment. All existing
+    OOD detection methods are post-hoc, relying on evaluation metrics such as accuracy
+    and AUC-ROC during inference to indirectly assess the model''s response to OOD
+    data by measuring deviations. In contrast to existing approaches, the proposed
+    work shifts the paradigm from OOD detection to OOD prediction by proposing a pre-hoc
+    anticipatory framework called PLSP for OOD prediction. We make several key contributions:
+    (a) a dataset-independent metric called the CREDibility Score (CREDS) is proposed
+    for OOD prediction; (b) credibility curves are introduced to study the maximum
+    credibility a model can attain; and (c) credibility heat maps (and volume under
+    surface) are introduced to characterize pre-hoc model behavior across different
+    datasets. This work provides a novel perspective on signal processing under distributional
+    shifts. Experiments across multiple datasets demonstrate that the proposed metric
+    serves as a valuable measure for improving the robustness of machine learning
+    models toward OOD prediction.'
+- title: 'The RAIL Principles for Neurosymbolic AI: Reasoning, Assurances, Interfacing
+    and Learning'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.04285v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Agnese Chiatti
+  - Michael Cochez
+  - Cristina Cornelio
+  - Sebastijan Dumancic
+  - Artur d'Avila Garcez
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Neurosymbolic AI systems that integrate machine learning and symbolic
+    reasoning are rapidly gaining attention. They complement the data-intensive statistical
+    approaches of neural networks and language models with symbolic reasoning algorithms
+    to function in high-stakes domains or in low-data regimes that characterize many
+    real-world applications. We argue that the neurosymbolic combination of machine
+    learning and formal reasoning is not a niche approach within AI, but rather includes
+    many already successful techniques that are of crucial importance to the development
+    of reliable, efficient and, ultimately, trustworthy systems. This perspective
+    prompts a re-examination of the design of current AI systems. We show that many
+    leading AI systems, including some that are not traditionally considered as neurosymbolic,
+    can be analysed from the perspective of four principles of neurosymbolic AI design:
+    Reasoning, Assurances, Interfacing and Learning (RAIL). Applying the RAIL framework
+    offers a unified view of seemingly disparate AI systems, ranging from physics-aware
+    machine learning to neuro-guided search (such as Google DeepMind''s Alpha-* suite),
+    causal learning and tool-augmented Large Language Models. Importantly, the RAIL
+    principles will enable engineers to make better-informed and more principled decisions
+    about the design and deployment of production-level AI systems. In this article,
+    we introduce the RAIL principles, examine how they can be applied across major
+    areas of AI, and illustrate how they may guide practitioners to integrate neurosymbolic
+    methods into next-generation AI technologies.'
+- title: To Describe or Construct Statistical Learning Models Using the Category-theoretical
+    Language
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.03706v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Congwei Song
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Statistical learning is a fascinating field that has long been the mainstream
+    of machine learning/artificial intelligence. A large number of results have been
+    produced which can be widely applied to real-world problems. It also leads to
+    many research topics and also stimulates new research. This report summarizes
+    some classical statistical learning models and well-known algorithms, especially
+    for amateurs, and provides a category-theoretic perspective on understanding statistical
+    learning models. The aim is to attract researchers from other fields, including
+    basic mathematics, to participate in the research related to statistical learning.
+- title: Travel Time Prediction in Supply Chain Management Using Machine Learning
+  date: 2026-09
+  url: https://arxiv.org/abs/2609.38190v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Balaji Venkateswaran
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: The purpose of this research is to find data and methods using machine
+    learning and deep learning to correctly predict the estimated travel time for
+    transportation and logistics in a supply chain system. The supply chain ecosystem
+    is very complex and heavily relies on the transportation and logistics of raw
+    materials and finished goods. Accurate travel time estimation is critical because
+    it helps supply chain members to improve logistics consistency and performance.
+    This helps in planning, demand forecasting, lead time management and assembly
+    planning. The logistics on the delivery side of the customer also plays a crucial
+    role in customer satisfaction and voice of customer. With the collection of huge
+    historical data and using novel techniques, the research builds an accurate model
+    to predict travel time of inventory.
+- title: 'ReSGA: A Large Tail Risk Model for Learning Value-at-Risk and Expected Shortfall'
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.04576v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Yichi Zhang
+  - Ke Zhu
+  - Zhoufan Zhu
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Learning Value-at-Risk (VaR) and Expected Shortfall (ES) is important
+    for managing financial risks effectively. Existing approaches with limited parameters
+    are vulnerable to model misspecification in the era of big data. To address this
+    limitation, we propose a large tail risk model, the retrieval-enhanced self-grouping
+    autoencoder (ReSGA), which is designed with millions of parameters to exploit
+    the rich cross-sectional dependence and long-term temporal dynamics of assets
+    using their characteristics. Applied to monthly US equity returns from 1926 to
+    2023 with 153 firm characteristics, ReSGA outperforms twelve econometric and machine
+    learning competitors in terms of out-of-sample loss and statistical backtesting.
+    In addition, its forecast advantages can translate into significant economic gains
+    from long-short decile portfolios that are constructed by a new size-enhanced
+    left-side momentum strategy. To clarify the role of complexity, we further conduct
+    a systematic scaling analysis and demonstrate that improvements in joint VaR-ES
+    forecasting are primarily driven by data complexity rather than model complexity.
+    Finally, our analyses of group-importance and transfer-learning exhibit the interpretability
+    and cross-market generalizability of ReSGA.
+- title: A Systematic Approach for Selecting Trajectories for Data Augmentation
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.10938v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Adam Nordling
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Trajectory data augmentation is a promising approach to mitigate data
+    scarcity in machine learning applications, but its utility has been limited by
+    the complexity of preserving spatio-temporal coherence. Although prior work demonstrated
+    the viability of geometric perturbation, it relied on naive random selection,
+    leaving a critical gap in understanding which trajectories should be augmented
+    for maximal benefit. This thesis addresses this gap by developing a systematic
+    and scalable framework to evaluate five systematic selection strategies: Outlierness,
+    Diversity, Representativeness, Uncertainty, and Random selection. These strategies
+    were rigorously tested across four datasets covering animal behavior (Foxes and
+    Starkey), maritime traffic (AIS), and urban traffic (Car) using a suite of linear
+    and non-linear machine learning models. As part of this evaluation, an Optuna-based
+    hyperparameter optimization loop was integrated to empirically identify the best-performing
+    augmentation parameters for each dataset within the explored search space. The
+    results indicate that, while systematic selection is not a universal solution,
+    it offers distinct advantages over the random baseline. Systematic strategies,
+    particularly Outlierness and Uncertainty, demonstrated higher stability and were
+    less prone to performance degradation observed with random sampling in dense datasets.
+    However, the findings also reveal that the value of augmentation is strictly conditional.
+    Visual analysis via UMAP demonstrates that while systematic augmentation successfully
+    repairs topological fragmentation in sparse datasets, it can act as a corrupting
+    noise signal in high-quality, dense datasets. Furthermore, the study identified
+    physical limitations in high-velocity domains, where standard perturbation techniques
+    lead to divergence in feature space...'
+- title: 'Functional Degeneracy in Neural Networks: Measurement and Pruning'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.30741v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Maria Matveev
+  - Pascal Esser
+  - Ayush Bharadwaj
+  - Lucius Bushnaq
+  - Gitta Kutyniok
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: A central question in modern machine learning is how much a trained model
+    can be compressed without changing its behavior, to reduce the memory, compute
+    and energy required to deploy it. To study this, we quantify functional degeneracy
+    through the behavioral recovery rank, defined as the number of leading behavioral-Hessian
+    eigendirections required to recover a trained model's performance. Using the behavioral
+    recovery rank as a geometric benchmark for compression, we find that structural
+    and magnitude pruning retain more degrees of freedom, even after the task is saturated.
+    This gap suggests that functional redundancy is distributed across parameter directions
+    and is not exposed by individual weights or neurons.
+- title: Adynamical systems view of training generativemodels and the memorization
+    phenomenon
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.19483v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Siva Athreya
+  - Chiranjib Bhattacharya
+  - Vivek S. Borkar
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Using recent works of one of the authors (VSB) on collapse in generative
+    models and two time scale dynamics in stochastic gradient descent in high dimensions,
+    we give a system theoretic explanation of the memorization phenomenon in generative
+    models. This relies purely on the dynamic aspects of the training phase. Specifically,
+    we use a result of Austin [2016] to motivate a stylized model for the loss function
+    for stochastic gradient descent (SGD) wherein the loss function has a strong dependence
+    on some variables and weak dependence on the rest in a precise sense. This naturally
+    leads to two distinct time scales in the constant step size SGD that is commonly
+    used in machine learning. This fact has been used to explain the double descent
+    phenomenon in SGD in Borkar [2026]. In conjunction with a mathematical model for
+    collapse phenomenon in SGD developed in Borkar [2025a], we analyze the constant
+    step size SGD using the recent results of Azizian et al. [2024] in order to explain
+    the phenomenon of memorization wherein a generative model that is concurrently
+    being tuned yields the same or similar outputs for significant stretches of time.
+    This gives a novel perspective on the aforementioned phenomena reported in machine
+    learning literature and their interrelationships, using a dynamical systems viewpoint.
+- title: 'RECAST: Model Reconstruction via Counterfactual-Aware Wasserstein Geometry
+    under Limited Data'
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.27948v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Xuan Zhao
+  - Lena Krieger
+  - Zhuo Cao
+  - Arya Bangun
+  - Hanno Scharr
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Counterfactual explanations (CFs) help understand machine learning models
+    by identifying minimal input changes that would lead to alternative model outcomes.
+    Recent work demonstrates their utility for reconstructing black-box models, enabling
+    third-party auditing of opaque decision systems for fairness and accountability.
+    Still, CF-based reconstruction may suffer from decision boundary shifts, overfitting,
+    and restrictive assumptions requiring online query access to target platforms.
+    We propose REconstruction via Counterfactual-Aware waSserstein opTimization (RECAST)
+    under limited data and restricted access, a behavioral surrogate model based on
+    Wasserstein barycentric prototypes. Our approach addresses decision boundary shifts
+    by incorporating CFs as informative, though less representative, samples for both
+    classes, maintaining high surrogate fidelity in low-sample regimes without requiring
+    online access during reconstruction. To enhance fairness auditing, our method
+    enables systematic group fairness diagnostics. Experiments on real-world datasets
+    and various setups show that RECAST effectively achieves high fidelity and query
+    efficiency, as well as stable results even when the access is limited and noisy.
+- title: Forecasting Weather-Driven Price Dynamics Across Sri Lankan Tea Market Catalogues
+  date: 2026-06
+  url: https://arxiv.org/abs/2608.24894v2
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Hesandi Mallawarachchi
+  - Senilka Madurapperumage
+  - Nadil Kulathunge
+  - Thilokya Angeesa
+  - Nethsith Gunaweera
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'The Colombo Tea Auction (CTA) plays a vital role in determining global
+    tea prices, yet the relationship between local weather conditions and price behavior
+    across different tea catalogues has not been thoroughly explored. In this study,
+    we develop a novel, structured dataset by extracting information from 105 weekly
+    broker reports spanning late 2023 to 2026, and combined with region-specific weather
+    data. Our analysis focuses on four main tea catalogues of Sri Lankan tea: High
+    Grown, Low Grown, Off-Grade, and Dust. To better understand the factors influencing
+    tea prices, we apply Granger causality analysis alongside tree-based machine learning
+    models: Random Forest, XGBoost, LightGBM, and Gradient Boosting. Our results show
+    that while market dynamics are primary drivers, weather conditions also have significant
+    effects. Notably, Low Grown tea shows strong sensitivity to precipitation and
+    sunshine duration (p&lt;0.05) across 1-3-week lags. Off-Grade and Dust catalogues
+    also exhibit significant responses to temperature variations. Catalogue-specific
+    modelling outperformed unified approaches, with LightGBM emerging as the superior
+    model for three out of four catalogues. Overall, this study highlights the importance
+    of considering both localized weather patterns and catalogue-level differences
+    when forecasting tea prices, offering a more precise and practical framework for
+    the tea industry.'
+- title: Sparse and robust geometric twin support vector machine via asymmetric RoBoSS
+    loss function
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.11567v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Kai Qi
+  - Xinji Huang
+  - Hongchun Wang
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: In real-world scenarios, the training data usually contains redundant
+    features, label noise and feature noise, which provide severe challenges for the
+    efficiency of machine learning methods. Since standard support vector machine
+    (SVM) adopts $l_2$-norm penalty and hinge loss function, it lacks the ability
+    of selecting significant features and is sensitive to noise. To address these
+    issues, this paper proposes a novel asymmetric, robust, bounded, sparse and smooth
+    (aR) loss function for $l_1$-norm penalized geometric twin SVM (aRSGTSVM) to handle
+    classification and regression tasks. The $l_1$-norm penalty can achieve the feature
+    selection. The proposed aR loss function can not only effectively mitigate the
+    impact of label noise, but also significantly enhance the stability to resampling
+    noise, i.e., the zero-mean feature noise around the boundary hyperplanes. Furthermore,
+    a statistical analysis of the robustness of aRSGTSVM was also conducted using
+    the influence function. Since aRSGTSVM involves nonconvex and nonsmooth optimization,
+    we develop a fast and stable proximal gradient descent based solving algorithm.
+    Compared with related state-of-the-art methods, experimental results demonstrate
+    the superiority of the proposed aRSGTSVM on both synthetic and UCI datasets. Furthermore,
+    we apply aRSGTSVM to index tracking tasks, where results for tracking the different
+    indices in the China stock market show that it can achieve satisfactory performance.
+- title: Physics-Based Deep Spatiotemporal Hyperlocal Radar Nowcasting with a Multi-Variable
+    U-Net for High-Resolution Precipitation Forecasting
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.16080v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Akshay Sunil
+  - Muhammed Rashid
+  - Raja Sekhar Sivaraju
+  - Sushma Nair
+  - Subimal Ghosh
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Precipitation nowcasting over the immediate 10-90 min period is important
+    for flood management and real-time decision-making in urban regions. Conventional
+    short-range forecasting with high-resolution numerical weather prediction requires
+    frequent data assimilation, model initialization, and spin-up, introducing computational
+    latency. Machine learning provides an alternative by learning storm evolution
+    directly from high-frequency observations and producing forecasts quickly after
+    training. This is particularly relevant for Mumbai, India, where monsoon convection,
+    land-sea interactions, and localized intense rainfall make short-term prediction
+    difficult. Here, we develop a compact radar-only nowcasting framework that combines
+    multi-elevation reflectivity, Doppler radial velocity, and radial-velocity-gradient
+    proxy features within an encoder-decoder U-Net. Using the most recent radar volume
+    scan, the model predicts 12 future composite reflectivity fields at 7.5-min intervals
+    up to 90 min lead time. The derived velocity magnitude, divergence-like, directional-shear,
+    and vorticity-like channels represent kinematic signatures associated with convergence
+    and boundary interactions without requiring full wind-field retrieval. A high-reflectivity
+    attention module improves sensitivity to convective cores, and physics-guided
+    attribution examines whether the learned sensitivities are meteorologically meaningful.
+    The model is trained using Mumbai Doppler radar observations from May to August
+    2023 and evaluated on temporally independent events. At 90 min lead time, Critical
+    Success Index values are 0.437, 0.332, and 0.193 for $\geq$10, $\geq$20, and $\geq$30
+    dBZ thresholds, respectively. Compared with persistence, the model gives lower
+    RMSE and higher spatial correlation at longer lead times. Once trained, it runs
+    on a standard computer, generating nowcasts within seconds for real-time use.
+- title: 'Fidelity, Diversity, and Privacy: A Multi-Dimensional LLM Evaluation for
+    Clinical Data Augmentation'
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.27014v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Guillermo Iglesias
+  - Gema Bello-Orgaz
+  - María Navas-Loro
+  - Cristian Ramirez-Atencia
+  - Mercè Salvador Robert
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'The scarcity of high-quality annotated medical data, particularly in
+    mental health, poses a significant bottleneck for training robust machine learning
+    models. Privacy regulations restrict data sharing, making synthetic data generation
+    a promising alternative. The use of Large Language Models (LLMs) in a data augmentation
+    pipeline could be leveraged as an alternative in this field. In the proposed methodology,
+    DeepSeek-R1, OpenBioLLM-Llama3 and Qwen 3.5 are used to generate synthetic mental
+    health evaluation reports conditioned on specific International Classification
+    of Diseases, Tenth Revision (ICD-10) codes. Because naive text generation can
+    lead to mode collapse or privacy breaches (memorization), a comprehensive evaluation
+    framework is introduced. The generated diagnostic texts are assessed across three
+    dimensions: semantic fidelity, lexical diversity, and privacy/plagiarism. The
+    results demonstrate that all models can generate clinically coherent, diverse,
+    and privacy-safe synthetic reports, significantly expanding the available training
+    data for clinical natural language processing tasks without compromising patient
+    confidentiality.'
+- title: 'FLAM: Evaluating Model Performance with Aggregatable Measures in Federated
+    Learning'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.07962v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Fabian Stricker
+  - Jose A. Peregrina
+  - David Bermbach
+  - Christian Zirpins
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Performance evaluation is essential for assessing the quality of machine
+    learning (ML) models and guiding deployment decisions. In federated learning (FL),
+    assessing the performance is challenging because data are distributed across participants.
+    Consequently, the coordinator must rely on locally computed evaluation metrics
+    and aggregate them to assess the global model. A key challenge is that common
+    aggregation strategies, such as weighted averaging based on the local samples
+    per participant, do not always produce the same results as centralized evaluation.
+    Existing definitions of performance evaluation are largely tailored to accuracy
+    and do not generalize to other metrics, leading to inconsistencies between participant-based
+    and centralized evaluation. However, such discrepancies are inconsistent with
+    the FL objective and lead to a wrong calculation of the metric. To address this
+    issue, we examine the underlying reasons for these discrepancies and propose FLAM,
+    a performance evaluation method based on aggregatable measures that yields the
+    same results as centralized evaluation without the need for a global test dataset.
+- title: 'Adversarial Graph Neural Network Benchmarks: Towards Practical and Fair
+    Evaluation'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.05534v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Tran Gia Bao Ngo
+  - Zulfikar Alom
+  - Federico Errica
+  - Murat Kantarcioglu
+  - Cuneyt Gurcan Akcora
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Adversarial learning and the robustness of Graph Neural Networks (GNNs)
+    are topics of widespread interest in the machine learning community, as documented
+    by the number of adversarial attacks and defenses designed for these purposes.
+    While a rigorous evaluation of these adversarial methods is necessary to understand
+    the robustness of GNNs in real-world applications, we posit that many works in
+    the literature do not share the same experimental settings, leading to ambiguous
+    and potentially contradictory scientific conclusions. In this benchmark, we demonstrate
+    the importance of adopting fair, robust, and standardized evaluation protocols
+    in adversarial GNN research. We perform a comprehensive re-evaluation of seven
+    widely used attacks and eight recent defenses under both poisoning and evasion
+    scenarios, across six popular graph datasets. Our study spans over 453,000 experiments
+    conducted within a unified framework. We observe substantial differences in adversarial
+    attack performance when evaluated under a fair and robust procedure. Our findings
+    reveal that previously overlooked factors, such as target node selection and the
+    training process of the attacked model, have a profound impact on attack effectiveness,
+    to the extent of completely distorting performance insights. These results underscore
+    the urgent need for standardized evaluations in adversarial graph machine learning.
+- title: 'Negative Ontology of True Target for Machine Learning: Towards Recognition,
+    Evaluation and Learning under Democratic Supervision'
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.24824v11
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Yongquan Yang
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'This article philosophically examines how a shift in the assumed ontology
+    of the true target (TT) can lead to a new paradigm for machine learning (ML)-based
+    predictive modelling. By systematically analysing the existence assumption of
+    the TT underlying mainstream ML paradigms, we adopt a negative ontology perspective,
+    explicitly positing that the TT does not objectively exist in the real world as
+    a universally accessible object. On this basis, we define Democratic Supervision
+    as an alternative supervisory principle for ML, in which no single source is assumed
+    to possess an objectively privileged target. We further introduce Multiple Inaccurate
+    True Targets (MIATTs) as an instance-level realization of Democratic Supervision.
+    Building upon MIATTs, we establish the logic-driven generation and assessment
+    for MIATTs construction (recognition with MIATTs), formulate logical assessment
+    formula for evaluation with MIATTs, and develop undefinable true target learning
+    for learning with MIATTs. These components are integrated to formulate the Recognition,
+    Evaluation, Learning with MIATTs (REL-MIATTs) framework. We further characterize
+    REL-MIATTs from the perspective of Cognitive Machine Learning: a single cycle
+    provides an elementary cognitive learning unit, MIATTs introduce complementary
+    supervisory perspectives, and iterative cycles support the evolution of learning
+    through accumulated experience, feedback, and state updating. This provides a
+    basis for human-AI co-evolution. We examine how REL-MIATTs support human-AI co-evolution
+    and adaptive knowledge discovery in a synthetic controlled environment. A real-world
+    application further demonstrates the potential of the framework for supporting
+    individual education and professional development, providing empirical evidence
+    for the feasibility of Democratic Supervision, REL-MIATTs, and its broader implications
+    for continuous human-AI co-evolution.'
+- title: Enhancing Quantum Machine Learning with Anyons
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.16090v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Da Zhang
+  - Wen-Qiang Liu
+  - Zhaohui Wei
+  - Zhang-Qi Yin
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: The power of quantum computing and quantum machine learning relies on
+    harnessing uniquely quantum phenomena as computational resources. While superposition,
+    coherence and entanglement have been central to this effort, the role of particle
+    exchange statistics remains largely unexplored. Here, we introduce a quantum kernel
+    framework that unifies bosonic, fermionic, and anyonic (fractional) exchange statistics
+    within a single learning paradigm. We study this family of kernels from three
+    perspectives. At the representation level, Haar-averaged effective-dimension analysis
+    shows that fractional exchange phases access feature-space directions inaccessible
+    to the purely symmetric or antisymmetric limits. At the level of kernel geometry,
+    the corresponding Gram matrices show greater separation from the distinguishable-particle
+    baseline and reduced label-dependent model complexity. Finally, on learning benchmarks,
+    anyonic kernels consistently outperform their bosonic and fermionic counterparts,
+    with stronger target alignment and more favorable class geometry. Together, these
+    findings show that exchange statistics reshape the structure and geometry of quantum
+    feature space, leading to enhanced learning performance. Our work identifies particle
+    exchange statistics as an overlooked computational ingredient for quantum machine
+    learning and provides the first systematic comparison of quantum learning models
+    across exchange phases.
+- title: 'Quantamination: Dynamic Quantization Leaks Your Data Across the Batch'
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.26505v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Hanna Foerster
+  - Ilia Shumailov
+  - Cheng Zhang
+  - Yiren Zhao
+  - Jamie Hayes
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Dynamic quantization emerged as a practical approach to increase the
+    utilization and efficiency of the machine learning serving flow. Unlike static
+    quantization, which applies quantization offline, dynamic quantization operates
+    on tensors at run-time, adapting its parameters to the actual input data. Today''s
+    mainstream machine learning frameworks, including ML compilers and inference engines,
+    frequently recommend dynamic quantization as an initial step for optimizing model
+    serving. This is because dynamic quantization can significantly reduce memory
+    usage and computational load, leading to faster token generation and improved
+    model serving efficiency without substantial loss in model accuracy. In this paper,
+    we reveal a critical vulnerability in dynamic quantization: an adversary can exploit
+    such quantization strategy to steal sensitive user data placed in the same batch
+    as the adversary''s input. Our analysis demonstrates that dynamic quantization,
+    when improperly implemented or configured, can create side channels that expose
+    information about other inputs within the same batch. We call this phenomenon
+    Quantamination, describing contamination from quantization. Specifically, we show
+    that at least 4 of the most popular ML frameworks in use today either default
+    to or can use configurations that leak data across the batch boundary. This data
+    leakage, in theory, allows attackers to partially or even fully recover other
+    users'' batched input data, representing a serious privacy risk for existing ML
+    serving frameworks.'
+- title: 'P$^2$CE: Model-Agnostic Plausible Pareto-Optimal Counterfactual Explanations'
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.18418v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Arthur Hendricks Mendes de Oliveira
+  - Giovani Valdrighi
+  - Marcos Medeiros Raimundo
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: The increasing use of machine learning algorithms in social applications
+    has raised concerns about fairness and transparency, leading to the development
+    of counterfactual explanations. These explanations supports individuals to understand
+    and potentially alter unfavorable decisions in areas such as loan applications,
+    job selections, and more, by providing actionable changes to input features that
+    would lead to a desired outcome. Existing methods often struggle to balance feasibility,
+    plausibility, and computational efficiency. To address this, we introduce P$^2$CE,
+    an algorithm for generating plausible Pareto-optimal counterfactual explanations,
+    offering users a diverse set of optimal trade-offs between different notions of
+    feasibility. P$^2$CE employs an auxiliary isolation forest outlier detector to
+    ensure that explanations are in accordance with the data distribution and leverages
+    SHAP values to obtain optimal results with short computing times, regardless of
+    the underlying model. Our algorithm was empirically evaluated on three datasets,
+    demonstrating superior performance in terms of both solution quality and computational
+    efficiency compared to related techniques.
+- title: 'To do($x$) or not to do($x$): Medical Image Counterfactuals for Dataset
+    Augmentation'
+  date: 2026-09
+  url: https://arxiv.org/abs/2609.14124v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Yasin Ibrahim
+  - Robin J. Evans
+  - Konstantinos Kamnitsas
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Medical image analysis is often hindered by biased datasets, which can
+    lead to biased models and limited clinical applicability. A promising strategy
+    for mitigating such biases is to augment training data with synthetic images.
+    Counterfactual (CF) generation is one such strategy, though the term is used in
+    two different senses: in some works, CFs are produced through causality-based
+    interventions derived from structural causal models, whereas in others, they are
+    produced by non-causal image edits or conventional conditional generative models,
+    such as altering anatomy or adding pathologies. In this work, we study this distinction
+    and evaluate its practical consequences for medical image augmentation. We compare
+    three conditioning strategies: $\textit{Deterministic}$, which changes selected
+    variables while holding the remaining variables fixed; $\textit{Undirected}$,
+    which updates variables according to learned statistical associations without
+    assigning causal directions; and $\textit{Causal}$, which propagates interventions
+    along a directed causal graph. We analyse how these choices affect the resulting
+    images, and explore when causally grounded methods improve dataset augmentation
+    or bring limited benefit. In particular, we assess downstream performance and
+    fairness, where fairness refers to reduced sensitivity to dataset biases across
+    sensitive subgroups. Our experiments demonstrate that using a causal approach
+    to synthetic training data generation can lead to tangible benefits, with these
+    insights offering valuable guidance to machine learning practitioners for the
+    effective design of data generation protocols.'
+- title: Generative Diffusion Models of Stochastic Graph Signals
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.06833v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Yiğit Berkay Uslu
+  - Samar Hadou
+  - Sergio Rozada
+  - Shirin Saeedi Bidokhti
+  - Alejandro Ribeiro
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Sampling stochastic signals supported on a graph underlies many graph
+    machine learning tasks, including recommender systems, forecasting in financial
+    markets, and wireless network optimization. In these settings, the target signals
+    are realizations of unknown conditional distributions. However, prevailing approaches
+    rely mostly on intricate, application-tailored designs that often regress to a
+    conditional mean instead of sampling from the conditional law. This paper unifies
+    such problems as conditional graph signal generative modeling and tackles them
+    with a single denoising diffusion framework. We learn a reverse diffusion process,
+    parametrized by graph neural networks (GNNs), that draws graph signals conditioned
+    directly on the graph topology and on node-feature side information. The reverse
+    process is realized by a novel architecture, the U-Graph Neural Network (U-GNN),
+    which generalizes the image-convolutional U-Net to graph-structured signals. The
+    U-GNN performs multi-resolution encoder--decoder processing in which pooling and
+    unpooling reduce to a learned node selection, expressed by nested selection matrices,
+    and a zero-padded lifting of coarse signals back to the full node set. The graph
+    convolutions are carried out on the original graph, with a stride that sets their
+    hop reach, so the U-GNN bypasses explicit graph coarsening at every resolution.
+    We demonstrate our method on two generative tasks: stock price forecasting and
+    optimal wireless resource allocation, with extensive numerical results in both
+    domains.'
+- title: 'AdaptAV: Continuous Adaption of Vision Models for Autonomous Vehicles Using
+    Cloud-based Oracle'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.28673v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Yuheng Zhu
+  - Dhruva Ungrupulithaya
+  - Boluo Ge
+  - Man-Ki Yoon
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Deploying vision perception models in autonomous vehicles requires that
+    we prioritize inference speeds, resulting in a model with shallower architectures
+    and lesser model parameters (i.e., more pruned). Such small models do not generalize
+    well, which could result in poor performance when encountered with novel scenarios.
+    We propose a system that overcomes this by continuously retraining the vision
+    models on the cloud with data uploaded by vehicles. We leverage the abundant compute
+    resources, including machine learning accelerators, of the cloud to run a highly-accurate
+    oracle model that will guide the retraining process of the on-vehicle model. This
+    newly trained model is transmitted to the vehicle over the network and is utilized
+    by the vehicle for perceptions, leading to improved inference accuracy over time.
+- title: A Machine Learning Framework for EEG-Based Prediction of Treatment Efficacy
+    in Chronic Neck Pain
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.16326v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Xiru Wang
+  - Aiden Li
+  - Hongzhao Tan
+  - Stevie Foglia
+  - Aimee Nelson
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Chronic neck pain is a leading cause of disability worldwide, and current
+    treatment selection remains largely trial and error. We present a machine learning
+    framework that uses electroencephalography to predict treatment efficacy in patients
+    with chronic neck pain, with the goal of supporting individualized therapy and
+    reducing the burden on healthcare systems. The framework centers on a rigorous
+    data preprocessing stage tailored to the characteristics of each EEG recording
+    type. For resting-state EEG, the preprocessing pipeline comprises baseline signal
+    removal, bad channel identification and exclusion, re-referencing, bandpass and
+    notch filtering, Independent Component Analysis, and power spectral density analysis.
+    For motor execution and motor imagery recordings, the same initial steps are applied,
+    after which signals are aligned to trigger events so that event-related desynchronization
+    (ERD) and event-related synchronization (ERS) can be quantified. Synchronously
+    recorded electromyography data are bandpass filtered and smoothed with a moving
+    average, then correlated with the corresponding EEG channels to characterize the
+    EEG EMG relationship during attempted movement. In parallel, we performed an extensive
+    literature review of machine learning models applied to clinical EEG (763 records
+    initially screened, 16 patient and 47 healthy-control studies retained), to inform
+    the post-processing strategy. Through this combined preprocessing and review effort,
+    we aim to develop a robust predictive model that can support personalized healthcare
+    strategies in chronic pain management.
+- title: Improvements to the post-processing of weather forecasts using machine learning
+    and feature selection
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.19340v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Kazuma Iwase
+  - Tomoyuki Takenawa
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: This study aims to develop and improve machine learning-based post-processing
+    models for precipitation, temperature, and wind speed predictions using the Mesoscale
+    Model (MSM) dataset provided by the Japan Meteorological Agency (JMA) for 18 locations
+    across Japan, including plains, mountainous regions, and islands. By incorporating
+    meteorological variables from grid points surrounding the target locations as
+    input features and applying feature selection based on correlation analysis, we
+    found that, in our experimental setting, the LightGBM-based models achieved lower
+    RMSE than the specific neural-network baselines tested in this study, including
+    a reproduced CNN baseline, and also generally achieved lower RMSE than both the
+    raw MSM forecasts and the JMA post-processing product, MSM Guidance (MSMG), across
+    many locations and forecast lead times. Because precipitation has a highly skewed
+    distribution with many zero cases, we additionally examined Tweedie-based loss
+    functions and event-weighted training strategies for precipitation forecasting.
+    These improved event-oriented performance relative to the original LightGBM model,
+    especially at higher rainfall thresholds, although the gains were site dependent
+    and overall performance remained slightly below MSMG.
+- title: Long-Horizon Forecasting of Complete Financial Statements with Forma
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.11327v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Travis L. Johnson
+  - Jiannan Jiang
+  - Soumyabrata Chaudhuri
+  - Yihao Chen
+  - Lauren Falvey
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Specialist training beats generalist scale when forecasting financial
+    statements. To our knowledge, no prior work jointly forecasts complete financial
+    statements beyond one year, yet in a discounted-cash-flow valuation most firm
+    value sits past that window. We release ProForma-20Q, a reproducible benchmark
+    for forecasting 78 statement line items 1-20 quarters ahead, for anonymized firms,
+    from past statements and an industry code, scored by change-space $R^2$. On it,
+    Forma, a transformer that reads statements as sets of (account, quarter, value)
+    tuples and maximizes a masked-tuple Gaussian likelihood, beats every competitor
+    we field: classical machine learning, chained gradient boosting, a zero-shot time-series
+    foundation model, and frontier large language models. Its lead widens with horizon,
+    where valuation needs accuracy most, and its Gaussian predictive intervals never
+    under-cover. Forma''s forecasts nearly satisfy accounting identities; exact coherence
+    is recoverable at no statistically significant accuracy cost. Its tuple interface
+    supports scenario analysis without retraining, and we show that pinning future
+    revenue paths sharpens the rest of the statement.'
+- title: Federated Learning for Distributed CNC Tool Wear Prediction
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.11281v3
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Afsana Khan
+  - Morris Stallmann
+  - Marcin Pietrasik
+  - Charalampos S. Kouzinopoulos
+  - Anna Wilbik
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Tool wear prediction is an important task in CNC machining, where accurate
+    monitoring of tool condition supports product quality and process reliability.
+    Machine learning methods have shown potential for this task, but their use in
+    industrial environments is limited by the distributed nature of machining data
+    and by restrictions on data sharing between machines, sites, or organizations.
+    Federated learning offers a suitable framework for this setting by enabling collaborative
+    model training without transferring raw operational data. However, it is open
+    if federated learning can lead to accuracy gains in CNC tool wear prediction that
+    justify the increased complexity of such a system. In this experimental study,
+    real tool trajectories are distributed across simulated clients to represent a
+    federated learning scenario. The federated models are compared against centralized
+    references and local client baselines. Results show that federated learning achieves
+    performance close to centralized learning and improves significantly over local
+    client models. These findings indicate that federated learning can support collaborative
+    tool wear prediction in distributed CNC manufacturing environments and the increased
+    complexity is justified.
+- title: 'DaDaDa: A Dataset for Data Pricing in Data Marketplaces'
+  date: 2026-06
+  url: https://arxiv.org/abs/2607.08785v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Qiheng Sun
+  - Hongwei Zhang
+  - Junxu Liu
+  - Xiaokai Mao
+  - Jinfei Liu
+  venue: ''
+  code_url: https://github.com/ZJU-DIVER/DaDaDa
+  project_url: ''
+  abstract: High-quality data drives machine learning advances across industries.
+    Recognizing the value of data, data transactions are increasingly common, giving
+    rise to many data marketplaces, e.g., AWS Marketplace, Databricks, and Datarade.
+    However, determining the appropriate prices for data products remains a significant
+    challenge due to the unique properties of data products. Traditional pricing methods
+    in economics can be categorized into the cost approach, the income approach, and
+    the sales comparison approach. The cost approach fails in data pricing due to
+    near-zero marginal cost from data replication, and the income approach fails due
+    to inherently unpredictable data revenue. The sales comparison approach remains
+    viable, yet its application is hindered by the absence of standardized pricing
+    benchmarks for data products across marketplaces. To address this challenge, we
+    introduce \texttt{DaDaDa}, the first dataset for data product pricing, containing
+    metadata for 16,147 data products from 9 major data marketplaces worldwide. \texttt{DaDaDa}
+    enables the training of pricing models, thereby establishing price benchmarks
+    for new data products. In addition, \texttt{DaDaDa} can be utilized for other
+    important tasks in data markets, such as data product classification and retrieval.
+    Experiments and a retrieval prototype demonstrate the effectiveness of \texttt{DaDaDa}
+    for pricing, classification, and retrieval of data products. The dataset and code
+    are available at https://github.com/ZJU-DIVER/DaDaDa.
+- title: 'On the post-hoc Evaluation of PDE Discovery: A Multifaceted Challenge of
+    Scientific Advancement'
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.23753v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Baptiste Mathevon
+  - Farah Cherfaoui
+  - Amaury Habrard
+  - Marc Sebban
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Partial differential equation (PDE) discovery aims to identify from data
+    the governing law of a physical system. Constituting a cornerstone of scientific
+    advancement, it has become during the past decade a major line of research in
+    the rapidly evolving field of Physics-informed Machine Learning (PiML). Among
+    the remaining open problems to address in this domain, the post-hoc evaluation
+    of discovered PDEs raises the particular difficulty of being multifaceted. Indeed,
+    it requires jointly considering predictive accuracy, physical consistency, interpretability,
+    and out-of-distribution generalization capacity. Given that some of these properties
+    are conflicting, it is worth noting that the wide range of existing evaluation
+    metrics only partially address the overall problem, potentially leading to overly
+    interpreted conclusions about the validity of a presumed new physical theory.
+    From an abundant literature spanning machine learning, numerical analysis, information
+    theory or symbolic regression, we propose, to our knowledge, the first taxonomy
+    of PDE evaluation metrics, and discuss their advantages and limitations in depth.
+    Based on the observation that evaluation is often achieved on a case-by-case basis
+    and that a universally accepted methodology remains elusive, we further provide
+    recommendations with the aim of promoting standardized and reliable practices,
+    before sketching promising future lines of research in this field. We argue that
+    this paper is intended both for ML experts who design new PDE discovery algorithms
+    and for users of these methods aiming, in real applications, to discover and validate
+    well-founded scientific laws.
+- title: 'Aries: A Proprietary Medium-Range Weather Prediction Model for the Energy
+    Industry'
+  date: 2026-09
+  url: https://arxiv.org/abs/2609.13292v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Lukas Hedegaard Morsing
+  - Arian Bakhtiarnia
+  - Jonas Lynge Olesen
+  - Tómas Bragi Björnsson Leth
+  - Christian Gøbel Bach
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Medium-range weather forecasting underpins operational and planning decisions
+    across the energy industry. Developing competitive weather models was once the
+    domain of national meteorological centers, but recent advances in machine-learned
+    weather prediction (MLWP) have opened the field to industry. We present Aries,
+    a SwinTransformer-based MLWP model developed at InCommodities. Aries is trained
+    on ERA5 reanalysis data at 0.25\textdegree{} resolution, predicting 74 prognostic
+    and 11 diagnostic atmospheric variables. We evaluate the model on 2025 ECMWF Analysis
+    initializations, ensuring a recent and strictly out-of-sample test period for
+    all models compared. On 10-metre wind speed, Aries outperforms both ECMWF HRES
+    and AIFS in terms of RMSE for lead times up to four days, while on 2-metre temperature
+    it achieves RMSE on par with AIFS operational. These results demonstrate that
+    proprietary development of competitive weather models is technically viable, supporting
+    a broader set of forecasts available for operational and planning applications
+    in the energy industry.
+- title: 'Model Monotonicity in Autobidding Auctions: When Do Better Predictions Lead
+    to Better Outcomes?'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.31036v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Ashwinkumar Badanidiyuru
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Online advertising platforms rely on machine learning models to predict
+    click-through rates (pCTR) and conversion rates (pCVR) for auction mechanisms.
+    We introduce a novel framework to study the interaction between recommender system
+    model quality, auction format, and autobidder behavior. We formalize when model
+    improvements -- defined via a refinement relation inspired by filtrations in probability
+    theory -- lead to improvements in platform-level Evaluation Criteria Metrics (ECM)
+    such as revenue, welfare, or liquid welfare. Our main contributions are: (1) a
+    formal definition of model improvement based on cluster refinement, and (2) a
+    systematic characterization of ECM monotonicity across different combinations
+    of bidder types (tCPA, max-CPA), auction formats (first-price, second-price, VCG),
+    and budget constraints. We show that first-price auctions with uniform bidding
+    guarantee revenue monotonicity for tCPA bidders without budgets (via Jensen''s
+    inequality), while second-price auctions and budget constraints can break this
+    property. We provide full numerical constructions for the non-monotonicity results.
+    Our findings have practical implications for advertising platforms seeking to
+    align model improvements with business outcomes.'
+- title: 'Option Pricing on Noisy Intermediate-Scale Quantum Computers: A Quantum
+    Neural Network Approach'
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.19832v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Sebastian Zając
+  - Rafał Pracht
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: In a global derivatives market with notional values in the hundreds of
+    trillions of dollars, the accuracy and efficiency of pricing models are of fundamental
+    importance, with direct implications for risk management, capital allocation,
+    and regulatory compliance. In this work, we employ the Black-Scholes-Merton (BSM)
+    framework not as an end in itself, but as a controlled benchmark environment in
+    which to rigorously assess the capabilities of quantum machine learning methods.
+    We propose a fully quantum approach to option pricing based on Quantum Neural
+    Networks (QNNs), and, to the best of our knowledge, present one of the first implementations
+    of such a methodology on currently available quantum hardware. Specifically, we
+    investigate whether QNNs, by exploiting the geometric structure of Hilbert space,
+    can effectively approximate option pricing functions. Our implementation utilizes
+    a compact 2-qubit QNN architecture evaluated across multiple state-of-the-art
+    quantum processors, including IBM Fez, IQM Garnet, IonQ Forte, and Rigetti Ankaa-3.
+    This cross-platform study reveals distinct hardware-dependent performance characteristics
+    while demonstrating that accurate pricing approximations can be achieved consistently
+    across different devices despite the constraints of Noisy Intermediate-Scale Quantum
+    (NISQ) hardware. The results provide empirical evidence that QNN-based approaches
+    constitute a viable framework for derivative pricing. While the analysis is conducted
+    within the BSM setting, the broader significance lies in the potential extension
+    of these methods to more realistic and computationally demanding models, including
+    local volatility, stochastic volatility, and interest rate frameworks commonly
+    used in practice.
+- title: 'Rethinking Clinical Relevance in Chest X-ray Machine Learning: How Evaluation
+    References Define Performance'
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.26333v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Panagiotis Fytas
+  - Ian Selby
+  - Clemens Karner
+  - Judith Babar
+  - Simon Baker
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Chest X-ray (CXR) machine learning relies heavily on automated evaluation
+    using reference standards that aim to approximate clinical judgment. However,
+    commonly used report-derived labels for pathology classification or generic image
+    quality metrics for reconstruction may not reliably reflect clinical judgment.
+    We systematically investigate how evaluation-reference choices affect model performance
+    and ranking in both pathology classification and image quality assessment (IQA).
+    To enable controlled comparison across evaluation references, we collected paired
+    expert image- and report-derived labels for thoracic findings from a clinical
+    cohort at Cambridge University Hospitals (CUH) and curated a subset of the public
+    MIMIC-CXR dataset, along with expert ratings of diagnostic image quality. We show
+    that for supervised image classifiers (ResNet, DenseNet), several zero-shot and
+    fine-tuned vision-language models (e.g., MedKLIP, GLoRIA, and ConVIRT), changing
+    the label source leads to substantial differences not only in performance estimates
+    but also in model rankings. In parallel, alignment of IQA measures with expert
+    judgment depends heavily on the choice of measure, and commonly used IQA metrics
+    such as SSIM and PSNR often fail to align with expert assessments of diagnostic
+    usability. Our results demonstrate that evaluation choices are crucial: they can
+    determine which models and methods appear best and are therefore selected for
+    further development or deployment. The selection of evaluation references should
+    therefore be treated as a central component of clinical validity in CXR machine
+    learning, and justified with respect to the pathology, imaging task, and intended
+    downstream clinical use.'
+- title: A Predict-then-Correct Loop Based on Few-Shot Continuous Contextual Bandit
+    for Demand Forecasting
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.16354v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Zhiwei Lei
+  - Benedict Jun Ma
+  - Ilya Jackson
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Retail demand forecasting remains difficult when demand shifts faster
+    than static forecasting models can be retrained, especially in early demand cycles
+    where newly observed labels are sparse. To address this, this study aims to improve
+    adaptive retail forecasting by proposing a predict-then-correct (PtC) framework
+    that retains a first-stage machine learning (ML) forecast and applies a few-shot
+    continuous contextual bandit correction policy with similar-SKUs augmentation
+    and top-p masked updating. Across Walmart retail data and an exclusive beverage
+    dataset, PtC delivers statistically significant reductions in MAPE, MAE, and RMSE
+    across stable &amp; high volume, stable &amp; low volume, and erratic &amp; intermittent
+    demand patterns, improves average RMSE by 9.52% over the ML-only baseline in the
+    ablation study, and yields lower inventory costs than base-stock, proximal policy
+    optimization, and soft actor-critic policies under the tested lead-time settings.
+    These findings show that online forecast correction can bridge offline demand
+    learning and real-time retail decision-making by adapting to sparse feedback without
+    fully retraining the base forecasting model.
+- title: A Sequence-to-Sequence ConvLSTM Approach for Leaf Area Index Forecasting
+    over the South-Central United States
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.00879v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Zhixing Ruan
+  - Lixin Lu
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Leaf Area Index (LAI) is a fundamental biophysical variable governing
+    land-atmosphere interactions; however, LAI forecasting at high spatial resolution
+    remains an unsolved challenge. While recent machine learning approaches have demonstrated
+    LAI estimation at point or regional scales, none provides a gridded, meteorology-driven
+    prognostic forecast suitable for subseasonal land surface and climate modeling
+    applications. Here we present a sequence-to-sequence Convolutional LSTM (ConvLSTM)
+    framework that generates daily 1-km LAI forecasts up to 30 days ahead, driven
+    by historical LAI sequences and daily meteorological forcing including temperature
+    and precipitation. Trained and evaluated over the South-Central United States
+    -- a region of strong climate gradients and diverse vegetation -- the model achieves
+    a domain-averaged RMSE of 0.36 at a 30-day lead time, more than a third lower
+    than the persistence baseline. Forecast skill remains robust across seasons, geographic
+    distributions, and plant functional types, including forests, grasslands, shrublands,
+    and croplands. To our knowledge, this is the first demonstration of skillful LAI
+    forecasting at a 30-day horizon at 1-km resolution.
+- title: On the QUEST for Uncertainty Quantification via Highest Density Regions
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.19569v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Sam Goring
+  - Tom Kuipers
+  - Nicola Paoletti
+  - David S. Watson
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Uncertainty quantification (UQ) is essential for reliable decision-making
+    in safety-critical applications in probabilistic machine learning. For regression
+    problems, dominant scalar UQ approaches - notably, those based on proper scoring
+    rules - measure uncertainty via pointwise predictive risk. This can lead to counterintuitive
+    results when the target statistic is not the conditional expectation. We propose
+    an alternative framework, in which uncertainty is characterised by the volume
+    of the most probable subset of a distribution's support. QUEST (Quantifying Uncertainty
+    via highest dEnSiTy regions) is a novel approach to UQ based on the concentration
+    of Lebesgue measure at a distribution's peak(s), evaluated at one or more values
+    of a robustness parameter $α$. We establish connections between our measures and
+    classical statistics from information theory and economics. We show that, unlike
+    popular alternatives based on proper scoring rules, QUEST measures of epistemic
+    and aleatoric uncertainty satisfy a set of axioms adapted from the UQ literature,
+    including monotonicity under distributional spread and invariance to location
+    shifts. Selective prediction benchmarks confirm that QUEST performs favourably
+    against standard measures such as variance and differential entropy.
+- title: Fusing Backdoors, Machine Learning, and Optimization for Large-Scale Parametric
+    Mixed-Integer Programs
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.21440v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - El Mehdi Er Raqabi
+  - Pascal Van Hentenryck
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Large-scale optimization problems are often solved repeatedly under similar
+    structural conditions, leading to substantial computational overhead. This occurs
+    in applications such as power systems, transportation, and supply chain networks,
+    where the underlying structure is fixed while parameters frequently vary under
+    perturbations. This paper proposes a Learning to Optimize (LTO) framework that
+    accelerates the solution of large-scale general mixed-integer problems by leveraging
+    the concept of a backdoor, i.e., a subset of variables that drive most of the
+    computational complexity. The proposed BIPC framework consists of three phases.
+    Phase I is an identification procedure that discovers a backdoor for a set of
+    instances in the distribution. Phase II uses supervised learning to develop machine
+    learning models that, given an instance, predict values for bounded-domain backdoor
+    variables and intervals for wide-domain backdoor variables. These predictions
+    define a reduced optimization problem where the predictions constrain the backdoor
+    variables, while the other variables remain free. Phase III optimizes this reduced
+    problem and, if necessary, applies a correction step to restore feasibility or
+    the optimality guarantees. Experiments on real-world, large-scale problems show
+    substantial reductions in solution time with only a limited loss in solution quality.
+    The framework enables organizations to solve large-scale optimization problems
+    efficiently in the presence of frequent perturbations, such as unexpected events,
+    demand fluctuations, or operational changes. Because these changes affect parameters
+    rather than the problem structure, BIPC can quickly provide high-quality, feasible
+    solutions, offering a practical approach to integrating machine learning into
+    existing optimization pipelines.
+- title: Asynchronous Cooperative Online Learning for Multi-Robot Control under Computational
+    Delays
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.29562v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Xiaobing Dai
+  - Zewen Yang
+  - Wei Ren
+  - Sandra Hirche
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Ensuring the safe operation of multi-agent systems (MASs) under uncertain
+    environments is crucial for cooperative robotic, where external disturbances and
+    inaccurate dynamic models can significantly compromise performance and reliability.
+    To address this challenge, calibrated machine learning models, particularly Gaussian
+    process (GP) regression, are extensively employed due to their interpretable performance
+    quantification. As the interconnected communication of MASs facilitates cooperative
+    learning, agents are able to enhance learning performance by exchanging local
+    GP inferences with their neighbors and aggregating the received information via
+    distributed GP strategies. However, variations in computational power and prediction
+    tasks among agents inevitably lead to heterogeneous computational delays and differences
+    in query points, which are often overlooked in existing aggregation methods. To
+    overcome these limitations, this work proposes an asynchronous cooperative learning
+    strategy that explicitly accounts for prediction accuracy, query point variations
+    and delay effects. Additionally, a distributed control law based on an adjoint
+    MAS is developed to ensure the desired control performance. Simulations on unmanned
+    surface vehicles validate the effectiveness of the proposed approach, demonstrating
+    substantial improvements in both learning and control performance compared to
+    the state-of-the-art approaches.
+- title: Backward Compatibility in Tree-Based Explanations and Enhanced CART Algorithm
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.08674v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Hirofumi Suzuki
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: In the operation of machine learning models, model update is a fundamental
+    process that requires careful consideration of its impact on downstream decision-making.
+    Particularly when operating explainable models, changes in explanations resulting
+    from model updates can lead to detrimental outcomes for users. Decision trees,
+    due to their high transparency, are frequently employed in risk-sensitive decision-making
+    and serve as a prominent example in which the aforementioned issue is evident.
+    However, existing research addressing similar issues has focused on explanations
+    based on feature contributions, and thus cannot handle explanations derived from
+    tree structures. Therefore, this paper proposes the Backward Compatibility Loss
+    in Tree-based eXplanations (BCLTX), a loss metric that suppresses changes in decision
+    tree explanations before and after updates. Furthermore, we design CART with Backward
+    Compatibility in Tree-based eXplanations (CART-BCTX), a lightweight algorithm
+    that improves upon CART for the decision tree update problem under BCLTX. Experimental
+    results using 10 real-world datasets, including both classification and regression
+    tasks, show that CART-BCTX achieves favorable trade-offs between prediction performances
+    and BCLTX values, with comparable computation times to CART, regardless of the
+    task.
+- title: 'LambdaRankIC: Directly Optimizing Rank IC for Financial Prediction'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.00501v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Yan Lin
+  - Yihong Su
+  - Yi Yang
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: In financial predictions, the performance of machine learning models is
+    often assessed by Rank IC, which is the Spearman rank correlation between the
+    model predictions and the realized asset returns. Despite its wide adoption, most
+    existing models are trained using regression losses or ranking objectives that
+    may not align with Rank IC. We propose LambdaRankIC, a novel learning-to-rank
+    approach that directly optimizes Rank IC. We circumvent the non-differentiability
+    of the ranking operator by deriving the closed-form expression for the lambda
+    gradients induced by the pairwise rank swaps, which enables efficient gradient-based
+    optimization within the LambdaRank framework. We implement LambdaRankIC as a custom
+    objective in XGBoost. Theoretically, we show that our approach optimizes an upper
+    bound on Rank IC. We evaluate the proposed approach on both simulated and real-world
+    financial data. In simulation studies, LambdaRankIC accurately recovers the true
+    ranking structure in noiseless settings and consistently outperforms regression-based
+    and NDCG-oriented ranking methods under low signal-to-noise ratios and heavy-tailed
+    noise regimes. In empirical experiments using real market data, LambdaRankIC achieves
+    the best out-of-sample performance on evaluation metrics commonly used in finance,
+    including Rank IC, ICIR, monthly return, and Sharpe ratio. These results show
+    that directly optimizing Rank IC can yield substantial improvements over conventional
+    learning objectives in financial predictions when the full-order ranking quality
+    is the primary goal.
+- title: 'Divide et Calibra: Multiclass Local Calibration via Vector Quantization'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.21060v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Cesare Barbera
+  - Lorenzo Perini
+  - Giovanni De Toni
+  - Andrea Passerini
+  - Andrea Pugnana
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Accurate and well-calibrated Machine Learning (ML) models are mandatory
+    in high-stakes settings, yet effective multiclass calibration remains challenging:
+    global approaches assume calibration errors are homogeneous across the latent
+    space, while local methods often rely on latent-space dimensionality reduction,
+    which leads to information loss. To address these issues, we propose a compositional
+    approach to multiclass calibration, where region-specific calibration maps are
+    constructed from shared codeword-dependent factors. We instantiate this idea via
+    Vector Quantization (VQ), which induces a structured partition of the representation
+    space, and an indexed parameterization of Dirichlet concentrations that enables
+    parameter sharing across regions. Our approach learns heterogeneous calibration
+    maps that generalize well even to sparse regions of the latent space. Experiments
+    on benchmark datasets show significant improvements in local calibration while
+    maintaining competitive global calibration and predictive performance.'
+- title: 'From Mobile Data to Business Insights: An End-to-End Analytics Framework
+    for Large-Scale Urban Mobility Analysis and Decision Support'
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.03394v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Thiago Andrade
+  - Shazia Tabassum
+  - Miguel E. P. Silva
+  - Ricardo Dinis
+  - Joao Gama
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Real time location data derived from mobile applications is a powerful
+    tool for addressing various urban challenges, including tourism planning, parking
+    management, bus route optimization, and resource allocation. Besides, it offers
+    invaluable insights for shaping strategic decisions in commercial domains such
+    as location based services, market share analysis, and behavioral profiling. In
+    this expansive study, we aim to address all of the aforementioned challenges by
+    investigating the behaviors and patterns of smartphone users within urban environments,
+    particularly in the domains of tourism, transportation, and retail. Our approach
+    encompasses the development of a sophisticated data platform from inception to
+    implementation, which includes the formulation of use cases, architectural design,
+    and implementation of modules. We employ state of the art techniques and technologies,
+    including data anonymization, ETL pipelines, and utilizing Google BigQuery and
+    Vertex AI for data processing and machine learning model development. A modular
+    architecture based on reusable analytical building blocks was developed to generate
+    data products that support multiple stakeholder driven use cases. Additionally,
+    we apply interactive data visualization techniques via Power BI to facilitate
+    the effective interpretation of analytical findings by stakeholders. The developed
+    models address a wide range of mobility analytics tasks, including mobility profiling,
+    frequent trajectory mining, area of influence analysis, traffic anomaly detection,
+    and origin destination pattern analysis. The results demonstrate the framework's
+    ability to capture user mobility dynamics at fine spatial and temporal resolutions,
+    providing actionable insights for urban planning and strategic business decision
+    making.
+- title: 'Drift Happens: An Empirical Study of Neural Architecture Robustness to Temporal
+    Distribution Shift'
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.05908v1
+  category: ai-marketing
+  subcategory: measurement
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Real-world data distributions evolve over time, inducing temporal distribution
+    shift that can substantially degrade the reliability of deployed machine learning
+    systems. However, the extent to which architectural choices and their associated
+    inductive biases affect temporal robustness remains insufficiently understood.
+    We present a systematic empirical comparison of temporal robustness across three
+    heterogeneous, time-indexed domains encompassing image classification, multi-label
+    text classification, and text regression tasks. Using a unified evaluation framework
+    based on temporal drift matrices, we train models on cumulative historical data
+    and evaluate their performance on both earlier and later time periods, thereby
+    quantifying cross-temporal generalization. Our study spans model families ranging
+    from simple multilayer perceptrons and convolutional networks to recurrent networks
+    and pretrained Transformer-based encoders. Collectively, the results show that
+    architectural inductive biases systematically shape temporal robustness: models
+    whose inductive biases lead them to exploit localized, highly discriminative features
+    attain the highest in-distribution accuracy, yet those features are often the
+    ones that change most over time, so these models degrade fastest, while pretrained
+    encoders that draw on coarser, more stable representations drift more gradually.
+    These observations offer practical guidance for selecting architectures for real-world
+    systems subject to temporal drift.'
+- title: 'The Feedback Hamiltonian is the Score Function: A Diffusion-Model Framework
+    for Quantum Trajectory Reversal'
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.21210v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Sagar Dubey
+  - Alan John
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'In continuously monitored quantum systems, the feedback protocol of García-Pintos,
+    Liu, and Gorshkov reshapes the arrow of time: a Hamiltonian $H_{\mathrm{meas}}
+    = r A / τ$ applied with gain $X$ tilts the distribution of measurement trajectories,
+    with $X &lt; -2$ producing statistically time-reversed outcomes. Why this specific
+    Hamiltonian achieves reversal, and how the mechanism relates to score-based diffusion
+    models in machine learning, has remained unexplained. We compute the functional
+    derivative of the log path probability of the quantum trajectory distribution
+    directly in density-matrix space. Combining Girsanov''s theorem applied to the
+    measurement record, Fréchet differentiation on the Banach space of trace-class
+    operators, and Kähler geometry on the pure-state projective manifold, we prove
+    that $δ\log P_F / δρ= r A / τ= H_{\mathrm{meas}}$. The García-Pintos feedback
+    Hamiltonian is the score function of the quantum trajectory distribution -- exactly
+    the object Anderson''s reverse-time diffusion theorem requires for trajectory
+    reversal. The identification extends to multi-qubit systems with independent measurement
+    channels, where the score is a sum of local operators. Two consequences follow.
+    First, the feedback gain $X$ generates a continuous one-parameter family of path
+    measures (for feedback-active Hamiltonians with $[H, A] \neq 0$), with $X = -2$
+    recovering the backward process in leading-order linearization -- a structure
+    absent from classical diffusion, where reversal is binary. Second, the score identification
+    enables machine learning (ML) score estimation methods -- denoising score matching,
+    sliced score matching -- to replace the analytic formula when its idealizations
+    (unit efficiency, zero delay, Gaussian noise) fail in real experiments.'
+- title: 'WARP: A Benchmark for Primal-Dual Warm-Starting of Interior-Point Solvers'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.05728v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Dhruv Suri
+  - Helgi Hilmarsson
+  - Shourya Bose
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Solving AC Optimal Power Flow (AC-OPF) is of central importance in electricity
+    market operations, where interior-point methods (IPMs) such as IPOPT are the standard
+    solvers. A growing body of work uses machine learning to predict primal warm-start
+    iterates, reporting iteration reductions of 30-46\%. We show that these reported
+    gains rest on an inappropriate evaluation baseline: prior methods benchmark against
+    the flat start $V_m = 1, V_a = 0$, whereas the solver''s actual default - the
+    variable-bound midpoint $(l+u)/2$ - is near-optimal for log-barrier centrality.
+    Against this corrected baseline, no primal-only warm-start method reduces solver
+    iterations. We trace the failure to a geometric property of interior-point methods:
+    primal prediction accuracy is anticorrelated with convergence speed, and providing
+    the ground-truth optimal solution $x^*$ without dual variables causes the solver
+    to diverge. Oracle experiments establish that the complete primal-dual-barrier
+    state $(x^*, λ^*, z^*, μ^*)$ reduces IPOPT iterations from 23 to 3 - an 85\% reduction
+    that is structurally inaccessible to primal-only methods. To enable rigorous evaluation
+    of warm-start methods on this task, we release a benchmark suite comprising dual-labeled
+    AC-OPF datasets with IPOPT-extracted solutions, a corrected evaluation protocol,
+    and WARP - a topology-conditioned encode-process-decode interaction network that
+    predicts the full interior-point state $(\hat{x}, \hatλ, \hat{z}, \hatμ)$ on the
+    heterogeneous constraint graph. WARP achieves a 76\% reduction in IPOPT iterations
+    while natively accommodating N-1 contingency topology variations without retraining.'
+- title: Generating Synthetic Malware Samples Using Generative AI
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.22084v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Tiffany Bao
+  - Kylie Trousil
+  - Quang Duy Tran
+  - Fabio Di Troia
+  - Younghee Park
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Malware attacks have a significant negative impact on organizations of
+    varied scales in the field of cybersecurity. Recently, malware researchers have
+    increasingly turned to machine learning techniques to combat sophisticated obfuscation
+    methods used in malware. However, collecting a diverse set of malware samples
+    with various obfuscation techniques is challenging and often takes years, especially
+    for newly developed malware. This issue is further compounded by a well-known
+    limitation of machine learning models: their poor performance when training data
+    is scarce. In this paper, we propose a new system for generating synthetic malware
+    samples to augment imbalanced malware dataset. Our approach decomposes malware
+    binary samples into mnemonic opcode sequences, leveraging natural language processing
+    to extract contextual meaning behind malware opcode features to aid the learning
+    of generative AI (GenAI) employed in this paper, Generative Adversarial Networks
+    (GAN), Wasserstein Generative Adversarial Networks with Gradient Penalty (WGAN-GP),
+    and a modified Diffusion model. The experiment results show that augmenting training
+    data with Diffusion-based synthetic data significantly improves classification
+    performance for minor classes by up to 60% on average. This enhancement ultimately
+    leads to an overall malware classification performance of 96%, an 8% improvement.
+    These findings demonstrate the high quality and fidelity of the synthetic data,
+    its robustness, and its potential applications in malware analysis. Specifically,
+    synthetic malware data proves effective in improving the classification of minor
+    malware classes and detection rates, even though the size of known malware data
+    is significantly small.'
+- title: 'Perceived micro-learning based consumer education and sustainable purchase
+    behavior: The mediating role of perceived consumer effectiveness and the moderating
+    role of environmental concern.'
+  date: 2026-01
+  url: https://doi.org/10.1016/j.actpsy.2026.107943
+  category: consumer-behavior
+  subcategory: empirical
+  authors:
+  - Alshaketheep K
+  - Al-Ahmed H
+  - Shajrawi A
+  abstract: 'This study examines how perceived exposure to micro learning based consumer
+    education relates to sustainable purchase behavior, drawing on the Stimulus Organism
+    Response model, Social Cognitive Theory, and the Cognitive Theory of Multimedia
+    Learning. Using a cross sectional survey design, data were '
+  doi: 10.1016/j.actpsy.2026.107943
+  venue: MED

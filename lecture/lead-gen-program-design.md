@@ -76,8 +76,11 @@ Output wird 2027 zum Datensatz.
 
 - **Layer-Struktur:** L0 Value Context (filtert Relevanz von allem darunter) → L1 Firmographic
   → L2 Buying-Situation → L3 Journey-Stage → L4 Real-Time Signals → value-aligned
-  **action selection**. CAM-Sim-Finding F3: Kontext zahlt sich in der Action-Selection aus,
-  nicht in der Bid-/Preis-Modulation.
+  **action selection**. CAM-Sim-Finding F3 (refined): Die **Action-Selection** (Situation →
+  Aktion) ist der dominante Werttreiber (+$464); Bid-/Preis-Modulation ist nur ein
+  **kalibrierter** Multiplikator — unkalibrierte Heuristik ist schlechter als Flat-Bidding,
+  mechanismus-kalibriertes Bidding verdoppelt den Profit fast (+$530 vs +$294). Für H6
+  relevant: Wert liegt in der Action-Selection, nicht in naiver Bid-Heuristik.
 - **Value-Dimensionen:** Economic / Strategic / Operational / Relationship.
 - **Anker (verifiziert, siehe `paper/g6_haas_integration.md`):** Terho, Haas, Eggert & Ulaga
   (2012, IMM 41(1)) „value-based selling"; Böhm, Eggert, Terho, Ulaga & Haas (2020, JPSSM

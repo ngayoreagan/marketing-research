@@ -1,22 +1,11 @@
 <h1 align="center">
   <strong>Marketing Research Corpus</strong>
 </h1>
-<h3 align="center">Latest marketing trends: AI & generative marketing, digital/performance, social & creator, privacy-first data, analytics/MMM, B2B/ABM</h3>
+<h3 align="center">~14,000 papers · AI & generative marketing, digital & performance, social & creator, privacy-first data, analytics/MMM, B2B/ABM — browsable, reported, and tooled for teaching</h3>
 
-### 🔗 Links
+> 🎓 **Are you a marketing student?** Start with **[FOR_STUDENTS.md](FOR_STUDENTS.md)** — a short, non-technical onboarding path to browsing papers, reading the reports, and using the tools for coursework.
 
-- **GitHub**: https://github.com/tobias-weiss-ai-xr/marketing-research
-- **License**: https://github.com/tobias-weiss-ai-xr/marketing-research/blob/main/LICENSE
-- **CI**: https://github.com/tobias-weiss-ai-xr/marketing-research/actions/workflows/validate.yml
-- **AI Literacy**: https://github.com/tobias-weiss-ai-xr/ai-literacy-research
-
-
-> 📢 **Marketing research corpus:** AI & generative marketing, digital & performance,
-> social media & creator economy, content marketing, consumer behavior, brand,
-> analytics, privacy-first data, CX & retail, B2B/ABM — analyzed with the same
-> pipeline as the other `*-research` corpus repos.
-
-> 🎓 **Teaching:** Guest lecture *Agentic AI for Lead Generation* (45 min, EN, marketing chair) — see [`lecture/`](lecture/README.md).
+> 🎤 **Teaching:** Guest lecture *Agentic AI for Lead Generation* (45 min, EN, marketing chair) — see [`lecture/`](lecture/README.md).
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/tobias-weiss-ai-xr/marketing-research/main/assets/visualizations/category_distribution.png" alt="Teaser" width="600" />
@@ -24,24 +13,21 @@
 
 ---
 
-## What you get
+## 🧭 Navigate
 
-| Capability | How |
-|------------|-----|
-| 📄 **Curated corpus** | `papers.yaml` is the source of truth — one structured entry per paper |
-| ✅ **Auto-validation** | `scripts/validate_papers.py` checks schema, duplicates, URL normalization, LaTeX artifacts |
-| 🧾 **Auto-generated README** | `scripts/generate_readme.py` renders the paper list grouped by your taxonomy |
-| 📊 **Statistics & trends** | `scripts/standard_stats.py` → `statistics.json` (momentum, gaps, bursts, venues, authors) |
-| 🔍 **Literature review report** | `scripts/analysis/generate_reports.py` → `docs/research/literature_review.md` + `trends.md` |
-| 🧭 **Topic planning** | `tools/topic_planner.py`, `tools/trend_scanner.py`, `tools/landscape_analyzer.py`, `tools/brief_generator.py` |
-| 🔎 **New paper discovery** | `scripts/fetch/fetch_new_papers.py` (arXiv), `fetch_other_sources.py` (dblp/crossref/europepmc), `fetch_openalex_bulk.py` |
-| 🐙 **GitHub repos discovery** | `scripts/fetch/fetch_github_repos.py` (optional, config-driven via `github_queries` in taxonomy.yaml) |
-| 🦊 **GitLab projects discovery** | `scripts/fetch/fetch_gitlab_repos.py` (optional, config-driven via `gitlab_queries` in taxonomy.yaml) |
-| 🏠 **Codeberg repos discovery** | `scripts/fetch/fetch_codeberg_repos.py` (optional, config-driven via `codeberg_queries` in taxonomy.yaml) |
-| 🖥️ **GitHub Pages site** | `docs/index.html` — searchable, filterable paper browser |
-| 🤖 **Agentic workflow** | `AGENTS.md` + `config/taxonomy.yaml` make this repo agent-friendly by design |
+| If you want to… | Go here |
+|-----------------|---------|
+| 🎓 **Onboard fast (students)** | **[FOR_STUDENTS.md](FOR_STUDENTS.md)** — value path + curated reading paths |
+| 📚 **Curated starter papers** | [docs/students/starter_reading_list.md](docs/students/starter_reading_list.md) — hand-picked high-quality papers per category |
+| 🧭 **Per-topic briefs** | [docs/students/topic_briefs.md](docs/students/topic_briefs.md) — one-page framing + thesis gaps per category |
+| 🔎 **Search & filter papers** | [docs/index.html](docs/index.html) — interactive browser |
+| 📚 **Read the full paper list** | [PAPERS.md](PAPERS.md) — every entry grouped by category & year |
+| 📊 **Read the corpus synthesis** | [docs/research/literature_review.md](docs/research/literature_review.md) · [trends.md](docs/research/trends.md) · [concept_map.md](docs/research/concept_map.md) |
+| 🧭 **Generate topics/trends/briefs** | `tools/topic_planner.py` · `trend_scanner.py` · `landscape_analyzer.py` · `brief_generator.py` |
+| 📄 **Deep-dive research papers** | `paper/` — gap analysis, AI-marketing & B2B frameworks, CAM simulation |
+| 🎤 **Guest-lecture materials** | [lecture/](lecture/README.md) |
 
-## 🚀 Quick Start
+## 🚀 Quick Start (developers / the curious)
 
 ```bash
 # 1. Clone
@@ -58,6 +44,21 @@ python3 scripts/standard_stats.py
 python3 scripts/analysis/generate_reports.py
 ```
 
+## ⚙️ What's inside
+
+| Capability | How |
+|------------|-----|
+| 📄 **Curated corpus** | `papers.yaml` is the source of truth — one structured entry per paper |
+| 🔍 **Literature review report** | `scripts/analysis/generate_reports.py` → `docs/research/literature_review.md` + `trends.md` |
+| 📊 **Statistics & trends** | `scripts/standard_stats.py` → `statistics.json` (momentum, gaps, bursts, venues, authors) |
+| 🧭 **Topic planning** | `tools/topic_planner.py`, `tools/trend_scanner.py`, `tools/landscape_analyzer.py`, `tools/brief_generator.py` |
+| 🖥️ **GitHub Pages browser** | `docs/index.html` — searchable, filterable paper browser |
+| 🧾 **Auto-generated README** | `scripts/generate_readme.py` renders the paper list grouped by taxonomy |
+| ✅ **Auto-validation** | `scripts/validate_papers.py` checks schema, duplicates, URL normalization, LaTeX artifacts |
+| 🔎 **New paper discovery** | `scripts/fetch/fetch_new_papers.py` (arXiv), `fetch_other_sources.py` (dblp/crossref/europepmc), `fetch_openalex_bulk.py` |
+| 🐙 **GitHub / 🦊 GitLab / 🏠 Codeberg discovery** | `scripts/fetch/fetch_*_repos.py` (optional, config-driven via taxonomy.yaml) |
+| 🤖 **Agentic workflow** | `AGENTS.md` + `config/taxonomy.yaml` make this repo agent-friendly by design |
+
 ## 📖 How it works
 
 ```
@@ -73,7 +74,10 @@ config/taxonomy.yaml ──► papers.yaml ──► validate_papers.py
               analysis/generate_reports.py ──► docs/research/*.md
 ```
 
-- **Never edit README.md directly** — it is generated from `papers.yaml`.
+- **Do not edit generated outputs by hand** — `README.md`, `PAPERS.md`,
+  `docs/papers.json`, `statistics.json`, and `docs/research/*.md` are rebuilt
+  from `papers.yaml` and the scripts above. `papers.yaml` is the single source
+  of truth for the corpus.
 - The **taxonomy lives in one place** (`config/taxonomy.yaml`); every script reads it via `scripts/research_config.py`.
 - **CI (validate.yml)** runs on every push/PR and weekly to discover new papers.
 
@@ -91,26 +95,26 @@ python3 scripts/analysis/generate_reports.py
 
 This repo is designed to be driven by coding agents (OpenCode, Claude Code, …):
 
-- **Spec-style guardrails** in `AGENTS.md` — agents know the pipeline, never edit README, always re-validate.
+- **Spec-style guardrails** in `AGENTS.md` — agents know the pipeline, never edit generated outputs, always re-validate.
 - **One config file** to change → one re-run to verify (low context cost for agents).
 - **Auto-validation** gives agents an objective pass/fail signal.
 - **Weekly discovery** keeps the corpus fresh without human babysitting.
 
 ## 📊 Corpus Statistics
 
-**13,894 papers** across **11 categories**.
-Sources: **arXiv** 887 (6%) · **DOI** 11899 (86%) · **Other** 1108 (8%).
+**13,996 papers** across **11 categories**.
+Sources: **arXiv** 988 (7%) · **DOI** 11900 (85%) · **Other** 1108 (8%).
 Full paper list: [GitHub Pages site](https://tobias-weiss-ai-xr.github.io/marketing-research).
 
 ### Top categories
 
 | Category | Papers | Recent | |
 |----------|--------|--------|-
-| AI & Marketing | **2793** | 1590 | ████████████ |
+| AI & Marketing | **2887** | 1684 | ████████████ |
 | Surveys, Trends & Meta-Studies | **2068** | 1645 | █████████░░░ |
-| Social Media & Creator Marketing | **1569** | 1058 | ███████░░░░░ |
-| Consumer Behavior & Psychology | **1527** | 1025 | ███████░░░░░ |
-| Digital & Performance Marketing | **1497** | 1006 | ██████░░░░░░ |
+| Social Media & Creator Marketing | **1570** | 1059 | ███████░░░░░ |
+| Consumer Behavior & Psychology | **1532** | 1030 | ██████░░░░░░ |
+| Digital & Performance Marketing | **1499** | 1008 | ██████░░░░░░ |
 | Brand Strategy & Management | **1456** | 1025 | ██████░░░░░░ |
 | Customer Experience, Omnichannel & Retail | **1116** | 731 | █████░░░░░░░ |
 | Analytics, Attribution & Measurement | **581** | 354 | ██░░░░░░░░░░ |
@@ -120,7 +124,7 @@ Full paper list: [GitHub Pages site](https://tobias-weiss-ai-xr.github.io/market
 
 ## 📚 Paper list
 
-All **13894 papers** (grouped by category, subcategory and year) live in **[PAPERS.md](PAPERS.md)** — kept out of this README to keep it readable.
+All **13996 papers** (grouped by category, subcategory and year) live in **[PAPERS.md](PAPERS.md)** — kept out of this README to keep it readable.
 
 Browsable alternatives:
 

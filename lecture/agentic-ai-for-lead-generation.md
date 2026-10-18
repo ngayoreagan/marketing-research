@@ -180,8 +180,8 @@ The chair's open corpus of marketing research
 
 | Signal | Count |
 |---|---|
-| Papers mentioning **agentic AI** | 91 |
-| Papers on **lead generation** | 27 |
+| Papers mentioning **agentic AI** | 108 |
+| Papers on **lead generation** | 31 |
 | **Both** (agentic × lead-gen) | 0 |
 
 *Counts: literal keyword search of title + abstract in the chair's open corpus (marketing-research).*
@@ -194,7 +194,7 @@ The chair's open corpus of marketing research
 papers exist, but the intersection is literally ZERO — say that number
 out loud: a research gap AND a practical opportunity. Method note for Q&A: literal
 keyword matches on title+abstract — papers about "AI agents" or
-"prospecting" without the word "agentic" are not counted, and ~390
+"prospecting" without the word "agentic" are not counted, and ~423
 entries have no abstract, so the counts are conservative lower bounds.
 -->
 

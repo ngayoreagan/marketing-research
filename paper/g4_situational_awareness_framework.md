@@ -13,7 +13,7 @@
 
 ## 🎯 Executive Summary
 
-**Problem:** Agentic marketing systems can plan and execute, but **cannot understand marketing context** (audience situation, channel journey, moment-of-truth) — the corpus has **61 agentic papers** but **only 2** connect agentic with contextual understanding.
+**Problem:** Agentic marketing systems can plan and execute, but **cannot understand marketing context** (audience situation, channel journey, moment-of-truth) — the corpus has **≥100 agentic papers** but **at most a handful** connect agentic with contextual understanding (live lower bound; the corpus only grows).
 
 **Solution:** **Context-Aware Agentic Marketing (CAM)** — a framework that gives autonomous marketing agents **situational awareness** by:
 1. **Sensing Layer** — real-time ingestion of multi-modal marketing context signals
@@ -30,19 +30,19 @@
 ## 📊 Corpus Evidence
 
 ### The Agentic Explosion
-From `papers.yaml` (7,778 papers):
-- **Agentic:** 61 papers total | **41 in 2024-2026** | **Burst: 1.79x** | **July 2026: 12 papers**
-- **World Model:** 1 paper  
-- **Simulation:** 48 papers  
-- **Autonomous:** 53 papers  
+From `papers.yaml` (live; counts are lower bounds as of snapshot — the corpus only grows):
+- **Agentic:** ≥100 papers, all 2025–2026 (highest-momentum trend; sustained and still accelerating)
+- **World Model:** a handful
+- **Simulation:** ≥45 papers
+- **Autonomous:** ≥50 papers
 
 ### The Contextual Vacuum
-| Keyword | Total | 2024-2026 | Combined with "agentic" |
-|---------|-------|-----------|------------------------|
-| contextual | 44 | 32 | **2** |
-| context-aware | 3 | 2 | **0** |
-| situational | 4 | 4 | **0** |
-| intent | 823 | 598 | **0** |
+| Keyword | Lower bound | Combined with "agentic" |
+|---------|-------------|------------------------|
+| contextual | ≥250 | **≤5** |
+| context-aware | ≥3 | **0** |
+| situational | ≥20 | **0** |
+| intent | ≥800 | **0** |
 
 **The intersection is essentially empty.**
 
@@ -665,8 +665,8 @@ See **Layer 3 Deep Dive** above for:
 ## 📚 References (from corpus)
 
 To be populated from papers.yaml:
-- All 61 agentic papers
-- All 44 contextual papers  
+- All agentic papers (≥100; see `paper/g4_academic_paper.md` §5.1)
+- All contextual papers (≥250; see `paper/g4_academic_paper.md` §5.2)
 - Intent modeling papers (top 50)
 - Omnichannel papers (top 20)
 - B2B marketing AI papers (top 15)
@@ -677,29 +677,17 @@ To be populated from papers.yaml:
 
 ### Agentic Papers Over Time
 ```
-2025-02: 1  | 2025-11: 1  | 2025-12: 1
-2026-01: 2  | 2026-03: 3  | 2026-04: 7
-2026-05: 4  | 2026-06: 6  | 2026-07: 12
-2026-08: 4 (to date)
+2025: a handful  →  2026: sustained growth, accelerating through the year
 ```
-**Exponential growth trajectory confirmed.**
+**Exponential growth trajectory confirmed** (see `paper/g4_academic_paper.md` §5.1 for the live aggregate; per-month counts drift and are not reproduced here).
 
 ### Contextual Papers Distribution
-- ai-marketing: 22
-- digital-marketing: 8
-- analytics: 5
-- privacy-data: 3
-- b2b: 2
-- others: 4
+Concentrated in **AI-marketing** and **Survey**, with the remainder across Digital-Marketing, Consumer-Behavior, Brand, Social-Media, CX-Retail, Privacy-Data, Content-Marketing, Analytics, and B2B (see `paper/g4_academic_paper.md` §5.2 for the live aggregate).
 
-**50% in AI-marketing category; none in agentic categories.**
+**None are in agentic categories.**
 
 ### Zero-Intersection Confirmation
-The only 2 papers that mention both agentic and context are:
-1. From Personalisation to Agentic Campaigns: Modern Marketing Techniques Using Artificial Intelligence in the Indian Context (2026-07)
-2. I hope we don't do to trust what advertising has done to love (2026-04)
-
-Both are **superficial mentions** - no academic paper builds the bridge.
+At the snapshot, at most a handful of papers mention both "agentic" and "contextual" — all superficial lexical co-mentions; **no academic paper builds the bridge** (agentic ∩ situational = 0). See `paper/g4_academic_paper.md` §5.3.
 
 ---
 
