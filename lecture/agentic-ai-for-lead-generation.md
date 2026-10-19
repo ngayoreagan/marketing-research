@@ -224,7 +224,7 @@ The chair's open corpus (marketing-research, public on GitHub): **14,044 papers 
 | **Both** (agentic × lead-gen) | **0** |
 | Papers on **context-aware** marketing | 23 |
 
-> Context-aware marketing exists. Agentic lead generation doesn't. Nobody connects the two yet.
+> Inside this corpus: **0** connects the two. Outside it, the field just opened (2025/26). Claim the gap before it closes.
 
 <!-- notes:
 ⏱ ~1.5 min · READ ALOUD
@@ -237,12 +237,24 @@ five of them from this year alone. Thirty-one are about lead
 generation. The intersection — papers that do both? Zero.
 Twenty-three papers are context-aware — all in attribution and
 personalisation; none touch agentic work. The triple intersection
-is empty. Nobody is doing this yet — and that empty cell is this
-chair's to fill.
-[Not read — honesty note if probed:] Counts come from keyword search
-over title/abstract of our own corpus (docs/papers.json, regenerated
-19 Oct 2026) — a heuristic, not a citation index — but conservative;
-the intersection of zero holds for every lead-gen variant we tried.
+is empty — inside this corpus. One honest qualification: outside
+this corpus, the wave has already started — the first academic
+papers on agentic sales agents appeared in 2025 and 2026, and the
+AI-SDR industry is booming. But those are telemarketing studies
+and conceptual frameworks. None of them does what you're about to
+see: a contract-governed, citation-verified agentic loop, run for
+a university chair's partner sourcing. The window is open — and
+that empty cell is this chair's to fill.
+[Not read — honesty note if probed:] Counts are keyword search over
+title/abstract of our own corpus (docs/papers.json, regenerated 19
+Oct 2026) — a heuristic, not a citation index. The zero is
+corpus-internal and survives every lead-gen variant we tried.
+Externally the field began 2025/26: JBR special issue "AI agents,
+agentic AI, and the future of sales" (2026); SSRN telemarketing
+field study, 7.41M interactions (2026); SSRN MCP-orchestrated B2B
+prospecting framework (2026); GTM-Bench (2026); arXiv 2503.23303,
+2510.21713, 2511.01181. If probed: we claim the corpus gap, not a
+blank slate.
 -->
 
 ---
