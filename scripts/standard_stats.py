@@ -149,11 +149,22 @@ def main():
                        "recent_share": round(rs, 4)})
     bursts.sort(key=lambda b: (-b["burst_score"], -b["recent"]))
 
-    venue_counter = Counter((", ".join(e.get("venue")) if isinstance(e.get("venue"), list) else (e.get("venue") or "")).strip() for e in entries)
-    venue_counter.pop("", None)
-    top_venues = [{"name": v, "papers": n} for v, n in venue_counter.most_common(15)]
-    arxiv_n = sum(1 for e in entries if "arxiv" in e.get("url", ""))
-    doi_n = sum(1 for e in entries if "doi.org" in e.get("url", "") or e.get("url", "").startswith("10."))
+    # Normalize venue names (case-insensitive, collapse whitespace)
+    venue_counter = Counter()
+    for e in entries:
+        v = e.get("venue")
+        if isinstance(v, list) and v:
+            v = v[0]  # take primary if multiple
+        v = (v or "").strip()
+        if not v:
+            continue
+        # Basic normalization
+        v_norm = " ".join(v.split())
+        v_norm = v_norm.replace("Proceedings of", "Proc. of").replace("International", "Int.").replace("Conference", "Conf.").replace("Symposium", "Symp.")
+        venue_counter[v_norm] += 1
+    top_venues = [{"name": v, "papers": n} for v, n in venue_counter.most_common(20)]
+    arxiv_n = sum(1 for e in entries if "arxiv" in e.get("url", "").lower())
+    doi_n = sum(1 for e in entries if "doi.org" in e.get("url", "").lower() or e.get("url", "").startswith("10."))
 
     thin = sorted(cell_counter.items(), key=lambda kv: kv[1])[:10]
     cell_recent = Counter(
@@ -172,18 +183,33 @@ def main():
         for a in e.get("authors", []) or []:
             if a:
                 author_counter[a] += 1
+    # Add more author metrics
+    prolific_authors = [{"name": a, "papers": n} for a, n in author_counter.most_common(30)]
+    # Top recent authors
+    author_recent = Counter()
+    for e in entries:
+        if is_recent(e):
+            for a in e.get("authors", []) or []:
+                if a:
+                    author_recent[a] += 1
+    top_authors_recent = [{"name": a, "papers": n} for a, n in author_recent.most_common(15)]
+    
     top_authors = [{"name": a, "papers": n} for a, n in author_counter.most_common(15)]
 
     stats = {
         "metadata": {
             "total_papers": total,
-            "generated_date": max((e.get("date", "") for e in entries if e.get("date")), default=""),
+            "generated_date": datetime.now().strftime("%Y-%m-%d"),
+            "last_paper_date": max((e.get("date", "") for e in entries if e.get("date")), default=""),
+            "first_paper_date": min((e.get("date", "") for e in entries if e.get("date")), default=""),
             "taxonomy": {
                 "categories": len(cats), "subcategories": len(subs),
                 "total_cells": total_cells, "filled_cells": filled_cells,
                 "saturation": saturation, "empty_cells": total_cells - filled_cells,
             },
             "analysis_window": {"last_12m_start": f"{cur_lo[0]:04d}-{cur_lo[1]:02d}"},
+            "recent_12m": recent_n,
+            "prior_12m": sum(1 for e in entries if is_prior(e)),
         },
         "by_category": {c: cat_counter.get(c, 0) for c in cats},
         "by_subcategory": {s: sub_counter.get(s, 0) for s in subs},
@@ -198,8 +224,11 @@ def main():
         "gaps": {
             "thinnest_cells": [{"cell": c, "papers": n} for c, n in thin],
             "white_space": whitespace[:10],
+            "underexplored": [{"cell": c, "papers": n} for c, n in thin if n < 5],
         },
         "top_authors": top_authors,
+        "prolific_authors": prolific_authors,
+        "top_authors_recent": top_authors_recent,
     }
 
     (REPO / "statistics.json").write_text(json.dumps(stats, indent=2), encoding="utf-8")

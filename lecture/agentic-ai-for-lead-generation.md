@@ -176,26 +176,20 @@ reason, not because the other harnesses are worse.
 
 ## Why now — the evidence inside the research corpus
 
-The chair's open corpus of marketing research
+The chair maintains an open corpus of marketing research. Looking at
+its structure, most work falls into **Survey**, **Brand**, and
+**Social Media**, with recurring attention to benchmarks, evaluation,
+frameworks, and autonomy.
 
-| Signal | Count |
-|---|---|
-| Papers mentioning **agentic AI** | 108 |
-| Papers on **lead generation** | 31 |
-| **Both** (agentic × lead-gen) | 0 |
-
-*Counts: literal keyword search of title + abstract in the chair's open corpus (marketing-research).*
-
-> The field is exploding — and in this whole corpus, nobody connects the two yet. This chair can be first.
+That structure suggests a clear use case: **agentic workflows for
+lead generation** that can be grounded in established marketing
+research.
 
 <!-- notes:
-(1.5 min) Ground the hype in data from the chair's own open corpus
-(marketing-research, public on GitHub). Agentic papers exist, lead-gen
-papers exist, but the intersection is literally ZERO — say that number
-out loud: a research gap AND a practical opportunity. Method note for Q&A: literal
-keyword matches on title+abstract — papers about "AI agents" or
-"prospecting" without the word "agentic" are not counted, and ~423
-entries have no abstract, so the counts are conservative lower bounds.
+(1.5 min) The chair's open corpus (marketing-research, public on GitHub)
+shows a well-structured body of work in Survey, Brand, and Social Media.
+This gives us a concrete basis for examining how agentic workflows
+can support lead generation.
 -->
 
 ---

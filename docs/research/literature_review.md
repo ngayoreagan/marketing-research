@@ -1,7 +1,7 @@
 # Literature Review
 
-**Generated:** 2026-10-18  
-**Corpus:** 13,996 papers across 11 categories
+**Generated:** 2026-10-19  
+**Corpus:** 14,044 papers across 11 categories
 
 > Synthesis of the corpus. Category insights are grounded in title/abstract analysis of the papers themselves.
 
@@ -11,17 +11,17 @@
 
 | Rank | Category | Papers |
 |------|----------|--------|
-| 1 | AI & Marketing | 2887 |
+| 1 | AI & Marketing | 2931 |
 | 2 | Surveys, Trends & Meta-Studies | 2068 |
-| 3 | Social Media & Creator Marketing | 1570 |
-| 4 | Consumer Behavior & Psychology | 1532 |
-| 5 | Digital & Performance Marketing | 1499 |
+| 3 | Social Media & Creator Marketing | 1571 |
+| 4 | Consumer Behavior & Psychology | 1533 |
+| 5 | Digital & Performance Marketing | 1501 |
 | 6 | Brand Strategy & Management | 1456 |
 | 7 | Customer Experience, Omnichannel & Retail | 1116 |
 | 8 | Analytics, Attribution & Measurement | 581 |
 
 **Time span:** 1987–2026 (median year 2016)
-**Dominant aspects:** Empirical Studies (5231), Frameworks & Models (2595), Reviews & Surveys (2128)
+**Dominant aspects:** Empirical Studies (5241), Frameworks & Models (2595), Reviews & Surveys (2128)
 
 ---
 
@@ -31,11 +31,11 @@
 |----------|------:|---------:|----------:|-------:|----------:|----------:|
 | Survey | 2068 | 1645 | 229 | +618% | 80% | 137.1 |
 | Brand | 1456 | 1025 | 242 | +324% | 70% | 85.4 |
-| Social Media | 1570 | 1059 | 261 | +306% | 68% | 88.2 |
-| Digital Marketing | 1499 | 1008 | 255 | +295% | 67% | 84.0 |
-| Consumer Behavior | 1532 | 1030 | 275 | +274% | 67% | 85.8 |
+| Social Media | 1571 | 1060 | 261 | +306% | 68% | 88.3 |
+| Digital Marketing | 1501 | 1010 | 255 | +296% | 67% | 84.2 |
+| Consumer Behavior | 1533 | 1031 | 275 | +275% | 67% | 85.9 |
 | Cx Retail | 1116 | 731 | 252 | +190% | 66% | 60.9 |
-| Ai Marketing | 2887 | 1684 | 717 | +135% | 58% | 140.3 |
+| Ai Marketing | 2931 | 1728 | 717 | +141% | 59% | 144.0 |
 | Analytics | 581 | 354 | 160 | +121% | 61% | 29.5 |
 | B2B | 347 | 178 | 98 | +82% | 51% | 14.8 |
 | Content Marketing | 491 | 266 | 165 | +61% | 54% | 22.2 |
@@ -58,12 +58,33 @@
 
 ---
 
+## 🎯 Underexplored (< 10 papers)
+
+| Cell | Papers |
+|------|--------:|
+| `b2b/measurement` | 8 |
+
+---
+
+## 👥 Active Authors (Last 12m)
+
+| Author | Papers (recent) |
+|--------|-----------------|
+| Loso Judijanto | 16 |
+| Tony Wijaya | 15 |
+| Alberto Regis | 12 |
+| Worldly Knowledge Publishing Centre | 12 |
+| Rhian Indradewa | 10 |
+| Hassan Ali Al-Ababneh | 10 |
+
+---
+
 
 ## Category Insights
 
 ### AI & Marketing (`ai-marketing`)
 
-**Corpus size:** 2887 papers
+**Corpus size:** 2931 papers
 
 **Recent papers:**
 
@@ -87,7 +108,7 @@
 
 ### Social Media & Creator Marketing (`social-media`)
 
-**Corpus size:** 1570 papers
+**Corpus size:** 1571 papers
 
 **Recent papers:**
 
@@ -99,7 +120,7 @@
 
 ### Consumer Behavior & Psychology (`consumer-behavior`)
 
-**Corpus size:** 1532 papers
+**Corpus size:** 1533 papers
 
 **Recent papers:**
 
@@ -111,7 +132,7 @@
 
 ### Digital & Performance Marketing (`digital-marketing`)
 
-**Corpus size:** 1499 papers
+**Corpus size:** 1501 papers
 
 **Recent papers:**
 

@@ -3,7 +3,7 @@
   {
    "id": "ai-marketing",
    "name": "AI & Marketing",
-   "count": 2887,
+   "count": 2931,
    "trajectory": {
     "2017": 1,
     "2020": 1,
@@ -11,18 +11,18 @@
     "2023": 76,
     "2024": 572,
     "2025": 718,
-    "2026": 1518
+    "2026": 1562
    },
    "momentum": {
     "id": "ai-marketing",
     "name": "Ai Marketing",
-    "total": 2887,
-    "recent": 1684,
+    "total": 2931,
+    "recent": 1728,
     "prior": 717,
-    "growth_pct": 134.9,
-    "recent_share": 0.583,
-    "papers_per_month": 140.3,
-    "score": 193.2
+    "growth_pct": 141.0,
+    "recent_share": 0.59,
+    "papers_per_month": 144.0,
+    "score": 200.0
    }
   },
   {
@@ -102,7 +102,7 @@
   {
    "id": "consumer-behavior",
    "name": "Consumer Behavior & Psychology",
-   "count": 1532,
+   "count": 1533,
    "trajectory": {
     "2011": 1,
     "2013": 2,
@@ -117,18 +117,18 @@
     "2023": 6,
     "2024": 273,
     "2025": 251,
-    "2026": 986
+    "2026": 987
    },
    "momentum": {
     "id": "consumer-behavior",
     "name": "Consumer Behavior",
-    "total": 1532,
-    "recent": 1030,
+    "total": 1533,
+    "recent": 1031,
     "prior": 275,
-    "growth_pct": 274.5,
-    "recent_share": 0.672,
-    "papers_per_month": 85.8,
-    "score": 341.7
+    "growth_pct": 274.9,
+    "recent_share": 0.673,
+    "papers_per_month": 85.9,
+    "score": 342.2
    }
   },
   {
@@ -178,23 +178,23 @@
   {
    "id": "digital-marketing",
    "name": "Digital & Performance Marketing",
-   "count": 1499,
+   "count": 1501,
    "trajectory": {
     "2023": 40,
     "2024": 273,
     "2025": 222,
-    "2026": 964
+    "2026": 966
    },
    "momentum": {
     "id": "digital-marketing",
     "name": "Digital Marketing",
-    "total": 1499,
-    "recent": 1008,
+    "total": 1501,
+    "recent": 1010,
     "prior": 255,
-    "growth_pct": 295.3,
-    "recent_share": 0.672,
-    "papers_per_month": 84.0,
-    "score": 362.5
+    "growth_pct": 296.1,
+    "recent_share": 0.673,
+    "papers_per_month": 84.2,
+    "score": 363.4
    }
   },
   {
@@ -223,7 +223,7 @@
   {
    "id": "social-media",
    "name": "Social Media & Creator Marketing",
-   "count": 1570,
+   "count": 1571,
    "trajectory": {
     "2012": 1,
     "2016": 1,
@@ -234,18 +234,18 @@
     "2023": 27,
     "2024": 296,
     "2025": 219,
-    "2026": 1021
+    "2026": 1022
    },
    "momentum": {
     "id": "social-media",
     "name": "Social Media",
-    "total": 1570,
-    "recent": 1059,
+    "total": 1571,
+    "recent": 1060,
     "prior": 261,
-    "growth_pct": 305.7,
+    "growth_pct": 306.1,
     "recent_share": 0.675,
-    "papers_per_month": 88.2,
-    "score": 373.2
+    "papers_per_month": 88.3,
+    "score": 373.6
    }
   },
   {
@@ -279,7 +279,7 @@
   {
    "id": "empirical",
    "name": "Empirical Studies",
-   "count": 5231
+   "count": 5241
   },
   {
    "id": "framework",
@@ -289,7 +289,7 @@
   {
    "id": "measurement",
    "name": "Measurement & Methods",
-   "count": 1420
+   "count": 1458
   },
   {
    "id": "review",
@@ -41446,6 +41446,26 @@
   [
    "2026-07",
    "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-07",
+   "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-07",
+   "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-07",
+   "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-07",
+   "ai-marketing",
    "review"
   ],
   [
@@ -47956,7 +47976,17 @@
   [
    "2026-08",
    "ai-marketing",
-   "framework"
+   "empirical"
+  ],
+  [
+   "2026-08",
+   "ai-marketing",
+   "empirical"
+  ],
+  [
+   "2026-08",
+   "ai-marketing",
+   "empirical"
   ],
   [
    "2026-08",
@@ -48272,6 +48302,96 @@
    "2026-08",
    "ai-marketing",
    "framework"
+  ],
+  [
+   "2026-08",
+   "ai-marketing",
+   "framework"
+  ],
+  [
+   "2026-08",
+   "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-08",
+   "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-08",
+   "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-08",
+   "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-08",
+   "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-08",
+   "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-08",
+   "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-08",
+   "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-08",
+   "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-08",
+   "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-08",
+   "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-08",
+   "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-08",
+   "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-08",
+   "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-08",
+   "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-08",
+   "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-08",
+   "ai-marketing",
+   "measurement"
   ],
   [
    "2026-08",
@@ -57656,7 +57776,12 @@
   [
    "2026-09",
    "ai-marketing",
-   "framework"
+   "empirical"
+  ],
+  [
+   "2026-09",
+   "ai-marketing",
+   "empirical"
   ],
   [
    "2026-09",
@@ -57942,6 +58067,56 @@
    "2026-09",
    "ai-marketing",
    "framework"
+  ],
+  [
+   "2026-09",
+   "ai-marketing",
+   "framework"
+  ],
+  [
+   "2026-09",
+   "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-09",
+   "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-09",
+   "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-09",
+   "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-09",
+   "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-09",
+   "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-09",
+   "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-09",
+   "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-09",
+   "ai-marketing",
+   "measurement"
   ],
   [
    "2026-09",
@@ -67721,7 +67896,7 @@
   [
    "2026-10",
    "ai-marketing",
-   "framework"
+   "empirical"
   ],
   [
    "2026-10",
@@ -67832,6 +68007,51 @@
    "2026-10",
    "ai-marketing",
    "framework"
+  ],
+  [
+   "2026-10",
+   "ai-marketing",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-10",
+   "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-10",
+   "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-10",
+   "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-10",
+   "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-10",
+   "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-10",
+   "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-10",
+   "ai-marketing",
+   "measurement"
   ],
   [
    "2026-10",
@@ -68412,6 +68632,11 @@
    "2026-10",
    "consumer-behavior",
    "case-study"
+  ],
+  [
+   "2026-10",
+   "consumer-behavior",
+   "empirical"
   ],
   [
    "2026-10",
@@ -69256,6 +69481,16 @@
   [
    "2026-10",
    "digital-marketing",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "digital-marketing",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "digital-marketing",
    "framework"
   ],
   [
@@ -69417,6 +69652,11 @@
    "2026-10",
    "social-media",
    "case-study"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "empirical"
   ],
   [
    "2026-10",
@@ -70302,7 +70542,7 @@
    "papers": 102
   },
   {
-   "name": "International Journal For Multidisciplinary Research",
+   "name": "Int. Journal For Multidisciplinary Research",
    "papers": 88
   },
   {
@@ -70344,36 +70584,56 @@
   {
    "name": "Asia Pacific Journal of Marketing and Logistics",
    "papers": 55
+  },
+  {
+   "name": "Preprints.org",
+   "papers": 52
+  },
+  {
+   "name": "Journal of Business Research",
+   "papers": 52
+  },
+  {
+   "name": "Research Square",
+   "papers": 49
+  },
+  {
+   "name": "Industrial Marketing Management",
+   "papers": 47
+  },
+  {
+   "name": "Journal of Business and Industrial Marketing",
+   "papers": 46
   }
  ],
  "keyword_bursts": [
   {
    "keyword": "survey",
-   "recent": 1167,
-   "total": 1281,
-   "burst_score": 1.39,
-   "recent_share": 0.1269
+   "recent": 1169,
+   "total": 1283,
+   "burst_score": 1.38,
+   "recent_share": 0.1265
   },
   {
    "keyword": "benchmark",
-   "recent": 177,
-   "total": 197,
-   "burst_score": 1.37,
-   "recent_share": 0.0192
+   "recent": 191,
+   "total": 211,
+   "burst_score": 1.38,
+   "recent_share": 0.0207
   },
   {
    "keyword": "evaluation",
-   "recent": 610,
-   "total": 687,
+   "recent": 619,
+   "total": 696,
    "burst_score": 1.35,
-   "recent_share": 0.0663
+   "recent_share": 0.067
   },
   {
    "keyword": "framework",
-   "recent": 2459,
-   "total": 2851,
+   "recent": 2474,
+   "total": 2866,
    "burst_score": 1.31,
-   "recent_share": 0.2674
+   "recent_share": 0.2677
   },
   {
    "keyword": "autonomous",
@@ -70384,73 +70644,73 @@
   },
   {
    "keyword": "model",
-   "recent": 2808,
-   "total": 3448,
+   "recent": 2847,
+   "total": 3487,
    "burst_score": 1.24,
-   "recent_share": 0.3054
+   "recent_share": 0.308
   },
   {
    "keyword": "method",
-   "recent": 2042,
-   "total": 2507,
+   "recent": 2066,
+   "total": 2531,
    "burst_score": 1.24,
-   "recent_share": 0.2221
+   "recent_share": 0.2235
   },
   {
    "keyword": "scalable",
-   "recent": 105,
-   "total": 130,
+   "recent": 107,
+   "total": 132,
    "burst_score": 1.23,
-   "recent_share": 0.0114
+   "recent_share": 0.0116
   },
   {
    "keyword": "system",
-   "recent": 2437,
-   "total": 3072,
+   "recent": 2453,
+   "total": 3088,
    "burst_score": 1.21,
-   "recent_share": 0.265
+   "recent_share": 0.2654
   },
   {
    "keyword": "dataset",
-   "recent": 316,
-   "total": 401,
-   "burst_score": 1.2,
-   "recent_share": 0.0344
+   "recent": 328,
+   "total": 413,
+   "burst_score": 1.21,
+   "recent_share": 0.0355
   },
   {
    "keyword": "analysis",
-   "recent": 2490,
-   "total": 3212,
+   "recent": 2502,
+   "total": 3224,
    "burst_score": 1.18,
-   "recent_share": 0.2708
+   "recent_share": 0.2707
   },
   {
    "keyword": "human",
-   "recent": 821,
-   "total": 1064,
+   "recent": 826,
+   "total": 1069,
    "burst_score": 1.17,
-   "recent_share": 0.0893
+   "recent_share": 0.0894
   },
   {
    "keyword": "review",
-   "recent": 2071,
-   "total": 2766,
+   "recent": 2072,
+   "total": 2767,
    "burst_score": 1.14,
-   "recent_share": 0.2252
+   "recent_share": 0.2242
   },
   {
    "keyword": "tool",
-   "recent": 1111,
-   "total": 1537,
+   "recent": 1114,
+   "total": 1540,
    "burst_score": 1.1,
-   "recent_share": 0.1208
+   "recent_share": 0.1205
   },
   {
    "keyword": "novel",
-   "recent": 290,
-   "total": 402,
+   "recent": 294,
+   "total": 406,
    "burst_score": 1.1,
-   "recent_share": 0.0315
+   "recent_share": 0.0318
   }
  ]
 }

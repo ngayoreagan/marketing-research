@@ -88,6 +88,19 @@ def render_literature(papers, now, stats):
             for g in thinnest:
                 L.append(f"| `{g['cell']}` | {g['papers']} |")
             L += ["", "---", ""]
+        under = gaps.get("underexplored", [])[:6]
+        candidates = under or ([g for g in thinnest if g['papers'] < 10][:6])
+        if candidates:
+            L += ["## 🎯 Underexplored (< 10 papers)", "", "| Cell | Papers |", "|------|--------:|"]
+            for g in candidates:
+                L.append(f"| `{g['cell']}` | {g['papers']} |")
+            L += ["", "---", ""]
+        authors_r = stats.get("top_authors_recent", [])[:6]
+        if authors_r:
+            L += ["## 👥 Active Authors (Last 12m)", "", "| Author | Papers (recent) |", "|--------|-----------------|"]
+            for a in authors_r:
+                L.append(f"| {a['name']} | {a['papers']} |")
+            L += ["", "---", ""]
 
     L += ["", "## Category Insights", ""]
     for c, n in sorted(cat_counter.items(), key=lambda kv: -kv[1]):

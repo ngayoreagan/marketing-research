@@ -171938,7 +171938,7 @@ papers:
     frameworks and validating cohort distributions against empirical references via
     Jensen-Shannon Divergence (D_{JS}). --- ## 2. Mathematical & Methodological Foundations
     ### 2.1 McFadden''s Random Utility Model (RUM) & Choice Probability Individual
-    agent deliberation is governed by the Random Utility Model: $U_{i, j} = V(x_j;
+    agent deliberation is governed by the Random Utility Model: U_{i, j} = V(x_j;
     \theta_i) - \beta_{p, i} \cdot \left(p_j{I_i / 12}\right)^{1{\alpha_i}} + \epsilon_{i,
     j} where: * V(x_j; \theta_i) represents the deterministic valuation of product
     attribute vector x_j conditioned on the agent''s psychometric vector \theta_i
@@ -171973,7 +171973,7 @@ papers:
     *Too Cheap* and *Expensive*. * **Optimal Price Point (OPP):** Intersection of
     *Too Cheap* and *Too Expensive*. * **Indifference Price Point (IPP):** Intersection
     of *Cheap* and *Expensive*. * **Point of Marginal Expensiveness (PME):** Intersection
-    of *Cheap* and *Too Expensive*. * **Acceptable Price Range (APR):** [PMC, PME]$.
+    of *Cheap* and *Too Expensive*. * **Acceptable Price Range (APR):** [PMC, PME].
     --- ## 3. Architecture & Modular Subsystems "` ┌──────────────────────────────────────────────────────────────────────────┐
     │ PERSONAUSAI ARCHITECTURE │ └──────────────────────────────────────────────────────────────────────────┘
     │ ┌─────────────────────────────┼─────────────────────────────┐ ▼ ▼ ▼ ┌──────────────┐
@@ -296795,7 +296795,7 @@ papers:
 - title: 'Declared but Unaccountable: Measuring the Seller-Identity Gap in Advertising
     Supply-Chain Transparency'
   date: 2026-10
-  url: https://arxiv.org/abs/2610.14661v2
+  url: https://arxiv.org/abs/2610.14661
   category: digital-marketing
   subcategory: empirical
   authors:
@@ -296806,32 +296806,31 @@ papers:
   code_url: ''
   project_url: ''
   abstract: 'Public advertising transparency relies on a minimum accountability condition:
-    an account authorized by a publisher in ads$.$txt or app-ads$.$txt should appear
-    in the applicable sellers$.$json registry. When an available registry omits the
-    declared seller ID, the authorization remains visible and machine-readable, but
-    its public verification path breaks. We call this failure the seller-identity
-    gap. We measure the gap using 233.4 million normalized advertising-transparency
-    records and an absent-only, coverage-aware evidence rule. A declaration enters
-    the numerator only when the applicable registry is available and omits its seller
-    ID; unavailable, malformed, confidential, and other non-evaluable states remain
-    separate. The resulting row-level floor is 24.25% in a high-popularity, low-removal
-    reference population and 30.71% among publishers associated with at least 100
-    copyright-removal requests, a 6.45 percentage-point increase. The gap then remains
-    near one third at stricter cumulative thresholds. Standardizing the populations
-    to common weights over 1,469 shared ad systems reduces the primary contrast to
-    4.65 points: about 72% remains within systems, while 28% forms a composition-associated
-    residual. We connect these population estimates to recurring seller-account coordinates,
-    byte-identical declaration configurations, and provenance-bearing case packets.
-    We frame this declaration-centered investigative use of public advertising records
-    as Ad Transparency Intelligence: it reconstructs declared supply-chain relationships,
-    identifies where public verification stops, and prioritizes evidence for corroboration
-    without equating correlation with attribution. Advertising transparency supports
-    accountability and investigation only when visible authorizations remain publicly
-    verifiable.'
+    an account authorized by a publisher in ads.txt or app-ads.txt should appear in
+    the applicable sellers.json registry. When an available registry omits the declared
+    seller ID, the authorization remains visible and machine-readable, but its public
+    verification path breaks. We call this failure the seller-identity gap. We measure
+    the gap using 233.4 million normalized advertising-transparency records and an
+    absent-only, coverage-aware evidence rule. A declaration enters the numerator
+    only when the applicable registry is available and omits its seller ID; unavailable,
+    malformed, confidential, and other non-evaluable states remain separate. The resulting
+    row-level floor is 24.25% in a high-popularity, low-removal reference population
+    and 30.71% among publishers associated with at least 100 copyright-removal requests,
+    a 6.45 percentage-point increase. The gap then remains near one third at stricter
+    cumulative thresholds. Standardizing the populations to common weights over 1,469
+    shared ad systems reduces the primary contrast to 4.65 points: about 72% remains
+    within systems, while 28% forms a composition-associated residual. We connect
+    these population estimates to recurring seller-account coordinates, byte-identical
+    declaration configurations, and provenance-bearing case packets. We frame this
+    declaration-centered investigative use of public advertising records as Ad Transparency
+    Intelligence: it reconstructs declared supply-chain relationships, identifies
+    where public verification stops, and prioritizes evidence for corroboration without
+    equating correlation with attribution. Advertising transparency supports accountability
+    and investigation only when visible authorizations remain publicly verifiable.'
 - title: 'Institutionalizing Trust in Data Exchange: Trust-Anchor Model of the Data
     Credit Guarantee Organization and Its Simulation-Based Comparison'
   date: 2026-10
-  url: https://arxiv.org/abs/2610.18400v1
+  url: https://arxiv.org/abs/2610.18400
   category: digital-marketing
   subcategory: empirical
   authors:
@@ -296863,7 +296862,7 @@ papers:
     entry.'
 - title: Cross-Market Meta-Learning for Electricity Price Forecasting
   date: 2026-10
-  url: https://arxiv.org/abs/2610.17387v1
+  url: https://arxiv.org/abs/2610.17387
   category: ai-marketing
   subcategory: empirical
   authors:
@@ -296889,7 +296888,7 @@ papers:
 - title: 'AlphaRLM: Aligning Language Models for Literature-Grounded Symbolic Factor
     Discovery'
   date: 2026-10
-  url: https://arxiv.org/abs/2610.14959v3
+  url: https://arxiv.org/abs/2610.14959
   category: ai-marketing
   subcategory: empirical
   authors:
@@ -296918,7 +296917,7 @@ papers:
     market-aligned factor generation.
 - title: Decentralized LLM Workflows via Sequential Auctions
   date: 2026-10
-  url: https://arxiv.org/abs/2610.22201v1
+  url: https://arxiv.org/abs/2610.22201
   category: ai-marketing
   subcategory: empirical
   authors:
@@ -296950,7 +296949,7 @@ papers:
     while maintaining high task success rates at low costs.
 - title: 'Agentic Trading: When LLM Agents Meet Financial Markets'
   date: 2026-05
-  url: https://arxiv.org/abs/2605.19337v2
+  url: https://arxiv.org/abs/2605.19337
   category: ai-marketing
   subcategory: empirical
   authors:
@@ -296984,7 +296983,7 @@ papers:
     and deploying reliable agentic trading systems.
 - title: 'AdCoEvo: A Co-Evolving Multi-Agent Advertising Delivery System'
   date: 2026-10
-  url: https://arxiv.org/abs/2610.19454v1
+  url: https://arxiv.org/abs/2610.19454
   category: ai-marketing
   subcategory: empirical
   authors:
@@ -297020,7 +297019,7 @@ papers:
     can yield greater delivery returns.
 - title: Price of Anarchy of First-Price Auctions in Agentic Markets
   date: 2026-10
-  url: https://arxiv.org/abs/2610.20587v1
+  url: https://arxiv.org/abs/2610.20587
   category: ai-marketing
   subcategory: empirical
   authors:
@@ -297041,25 +297040,25 @@ papers:
     central knowledge of private capabilities and costs. However, FPAs are not truthful:
     participants may bid less than their true value in the hope of a larger profit,
     and the prompt may then be allocated to someone other than the bidder who values
-    it the most. This welfare loss is quantified by the $\textit{price-of-anarchy}$
-    (PoA). In this paper, we argue that agentic markets are likely to possess features
-    that reduce the price-of-anarchy. The first is a $\textit{competitive floor}$,
-    which occurs when multiple bidders usually value the prompt above some baseline
-    share of the optimal welfare (e.g., because the best models are often distilled
-    into cheaper alternatives, which perform similarly). We show that competition
-    among them then limits the welfare loss, which can be driven to zero as the floor
-    rises. The second feature is $\textit{near-independence}$ of values after conditioning
-    on the prompt, which occurs when most of the predictable variation in the expected
-    value is determined by the difficulty of the prompt. As the value distribution
-    approaches conditional independence, we can derive an efficiency guarantee that
-    approaches a factor of $1 - 1/e^2$ of the optimal welfare. Thus, both features
-    give rise to welfare lower bounds that are significantly better than the well-known
-    general case of $1 - 1/e$. We validate these results empirically using auctions
-    with strategic bidders simulated on the EmbedLLM prompt routing dataset.'
+    it the most. This welfare loss is quantified by the price-of-anarchy (PoA). In
+    this paper, we argue that agentic markets are likely to possess features that
+    reduce the price-of-anarchy. The first is a competitive floor, which occurs when
+    multiple bidders usually value the prompt above some baseline share of the optimal
+    welfare (e.g., because the best models are often distilled into cheaper alternatives,
+    which perform similarly). We show that competition among them then limits the
+    welfare loss, which can be driven to zero as the floor rises. The second feature
+    is near-independence of values after conditioning on the prompt, which occurs
+    when most of the predictable variation in the expected value is determined by
+    the difficulty of the prompt. As the value distribution approaches conditional
+    independence, we can derive an efficiency guarantee that approaches a factor of
+    1 - 1/e² of the optimal welfare. Thus, both features give rise to welfare lower
+    bounds that are significantly better than the well-known general case of 1 - 1/e.
+    We validate these results empirically using auctions with strategic bidders simulated
+    on the EmbedLLM prompt routing dataset.'
 - title: 'PortBench: A Correlation-Aware, Full-Pipeline Benchmark for LLM-Driven Portfolio
     Management'
   date: 2026-05
-  url: https://arxiv.org/abs/2605.27887v6
+  url: https://arxiv.org/abs/2605.27887
   category: ai-marketing
   subcategory: empirical
   authors:
@@ -297083,12 +297082,11 @@ papers:
     high financial QA scores do not ensure consistent portfolio outperformance. LLMs
     concentrate exposure in correlated assets, and their portfolios achieve higher
     Sharpe than equal weighting in 54.2\% of 120 evaluations across four market periods.
-    Our source code is available at \href{https://github.com/AgenticFinLab/portbench}{this
-    https URL}.'
+    Our source code is available at this https URL.'
 - title: 'Data Portability Revisited: Toward the Human-Centric, AI-Driven Data Ecosystems
     of Tomorrow'
   date: 2026-10
-  url: https://arxiv.org/abs/2610.15503v1
+  url: https://arxiv.org/abs/2610.15503
   category: ai-marketing
   subcategory: empirical
   authors:
@@ -297122,7 +297120,7 @@ papers:
 - title: The Effect of Expertise Signaling when Sharing Medical Information in Opinion
     Dynamics
   date: 2026-10
-  url: https://arxiv.org/abs/2610.16623v1
+  url: https://arxiv.org/abs/2610.16623
   category: social-media
   subcategory: empirical
   authors:
@@ -297149,7 +297147,7 @@ papers:
     to promote validated medical information online.
 - title: 'Creative destruction: Human-AI competition in an experimental market'
   date: 2026-10
-  url: https://arxiv.org/abs/2610.18921v1
+  url: https://arxiv.org/abs/2610.18921
   category: consumer-behavior
   subcategory: empirical
   authors:
@@ -297170,7 +297168,7 @@ papers:
     does not raise consumers' willingness to pay for the product.
 - title: Auction-based allocation of routes in capacity-constrained networks
   date: 2026-10
-  url: https://arxiv.org/abs/2610.20125v1
+  url: https://arxiv.org/abs/2610.20125
   category: consumer-behavior
   subcategory: empirical
   authors:
@@ -297199,7 +297197,7 @@ papers:
 - title: 'A Regulator''s Career Option: Revolving Doors, Regulatory Signals, and Firm
     Tail Risk'
   date: 2026-08
-  url: https://arxiv.org/abs/2610.08804v1
+  url: https://arxiv.org/abs/2610.08804
   category: consumer-behavior
   subcategory: empirical
   authors:
@@ -297233,7 +297231,7 @@ papers:
     a leverage-vega warning threshold.'
 - title: Demand Curvature and Pass-Through in Multiproduct Oligopoly
   date: 2026-04
-  url: https://arxiv.org/abs/2604.21423v2
+  url: https://arxiv.org/abs/2604.21423
   category: consumer-behavior
   subcategory: empirical
   authors:
@@ -297257,7 +297255,7 @@ papers:
     those predictions must retain.
 - title: Rethinking Sales Lead Scoring with LLM-based Hierarchical Preference Ranking
   date: 2026-06
-  url: https://arxiv.org/abs/2606.04387v1
+  url: https://arxiv.org/abs/2606.04387
   category: ai-marketing
   subcategory: empirical
   authors:
@@ -297291,7 +297289,7 @@ papers:
 - title: 'Coloring the Noise: Adversarial Sobolev Alignment for Faithful Image Super
     Resolution'
   date: 2026-05
-  url: https://arxiv.org/abs/2605.23264v2
+  url: https://arxiv.org/abs/2605.23264
   category: ai-marketing
   subcategory: empirical
   authors:
@@ -297321,7 +297319,7 @@ papers:
 - title: 'MedStreamBench: A Time-Aware Benchmark for Streaming and Proactive Medical
     Video Understanding'
   date: 2026-07
-  url: https://arxiv.org/abs/2607.01751v1
+  url: https://arxiv.org/abs/2607.01751
   category: ai-marketing
   subcategory: empirical
   authors:
@@ -297354,7 +297352,7 @@ papers:
     AI Reliability, Hallucination, and Source Fidelity in Quranic, Hadith, and Fiqh
     Knowledge'
   date: 2026-07
-  url: https://arxiv.org/abs/2607.28237v1
+  url: https://arxiv.org/abs/2607.28237
   category: ai-marketing
   subcategory: empirical
   authors:
@@ -297389,7 +297387,7 @@ papers:
 - title: 'Exploiting Verification-Generation Gap: Test-Time Reinforcement Learning
     with Confidence-Conditioned Verification'
   date: 2026-06
-  url: https://arxiv.org/abs/2606.03608v1
+  url: https://arxiv.org/abs/2606.03608
   category: ai-marketing
   subcategory: empirical
   authors:
@@ -297427,7 +297425,7 @@ papers:
 - title: Fraud Detection in Cryptocurrency Markets with Spatio-Temporal Graph Neural
     Networks
   date: 2026-04
-  url: https://arxiv.org/abs/2604.24590v1
+  url: https://arxiv.org/abs/2604.24590
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -297458,7 +297456,7 @@ papers:
 - title: 'Data-Driven Telecom Marketing Optimization: A Machine Learning-Based Churn
     Prediction and Customer Segmentation Framework'
   date: 2026-07
-  url: https://arxiv.org/abs/2607.10260v1
+  url: https://arxiv.org/abs/2607.10260
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -297495,7 +297493,7 @@ papers:
 - title: Empirical evaluation of Time Series Foundation Models for Day-ahead and Imbalance
     Electricity Price Forecasting in Belgium
   date: 2026-05
-  url: https://arxiv.org/abs/2605.17045v1
+  url: https://arxiv.org/abs/2605.17045
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -297523,7 +297521,7 @@ papers:
 - title: 'Decoding Market Emotion from Blockchain Activity: A Data-Driven Sentiment
     Classifier'
   date: 2026-07
-  url: https://arxiv.org/abs/2607.15258v1
+  url: https://arxiv.org/abs/2607.15258
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -297554,7 +297552,7 @@ papers:
 - title: 'Quantum Spectral Model: Data Reuploading with Input-Conditioned Frequency
     Support'
   date: 2026-07
-  url: https://arxiv.org/abs/2607.22516v1
+  url: https://arxiv.org/abs/2607.22516
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -297589,7 +297587,7 @@ papers:
     artificial intelligence.'
 - title: Focused PU learning from imbalanced data
   date: 2026-05
-  url: https://arxiv.org/abs/2605.14467v2
+  url: https://arxiv.org/abs/2605.14467
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -297614,7 +297612,7 @@ papers:
     of financial misstatement detection.
 - title: Population-Level Generative Modeling for Ranking Data
   date: 2026-08
-  url: https://arxiv.org/abs/2608.08422v2
+  url: https://arxiv.org/abs/2608.08422
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -297643,7 +297641,7 @@ papers:
     of preference heterogeneity.
 - title: Volatility-Aware Extreme Event Detection in High-Frequency Financial Markets
   date: 2026-07
-  url: https://arxiv.org/abs/2607.17555v1
+  url: https://arxiv.org/abs/2607.17555
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -297674,7 +297672,7 @@ papers:
 - title: Early Yield Prediction for Sugar Beet Fields using Satellite Data -- Learnings
     from Specialized Vision Transformers
   date: 2026-07
-  url: https://arxiv.org/abs/2607.17661v1
+  url: https://arxiv.org/abs/2607.17661
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -297702,7 +297700,7 @@ papers:
     Foundation Models and Conventional Methods for Crowd-State Classification at Hajj
     and Umrah
   date: 2026-07
-  url: https://arxiv.org/abs/2607.04013v1
+  url: https://arxiv.org/abs/2607.04013
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -297732,7 +297730,7 @@ papers:
 - title: 'When Prices Double in a Week: Forecasting of Agricultural Volatility in
     Import-Isolated Markets'
   date: 2026-06
-  url: https://arxiv.org/abs/2606.29248v3
+  url: https://arxiv.org/abs/2606.29248
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -297768,7 +297766,7 @@ papers:
     features, seasonal segmentation, or cross-regime validation.
 - title: 'REFLEX: Reflexive Equilibrium Fixed-point Learning for Endogenous eXchanges'
   date: 2026-08
-  url: https://arxiv.org/abs/2608.16155v1
+  url: https://arxiv.org/abs/2608.16155
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -297803,7 +297801,7 @@ papers:
     theorem into a market-level safety margin.'
 - title: 'CLVAE: A Variational Autoencoder for Long-Term Customer Revenue Forecasting'
   date: 2026-04
-  url: https://arxiv.org/abs/2604.22636v1
+  url: https://arxiv.org/abs/2604.22636
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -297836,7 +297834,7 @@ papers:
 - title: 'Learning to Detect Symbolic Failure: Machine Learning and the Limits of
     Black-Scholes'
   date: 2026-08
-  url: https://arxiv.org/abs/2609.27764v1
+  url: https://arxiv.org/abs/2609.27764
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -297858,7 +297856,7 @@ papers:
     learning abstractions. We make no claim of exploitable mispricings.'
 - title: Learning under Opponent Unawareness in Linear-Quadratic Stochastic Games
   date: 2026-08
-  url: https://arxiv.org/abs/2608.08268v1
+  url: https://arxiv.org/abs/2608.08268
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -297875,7 +297873,7 @@ papers:
     are either unaware of opponents or strategically oblivious, observing only a common
     state and their own action history. Under this minimal information, we analyze
     an asynchronous decentralized learning process in which each player independently
-    runs a single-agent $ε$-greedy iterated least-squares algorithm. We prove that,
+    runs a single-agent ε-greedy iterated least-squares algorithm. We prove that,
     despite being unable to identify the system parameters, players' learning dynamics
     converge almost surely to the complete-information Nash equilibrium and characterize
     the convergence rate. We then apply the framework to a dynamic Cournot competition
@@ -297887,7 +297885,7 @@ papers:
 - title: Investigating Inductive Biases for Machine Learning Emulation of Sudden Stratospheric
     Warmings in Idealised Isca Simulations
   date: 2026-06
-  url: https://arxiv.org/abs/2606.18857v1
+  url: https://arxiv.org/abs/2606.18857
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -297917,7 +297915,7 @@ papers:
 - title: District-Level Food Environment Indicators and Social Vulnerability in São
     Paulo
   date: 2026-08
-  url: https://arxiv.org/abs/2608.26299v1
+  url: https://arxiv.org/abs/2608.26299
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -297954,7 +297952,7 @@ papers:
 - title: 'Quota Marketplace: Dynamic Pricing for Efficient Allocation of ML Training
     Resources'
   date: 2026-07
-  url: https://arxiv.org/abs/2607.09802v1
+  url: https://arxiv.org/abs/2607.09802
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -297990,7 +297988,7 @@ papers:
 - title: A Machine Learning Framework for Weighted Least Squares GNSS Positioning
     based on Activation Functions
   date: 2026-05
-  url: https://arxiv.org/abs/2605.21461v1
+  url: https://arxiv.org/abs/2605.21461
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -298025,7 +298023,7 @@ papers:
 - title: Hierarchical Graph Learning for Calendar Spread Strategies in Commodity Futures
     Markets
   date: 2026-06
-  url: https://arxiv.org/abs/2606.25811v1
+  url: https://arxiv.org/abs/2606.25811
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -298057,7 +298055,7 @@ papers:
 - title: 'Matching Markets meet Cumulative Prospect Theory: Towards Optimal and Adversarially
     Robust Learning'
   date: 2026-06
-  url: https://arxiv.org/abs/2606.19883v1
+  url: https://arxiv.org/abs/2606.19883
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -298069,25 +298067,24 @@ papers:
   abstract: We study a multi-agent multi-armed bandit problem in the competitive setup
     with two-sided matching markets under a human centric decision making model. To
     capture human preferences, we use cumulative prospect theory (CPT) that weighs
-    the actions of the agent in a nonlinear fashion using a ($α$-Hölder continuous)
+    the actions of the agent in a nonlinear fashion using a (α-Hölder continuous)
     weight function. CPT has been widely used in behavioral economics and risk sensitive
     machine learning to emulate human preferences. We analyze the state-of-the-art
     learning algorithm with CPT weight distorted rewards and obtain a player optimal
-    regret of $\mathcal{O}(K\log T \left(\frac{1}Δ\right)^{2/α})$, where $K$ denotes
-    the number of arms, $T$ is the learning horizon, and $Δ$ represents (suitably
-    defined) players' minimum preference gap. Noticing the dependence on $Δ$ to be
-    sub-optimal, we further improve this regret by judiciously selecting the active
-    set of arms during exploration, which removes the dependence on $K$ in the dominant
-    term and achieves an improved (optimal) regret guarantees in the setting where
-    the number of arms $K$ is significantly larger than the number of players $N$.
-    In addition, we consider adversarial markets where the observed rewards of the
-    agents may be corrupted. We propose and analyze algorithms for robust markets
-    with CPT as risk sensitive measure in both settings where the total corruption
-    budget is known and where it is unknown, and establish logarithmic player-optimal
-    regret guarantees in both cases.
+    regret of O(K\log T \left(1Δ\right)^{2/α}), where K denotes the number of arms,
+    T is the learning horizon, and Δ represents (suitably defined) players' minimum
+    preference gap. Noticing the dependence on Δ to be sub-optimal, we further improve
+    this regret by judiciously selecting the active set of arms during exploration,
+    which removes the dependence on K in the dominant term and achieves an improved
+    (optimal) regret guarantees in the setting where the number of arms K is significantly
+    larger than the number of players N. In addition, we consider adversarial markets
+    where the observed rewards of the agents may be corrupted. We propose and analyze
+    algorithms for robust markets with CPT as risk sensitive measure in both settings
+    where the total corruption budget is known and where it is unknown, and establish
+    logarithmic player-optimal regret guarantees in both cases.
 - title: Cautious optimism for deep parameterized quantum circuits
   date: 2026-07
-  url: https://arxiv.org/abs/2607.21409v2
+  url: https://arxiv.org/abs/2607.21409
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -298118,7 +298115,7 @@ papers:
 - title: 'Implementation of Big Data Analytics for Diabetes Management: Needs Assessment
     in the Rwanda Healthcare System'
   date: 2026-05
-  url: https://arxiv.org/abs/2605.26786v1
+  url: https://arxiv.org/abs/2605.26786
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -298145,7 +298142,7 @@ papers:
     to support diabetes management strategies using explainable machine learning models.
 - title: Learning Fair Demand Models
   date: 2026-06
-  url: https://arxiv.org/abs/2606.06830v1
+  url: https://arxiv.org/abs/2606.06830
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -298178,7 +298175,7 @@ papers:
     using real-world vaccine pricing data.
 - title: 'TEDD: Robust Detection of Unstable Temporal Features'
   date: 2026-06
-  url: https://arxiv.org/abs/2606.12643v1
+  url: https://arxiv.org/abs/2606.12643
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -298211,7 +298208,7 @@ papers:
     the dataset.'
 - title: Accelerating Optimization and Machine Learning through Decentralization
   date: 2026-04
-  url: https://arxiv.org/abs/2604.19518v1
+  url: https://arxiv.org/abs/2604.19518
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -298239,7 +298236,7 @@ papers:
     offering new opportunities for more efficient optimization and machine learning.
 - title: OOD Detection for EEG-based Machine Learning in High-Risk Environments
   date: 2026-08
-  url: https://arxiv.org/abs/2608.17620v1
+  url: https://arxiv.org/abs/2608.17620
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -298265,7 +298262,7 @@ papers:
     net for the deployment of EEG-based machine learning models in real-world applications.
 - title: On design-unbiased algorithmic Machine Learning
   date: 2026-06
-  url: https://arxiv.org/abs/2606.28795v1
+  url: https://arxiv.org/abs/2606.28795
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -298291,7 +298288,7 @@ papers:
 - title: Are You Learning Biological Signal or Shortcuts? Auditing and Mitigating
     Bias in Protein-Protein Interaction Datasets
   date: 2026-09
-  url: https://arxiv.org/abs/2609.10193v1
+  url: https://arxiv.org/abs/2609.10193
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -298328,7 +298325,7 @@ papers:
     also beyond PPI prediction.
 - title: 'From Nowcasting to Forecasting: Adapting a Reanalysis-Trained'
   date: 2026-09
-  url: https://arxiv.org/abs/2609.03763v1
+  url: https://arxiv.org/abs/2609.03763
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -298360,7 +298357,7 @@ papers:
 - title: 'MassSpecGym in the Wild: Uncovering and Correcting Evaluation Pitfalls in
     AI-Driven Molecule Discovery'
   date: 2026-06
-  url: https://arxiv.org/abs/2606.19624v1
+  url: https://arxiv.org/abs/2606.19624
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -298390,7 +298387,7 @@ papers:
     this audit. MassSpecGym v1.5 is publicly available at https://github.com/pluskal-lab/MassSpecGym.'
 - title: 'Supply Chain Analytics: A Data-Driven Approach'
   date: 2026-08
-  url: https://arxiv.org/abs/2609.10563v1
+  url: https://arxiv.org/abs/2609.10563
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -298416,7 +298413,7 @@ papers:
 - title: Classification and detection of multiple UAVs using rational Gaussian wavelet
     neural networks
   date: 2026-05
-  url: https://arxiv.org/abs/2605.26310v2
+  url: https://arxiv.org/abs/2605.26310
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -298445,7 +298442,7 @@ papers:
 - title: Clustering based on Stochastic Dominance with application for risk averters
     and risk seekers
   date: 2026-05
-  url: https://arxiv.org/abs/2605.24422v1
+  url: https://arxiv.org/abs/2605.24422
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -298480,7 +298477,7 @@ papers:
     theoretical value and practical implications.
 - title: 'From Index to Equity: Pre-Training Transformers for Stock Return Prediction'
   date: 2026-05
-  url: https://arxiv.org/abs/2605.23962v1
+  url: https://arxiv.org/abs/2605.23962
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -298508,7 +298505,7 @@ papers:
     out stocks with low predictability.
 - title: Optimal Value Inference for Reinforcement Learning
   date: 2026-09
-  url: https://arxiv.org/abs/2609.09981v2
+  url: https://arxiv.org/abs/2609.09981
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -298534,7 +298531,7 @@ papers:
 - title: 'PLSP (Pre-hoc Liminal Space Profiling): OOD Prediction over Detection --
     An Anticipatory Approach for Machine Learning Model Reliability'
   date: 2026-09
-  url: https://arxiv.org/abs/2609.12225v2
+  url: https://arxiv.org/abs/2609.12225
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -298563,7 +298560,7 @@ papers:
 - title: 'The RAIL Principles for Neurosymbolic AI: Reasoning, Assurances, Interfacing
     and Learning'
   date: 2026-08
-  url: https://arxiv.org/abs/2608.04285v1
+  url: https://arxiv.org/abs/2608.04285
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -298598,7 +298595,7 @@ papers:
 - title: To Describe or Construct Statistical Learning Models Using the Category-theoretical
     Language
   date: 2026-08
-  url: https://arxiv.org/abs/2608.03706v1
+  url: https://arxiv.org/abs/2608.03706
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -298616,7 +298613,7 @@ papers:
     basic mathematics, to participate in the research related to statistical learning.
 - title: Travel Time Prediction in Supply Chain Management Using Machine Learning
   date: 2026-09
-  url: https://arxiv.org/abs/2609.38190v1
+  url: https://arxiv.org/abs/2609.38190
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -298637,7 +298634,7 @@ papers:
     to predict travel time of inventory.
 - title: 'ReSGA: A Large Tail Risk Model for Learning Value-at-Risk and Expected Shortfall'
   date: 2026-06
-  url: https://arxiv.org/abs/2606.04576v1
+  url: https://arxiv.org/abs/2606.04576
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -298665,7 +298662,7 @@ papers:
     and cross-market generalizability of ReSGA.
 - title: A Systematic Approach for Selecting Trajectories for Data Augmentation
   date: 2026-06
-  url: https://arxiv.org/abs/2606.10938v1
+  url: https://arxiv.org/abs/2606.10938
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -298698,7 +298695,7 @@ papers:
     lead to divergence in feature space...'
 - title: 'Functional Degeneracy in Neural Networks: Measurement and Pruning'
   date: 2026-08
-  url: https://arxiv.org/abs/2608.30741v1
+  url: https://arxiv.org/abs/2608.30741
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -298722,7 +298719,7 @@ papers:
 - title: Adynamical systems view of training generativemodels and the memorization
     phenomenon
   date: 2026-05
-  url: https://arxiv.org/abs/2605.19483v1
+  url: https://arxiv.org/abs/2605.19483
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -298751,7 +298748,7 @@ papers:
 - title: 'RECAST: Model Reconstruction via Counterfactual-Aware Wasserstein Geometry
     under Limited Data'
   date: 2026-06
-  url: https://arxiv.org/abs/2606.27948v1
+  url: https://arxiv.org/abs/2606.27948
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -298780,7 +298777,7 @@ papers:
     efficiency, as well as stable results even when the access is limited and noisy.
 - title: Forecasting Weather-Driven Price Dynamics Across Sri Lankan Tea Market Catalogues
   date: 2026-06
-  url: https://arxiv.org/abs/2608.24894v2
+  url: https://arxiv.org/abs/2608.24894
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -298813,7 +298810,7 @@ papers:
 - title: Sparse and robust geometric twin support vector machine via asymmetric RoBoSS
     loss function
   date: 2026-08
-  url: https://arxiv.org/abs/2608.11567v1
+  url: https://arxiv.org/abs/2608.11567
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -298826,14 +298823,14 @@ papers:
   abstract: In real-world scenarios, the training data usually contains redundant
     features, label noise and feature noise, which provide severe challenges for the
     efficiency of machine learning methods. Since standard support vector machine
-    (SVM) adopts $l_2$-norm penalty and hinge loss function, it lacks the ability
-    of selecting significant features and is sensitive to noise. To address these
-    issues, this paper proposes a novel asymmetric, robust, bounded, sparse and smooth
-    (aR) loss function for $l_1$-norm penalized geometric twin SVM (aRSGTSVM) to handle
-    classification and regression tasks. The $l_1$-norm penalty can achieve the feature
-    selection. The proposed aR loss function can not only effectively mitigate the
-    impact of label noise, but also significantly enhance the stability to resampling
-    noise, i.e., the zero-mean feature noise around the boundary hyperplanes. Furthermore,
+    (SVM) adopts l_2-norm penalty and hinge loss function, it lacks the ability of
+    selecting significant features and is sensitive to noise. To address these issues,
+    this paper proposes a novel asymmetric, robust, bounded, sparse and smooth (aR)
+    loss function for l_1-norm penalized geometric twin SVM (aRSGTSVM) to handle classification
+    and regression tasks. The l_1-norm penalty can achieve the feature selection.
+    The proposed aR loss function can not only effectively mitigate the impact of
+    label noise, but also significantly enhance the stability to resampling noise,
+    i.e., the zero-mean feature noise around the boundary hyperplanes. Furthermore,
     a statistical analysis of the robustness of aRSGTSVM was also conducted using
     the influence function. Since aRSGTSVM involves nonconvex and nonsmooth optimization,
     we develop a fast and stable proximal gradient descent based solving algorithm.
@@ -298844,7 +298841,7 @@ papers:
 - title: Physics-Based Deep Spatiotemporal Hyperlocal Radar Nowcasting with a Multi-Variable
     U-Net for High-Resolution Precipitation Forecasting
   date: 2026-07
-  url: https://arxiv.org/abs/2607.16080v1
+  url: https://arxiv.org/abs/2607.16080
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -298875,14 +298872,14 @@ papers:
     attribution examines whether the learned sensitivities are meteorologically meaningful.
     The model is trained using Mumbai Doppler radar observations from May to August
     2023 and evaluated on temporally independent events. At 90 min lead time, Critical
-    Success Index values are 0.437, 0.332, and 0.193 for $\geq$10, $\geq$20, and $\geq$30
+    Success Index values are 0.437, 0.332, and 0.193 for \geq10, \geq20, and \geq30
     dBZ thresholds, respectively. Compared with persistence, the model gives lower
     RMSE and higher spatial correlation at longer lead times. Once trained, it runs
     on a standard computer, generating nowcasts within seconds for real-time use.
 - title: 'Fidelity, Diversity, and Privacy: A Multi-Dimensional LLM Evaluation for
     Clinical Data Augmentation'
   date: 2026-04
-  url: https://arxiv.org/abs/2604.27014v1
+  url: https://arxiv.org/abs/2604.27014
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -298912,7 +298909,7 @@ papers:
 - title: 'FLAM: Evaluating Model Performance with Aggregatable Measures in Federated
     Learning'
   date: 2026-05
-  url: https://arxiv.org/abs/2605.07962v1
+  url: https://arxiv.org/abs/2605.07962
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -298940,7 +298937,7 @@ papers:
 - title: 'Adversarial Graph Neural Network Benchmarks: Towards Practical and Fair
     Evaluation'
   date: 2026-05
-  url: https://arxiv.org/abs/2605.05534v1
+  url: https://arxiv.org/abs/2605.05534
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -298972,7 +298969,7 @@ papers:
 - title: 'Negative Ontology of True Target for Machine Learning: Towards Recognition,
     Evaluation and Learning under Democratic Supervision'
   date: 2026-04
-  url: https://arxiv.org/abs/2604.24824v11
+  url: https://arxiv.org/abs/2604.24824
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -299006,7 +299003,7 @@ papers:
     for continuous human-AI co-evolution.'
 - title: Enhancing Quantum Machine Learning with Anyons
   date: 2026-06
-  url: https://arxiv.org/abs/2606.16090v1
+  url: https://arxiv.org/abs/2606.16090
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -299037,7 +299034,7 @@ papers:
     across exchange phases.
 - title: 'Quantamination: Dynamic Quantization Leaks Your Data Across the Batch'
   date: 2026-04
-  url: https://arxiv.org/abs/2604.26505v1
+  url: https://arxiv.org/abs/2604.26505
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -299069,9 +299066,9 @@ papers:
     leakage, in theory, allows attackers to partially or even fully recover other
     users'' batched input data, representing a serious privacy risk for existing ML
     serving frameworks.'
-- title: 'P$^2$CE: Model-Agnostic Plausible Pareto-Optimal Counterfactual Explanations'
+- title: 'P²CE: Model-Agnostic Plausible Pareto-Optimal Counterfactual Explanations'
   date: 2026-06
-  url: https://arxiv.org/abs/2606.18418v1
+  url: https://arxiv.org/abs/2606.18418
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -299087,19 +299084,18 @@ papers:
     and potentially alter unfavorable decisions in areas such as loan applications,
     job selections, and more, by providing actionable changes to input features that
     would lead to a desired outcome. Existing methods often struggle to balance feasibility,
-    plausibility, and computational efficiency. To address this, we introduce P$^2$CE,
+    plausibility, and computational efficiency. To address this, we introduce P²CE,
     an algorithm for generating plausible Pareto-optimal counterfactual explanations,
     offering users a diverse set of optimal trade-offs between different notions of
-    feasibility. P$^2$CE employs an auxiliary isolation forest outlier detector to
-    ensure that explanations are in accordance with the data distribution and leverages
-    SHAP values to obtain optimal results with short computing times, regardless of
-    the underlying model. Our algorithm was empirically evaluated on three datasets,
-    demonstrating superior performance in terms of both solution quality and computational
-    efficiency compared to related techniques.
-- title: 'To do($x$) or not to do($x$): Medical Image Counterfactuals for Dataset
-    Augmentation'
+    feasibility. P²CE employs an auxiliary isolation forest outlier detector to ensure
+    that explanations are in accordance with the data distribution and leverages SHAP
+    values to obtain optimal results with short computing times, regardless of the
+    underlying model. Our algorithm was empirically evaluated on three datasets, demonstrating
+    superior performance in terms of both solution quality and computational efficiency
+    compared to related techniques.
+- title: 'To do(x) or not to do(x): Medical Image Counterfactuals for Dataset Augmentation'
   date: 2026-09
-  url: https://arxiv.org/abs/2609.14124v1
+  url: https://arxiv.org/abs/2609.14124
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -299118,21 +299114,20 @@ papers:
     produced by non-causal image edits or conventional conditional generative models,
     such as altering anatomy or adding pathologies. In this work, we study this distinction
     and evaluate its practical consequences for medical image augmentation. We compare
-    three conditioning strategies: $\textit{Deterministic}$, which changes selected
-    variables while holding the remaining variables fixed; $\textit{Undirected}$,
-    which updates variables according to learned statistical associations without
-    assigning causal directions; and $\textit{Causal}$, which propagates interventions
-    along a directed causal graph. We analyse how these choices affect the resulting
-    images, and explore when causally grounded methods improve dataset augmentation
-    or bring limited benefit. In particular, we assess downstream performance and
-    fairness, where fairness refers to reduced sensitivity to dataset biases across
-    sensitive subgroups. Our experiments demonstrate that using a causal approach
-    to synthetic training data generation can lead to tangible benefits, with these
-    insights offering valuable guidance to machine learning practitioners for the
-    effective design of data generation protocols.'
+    three conditioning strategies: Deterministic, which changes selected variables
+    while holding the remaining variables fixed; Undirected, which updates variables
+    according to learned statistical associations without assigning causal directions;
+    and Causal, which propagates interventions along a directed causal graph. We analyse
+    how these choices affect the resulting images, and explore when causally grounded
+    methods improve dataset augmentation or bring limited benefit. In particular,
+    we assess downstream performance and fairness, where fairness refers to reduced
+    sensitivity to dataset biases across sensitive subgroups. Our experiments demonstrate
+    that using a causal approach to synthetic training data generation can lead to
+    tangible benefits, with these insights offering valuable guidance to machine learning
+    practitioners for the effective design of data generation protocols.'
 - title: Generative Diffusion Models of Stochastic Graph Signals
   date: 2026-07
-  url: https://arxiv.org/abs/2607.06833v1
+  url: https://arxiv.org/abs/2607.06833
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -299167,7 +299162,7 @@ papers:
 - title: 'AdaptAV: Continuous Adaption of Vision Models for Autonomous Vehicles Using
     Cloud-based Oracle'
   date: 2026-08
-  url: https://arxiv.org/abs/2608.28673v1
+  url: https://arxiv.org/abs/2608.28673
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -299191,7 +299186,7 @@ papers:
 - title: A Machine Learning Framework for EEG-Based Prediction of Treatment Efficacy
     in Chronic Neck Pain
   date: 2026-05
-  url: https://arxiv.org/abs/2605.16326v1
+  url: https://arxiv.org/abs/2605.16326
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -299226,7 +299221,7 @@ papers:
 - title: Improvements to the post-processing of weather forecasts using machine learning
     and feature selection
   date: 2026-04
-  url: https://arxiv.org/abs/2604.19340v1
+  url: https://arxiv.org/abs/2604.19340
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -299253,7 +299248,7 @@ papers:
     and overall performance remained slightly below MSMG.
 - title: Long-Horizon Forecasting of Complete Financial Statements with Forma
   date: 2026-08
-  url: https://arxiv.org/abs/2608.11327v1
+  url: https://arxiv.org/abs/2608.11327
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -299270,10 +299265,10 @@ papers:
     statements beyond one year, yet in a discounted-cash-flow valuation most firm
     value sits past that window. We release ProForma-20Q, a reproducible benchmark
     for forecasting 78 statement line items 1-20 quarters ahead, for anonymized firms,
-    from past statements and an industry code, scored by change-space $R^2$. On it,
-    Forma, a transformer that reads statements as sets of (account, quarter, value)
-    tuples and maximizes a masked-tuple Gaussian likelihood, beats every competitor
-    we field: classical machine learning, chained gradient boosting, a zero-shot time-series
+    from past statements and an industry code, scored by change-space R². On it, Forma,
+    a transformer that reads statements as sets of (account, quarter, value) tuples
+    and maximizes a masked-tuple Gaussian likelihood, beats every competitor we field:
+    classical machine learning, chained gradient boosting, a zero-shot time-series
     foundation model, and frontier large language models. Its lead widens with horizon,
     where valuation needs accuracy most, and its Gaussian predictive intervals never
     under-cover. Forma''s forecasts nearly satisfy accounting identities; exact coherence
@@ -299282,7 +299277,7 @@ papers:
     revenue paths sharpens the rest of the statement.'
 - title: Federated Learning for Distributed CNC Tool Wear Prediction
   date: 2026-08
-  url: https://arxiv.org/abs/2608.11281v3
+  url: https://arxiv.org/abs/2608.11281
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -299312,7 +299307,7 @@ papers:
     complexity is justified.
 - title: 'DaDaDa: A Dataset for Data Pricing in Data Marketplaces'
   date: 2026-06
-  url: https://arxiv.org/abs/2607.08785v1
+  url: https://arxiv.org/abs/2607.08785
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -299335,18 +299330,17 @@ papers:
     to inherently unpredictable data revenue. The sales comparison approach remains
     viable, yet its application is hindered by the absence of standardized pricing
     benchmarks for data products across marketplaces. To address this challenge, we
-    introduce \texttt{DaDaDa}, the first dataset for data product pricing, containing
-    metadata for 16,147 data products from 9 major data marketplaces worldwide. \texttt{DaDaDa}
-    enables the training of pricing models, thereby establishing price benchmarks
-    for new data products. In addition, \texttt{DaDaDa} can be utilized for other
-    important tasks in data markets, such as data product classification and retrieval.
-    Experiments and a retrieval prototype demonstrate the effectiveness of \texttt{DaDaDa}
-    for pricing, classification, and retrieval of data products. The dataset and code
-    are available at https://github.com/ZJU-DIVER/DaDaDa.
+    introduce DaDaDa, the first dataset for data product pricing, containing metadata
+    for 16,147 data products from 9 major data marketplaces worldwide. DaDaDa enables
+    the training of pricing models, thereby establishing price benchmarks for new
+    data products. In addition, DaDaDa can be utilized for other important tasks in
+    data markets, such as data product classification and retrieval. Experiments and
+    a retrieval prototype demonstrate the effectiveness of DaDaDa for pricing, classification,
+    and retrieval of data products. The dataset and code are available at https://github.com/ZJU-DIVER/DaDaDa.
 - title: 'On the post-hoc Evaluation of PDE Discovery: A Multifaceted Challenge of
     Scientific Advancement'
   date: 2026-07
-  url: https://arxiv.org/abs/2607.23753v1
+  url: https://arxiv.org/abs/2607.23753
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -299381,7 +299375,7 @@ papers:
 - title: 'Aries: A Proprietary Medium-Range Weather Prediction Model for the Energy
     Industry'
   date: 2026-09
-  url: https://arxiv.org/abs/2609.13292v1
+  url: https://arxiv.org/abs/2609.13292
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -299398,19 +299392,19 @@ papers:
     domain of national meteorological centers, but recent advances in machine-learned
     weather prediction (MLWP) have opened the field to industry. We present Aries,
     a SwinTransformer-based MLWP model developed at InCommodities. Aries is trained
-    on ERA5 reanalysis data at 0.25\textdegree{} resolution, predicting 74 prognostic
-    and 11 diagnostic atmospheric variables. We evaluate the model on 2025 ECMWF Analysis
-    initializations, ensuring a recent and strictly out-of-sample test period for
-    all models compared. On 10-metre wind speed, Aries outperforms both ECMWF HRES
-    and AIFS in terms of RMSE for lead times up to four days, while on 2-metre temperature
-    it achieves RMSE on par with AIFS operational. These results demonstrate that
-    proprietary development of competitive weather models is technically viable, supporting
-    a broader set of forecasts available for operational and planning applications
-    in the energy industry.
+    on ERA5 reanalysis data at 0.25 resolution, predicting 74 prognostic and 11 diagnostic
+    atmospheric variables. We evaluate the model on 2025 ECMWF Analysis initializations,
+    ensuring a recent and strictly out-of-sample test period for all models compared.
+    On 10-metre wind speed, Aries outperforms both ECMWF HRES and AIFS in terms of
+    RMSE for lead times up to four days, while on 2-metre temperature it achieves
+    RMSE on par with AIFS operational. These results demonstrate that proprietary
+    development of competitive weather models is technically viable, supporting a
+    broader set of forecasts available for operational and planning applications in
+    the energy industry.
 - title: 'Model Monotonicity in Autobidding Auctions: When Do Better Predictions Lead
     to Better Outcomes?'
   date: 2026-05
-  url: https://arxiv.org/abs/2605.31036v1
+  url: https://arxiv.org/abs/2605.31036
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -299437,7 +299431,7 @@ papers:
 - title: 'Option Pricing on Noisy Intermediate-Scale Quantum Computers: A Quantum
     Neural Network Approach'
   date: 2026-04
-  url: https://arxiv.org/abs/2604.19832v1
+  url: https://arxiv.org/abs/2604.19832
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -299471,7 +299465,7 @@ papers:
 - title: 'Rethinking Clinical Relevance in Chest X-ray Machine Learning: How Evaluation
     References Define Performance'
   date: 2026-07
-  url: https://arxiv.org/abs/2607.26333v1
+  url: https://arxiv.org/abs/2607.26333
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -299508,7 +299502,7 @@ papers:
 - title: A Predict-then-Correct Loop Based on Few-Shot Continuous Contextual Bandit
     for Demand Forecasting
   date: 2026-07
-  url: https://arxiv.org/abs/2607.16354v1
+  url: https://arxiv.org/abs/2607.16354
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -299536,7 +299530,7 @@ papers:
 - title: A Sequence-to-Sequence ConvLSTM Approach for Leaf Area Index Forecasting
     over the South-Central United States
   date: 2026-08
-  url: https://arxiv.org/abs/2608.00879v1
+  url: https://arxiv.org/abs/2608.00879
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -299562,7 +299556,7 @@ papers:
     forecasting at a 30-day horizon at 1-km resolution.
 - title: On the QUEST for Uncertainty Quantification via Highest Density Regions
   date: 2026-06
-  url: https://arxiv.org/abs/2606.19569v1
+  url: https://arxiv.org/abs/2606.19569
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -299582,7 +299576,7 @@ papers:
     of the most probable subset of a distribution's support. QUEST (Quantifying Uncertainty
     via highest dEnSiTy regions) is a novel approach to UQ based on the concentration
     of Lebesgue measure at a distribution's peak(s), evaluated at one or more values
-    of a robustness parameter $α$. We establish connections between our measures and
+    of a robustness parameter α. We establish connections between our measures and
     classical statistics from information theory and economics. We show that, unlike
     popular alternatives based on proper scoring rules, QUEST measures of epistemic
     and aleatoric uncertainty satisfy a set of axioms adapted from the UQ literature,
@@ -299592,7 +299586,7 @@ papers:
 - title: Fusing Backdoors, Machine Learning, and Optimization for Large-Scale Parametric
     Mixed-Integer Programs
   date: 2026-06
-  url: https://arxiv.org/abs/2606.21440v1
+  url: https://arxiv.org/abs/2606.21440
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -299627,7 +299621,7 @@ papers:
 - title: Asynchronous Cooperative Online Learning for Multi-Robot Control under Computational
     Delays
   date: 2026-08
-  url: https://arxiv.org/abs/2608.29562v1
+  url: https://arxiv.org/abs/2608.29562
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -299658,7 +299652,7 @@ papers:
     the state-of-the-art approaches.
 - title: Backward Compatibility in Tree-Based Explanations and Enhanced CART Algorithm
   date: 2026-08
-  url: https://arxiv.org/abs/2608.08674v1
+  url: https://arxiv.org/abs/2608.08674
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -299685,7 +299679,7 @@ papers:
     task.
 - title: 'LambdaRankIC: Directly Optimizing Rank IC for Financial Prediction'
   date: 2026-05
-  url: https://arxiv.org/abs/2605.00501v1
+  url: https://arxiv.org/abs/2605.00501
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -299717,7 +299711,7 @@ papers:
     is the primary goal.
 - title: 'Divide et Calibra: Multiclass Local Calibration via Vector Quantization'
   date: 2026-05
-  url: https://arxiv.org/abs/2605.21060v1
+  url: https://arxiv.org/abs/2605.21060
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -299745,7 +299739,7 @@ papers:
 - title: 'From Mobile Data to Business Insights: An End-to-End Analytics Framework
     for Large-Scale Urban Mobility Analysis and Decision Support'
   date: 2026-07
-  url: https://arxiv.org/abs/2607.03394v1
+  url: https://arxiv.org/abs/2607.03394
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -299783,7 +299777,7 @@ papers:
 - title: 'Drift Happens: An Empirical Study of Neural Architecture Robustness to Temporal
     Distribution Shift'
   date: 2026-07
-  url: https://arxiv.org/abs/2607.05908v1
+  url: https://arxiv.org/abs/2607.05908
   category: ai-marketing
   subcategory: measurement
   authors: []
@@ -299812,7 +299806,7 @@ papers:
 - title: 'The Feedback Hamiltonian is the Score Function: A Diffusion-Model Framework
     for Quantum Trajectory Reversal'
   date: 2026-04
-  url: https://arxiv.org/abs/2604.21210v1
+  url: https://arxiv.org/abs/2604.21210
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -299822,30 +299816,30 @@ papers:
   code_url: ''
   project_url: ''
   abstract: 'In continuously monitored quantum systems, the feedback protocol of García-Pintos,
-    Liu, and Gorshkov reshapes the arrow of time: a Hamiltonian $H_{\mathrm{meas}}
-    = r A / τ$ applied with gain $X$ tilts the distribution of measurement trajectories,
-    with $X &lt; -2$ producing statistically time-reversed outcomes. Why this specific
-    Hamiltonian achieves reversal, and how the mechanism relates to score-based diffusion
-    models in machine learning, has remained unexplained. We compute the functional
-    derivative of the log path probability of the quantum trajectory distribution
-    directly in density-matrix space. Combining Girsanov''s theorem applied to the
-    measurement record, Fréchet differentiation on the Banach space of trace-class
-    operators, and Kähler geometry on the pure-state projective manifold, we prove
-    that $δ\log P_F / δρ= r A / τ= H_{\mathrm{meas}}$. The García-Pintos feedback
-    Hamiltonian is the score function of the quantum trajectory distribution -- exactly
-    the object Anderson''s reverse-time diffusion theorem requires for trajectory
-    reversal. The identification extends to multi-qubit systems with independent measurement
-    channels, where the score is a sum of local operators. Two consequences follow.
-    First, the feedback gain $X$ generates a continuous one-parameter family of path
-    measures (for feedback-active Hamiltonians with $[H, A] \neq 0$), with $X = -2$
-    recovering the backward process in leading-order linearization -- a structure
-    absent from classical diffusion, where reversal is binary. Second, the score identification
-    enables machine learning (ML) score estimation methods -- denoising score matching,
-    sliced score matching -- to replace the analytic formula when its idealizations
-    (unit efficiency, zero delay, Gaussian noise) fail in real experiments.'
+    Liu, and Gorshkov reshapes the arrow of time: a Hamiltonian H_{meas} = r A / τ
+    applied with gain X tilts the distribution of measurement trajectories, with X
+    &lt; -2 producing statistically time-reversed outcomes. Why this specific Hamiltonian
+    achieves reversal, and how the mechanism relates to score-based diffusion models
+    in machine learning, has remained unexplained. We compute the functional derivative
+    of the log path probability of the quantum trajectory distribution directly in
+    density-matrix space. Combining Girsanov''s theorem applied to the measurement
+    record, Fréchet differentiation on the Banach space of trace-class operators,
+    and Kähler geometry on the pure-state projective manifold, we prove that δ\log
+    P_F / δρ= r A / τ= H_{meas}. The García-Pintos feedback Hamiltonian is the score
+    function of the quantum trajectory distribution -- exactly the object Anderson''s
+    reverse-time diffusion theorem requires for trajectory reversal. The identification
+    extends to multi-qubit systems with independent measurement channels, where the
+    score is a sum of local operators. Two consequences follow. First, the feedback
+    gain X generates a continuous one-parameter family of path measures (for feedback-active
+    Hamiltonians with [H, A] \neq 0), with X = -2 recovering the backward process
+    in leading-order linearization -- a structure absent from classical diffusion,
+    where reversal is binary. Second, the score identification enables machine learning
+    (ML) score estimation methods -- denoising score matching, sliced score matching
+    -- to replace the analytic formula when its idealizations (unit efficiency, zero
+    delay, Gaussian noise) fail in real experiments.'
 - title: 'WARP: A Benchmark for Primal-Dual Warm-Starting of Interior-Point Solvers'
   date: 2026-05
-  url: https://arxiv.org/abs/2605.05728v1
+  url: https://arxiv.org/abs/2605.05728
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -299860,24 +299854,24 @@ papers:
     solvers. A growing body of work uses machine learning to predict primal warm-start
     iterates, reporting iteration reductions of 30-46\%. We show that these reported
     gains rest on an inappropriate evaluation baseline: prior methods benchmark against
-    the flat start $V_m = 1, V_a = 0$, whereas the solver''s actual default - the
-    variable-bound midpoint $(l+u)/2$ - is near-optimal for log-barrier centrality.
-    Against this corrected baseline, no primal-only warm-start method reduces solver
-    iterations. We trace the failure to a geometric property of interior-point methods:
-    primal prediction accuracy is anticorrelated with convergence speed, and providing
-    the ground-truth optimal solution $x^*$ without dual variables causes the solver
-    to diverge. Oracle experiments establish that the complete primal-dual-barrier
-    state $(x^*, λ^*, z^*, μ^*)$ reduces IPOPT iterations from 23 to 3 - an 85\% reduction
-    that is structurally inaccessible to primal-only methods. To enable rigorous evaluation
-    of warm-start methods on this task, we release a benchmark suite comprising dual-labeled
-    AC-OPF datasets with IPOPT-extracted solutions, a corrected evaluation protocol,
-    and WARP - a topology-conditioned encode-process-decode interaction network that
-    predicts the full interior-point state $(\hat{x}, \hatλ, \hat{z}, \hatμ)$ on the
-    heterogeneous constraint graph. WARP achieves a 76\% reduction in IPOPT iterations
-    while natively accommodating N-1 contingency topology variations without retraining.'
+    the flat start V_m = 1, V_a = 0, whereas the solver''s actual default - the variable-bound
+    midpoint (l+u)/2 - is near-optimal for log-barrier centrality. Against this corrected
+    baseline, no primal-only warm-start method reduces solver iterations. We trace
+    the failure to a geometric property of interior-point methods: primal prediction
+    accuracy is anticorrelated with convergence speed, and providing the ground-truth
+    optimal solution x^* without dual variables causes the solver to diverge. Oracle
+    experiments establish that the complete primal-dual-barrier state (x^*, λ^*, z^*,
+    μ^*) reduces IPOPT iterations from 23 to 3 - an 85\% reduction that is structurally
+    inaccessible to primal-only methods. To enable rigorous evaluation of warm-start
+    methods on this task, we release a benchmark suite comprising dual-labeled AC-OPF
+    datasets with IPOPT-extracted solutions, a corrected evaluation protocol, and
+    WARP - a topology-conditioned encode-process-decode interaction network that predicts
+    the full interior-point state (x, \hatλ, z, \hatμ) on the heterogeneous constraint
+    graph. WARP achieves a 76\% reduction in IPOPT iterations while natively accommodating
+    N-1 contingency topology variations without retraining.'
 - title: Generating Synthetic Malware Samples Using Generative AI
   date: 2026-04
-  url: https://arxiv.org/abs/2604.22084v1
+  url: https://arxiv.org/abs/2604.22084
   category: ai-marketing
   subcategory: measurement
   authors:
@@ -299928,3 +299922,1534 @@ papers:
     Learning. Using a cross sectional survey design, data were '
   doi: 10.1016/j.actpsy.2026.107943
   venue: MED
+- title: 'Causal Value Attribution of Marketing Labels in LLM-Generated Ads: A Deconfounder
+    Approach'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.23025
+  category: digital-marketing
+  subcategory: empirical
+  authors:
+  - "Danhong You</name>\n      <arxiv:affiliation>Eric</arxiv:affiliation>\n    </author>\n\
+    \    <author>\n      <name>Wei Jiang</name>\n      <arxiv:affiliation>Eric</arxiv:affiliation>\n\
+    \    </author>\n    <author>\n      <name> Zhiqiang</name>\n      <arxiv:affiliation>Eric</arxiv:affiliation>\n\
+    \    </author>\n    <author>\n      <name> Zheng"
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: As AI-generated content becomes commoditized, economic value increasingly
+    shifts from final artifacts to the upstream expertise used to specify inputs that
+    steer LLM generation. Yet organizations lack methods for valuing this expertise
+    and identifying which individual skills or configurations causally improve performance.
+    This study examines generative marketing, where structured expert labels serve
+    as skill primitives conditioning LLM-generated advertisements. Estimating their
+    causal effects is difficult because outcomes reflect stochastic LLM mediation,
+    high-dimensional label interactions, and multimodal confounding. This study proposes
+    D-VAE (Deconfounder Variational Autoencoder), a counterfactual-inference framework
+    integrating a multi-treatment deconfounder with causal representation learning.
+    D-VAE recovers causally disentangled expert-labeling logic and derives PAC-based
+    bounds on omitted-variable bias from single-treatment confounders. Applied to
+    29,177 foundation-makeup ad creatives, D-VAE outperforms state-of-the-art benchmarks.
+    A field experiment shows that recommended configurations increase engagement by
+    32.7% and perform statistically indistinguishably from human experts, while a
+    simulation study confirms causal attribution under complex confounding and treatment
+    interactions. Overall, the study shifts value assessment from AI-generated products
+    to skills, providing a foundation for pricing and optimizing AI-augmented skill
+    portfolios.
+- title: 'Displacement Is Endogenous: AI Workers in a Search-and-Matching Labor Market'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.14850
+  category: digital-marketing
+  subcategory: empirical
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'We build a labor market in which AI systems enter as workers: they apply
+    for jobs, pass screenings, get hired, and get dismissed, alongside humans. Firms
+    post vacancies, workers search with friction, and product demand slopes downward.
+    Across 30 seeded runs per configuration, AI entry at 70% of the human wage raises
+    unemployment by 4.1 percentage points (95% CI 3.5 to 4.6) and leaves 12.2 fewer
+    humans employed (CI 10.5 to 13.9). Layoffs dominate when AI is much cheaper than
+    humans: the layoff margin accounts for 7.2 of the lost jobs and reduced hiring
+    for 5.0, though most dismissed workers find work again. A wider price gap reduces
+    displacement, because cheap AI makes firms expand: at price parity, with zero
+    dismissals, the unemployment effect is largest at 9.2 points (CI 8.6 to 9.9),
+    all of it through hiring. That parity result survives cutting AI applications
+    from five per period to one. Demand elasticity decides how many workers AI displaces.
+    Screening changes who gets hired and leaves the displacement total unchanged.'
+- title: Enhanced Trading Systems with Intelligent Market Analysis
+  date: 2026-09
+  url: https://arxiv.org/abs/2610.13998
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Vedanth Padmaraman
+  - Shreen Anand
+  - Vamshi Vishruth J
+  - Vineet V Pai
+  - Arvind Srinath K. T
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: This paper proposes a hybrid reinforcement learning trading framework
+    integrating intraday market data with transformer-based financial sentiment signals.
+    The system extracts sentiment dynamics and semantic event clusters from financial
+    news and incorporates them into a PPO-based trading agent. Experiments on intraday
+    NSE data demonstrate improved risk-adjusted returns compared to price-only baselines.
+- title: 'Evaluating Investment Logic in Large Language Models: A Real-World Benchmark
+    Towards Personalzied Financial Agents'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.06108
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Yuanhong Jiang
+  - Jingjie Zou
+  - Rui Jiang
+  - Zhenghong Lin
+  - Xusheng Yu
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Investment competence is inherently personalized: the same market evidence
+    can justify different actions for investors with different goals, horizons, portfolios,
+    and risk boundaries. Yet financial LLMs are evaluated either by static question
+    answering or by terminal profit and loss. The former omits agency; the latter
+    cannot reveal whether a profitable action was grounded, profile-consistent, or
+    merely lucky. We ask whether the community is using the wrong ruler for consequential
+    agents. We introduce InvestLogicBench, a process-native benchmark containing 201,247
+    documented decisions from 151 real-world investors. Each episode instantiates
+    a P\rightarrowE\rightarrowR\rightarrowD\rightarrowO trace: investor Profile, observable
+    market Events, investment Reasoning, executable Decision, and delayed Outcome.
+    The release includes profile construction, point-in-time event binding, structured
+    logic, horizons, outcomes, and post-mortems, and supports comprehension, profile-conditioned
+    generation, and end-to-end replay. Across four leading LLMs, logical plausibility
+    remains near 4/5 while event grounding is only 0.8--2.8/5; return and process
+    quality also disagree. These results expose polished but weakly grounded reasoning
+    that outcome-only evaluation hides. We further argue that P\rightarrowE\rightarrowR\rightarrowD\rightarrowO
+    should be a data-system interface, requiring versioned profiles, temporal provenance,
+    inspectable retrieval, decision ledgers, and replayable outcomes. Finance is our
+    stress test for a broader class of personalized, consequential agents.'
+- title: 'Making Alternative Data Work: Context-Augmented LLMs for Financial Forecasting'
+  date: 2026-09
+  url: https://arxiv.org/abs/2609.11607
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Jihoon Kwon
+  - Lawrence Liu
+  - Daekyung Park
+  - Sumin Kim
+  - Haverty Jack
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: When forecasting a firm's future financial performance, alternative data
+    - data collected from non-traditional sources such as consumer transactions, web
+    traffic, and prediction markets - can provide timely signals about firms' operating
+    activities and broader market conditions. These signals may reveal information
+    that is not captured by traditional public sources and can therefore provide complementary
+    information for forecasting firms' future financial performance. However, firm-level
+    alternative data often have limited historical coverage, are relevant only to
+    specific prediction targets or subsets of firms, and are distributed across numerous
+    heterogeneous channels, making them difficult to incorporate flexibly into conventional
+    forecasting approaches. Meanwhile, large language models (LLMs) can interpret
+    instructions, learn from in-context examples, and generate predictions by combining
+    heterogeneous information without task-specific parameter updates. Motivated by
+    this potential flexibility, we investigate whether an LLM can forecast firm performance
+    by integrating alternative data with other financial information through in-context
+    learning. We propose a two-agent framework that first identifies the firms for
+    which each alternative data channel is likely to be informative and then predicts
+    revenue using firm- and channel-specific context. We evaluate the framework across
+    four commercial alternative data channels. In our experiments, adding alternative
+    data in context alongside other financial information improves the LLM's forecasting
+    relative to either source alone, and these forecasts are more accurate than those
+    of standard forecasting baselines. These findings suggest that LLMs provide a
+    flexible and practical approach to integrating alternative data with heterogeneous
+    financial information.
+- title: 'EXAONE Finance 1.0: An Attention-free Time Series Foundation Model for Financial
+    Time Series'
+  date: 2026-08
+  url: https://arxiv.org/abs/2609.04239
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Seunghan Lee
+  - Jaehoon Lee
+  - Jun Seo
+  - Tae Yoon Lim
+  - Dongwan Kang
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'This technical report presents EXAONE Forecast for Finance (EXAONE Finance),
+    a financial time series foundation model (TSFM) tailored to financial forecasting.
+    While recent TSFMs achieve strong zero-shot performance through large-scale pretraining,
+    they are primarily developed for general-domain time series and largely rely on
+    self-attention backbones whose computational cost grows quadratically with sequence
+    length and variate count. Moreover, they assume fully observed inputs and are
+    pretrained on corpora that fail to adequately capture the unique dynamics of financial
+    markets. These limitations hinder their applicability to finance, where long,
+    many-channel, intermittently observed panels are common. To address these challenges,
+    EXAONE Finance adopts an attention-free architecture, replacing self-attention
+    with two simple yet effective linear-time operators: (1) a causal 1D convolution
+    for temporal mixing and (2) a group-aware pooling multi-layer perceptron (MLP)
+    for variate mixing. Furthermore, a masked-context augmentation exposes the model
+    to contiguous missing spans during training, improving robustness to the missingness
+    pervasive in financial markets. EXAONE Finance is pretrained on a synthetic financial
+    corpus whose generative process is designed to reproduce the properties of financial
+    series such as heavy tails, volatility clustering, jumps, regime shifts, and cross-asset
+    dependence, combined with a domain-agnostic synthetic source. On FinVerse, a financial
+    forecasting benchmark covering diverse asset classes, EXAONE Finance attains state-of-the-art
+    performance, ranking first across all three evaluation tiers: point-forecast accuracy,
+    cross-sectional asset ranking, and portfolio profitability.'
+- title: When and How Order-Flow Interventions Work After Dealers Adapt
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.18158
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Guanghao Wu
+  - Zhuo Cai
+  - Zhidong Li
+  - Shoujin Wang
+  venue: ''
+  code_url: https://github.com/moderncavemann/state-aligned-order-flow-contracts
+  project_url: ''
+  abstract: 'Learning dealer agents can settle on persistently wide quotes, raising
+    what customers pay to trade. A venue can route more orders to tighter quotes,
+    but a wide quote may reflect real risk, and once dealers adapt, an end-to-end
+    comparison cannot show why a rule works: because it intervenes more, picks better
+    moments, is announced in advance, or rewards the right quote. We propose SOFA
+    (State-aligned Order-Flow Allocation), a public order-flow contract with three
+    parts: a State Scorer ranks market states from lagged public data, a Commitment
+    Scheduler announces a budgeted intervention strength before dealers quote, and
+    a Quote-to-Flow Allocator shifts a bounded share of fixed customer demand toward
+    tighter quotes. Our paired re-adaptation protocol gives competing rules the same
+    intervention strengths, only re-timed, lets dealers re-adapt to each rule from
+    a shared checkpoint, and breaks one link at a time. Across 20 independently trained
+    dealer populations in an ABIDES market, concentrating the intervention in states
+    that the score ranks as low-risk lowers low-risk execution cost relative to random
+    timing in every population, by 0.040 tick on average, while a stale announcement
+    or a broken quote-to-flow link raises this cost. In the primary setting the gain
+    comes at the expense of high-risk trades, whose costs rise, so state alignment
+    pays off only for a venue that weighs low-risk costs more than 1.38 times as heavily
+    as high-risk costs. Our code is available at https://github.com/moderncavemann/state-aligned-order-flow-contracts.'
+- title: 'Business Arena: Benchmarking LLM Agents in a Realistic Marketplace'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.08621
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Yijun Pan
+  - Yukun Lian
+  - Kunyu Shi
+  - Junbo Li
+  - Hongwei Xue
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Running a business is a challenging form of intelligent work. Operators
+    must infer opportunities from partial signals, commit capital under uncertainty,
+    adapt to delayed outcomes in a changing market, and satisfy regulatory obligations
+    before trading legally. Frontier LLM agents can increasingly complete complex
+    workflows, yet business-related capabilities are rarely evaluated in existing
+    agent benchmarks. We introduce Business Arena, a controlled environment where
+    an AI agent runs a cross-border shop, buying from suppliers and selling to buyers
+    over a long horizon. We ground the arena in real Alibaba.com sourcing data and
+    market conditions calibrated from authoritative sources. Delayed and coupled consequences
+    make individual business decisions difficult to judge, but their combined outcome
+    is measurable through profit. Because profit alone cannot explain why an agent
+    succeeds or fails, we compare agents with human-designed strategies to estimate
+    available opportunity, use skill-level metrics to reveal underlying strengths
+    and weaknesses, and trace realized gains and losses to the actions that produced
+    them. We use mechanism ablations to establish that strong results reflect genuine
+    business intelligence rather than neglect or simulator-specific shortcuts. We
+    evaluate 15 frontier models and find a ninefold difference in mean final net worth.
+    Even the best model falls behind human-designed strategies, indicating that business
+    operation remains challenging for LLM agents. Skill-level analysis reveals operating
+    styles, from margin-focused premium sellers to high-turnover wholesalers and customer-service
+    specialists, while action-level attribution identifies the sourcing, pricing,
+    and recovery decisions that create or destroy value. Together, Business Arena
+    takes a first step toward a realistic and trustworthy testbed for evaluating end-to-end
+    business agents.
+- title: 'Political Narratives in the 2024 Moldovan Presidential Election: Stance,
+    Amplification, and Influence'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.22464
+  category: social-media
+  subcategory: empirical
+  authors:
+  - Andrea Piras
+  - Osman Rahmoun
+  - Elena Zheleva
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Social media platforms play a central role in shaping political discourse
+    during elections, particularly in geopolitically contested regions. We study how
+    political narratives emerged, aligned, and propagated during the 2024 Moldovan
+    presidential election by analyzing publicly available posts collected from X,
+    Facebook, and Reddit between August and October 2024. Combining multilingual stance
+    detection, coordination analysis, and causal inference, we examine both descriptive
+    and causal mechanisms underlying online political discourse. First, we apply large
+    language models to classify stance toward European integration, Russia, and the
+    two main presidential candidates, revealing clear cross-platform and cross-linguistic
+    differences in how political positions are expressed. Second, we construct retweet-based
+    and semantic alignment networks on X to identify amplification and aligned framing
+    of dominating narratives. Finally, we use a proximal causal inference framework
+    to estimate peer influence effects in stance formation. Our results indicate consistently
+    positive and statistically significant average treatment effects across major
+    stance categories. These findings provide evidence that amplification and peer
+    exposure contribute to the reinforcement of political narratives online. This
+    work offers the first analysis of social media discourse surrounding the 2024
+    Moldovan presidential election and demonstrates the value of integrating language-based
+    annotation, network analysis, and causal inference for studying political influence
+    in multilingual and geopolitically sensitive contexts.
+- title: 'The Source of Data Value: Consumer Disclosure, Access Design, and Platform
+    Monetization'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.22864
+  category: consumer-behavior
+  subcategory: empirical
+  authors:
+  - Hexiao Liu
+  - Lijian Lu
+  - Mingzheng Wang
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Digital marketplaces increasingly earn revenue from transaction commissions
+    and seller-facing data services. Sellers may purchase data to increase revenue
+    or avoid competing with an informed rival. We examine how consumer disclosure
+    rights shape these motives and the platform''s incentive to provide data. We develop
+    a game-theoretic model of a commissioned platform, two differentiated sellers,
+    and privacy-sensitive consumers. Data generates value through bilateral sales-revenue
+    gains and competition threats arising from asymmetric access. Under mandatory
+    collection, the platform can monetize defensive adoption, even when bilateral
+    personalization reduces seller revenue. Under voluntary disclosure, anonymous
+    purchasing and strictly positive privacy costs make unilateral disclosure unattractive
+    in the baseline. Exclusive access thus yields no usable information, restores
+    sellers'' no-data rejection payoffs, and eliminates defensive fees. Profitable
+    provision therefore requires nonnegative bilateral revenue gains. Under full fee
+    extraction, sellers retain their no-data net profits. This revenue alignment does
+    not guarantee welfare gains: additional transactions may benefit consumers, whereas
+    segmentation in an already covered market can raise anonymous prices and reduce
+    welfare. Capping anonymous offers at their no-data benchmark protects individual
+    consumers and limits positive-mass provision to the transaction-creation region.
+    Extensions consider access choice, heterogeneous privacy costs, imperfect identification,
+    and limited contractual credibility. Platforms should evaluate data services based
+    on both bilateral-use and seller-rejection outcomes, and sellers should distinguish
+    revenue-enhancing from defensive investments. Regulators should distinguish equal-access
+    rules from effective consumer control and monitor pricing in anonymous channels.'
+- title: 'Web Price Extraction: State of the Art and an Adaptive Browserless Implementation'
+  date: 2026-09
+  url: https://arxiv.org/abs/2609.01030
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Evgeniia Kositsyna
+  - Jorge Lloret-Gazo
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Price extraction from websites is a key task for market monitoring, price
+    comparison, and business analytics in e-commerce. Existing approaches can be broadly
+    divided into four groups, and understanding their trade-offs in accuracy and scalability
+    is essential for selecting suitable extraction strategies. Classical methods rely
+    on manually written wrappers and rule induction from labeled pages, offering high
+    accuracy but adapting poorly to structural changes and requiring considerable
+    maintenance effort. Browser-based methods, using tools such as Selenium and Puppeteer,
+    handle dynamic JavaScript content but consume large computational resources and
+    scale poorly. Browserless approaches retrieve HTML directly via HTTP requests,
+    offering significant gains in speed and cost, but rely on rules calibrated for
+    specific sites. Methods based on machine learning and large language models offer
+    adaptability but require training data and substantial computation. Our main contribution
+    is an adaptive browserless price extraction system that improves robustness to
+    structural differences between websites. We implemented a baseline architecture
+    combining HTML page fragmentation with syntactic, semantic, and frequency rules,
+    and extended it in two ways: a Bayesian approach that dynamically updates rule
+    weights, and a genetic algorithm that optimizes the system''s global parameters.
+    This hybrid scheme increased precision from 77.2% to 87.3% and reduced average
+    per-page processing time by approximately 14% relative to the baseline, confirming
+    it as a competitive alternative to manually tuned browserless solutions and to
+    more resource-intensive browser- or LLM-based methods, offering high extraction
+    accuracy at low computational cost.'
+- title: Clinically Interpretable Biological Age Estimation Using CatBoost and SHAP
+    with Continuous and Categorical Features from NHANES
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.20868
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Yanni Sun
+  - Zheng Qu
+  - Kevin Ren
+  - Zhanglin Lin Cui
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Biological age (BA) captures inter-individual variation in physiological
+    aging beyond chronological age (CA). Although machine-learning models have advanced
+    BA estimation, many rely primarily on continuous laboratory biomarkers, and SHapley
+    Additive exPlanations (SHAP) dependence plots are typically interpreted visually.
+    We developed a clinically interpretable machine-learning framework for BA estimation
+    using heterogeneous clinical data from the National Health and Nutrition Examination
+    Survey (NHANES 2011-March 2020, N = 24,983 adults aged &gt;= 18). A CatBoost regression
+    model incorporated 44 demographic, laboratory, physical examination, and lifestyle
+    predictors to estimate CA, defining model-estimated age as BA. SHAP provided multi-level
+    interpretability. Crucially, building on standard visual inspection, we implemented
+    a prespecified automated procedure directly on SHAP dependence plots to quantify
+    feature-value ranges associated with lowest and highest BA contributions, corresponding
+    adjustment magnitudes, and zero-crossing thresholds. Model-estimated BA strongly
+    correlated with CA in held-out testing data (Pearson r = 0.798, P &lt; 0.001).
+    Population-level SHAP identified blood urea nitrogen, serum glucose, vigorous
+    recreational activity, red cell distribution width, and alanine aminotransferase
+    among the leading predictors, with three categorical variables ranking among the
+    top 25. Automated quantitative SHAP analysis mapped predictor-specific ranges,
+    effect sizes, and inflection points, while waterfall plots enabled individual
+    explanations. By extending qualitative visual interpretation to reproducible quantitative
+    metrics across heterogeneous clinical data, this framework enhances transparency
+    and provides a scalable methodological foundation for biological aging research
+    and precision health.
+- title: An AI-Based Decision-Support Pipeline for Day-Ahead Photovoltaic Forecasting
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.02088
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Fariba Dehghan
+  - Sebastian Stein
+  - Vahid Yazdanpanah
+  - Stephanie Gauthier
+  - Masood Nazari
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Reliable photovoltaic (PV) forecasts can support low-carbon energy systems,
+    but deployed sites may have only short and incomplete records. Physical and hybrid
+    methods can be sensitive to weather inputs, calibration, and timestamp-alignment,
+    while individual machine learning models may capture different parts of the forecasting
+    problem. We study hourly day-ahead PV forecasting at a United Kingdom charging
+    station using one year of inverter measurements, with 9.25% of hours missing.
+    The pipeline checks timestamp-alignment, derives solar and clearness features,
+    adds short-term weather context, and combines five complementary models using
+    non-negative least squares stacking, with the combination fitted only on validation
+    observations. We compare against smart persistence, a weather-scaled baseline
+    that carries the previous day's PV behaviour forward using target-day irradiance.
+    With retrospective weather, the combined model reduces daylight normalised root
+    mean square error (RMSE) by 31.2% under random day-fold evaluation and by 2.9%
+    under rolling-origin evaluation, although the latter improvement is not robust
+    across days. It also improves by 3.0% over the single model selected from validation
+    performance. Replacing retrospective weather with a public product sampled at
+    a constant 24-hour lead increases daylight RMSE by 13.1% and 4.2% under the two
+    protocols, while retaining positive skill over smart persistence.
+- title: Systematic Literature Review of Machine Learning Models and Applications
+    for Text Recognition
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.26500
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Nuzhat Khan
+  - Ab Al-Hadi Ab Rahman
+  - Shahriyar Masud Rizvi
+  - Ibrahim Yousef Alshareef
+  - Muhammad Nadzir Marsono
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Optical Character Recognition (OCR) for text recognition using machine
+    vision has significantly improved, particularly when handling heterogeneous textual
+    data. Traditional OCR models struggle with script variations, writing styles,
+    and degraded documents. Advancements in technology are leading to new AI models
+    with improved architecture for handling multiple languages and complex data formats.
+    Despite this progress, a comprehensive evaluation of OCR advancements remains
+    limited. Based on the established preferred reporting items for systematic reviews
+    and meta-analysis (PRISMA) guidelines, this literature review presents an extensive
+    assessment of OCR research to trace the evolution of AI models over the past decade.
+    It explores the transition in AI models, application domains, data types, linguistic
+    coverage, and challenges. Through a detailed analysis of 97 selected studies published
+    during January 2015 - January 2025, key OCR models are identified, and their performance,
+    strengths, and limitations are analyzed. The findings highlight how OCR technologies
+    have evolved to address structured and unstructured text, scene text recognition,
+    and multilingual processing. Unresolved challenges include limited resources for
+    underrepresented languages, high variability in handwritten text, visual similarity
+    among characters, and constraints in real-time OCR applications. To address these
+    issues, several promising approaches are proposed. Key suggestions include self-supervised
+    learning, multimodal AI, automated machine learning (AutoML), AI-assisted postprocessing,
+    tiny machine learning (TinyML), and the creation of joint corpora for script matching.
+    The future recommendations aim to enhance OCR accuracy and tackle the challenges
+    identified for real-time industrial applications. This study will guide future
+    research and establish a foundation for OCR field.
+- title: 'Random Quadratic Form with random forcing: Metastable synchronization by
+    noise'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.16664
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Anna Shalova
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: We study the Random Quadratic Form (RQF) on a sphere in the presence of
+    random Brownian forcing. We show that the forcing does not effectively change
+    the law of the process but affects the synchronization properties of the system.
+    While the RQF without forcing exhibits partial synchronization due to the intrinsic
+    symmetries, the introduction of an arbitrarily small forcing results in long-term
+    symmetry breaking and leads to full synchronization. In this work we focus on
+    the small forcing regime and recover the multiscale behavior of the two-point
+    process. We show that in the first stage the model converges to an anti-polar
+    configuration due to the symmetries of the RQF and in the second stage the two
+    clusters meet due to the symmetry breaking phenomenon. The model is motivated
+    by continuous-time machine learning models such as Neural ODEs and continuous-time
+    formulations of transformers. In particular, the results of this work explain
+    the role of the bias and the scale of its initialization.
+- title: Spectral Higher-Order Neural Networks Have Sharp Expressivity Bounds
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.19042
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Gianluca Peri
+  - Diego Febbe
+  - Duccio Fanelli
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Neural hypergraphs are a natural generalization of neural networks, the
+    reference models in modern machine learning. Yet, their deployment has proven
+    demanding: the number of weighted hyperedges required leads to an intractable
+    parameter explosion. However, a novel parametrization that leverages spectral
+    attributes for neural hypergraphs has been recently proposed, that enables to
+    recycle parameters via a weight sharing scheme and consequently yields a significant
+    reduction of the associated computational cost. Preliminary tests carried out
+    on spectral higher-order architectures pointed to meaningful improvements in both
+    performance and interpretability. Building on these results, we advance the benchmarking
+    efforts by evaluating the spectral higher order framework on N-bit parity tasks,
+    a well-established testbed known to be particularly challenging. As we will convincingly
+    argue, Spectral Higher-Order Neural Networks (SHONNs) possess a versatile and
+    highly tunable hypothesis space.'
+- title: A Two-Stage Time-Aware Transformer for Short-Horizon AECOPD Risk Prediction
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.19578
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Dongyang Wang
+  - Weihao Qu
+  - Ling Zheng
+  - Haowen Pan
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Acute exacerbation of chronic obstructive pulmonary disease (AECOPD) can
+    worsen rapidly, making timely prediction a clinical priority. Most existing machine
+    learning approaches rely on episodically collected clinical variables, introducing
+    delays that limit their practical utility in home monitoring settings. Home ventilators
+    offer a lower-latency alternative, producing a near-continuous record of respiratory
+    status during daily use. However existing ventilator-based approaches either compress
+    the waveform into handcrafted features or focus primarily on binary risk classification,
+    leaving the timing of an impending event unresolved. In this paper, we present
+    a two-stage framework that operates directly on raw pressure and flow waveforms
+    from the most recent seven days of home ventilator use. The first-stage classification
+    model identifies patients at high risk of a severe exacerbation. The second-stage
+    regression model then estimates how many days remain before the event occurs.
+    Our experimental results demonstrate that the two-stage model outperforms traditional
+    baseline models on both risk classification and time-to-event estimation, with
+    our selected Stage 1 classifier achieving F1 = 0.91 and our Stage 2 regression
+    model achieving RMSE = 1.00 days and R² = 0.76, giving clinicians both an early
+    warning and actionable lead time before a severe exacerbation occurs.
+- title: Bounding the Causal Impact of ML-assisted Decision-Making via Counterfactual
+    Correctness
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.21806
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Jonathan Zhang
+  - Erik Skalnes
+  - Jacob Chen
+  - Michael Oberst
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Predictive machine learning (ML) models are increasingly used to aid
+    human decision-makers across various high-risk domains such as healthcare and
+    criminal justice. There is a growing recognition of the need to evaluate the causal
+    impact of deploying these systems on downstream outcomes, such as patient survival
+    or crime recidivism. Randomized control trials (RCTs) can provide high-quality
+    evidence on the impact of a deployed model, but they run into a challenge: it
+    is often infeasible to run repeated trials when models are updated or retrained
+    to improve predictive performance. In this work, we present a partial-identification
+    approach to using prior RCT data to construct bounds on the causal effect of a
+    new model. The core innovation in our approach is to leverage assumptions relating
+    fine-grained predictive accuracy to downstream outcomes. We do so via two monotonicity
+    assumptions: first, on individual-level `counterfactual correctness'' (all else
+    being equal, a correct prediction leads to non-inferior outcomes); and second,
+    on the relation between subgroup predictive performance and outcomes, interpretable
+    as an assumption regarding trust in model outputs. We demonstrate our method with
+    a simulation study, illustrating how incorporating this information can lead to
+    more informative bounds compared to prior work.'
+- title: High-dimensional networks and mean squared error for possibly misspecified
+    models
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.13171
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Lourens Waldorp
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'To avoid missing important variables and their connections in networks,
+    more and more variables are included in network analysis. Here we show that in
+    a setting with many more parameters than observations (high-dimensional) it is
+    possible to get a conservative (i.e., low false positive rate) estimate of the
+    neighbourhood for each node (which connections are in the network). A neighbourhood
+    is often estimated with a linear model, and this leads to two interesting cases:
+    (i) If the true model is linear, then neighbourhood selection work reasonably
+    well, and (ii) if the true model is nonlinear, then neighbourhood selection requires
+    a penalty for the high dimensions. Here we show the impact of the ridge parameter
+    on the mean squared error, and how this leads to low test variance and hence to
+    neighbourhoods with large numbers of edges. We connect these insights with results
+    from machine learning, where the so-called double descent (when more parameters
+    are included than observations, the mean squared error goes down a second time)
+    has put the traditional view on model selection upside down. Essentially, for
+    adequate neighbourhood selection in models with a large number of parameters,
+    the volume of the model space needs to be included in the penalty. Most neighbourhood
+    selection methods (e.g., Lasso, AIC, BIC) lead to spurious edges (high false positive
+    rate), but we prove that in the high-dimensional setting, minimum description
+    length leads to correct neighbourhood selection or smaller (low false positive
+    rates) in both cases when either the model is correctly or incorrectly assumed
+    linear'
+- title: Generalization Guarantees of Randomized Block Coordinate Descent for Nonconvex
+    Learning
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.22213
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Ruixi Hu
+  - Liang Wu
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Randomized block coordinate descent (RBCD) is a popular optimization algorithm
+    for many large-scale machine learning problems. The existing theoretical analysis
+    of RBCD mainly focuses on its convergence behavior from an optimization perspective,
+    while its generalization behavior remains less understood for nonconvex problems.
+    In this paper, we establish high-probability generalization guarantees for RBCD
+    with nonconvex objectives. In the general nonconvex setting, we derive bounds
+    on the gradients of both empirical and population risks, requiring only standard
+    smoothness assumptions. With polynomially decaying step sizes, we tune the iteration
+    number to balance optimization and generalization, thereby quantifying how early
+    stopping leads to the optimal convergence rate for the population gradients. In
+    the gradient-dominated setting, we provide bounds in terms of functional suboptimality,
+    which nearly match the optimistic rates in convex and low-noise settings. Finally,
+    we develop dimension-independent bounds for loss functions of a specific structure,
+    making the generalization guarantees applicable to high-dimensional problems.
+- title: 'Accuracy Is Not Service: A Decision-Aware Benchmark for Intermittent-Demand
+    Forecasting'
+  date: 2026-09
+  url: https://arxiv.org/abs/2609.13840
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Joo Ern Chin
+  - Shih-Fen Cheng
+  - Aldy Gunawan
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'A contract-logistics spare-parts operator is paid on order-level service:
+    an order counts only if every requested line is fulfilled, yet forecasters are
+    selected based on line-level forecast accuracy. This disconnect matters when demand
+    is intermittent and lumpy, histories are short, and lead times span months. We
+    benchmarked 38 forecasting methods spanning classical, intermittent-demand, machine-learning,
+    deep-learning, and pretrained foundation models. A common decision-aware protocol
+    evaluates them on an industrial panel drawn from a live contract and two public
+    datasets. Forecast-accuracy rank and order-service rank are negatively correlated
+    on the industrial panel, at -0.555, across methods evaluated on 20,330 real multi-item
+    orders. Service is more closely associated with the direction of cumulative forecast
+    bias, including over-prediction during zero-demand periods, than with point accuracy.
+    Examining bias in Chronos-2''s instance normalization yields a training-free correction
+    that lifts the per-material fill proxy from 77.5% to 92.0% (14.5 percentage points)
+    at the 90% policy target and raises the complete-order fill rate from 54% to 63%.
+    For reproducibility, we release RUF (Regenerate-Until-Fidelity), a method for
+    generating fidelity-certified synthetic panels on which the findings reproduce.
+    For intermittent demand, the lowest-error forecast need not deliver the highest
+    service. Bias direction helps explain this gap, which can be reduced without retraining.'
+- title: Impact of canny edge detection preprocessing on performance of machine learning
+    models for Parkinson's disease classification
+  date: 2026-09
+  url: https://arxiv.org/abs/2609.07408
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Sameer Bhat
+  - Piotr Szczuko
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'This study investigates the classification of individuals as healthy
+    or at risk of Parkinson''s disease using machine learning (ML) models, focusing
+    on the impact of dataset size and preprocessing techniques on model performance.
+    Four datasets are created from an original dataset: DS_0, (normal dataset), DS_1
+    (DS_O subjected to Canny edge detection and Hessian filtering), DS_2 (augmented
+    DS_0), and DS_3 (augmented DS_1). We evaluate a range of ML models-Logistic Regression
+    (LR), Decision Tree (DT), Random Forest (RF), Gradient Boosting (GB), XGBoost
+    (XBG), Naive Bayes (NB), Support Vector Machine (SVM), and AdaBoost (AdB)-on these
+    datasets, analyzing prediction accuracy, model size, and prediction latency. The
+    results show that while larger datasets lead to increased model memory footprints
+    and prediction latencies, the Canny edge detection preprocessing supplemented
+    by Hessian filtering (used in DS_1 and DS_3) degrades the performance of most
+    models. In our experiment, we observe that Random Forest (RF) maintains a stable
+    memory footprint of 61 KB across all datasets, while models like KNN and SVM show
+    significant increases in memory usage, from 5.7-7 KB on DS_0 to 102-220 KB on
+    DS_2, and similar increases in prediction time. Logistic Regression, Decision
+    Tree, and Naive Bayes show stable memory footprints and fast prediction times
+    across all datasets. XGBoost''s prediction time increases from 180-200 ms on DS_0
+    to 700-3000 ms on DS_2 (truncated)'
+- title: Pushing the Limits of High-Resolution Weather Forecasting through Data Scaling
+  date: 2026-07
+  url: https://arxiv.org/abs/2608.14652
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Yang Zhao
+  - Peisong Niu
+  - Tian Zhou
+  - Ziqing Ma
+  - Guanlong Ma
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: The development of 0.1^{\circ} global weather forecasting models based
+    on machine learning (ML) is constrained by the limited availability of high-resolution
+    data, as decades of reanalysis are only available at 0.25^{\circ} resolution.
+    While existing approaches fine-tune 0.25^{\circ} forecast models on limited 0.1^{\circ}
+    samples, we show that this transfer is hindered by the irreversible information
+    loss inherent in coarse-resolution forecasting. Therefore, we propose BaguanHR,
+    a framework that shifts the focus from transferring models to transferring data.
+    We first show that super-resolution (SR) has lower conditional entropy and input
+    amplification than forecasting, making it a more robust vehicle for resolution
+    transfer. By leveraging this advantage through variable-wise SR, we synthesize
+    extensive 0.1^{\circ} data from ERA5. BaguanHR's performance on the synthetic-plus-real
+    dataset exceeds both ML-based methods and IFS-HRES, achieving superior performance
+    across over 85% of the lead times within 72 hours. Furthermore, our findings highlight
+    a power-law scaling effect, as a twofold increase in data reduces RMSE by 4.6%
+    for 72-hour forecasting and 4.9% for 120-hour forecasting. Our results demonstrate
+    that scaling high resolution ML-based forecasting is primarily a data bottleneck,
+    and that variable-wise super-resolution provides a simple yet general solution
+    to unlock long coarse-resolution reanalyses for high-resolution training.
+- title: Machine Learning in Fish Farming
+  date: 2026-09
+  url: https://arxiv.org/abs/2609.13919
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Fearghal O'Donncha
+  - Nikos Papandroulakis
+  - Jennie Korus
+  - Abigail Langbridge
+  - Alexander Timms
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: This chapter explores how machine learning (ML) is transforming aquaculture,
+    with a particular focus on enhancing decision-making processes and improving operational
+    efficiency. The chapter is structured to first introduce the challenges in aquaculture
+    and the role of AI and then provide an overview of ML techniques in the context
+    of aquaculture, followed by applications, emerging trends, future directions,
+    and case studies. The focus is on real-world applications of ML techniques, including
+    Random Forest, Convolutional Neural Networks (CNNs), and Recurrent Neural Networks
+    (RNNs), as well as emerging technologies such as Graph Neural Networks (GNNs)
+    and large language models (LLMs). Key applications include biomass estimation,
+    species recognition, behavioural analysis, and environmental forecasting. The
+    chapter also highlights the synergy between ML and the Internet of Things (IoT)
+    for real-time monitoring and decision support. Ultimately, ML-driven innovations
+    have the potential to revolutionise fish farming, leading to more efficient, sustainable,
+    and productive practices in the aquaculture industry.
+- title: A Momentum-Based Variance-Reduced Algorithm for Federated Multiobjective
+    Optimization
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.22945
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Yong Zhao
+  - Chunlin You
+  - Minh N. Dao
+  - Zai-Yun Peng
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Federated learning has traditionally been formulated as a single-objective
+    optimization problem, primarily focused on maximizing model utility. In real-world
+    applications, however, machine learning models often need to optimize multiple
+    and potentially conflicting objectives simultaneously. This motivates federated
+    multiobjective optimization (FMOO), which provides a natural framework for jointly
+    handling multiple task-specific objectives in federated learning. In this paper,
+    we propose a momentum-based variance-reduced algorithm for federated multiobjective
+    optimization. The method incorporates a momentum-driven gradient estimator into
+    the local updates to reduce the variance of stochastic updates, leading to an
+    improved convergence rate. We establish theoretical guarantees showing that the
+    expected Pareto stationarity measure of a randomly selected output iterate decays
+    at a rate of O(T^{-2/3}), improving upon the O(T^{-1/2}) rates established for
+    existing methods such as FSMGDA and FedCMOO. Numerical experiments on federated
+    multiobjective optimization benchmarks demonstrate the effectiveness and competitive
+    performance of the proposed algorithm.
+- title: Learning to Trace Seiberg Dualities
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.28628
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Jonathan J. Heckman
+  - Shani Meynet
+  - Alessandro Mininno
+  - Gary Shiu
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Dualities play an important role in establishing both microscopic and
+    emergent phenomena in a wide range of physical systems. In practice, though, it
+    can often be computationally challenging to establish when two systems are dual,
+    even when all of the "rules of the game" are well-known. Said differently, when
+    confronted with two systems, how can one efficiently establish that they are in
+    fact dual? In this paper we use machine learning methods to address this question
+    for Seiberg dualities of supersymmetric quiver gauge theories. Mathematically,
+    this involves establishing mutations of quivers, which is in turn a variation
+    on the theme of "learning to unknot". On the one hand, this leads us to a practical
+    tool for establishing the computational complexity of different dualities. On
+    the other hand, it also allows us to study how different network architectures
+    learn how to trace Seiberg dualities. We find that for quivers with a modest number
+    of quiver nodes (of order 10), different network architectures consisting of transformers
+    and multi-layer perceptrons tend to outperform deterministic algorithms. Supplementing
+    the network by well-established pathfinder algorithms (essentially "Google Maps
+    for quivers") leads to an additional improvement in the efficiency and accuracy
+    of the search strategy. We anticipate that this class of questions can serve as
+    a useful benchmark for frontier AI models applied to theoretical physics.
+- title: 'Beyond Point Forecasts: A Survey on Probabilistic Forecasting for Time Series
+    and Spatiotemporal Data'
+  date: 2026-09
+  url: https://arxiv.org/abs/2609.13345
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Donia Besher
+  - Rajdeep Pathak
+  - Madhurima Panja
+  - Tanujit Chakraborty
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Probabilistic forecasting is central to decision-making under uncertainty,
+    yet its methodological landscape has become increasingly fragmented across temporal
+    and spatiotemporal forecasting, statistical modeling, machine learning, and deep
+    generative modeling. This survey develops a unified perspective by organizing
+    probabilistic forecasting methods according to where and how uncertainty is introduced
+    into the forecasting pipeline. Our taxonomy connects model-agnostic approaches
+    including ensembles and distribution-free calibration, with model-intrinsic approaches
+    spanning Bayesian modeling, parametric predictive distributions, distributional
+    regression, and modern generative models, and further examines the emerging role
+    of time series foundation models. Beyond methodological synthesis, we identify
+    the assumptions, computational demands, and forms of uncertainty represented by
+    different paradigms, and translate these distinctions into data-driven and domain-specific
+    guidance for method selection. We complement the survey with a cross-paradigm
+    empirical study on univariate, multivariate, and spatiotemporal forecasting tasks.
+    The results reveal that no single uncertainty-quantification paradigm dominates
+    across settings. Calibration, sharpness, predictive accuracy, and computational
+    efficiency can lead to substantially different model preferences, while expressive
+    generative models and zero-shot foundation models exhibit markedly different accuracy-efficiency
+    trade-offs. Lastly, we identify unresolved challenges surrounding uncertainty
+    in evolving dependency structures, physics-informed predictive distributions,
+    forecasting extreme events, handling count-valued, directional, and continuous-time
+    series, and the development of unified software resources. Our survey provides
+    both a conceptual framework and a practical roadmap for probabilistic forecasting
+    research.
+- title: Kernel Methods for Learning Operators with Multiple Inputs and Outputs
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.11831
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Adrien Weihs
+  - Chunyang Liao
+  - Jingmin Sun
+  - Hayden Schaeffer
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Learning mappings between infinite-dimensional objects is a central challenge
+    in scientific machine learning. We introduce a general kernel-based encoder-decoder
+    framework for operator learning that separates observation, representation, learning,
+    and reconstruction. We develop this framework for multi-input, multi-output operator
+    learning, where operators map between products of potentially distinct function
+    spaces. Our approximation theory shows that, although the number of inputs and
+    outputs can increase, the convergence rate is governed by the most challenging
+    constituent approximation problem rather than the overall problem dimension. The
+    framework leads to practical kernel methods with closed-form training and inference,
+    combining mathematical tractability with computational efficiency. We further
+    specialize the approach to multiple operator learning by introducing KernelMO,
+    a family of kernel methods with complementary operator-valued and product-space
+    formulations. Across five families of parametric partial differential equations,
+    the proposed methods achieve competitive or state-of-the-art predictive accuracy
+    while reducing training and inference costs relative to neural operator architectures
+    and deep learning based models, offering an efficient and lightweight alternative.
+- title: 'GRAPE: Gradient Refinement and Progress-Aware Exploitation for Query-Efficient
+    High-Dimensional Bayesian Optimization'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.25116
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Richard Cornelius Suwandi
+  - Feng Yin
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Optimizing expensive, high-dimensional black-box functions remains a
+    central challenge in modern machine learning and scientific discovery. While local
+    Bayesian optimization mitigates the curse of dimensionality, existing techniques
+    often prioritize the probability of descent over the magnitude of progress. This
+    leads to overly conservative steps that yield negligible improvement, wasting
+    queries on directions that are nearly certain to descend but offer little decrease.
+    We introduce Gradient Refinement and Progress-Aware Exploitation (GRAPE), a two-stage
+    framework that first sharpens the local gradient posterior via a closed-form acquisition
+    function, then selects update directions by maximizing the expected decrease conditional
+    on descent. Theoretical analysis proves that this gradient refinement stage monotonically
+    minimizes local uncertainty and that the progress-aware direction converges to
+    true steepest descent as the posterior sharpens. Empirically, GRAPE demonstrates
+    superior query efficiency across high-dimensional tasks: in black-box adversarial
+    attacks, it achieves an average 5.4\times speedup over baselines, and on large
+    language model prompt optimization tasks, it outperforms the second best method
+    by a reduction of 3.8 log-units in the final average regret.'
+- title: Advanced Linear Algebra with Applications - Part I (Numerical linear algebra
+    for PDEs, machine learning, and data assimilation)
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.21234
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Victorita Dolean
+  - Jemima Tabeart
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'These lecture notes form the first part of a master''s-level course on
+    advanced numerical linear algebra. Their aim is not only to present the classical
+    algorithms, but to show why the subject has become considerably more central than
+    it was a generation ago. Numerical linear algebra grew up alongside the numerical
+    solution of partial differential equations, and for a long time that is where
+    its large sparse systems came from. Ranking the nodes of a network, assimilating
+    observations into a weather forecast, and fitting a model to a large noisy data
+    set now lead to problems of the same kind: too large to factorise, structured,
+    and accessible only through matrix-vector products. Strikingly few ideas are needed
+    for all of them. Each chapter therefore develops a standard topic and then puts
+    it to work outside its original setting. We treat norms, factorisations, conditioning
+    and floating-point arithmetic; sparse matrices arising from finite differences,
+    from graphs and from machine learning; stationary iterations and the smoothing
+    property; the conjugate gradient and Lanczos methods, with spectral clustering
+    and regularisation by early stopping; Arnoldi and GMRES, with PageRank and large
+    least squares; and finally preconditioning, Schwarz domain decomposition and multigrid.
+    We assume a first course in linear algebra. Every section closes with a summary
+    of what should be retained and every chapter with exercises, several drawn from
+    past examinations. Accompanying Python code reproduces the numerical illustrations.'
+- title: 'INCONVENIENT: A Benchmark to Assess LLM Generalization Capabilities from
+    Convenience Samples'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.21038
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Sara Rezaeimanesh
+  - Chad Klochko
+  - Kundan Thind
+  - Mohammad Ghassemi
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Machine learning models for tabular prediction typically assume that training
+    data are representative of the population on which they will be deployed. In practice,
+    however, data are often collected based on convenience, availability, or cost,
+    resulting in systematic sampling biases that can distort feature--target relationships
+    and undermine real-world generalization. Existing tabular distribution-shift benchmarks
+    primarily construct out-of-distribution (OOD) settings by partitioning observations
+    across naturally occurring domains. While such partitions may induce changes in
+    P(Y | X), the resulting shifts are neither explicitly controlled nor isolated,
+    and the evaluation distributions themselves are often not representative of the
+    broader target population. We introduce INCONVENIENT, a benchmark designed to
+    study robustness to convenience-sample bias. Rather than relying on naturally
+    occurring domain partitions, INCONVENIENT directly perturbs feature--target relationships
+    in the training distribution while preserving the original population distribution
+    as the deployment environment. This setting more closely reflects real-world scenarios
+    in which models are developed from unrepresentative samples and subsequently deployed
+    on a broader population. The distinction is particularly relevant for large language
+    models (LLMs), whose pretraining may encode population-level knowledge that extends
+    beyond the relationships observed in a biased training dataset. Unlike existing
+    distribution-shift benchmarks, INCONVENIENT provides explicit control over both
+    the direction and severity of relationship shifts, enabling a systematic assessment
+    of robustness to convenience sampling. The benchmark comprises 200 tabular classification
+    and regression datasets spanning diverse application domains and generates around
+    15,500 shifted training distributions which lead to substantial downstream degradation.
+- title: Transforming Heart Disease Prediction with Advanced Machine Learning Techniques
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.18687
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Sami Ullah
+  - Muhammad Mohsin Khan
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Heart disease remains the leading cause of mortality globally, necessitating
+    early and accurate detection to improve patient outcomes. This research focuses
+    on the predictive analysis of heart disease using machine learning (ML) techniques,
+    comparing the performance of multiple classifiers to identify the most accurate
+    and least error-prone method. Two datasets from UCI and Kaggle repositories were
+    utilized, each containing 14 attributes related to heart health indicators. Techniques
+    including J48, Naive Bayes, Logistic Regression, Simple Cart, Bagging, Decision
+    Stump, AdaBoost, Artificial Neural Networks, and Support Vector Machine (SVM)
+    were applied. Evaluation metrics such as Mean Absolute Error (MAE), Relative Absolute
+    Error (RAE), accuracy, precision, recall, and F-measure were used for performance
+    comparison. Results revealed that SVM achieved the highest performance on the
+    UCI dataset, while Simple Cart performed best on the Kaggle dataset, offering
+    the highest accuracy and lowest error rates. The research work concludes that
+    ML models, when properly tuned and validated, can significantly assist in the
+    early diagnosis of heart disease, offering critical support for clinical decision-making.
+    Future work may involve hybrid approaches and the use of more recent datasets
+    to further improve prediction accuracy.
+- title: 'A Remote Approach to Cashew Orchard Detection: Leveraging Active Learning
+    with Satellite Imagery in Guinea-Bissau'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.11996
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Miguel Pereira
+  - Sofia C. Pereira
+  - Maria J. P. Vasconcelos
+  - Patrícia Guedes
+  - Luke L. Powell
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Cashew production is a widespread economic activity in Guinea-Bissau,
+    as well as other countries in West Africa. However, unregulated cashew production
+    can be directly associated with increasing regionwide deforestation rates, biodiversity
+    losses, and a fragile economic structure. There is no nationwide database for
+    listing or georeferencing cashew orchards, so there is a clear need to remotely
+    map their locations. In recent years, multiple methods for detecting orchards
+    have been developed, though they have only been applied on a regional level. This
+    work expands regional analyses to a nationwide scale. It develops a scalable and
+    cost-effective remote approach, based on Sentinel-2 satellite imagery, using Machine
+    Learning techniques to detect cashew orchards automatically. Margin-based Active
+    Learning techniques were employed to develop an optimal training set in terms
+    of the number of points and their informativeness, leading to a cashew map with
+    94.0% balanced accuracy obtained entirely off-site. We created two datasets and
+    a 2021 cashew map with 10m spatial resolution that are openly accessible through
+    GitHub. The results demonstrate the possibility of a broader cashew orchard mapping,
+    creating a new stepping stone for this environmental application.
+- title: 'SMOTE-VAR: An Uncertainty-Aware Oversampling Method for Predicting Depression
+    Remission in University Students'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.30102
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Dang Nguyen
+  - Arun Kumar A
+  - Taylor A. Braund
+  - Wu Yi Zheng
+  - Debopriyo Bal
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'University students experience disproportionately high rates of common
+    mental health conditions, such as depression, which can impair learning, social
+    functioning, and overall well-being. Although lifestyle interventions such as
+    mindfulness and physical activity can reduce the symptoms, many do not achieve
+    symptomatic remission. Developing new approaches to identify students with poor
+    outcomes could enable earlier and more targeted intervention. Machine learning
+    (ML) methods have increasingly been used to predict remission in depressive patients.
+    However, these ML models often suffer from class imbalance, where there may be
+    an unequal proportion of people in the remitted group relative to the non-remitted
+    group. This imbalance can reduce model accuracy and bias predictions. To address
+    this, studies commonly employ the popular oversampling strategy SMOTE. However,
+    SMOTE has a notable limitation: it may generate invalid synthetic minority samples.
+    In a clinical context, these false positives can lead to incorrect risk stratification,
+    potentially delaying necessary escalated care for patients unlikely to remit.
+    In this paper, we introduce a novel and effective oversampling method that addresses
+    this shortcoming. Our approach leverages the variance function of a Gaussian process
+    to estimate the uncertainty of generated minority samples to reduce false positives.
+    We validate our method on a depression dataset collected from university students
+    and demonstrate that it is better than existing oversampling approaches in predicting
+    remission (i.e., treatment outcome). By improving the reliable identification
+    of non-responders, our method provides a robust computational tool to help clinicians
+    rapidly pivot to adjunctive therapies, thereby personalizing and optimizing mental
+    health care pathways.'
+- title: Virtual-Alloy Physics-Aware Semantic System for extrapolative prediction
+    of perovskite solar cells
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.18949
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Qiwei Han
+  - Chi Zhou
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Existing machine-learning models for perovskite solar cells struggle
+    to predict devices made from new materials. Most treat device layers as arbitrary
+    categorical labels and represent perovskite absorbers either through featureless
+    composition vectors or through rigid crystal graphs that require a pre-solved
+    unit cell. As a result, they cannot generalize to unrecorded alloys or unfamiliar
+    cell architectures. We present the Virtual-Alloy Physics-Aware Semantic System
+    (V-PaSS), an architecture built around the physical continuity of perovskite solid
+    solutions. V-PaSS represents arbitrary mixed-cation, mixed-halide absorbers by
+    interpolating relaxed crystal graphs of 23 pure ABX_3 endpoint compounds via Vegard''s
+    law with learned bandgap bowing. For the device stack, it couples layer sequence
+    and cell polarity (n-i-p or p-i-n) with interfacial band offsets and encodes chemical
+    descriptions with a scientific language model. Evaluated under an institution-grouped
+    protocol where test devices come exclusively from unseen laboratories, an untuned
+    default configuration of V-PaSS achieves the lowest error among fourteen tested
+    models (2.861% MAE, a 5.2% relative reduction over a gradient-boosted baseline
+    at 3.017%, and outperforming the best tuned benchmark at 2.912%). V-PaSS pulls
+    furthest ahead where test devices differ most from training: reducing error by
+    15.7-19.0% on unseen absorber alloys, by 16.1% on mixed absorbers from new laboratories,
+    and widening its lead over the baseline by 3.6\times on devices with unobserved
+    transport layers. Combined with tree ensembles, V-PaSS sets a new state of the
+    art across all five benchmark splits.'
+- title: 'SAGE: Subpopulation-Aware Generative Enhancement for Mitigating Spurious
+    Correlations'
+  date: 2026-09
+  url: https://arxiv.org/abs/2609.01051
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Yiming Luo
+  - Rongqiang Zhao
+  - Jie Liu
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Spurious correlations pose a significant challenge to the robustness of
+    modern machine learning. The inherent imbalance in dataset distributions often
+    leads traditional Empirical Risk Minimization (ERM) models to rely on majority
+    spurious attributes for classification, resulting in poor performance on minority
+    groups. This problem becomes particularly challenging when the spurious attributes
+    are unavailable. Existing group-label-free methods often upsample minority groups
+    or misclassified real training examples; repeating the same instances can reduce
+    effective diversity and encourage overfitting. To mitigate these spurious correlations
+    from a data-centric perspective in the absence of prior knowledge, we introduce
+    Subpopulation-Aware Generative Enhancement (SAGE), a two-stage generative augmentation
+    framework. Using cluster-derived sub-labels and class labels, we fine-tune a conditional
+    generative model and text encoder, generating targeted synthetic data to fill
+    underrepresented regions in the training set and construct a balanced validation
+    set for last-layer reweighting. We experimentally show that SAGE achieves 89.5%,
+    85.7%, and 79.1% worst-group accuracy on Waterbirds, CelebA, and MetaShift, respectively,
+    outperforming the best group-label-free baselines by up to 7.7 percentage points.
+- title: Conditioned Initialization for Attention
+  date: 2026-09
+  url: https://arxiv.org/abs/2609.07086
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Hemanth Saratchandran
+  - Simon Lucey
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Transformers are a dominant architecture in modern machine learning, powering
+    applications across vision, language, and beyond. At the core of their success
+    lies the attention layer, where the query, key, and value matrices determine how
+    token dependencies are captured. While considerable work has focused on scaling
+    and optimizing Transformers, comparatively little attention has been paid to how
+    the weights of the queries, keys and values are initialized. Common practice relies
+    on random initialization or alternatives such as mimetic initialization, which
+    imitates weight patterns from converged models, and weight selection, which transfers
+    weights from a teacher model. In this paper, we argue that initialization can
+    introduce an optimization bias that fundamentally shapes training dynamics. We
+    propose conditioned initialization, a principled scheme that initializes attention
+    weights to improve the spectral properties of the attention layer. Theoretically,
+    we show that conditioned initialization can potentially reduce the condition number
+    of the attention Jacobian, leading to more stable optimization. Empirically, it
+    accelerates convergence and improves generalization across diverse applications,
+    highlighting conditioning as a critical yet underexplored area for advancing Transformer
+    performance. Importantly, conditioned initialization is simple to apply and integrates
+    seamlessly into a wide range of Transformer architectures.
+- title: Evaluating and improving crop-yield forecasting methods during extreme drought
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.17971
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Shrey Gupta
+  - Yi Ming
+  - George Mohler
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: The impact of climate variability on food production has led to the creation
+    of various forecasting models that uses machine learning (ML), numerical weather
+    predictors (NWP) or a hybrid of ML-NWP models to identify structural and physical
+    relationships between meteorological drivers and crop growth, in order to predict
+    crop yield. Droughts, for example the 2012 Midwestern US (Corn Belt) drought,
+    are extreme events that affect crop production and test the limits of these forecasting
+    models. Using 16 meteorological drivers as predictors, we compare ML (non-deep
+    learning) and deep learning forecasting models to predict the county-level corn
+    yield for the extreme drought year, 2012. This forecasting problem is characterized
+    by a dissimilarity between the feature distributions of the training and test
+    data, where the meteorological conditions of the extreme drought year fall outside
+    the range of historically observed values. Additionally, the dataset consists
+    of spatial and temporal irregularities where counties with missing yields introduce
+    spatial sparsity and the use of only a subset of daily values per year introduce
+    temporal sparsity. To overcome this, we use sample weighting and feature selection
+    as modifications to improve our forecasting models. These modifications lead to
+    an improvement for ML models; however, the deep learning model VITA shows little
+    to no improvement. While VITA outperforms the ML models with or without modifications,
+    our current study sheds light on the effect of dissimilarity between train and
+    test feature distributions on forecasting models, compares deep learning versus
+    non-deep learning models, and introduces modifications that are effective for
+    non-deep learning models.
+- title: 'Actionable CBFI: Integrating Structural Decomposition and Causal Counterfactual
+    Recourse for Tabular Machine Learning'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.27821
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Sejong Oh
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Explainable artificial intelligence (XAI) increasingly calls for actionable
+    counterfactual recourse, yet current methodologies face challenges related to
+    causal invalidity, excessive cognitive burden, and predictive failure. Exhaustive
+    causal search algorithms often require modifications to multiple attributes, whereas
+    additive attribution-guided methods, such as SHAP, ignore higher-order feature
+    synergies, leading to suboptimal predictive momentum and diffuse intervention
+    effort in complex nonlinear models, such as XGBoost. To bridge this gap, we introduce
+    actionable case-based feature importance (A-CBFI), a diagnosis-prescription integrated
+    framework for tabular machine learning. Grounded in structural causal models (SCMs),
+    A-CBFI isolates synergistic interaction bottlenecks and releases suppressive structural
+    locks, translating them into targeted interventions. By mathematically separating
+    the active user intervention space (L_{active}) from downstream effects and concentrating
+    over 98.3% of the intervention effort on diagnosed root causes, A-CBFI enables
+    highly targeted interventions. Empirical evaluations across the financial and
+    healthcare domains demonstrate that A-CBFI reduces the active human intervention
+    burden by 77.0% while maintaining comparable global recourse cost to exhaustive
+    causal baselines. By prioritizing the diagnosed causal bottlenecks, A-CBFI provides
+    targeted and actionable recourse while maintaining causal validity and achieving
+    full relative convergence across all causally feasible instances.
+- title: 'FraudBench: Protocol-Sensitive Benchmarking of Adversarial Robustness for
+    Financial Risk Assessment'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.24551
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Xitong Zeng
+  - Zhaoge Bi
+  - Yitian Yang
+  - Huaming Chen
+  - Quan Z. Sheng
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Machine learning models are widely used in financial fraud and credit-risk
+    detection, yet their adversarial robustness remains difficult to evaluate because
+    financial tabular data involve domain-specific constraints, severe class imbalance,
+    and asymmetric attacker capability. We argue that, in this setting, robustness
+    is not only an attribute of the model, but also an attribute of the evaluation
+    protocol. Different ways of enforcing constraints and capability can lead to substantially
+    different robustness conclusions. This paper presents FraudBench, a protocol-sensitive
+    benchmark for adversarial robustness evaluation in financial fraud and credit-risk
+    detection. Rather than treating domain constraints as post-hoc validity checks,
+    FraudBench evaluates the same dataset--model--attack--defence setting under three
+    matched protocols: unconstrained attacks, post-hoc feasibility filtering, and
+    deployment-aware constraint-integrated attacks. FraudBench covers four public
+    financial datasets, and evaluates neural, tree-based, and ensemble models using
+    three attack settings. Our results show that robustness conclusions are highly
+    protocol-sensitive. On Lending Club Loan Data under the white-box setting, post-hoc
+    filtering leaves only 3.7 feasible-flipped examples on average, whereas in-attack
+    projection with attacker mutability masking produces 2,832.3 feasible-flipped
+    examples under the same perturbation budget. The results on IEEE-CIS further show
+    that feasibility and attacker capability are separate axes, while black-box evaluation
+    shows that protocol choice can alter model-family rankings. These findings suggest
+    that fraud robustness evaluation should report predictive degradation and attack
+    feasibility jointly, and should incorporate domain constraints into attack generation
+    rather than treating them as post-processing checks.'
+- title: Uncertainty of Vision Medical Foundation Models
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.30390
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Haoxu Huang
+  - Narges Razavian
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Accurate uncertainty estimation is essential for machine learning systems
+    de- ployed in high-stakes domains such as medicine. Traditional approaches primarily
+    rely on probability outputs from trained models (point predictions), which provide
+    no formal guarantees on prediction coverage and often require additional calibra-
+    tion techniques to improve reliability. In contrast, conformal prediction (region
+    prediction) offers a principled alternative by generating prediction sets with
+    finite- sample validity guarantees, ensuring that the ground truth is contained
+    within the set at a specified confidence level. In this study, we explore the
+    impact of pre-training approach, dataset scale and domain on both point and region-level
+    uncertainty quantification, by studying domain-specific vision medical foundation
+    models vs. general domain vision foundation models. We conduct a comprehensive
+    evaluation across foundation models trained on retinal, histopathological, and
+    Chest X-Rays data, applying various calibration techniques. Our results demonstrate
+    that (1) pre-training on higher-quality domain-specific datasets along with self-supervised
+    learning leads to better-calibrated point predictions than general domain pre-training,
+    (2) stan- dard re-calibration methods alone cannot fully mitigate uncertainty
+    discrepancies across models trained on different data sources, (3) domain-specific
+    foundation model can lead to more efficient conformal prediction. These findings
+    highlight the importance of careful model selection and the inte- gration of both
+    point and region prediction to enhance the reliability and trust- worthiness of
+    medical AI systems. Our work underscores the need for a holistic approach to uncertainty
+    quantification in recent development of medical vision foundation model, ensuring
+    robust and interpretable AI-driven decision-making.
+- title: 'Stochastically Perturbed Weights: Ensembles from Deterministic Machine-Learning
+    Weather Models'
+  date: 2026-09
+  url: https://arxiv.org/abs/2609.08412
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Simon Adamov
+  - Oliver Fuhrer
+  - Reto Knutti
+  - Sebastian Schemm
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Machine-learning weather models (MLWMs) now match or outperform operational
+    numerical weather prediction (NWP) at global medium-range forecasting, at far
+    lower inference cost. Many deployed MLWMs are deterministic, producing a single
+    forecast with no estimate of its own uncertainty, whereas a growing family of
+    trained-probabilistic models generate calibrated ensembles directly, at the price
+    of a dedicated training run. We ask instead how much uncertainty can be extracted
+    from a deterministic checkpoint that already exists, without retraining it. Where
+    physical ensembles represent model uncertainty by stochastically perturbing parametrisation
+    tendencies, we perturb the network''s raw weight tensors at inference time, a
+    scheme we call stochastically perturbed weights (SPW). We also ask whether it
+    works, where and on which scales to inject the noise, and where it fails. A three-phase
+    ablation across four deterministic backbones, Aurora, GraphCast, SFNO, and AIFS,
+    selects one production baseline per model, benchmarked against the trained-probabilistic
+    AIFS-ENS, FourCastNet 3 and Atlas as well as the operational ECMWF ensemble (IFS-ENS)
+    over 112 initialisation times. At a 240 h (10-day) lead time the SPW ensembles
+    reach continuous ranked probability skill scores (CRPSS) between 0.04 and 0.13
+    below the best trained-probabilistic baseline, at zero marginal training cost.
+    No injection site works across models: the productive tensor group is architecture-specific,
+    so SPW is at present a tuning procedure rather than a plug-and-play recipe. Its
+    main failure mode is a coherent whole-field offset that overdisperses the domain
+    mean, and restricting the noise to coarse scales or perturbing the initial conditions
+    each repair part of it.'
+- title: Can LLMs predict the outcomes of machine learning experiments?
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.22599
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Ayush Bansal
+  - Aldo Pareja
+  - Sean Klein
+  - Serge Didenko
+  - Artem Lukoianov
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Recent advances in AI make Recursive Self-Improvement (RSI) increasingly
+    plausible. Large Language Models (LLMs) can already propose, select, and run Machine
+    Learning (ML) experiments. However, the space of possible design choices in ML
+    is vast. An LLM that proposes an experiment needs a reliable intuition of whether
+    it is worth running given the timing constraints of long training runs. In this
+    work, we measure such intuition in current frontier LLMs by evaluating how accurately
+    they predict the impact of self-generated ML experiment ideas before these are
+    put into training runs. To this end, we construct a dataset of 288 LLM-proposed
+    ideas on eight MLE-bench tasks. We then prompt five frontier LLMs (GPT-6 Astra,
+    Claude Opus 5.5, Claude Fable 5.1, Kimi K3, and GLM-5.3) to predict the impact
+    of each idea and compare their predictions with the actual outcomes after training.
+    We report four main findings. First, LLM predictions are substantially better
+    than random chance but far from accurate: even the best model, Claude Opus 5.5,
+    explains only half of the variance in outcomes (R² = 0.49). Second, we notice
+    that all tested models systematically underestimate the magnitude of the changes.
+    Third, prediction quality varies widely across tasks. Finally, the choice of the
+    coding harness that actually implements the ideas has little effect on outcomes,
+    and we find no evidence of self-preference. Higher reasoning settings and additional
+    context lead to modest gains. Overall, our results show that current LLMs have
+    useful but limited intuition about which ML ideas will work. We release our dataset
+    to support further study.'
+- title: 'PocketTSLM: Deploying an On-Device Soft-Prompt Time-Series Language Model
+    for Privacy-Preserving Smartphone Reasoning'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.21308
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Max Rosenblattl
+  - Nikhil Krishnaswamy
+  - Leon Nissen
+  - Manuel Milling
+  - Nicolas Zumarraga
+  venue: COLM 2026. Code
+  code_url: ''
+  project_url: ''
+  abstract: Consumer phones and wearables increasingly collect physiological time-series
+    data, yet most mobile systems treat these streams as summaries or text rather
+    than as temporal evidence. This representation is poorly matched to personal health
+    systems that need to retrieve, route, or summarize sensor evidence while preserving
+    temporal structure. Cloud-hosted time-series language models avoid smartphone
+    limits, but they repeatedly move sensitive physiology off the device and add latency
+    and per-query compute cost. Mobile model alternatives that aggregate time-series
+    data into statistical features or serialize raw samples as text either compress
+    temporal structure or exhaust the context and memory budgets of small on-device
+    models. We present PocketTSLM, a mobile-native deployment of OpenTSLM SoftPrompt,
+    the soft-prompt variant of the OpenTSLM time-series language model. PocketTSLM
+    runs fully on a consumer smartphone by injecting encoded time-series windows as
+    embeddings instead of tokenizing time series as text. A numerical parity protocol
+    verifies identical greedy-decoded token sequences between the Swift port and a
+    Python reference using Apple's MLX machine-learning framework. Answers also match
+    the PyTorch reference, although rationale wording can differ. An on-device context-economics
+    benchmark compares the soft-prompt path with a text-serialized baseline on the
+    same backbone. In our benchmark format, soft-prompting uses approximately 12 times
+    fewer time-series tokens and reduces prompt-prefill cost. PocketTSLM processes
+    30-second Sleep-EDF electroencephalography clips for sleep staging and a 1,000-sample
+    (10 s) 12-lead electrocardiogram clip from ECG-QA. In comparison, text-serialized
+    baselines exceed the phone's context or memory budget at longer time-series windows.
+    All inference runs entirely on the device, with no health data transmitted during
+    inference.
+- title: The Optimal Ranking Tradeoffs Between Two Ranking Scores in Two-Class Classification
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.23294
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Sébastien Piérard
+  - Adrien Deliège
+  - Marc Van Droogenbroeck
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'The accuracy, true negative rate (negative class recall), true positive
+    rate (positive class recall), negative predictive value (negative class precision),
+    positive predictive value (positive class precision), class-specific intersections
+    over unions, class-specific F-scores, Cohen''s kappa, and balanced accuracy are
+    scores that one intuitively wants to maximize when developing machine learning
+    methods. However, they lead to different rankings of such methods. So, how can
+    we establish a ranking that is an optimal tradeoff between any pair of these scores?
+    It turns out that all these scores are special cases of ranking scores: a continuum
+    of scores parameterized by the relative importance values assigned to the true
+    negative, false positive, false negative, and true positive outcomes. Since all
+    these scores are known to induce meaningful rankings, we seek the optimal tradeoffs
+    among them. We consider the tradeoff between two scores to be optimal when it
+    minimizes the Fréchet variance regarding the Kendall distance (also known as the
+    bubble-sort distance) between rankings. For any given set of classifiers to rank,
+    the optimal tradeoff lies at the center of the shortest (geodesic) path on the
+    manifold of all rankings induced by the ranking scores. However, in the parameter
+    space of the ranking scores, it is rarely achieved by averaging the importance
+    values corresponding to the initial scores. In this paper, we present an exact
+    analytical solution for determining a ranking score that is an optimal tradeoff
+    for any given pair of initial scores, in the common case where the class priors
+    are the same for all compared performances. We also experimentally investigate
+    what happens when performance follows some distributions with fixed priors.'
+- title: 'MomentQuant: an even more minimalist interval method with linear time complexity
+    for time series classification'
+  date: 2026-09
+  url: https://arxiv.org/abs/2609.05136
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Johann Faouzi
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Time series data is very common in many real-world applications and in
+    numerous domains, with increasing interest for automated information extraction
+    using machine learning. One of these subfields is time series classification,
+    which consists in assigning a label to each new, unseen time series. Many algorithms
+    have been developed over the past decades, with the trade-off between predictive
+    performance and computational cost being consistently discussed. Quant, an interval-based
+    algorithm extracting quantiles from recursive, fixed, dyadic intervals, was shown
+    to achieve high accuracy, while being very fast. We propose two changes to make
+    this algorithm even faster. The first one is a better optimized implementation
+    of the exact same algorithm. The second one is to derive approximate quantiles,
+    using the Cornish-Fisher expansion, instead of exact quantiles. This change removes
+    the necessity to sort the time series, leading to a smaller computational complexity.
+    We call this novel algorithm MomentQuant. We provide evidence that our implementation
+    of Quant is faster than the original one, and that MomentQuant is even faster
+    than our implementation of Quant, at the cost of a tiny decrease in predictive
+    performance. These improvements are especially relevant for real-life applications,
+    where inference is performed much more often than training.
+- title: 'Classical methods for modern applications: synthetic tabular data generation
+    using lightweight discrete response continuous latent variable model'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.21674
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Bartosz Barzdajn
+  - Mateusz Krzysztoń
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: In this paper, we present a lightweight algorithm for modelling tabular
+    data containing both continuous and discrete variables. The method uses empirical
+    marginal distributions and a selected quantile function to transform the data
+    into a continuous latent space, where a distribution of choice, e.g. a multivariate
+    Gaussian, can be efficiently estimated and applied. While this approach is closely
+    related to classical well-established machine learning methods, we present a novel
+    adaptation that fits well within the contemporary computational ecosystem. Unlike
+    in the case of deep architectures, it results in a simple implementation with
+    few dependencies, robust training/estimation, as well as efficient sampling. The
+    transformation preserves complex marginal distributions and correlations, providing
+    high-fidelity models, especially for data with unimodal distributions. One of
+    the key characteristics of the proposed approach is its continuous representation
+    of discrete variables. While highly desirable, this introduces a significant challenge,
+    since a single observation corresponds to a region rather than a point in the
+    latent space. We show that this ambiguity naturally leads to a Monte Carlo expectation-maximisation
+    (MCEM) formulation, whose auxiliary objective can be expressed as a weighted latent-space
+    likelihood. This, in turn, allows conventional maximum-likelihood estimators to
+    be used within an efficient and robust optimisation procedure.
+- title: Improved Analysis for Hessian-free High-resolution Monte Carlo Sampling
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.25052
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Wujun Lv
+  - Xiaoyu Wang
+  - Yingli Wang
+  - Lingjiong Zhu
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Hessian-free high-resolution (HFHR) dynamics augments underdamped Langevin
+    dynamics (ULD) with reversible position diffusion for sampling problems that arise
+    in machine learning. We establish an explicit quantitative contraction rate for
+    HFHR dynamics under a position Poincaré inequality, weighted Hessian and Laplacian
+    bounds, and a compact Sobolev embedding, where the potential function is not necessarily
+    convex. An adapted time-augmented Poincaré inequality yields an explicit rate
+    that improves upon the contraction rate of the underdamped Langevin dynamics.
+    We also give a weak-solution construction and a self-contained spectral proof
+    of the divergence lemma underlying the argument. For HFHR Monte Carlo (HFHRMC)
+    algorithm, which is based on a discretization scheme of HFHR dynamics, we use
+    a path-space Girsanov argument to obtain a non-asymptotic convergence bound and
+    an explicit iteration complexity in total variation distance. The bounds hold
+    for every α\geq0 and γ&gt;0 and remain regular at the ULD endpoint. Optimizing
+    the iteration complexity bound yields a positive, accuracy-dependent position-diffusion
+    parameter at finite accuracy, while its leading high-accuracy order coincides
+    with that of the optimized ULD endpoint. Our iteration complexity bound improves
+    upon the existing work on HFHR algorithms. Numerical experiments including Bayesian
+    learning problems on real data are provided to illustrate the effect of positive
+    α and its benefit.
