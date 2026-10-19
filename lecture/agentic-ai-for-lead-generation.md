@@ -101,13 +101,16 @@ may build on next summer semester.
 | **Operate** | Read how a harness (pi) gives an AI tools, rules and a task |
 | **Assess** | Judge an agentic output: checked? citable? repeatable? |
 | **Apply** | Reuse the loop from the demo (contract → run → verify) for partner sourcing |
+| **Context** | Say which context an agent can't know — and why that keeps you in charge |
 
-> Model = brain. Harness = hands. Workflow = muscles.
+> Model = brain. Harness = hands. Workflow = muscles. **Context = memory — the part only you can supply.**
 
 <!-- notes:
 (30 s) Read the rows top to bottom; each becomes a section of the
 lecture. Row 4 notes there is no hands-on today — the walkthrough
 models the method; trying it yourself is the exercise afterwards.
+Row 5 is the thread of the whole talk: intelligence is distributed —
+generation (model), execution (harness), context (you).
 -->
 
 ---
@@ -155,17 +158,20 @@ touch the world (browser, files, APIs) and check its own work.
 
 ## The parts: model · harness · loop
 
-![w:1200](img/model-harness-loop.svg)
+![h:270](img/model-harness-loop.svg)
 
 **Harnesses (2026):** pi, OpenCode, Claude Code — same model, different results. The harness decides.
 
-*(Full disclosure: pi is my own project — I currently default to it because of its smaller memory footprint; OpenCode and Claude Code are solid alternatives.)*
+*(Disclosure: pi is my own project.)*
 
 <!-- notes:
 (2.5 min) Keep it simple. The model is the part students already know.
 The harness is the missing piece this lecture adds: an executable
 environment (terminal, browser, files) + permissions + memory.
 The loop is what makes it "agentic": it iterates, checks, corrects.
+The fourth ingredient — context — is invisible on this diagram
+because it is yours: the criteria and judgement the loop cannot
+generate for itself. Name it here; slide 8 makes it concrete.
 Why pi as my default today: smaller memory footprint — the honest
 reason, not because the other harnesses are worse.
 -->
@@ -176,35 +182,46 @@ reason, not because the other harnesses are worse.
 
 ## Why now — the evidence inside the research corpus
 
-The chair maintains an open corpus of marketing research. Looking at
-its structure, most work falls into **Survey**, **Brand**, and
-**Social Media**, with recurring attention to benchmarks, evaluation,
-frameworks, and autonomy.
+The chair's open corpus (marketing-research, public on GitHub): **13,096 papers — 7,771 published in 2026 alone**
 
-That structure suggests a clear use case: **agentic workflows for
-lead generation** that can be grounded in established marketing
-research.
+| Signal | Count |
+|---|---|
+| Papers mentioning **agentic AI** | 91 |
+| Papers on **lead generation** | 27 |
+| **Both** (agentic × lead-gen) | **0** |
+| Papers on **context-aware** marketing | 22 |
+
+> Context-aware marketing exists. Agentic lead generation doesn't. Nobody connects the two yet.
 
 <!-- notes:
-(1.5 min) The chair's open corpus (marketing-research, public on GitHub)
-shows a well-structured body of work in Survey, Brand, and Social Media.
-This gives us a concrete basis for examining how agentic workflows
-can support lead generation.
+(1.5 min) Ground the hype in the chair's own open corpus
+(marketing-research, public on GitHub). 2026 alone produced 7,771 of
+the 13,096 papers. Agentic exists (91), lead-gen exists (27) — the
+intersection is literally ZERO; say that out loud. Context-aware
+marketing is a live thread (22 papers) but it stays on attribution
+and personalization — never on the agent's working context. So the
+triple intersection is empty: that is the opening, and it is this
+chair's to fill. Honesty note: counts come from keyword search over
+title/abstract in our own corpus — a heuristic, not a citation index
+— but it is conservative; the gap is real and wide.
 -->
 
 ---
 
 ## How to talk to the machine: prompts vs contracts
 
-![w:1200](img/contract-vs-prompt.svg)
+![h:360](img/contract-vs-prompt.svg)
 
-> Prompt = how you ask a chat · Contract = how you run an agent.
+> Prompt = asks a chat · Contract = runs an agent · **Context = what the machine can't know**
 
 <!-- notes:
 (2 min) The central mental model of the lecture: prompts are how you
 ask a chat; contracts are how you run an agent. A contract lives in
 the repo, is versioned, and says what done means. This is what turns
 an AI "idea generator" into a reproducible research pipeline.
+Context beat: the contract is a container for context — the chair's
+criteria, sources, judgement, partnership history. Without it the
+agent is a brilliant generalist with no idea what "good" means here.
 -->
 
 ---
@@ -213,7 +230,7 @@ an AI "idea generator" into a reproducible research pipeline.
 
 ![w:1200](img/leadgen-pipeline.svg)
 
-> Six steps — the agent executes 2–5, you own definition and evaluation.
+> Six steps — the agent executes 2–5, you own definition and evaluation. **Those two boxes are where context lives.**
 
 <!-- notes:
 (3 min) Walk the diagram left to right: DEFINE (human, blue) → SOURCE
@@ -224,6 +241,10 @@ you edit the criteria before the next run; the agent stays inside the
 loop, the human stays in charge. This exact pipeline is what the
 walkthrough demonstrates live in the next block. The next slide makes
 DEFINE concrete: the sector choice — still human work.
+Context mapping: DEFINE injects context (criteria, sector, guard
+rails); EVALUATE judges with context (the three questions). The amber
+line is context flowing back — what a run teaches updates the
+contract for the next run.
 -->
 
 ---
@@ -335,6 +356,9 @@ private or customer data into a commercial harness.
 Fallback: if the run fails (network/API/browser), show the untouched
 recording of the same contract run (fallback-demo.mp4) and narrate over
 it — full procedure in demo/demo-script.md.
+Context narration beat: when the agent opens AGENTS.md, say out loud:
+"right now it is absorbing our context — the criteria it could not
+invent for itself." One sentence; it teaches the whole thread.
 -->
 
 ---
@@ -347,6 +371,8 @@ it — full procedure in demo/demo-script.md.
 
 *The 1–5 scores are a transparent heuristic — each criterion with evidence — not a measurement.*
 
+> All three guard one thing: **context** — invented context (Checked) · untraceable context (Citable) · lost context (Repeatable).
+
 > The final slide of the walkthrough: apply them to the live result.
 
 <!-- notes:
@@ -357,6 +383,11 @@ Repeatability is process-level, not byte-identical output — the model
 is stochastic; the method is re-runnable and auditable. And "citable"
 means the URL resolves AND supports the sentence. Sales connection:
 you verify a prospect's claims before you sign — same discipline here.
+Context framing: each question defends a different way context breaks
+— the agent inventing what it doesn't know, pointing at a source that
+isn't there, or leaving the context in someone's head so the result
+can't be re-derived. That is why the three questions are the
+scientific part, not a formality.
 -->
 
 ---
@@ -368,6 +399,7 @@ you verify a prospect's claims before you sign — same discipline here.
 1. A contract (rules) — not a prompt
 2. An agent doing the loop: plan → act → check → correct
 3. A verifiable artefact — the ranked shortlist
+4. **Context — supplied by you, enforced by the contract, checked by the loop**
 
 **That is the method** — reusable for any partner-sourcing task.
 
@@ -376,6 +408,9 @@ you verify a prospect's claims before you sign — same discipline here.
 just the result. The contract + three questions are the transferable
 part; the harness is a tool they can try themselves afterwards.
 Point to resources slide for how to start.
+Item 4 is the thread made explicit for the first time: the
+walkthrough only worked because context entered via the contract and
+was held honest by the loop.
 -->
 
 ---
@@ -430,6 +465,7 @@ pi are what the walkthrough just used.
 2. Harness = model + tools + rules = accountable AI work
 3. Contract first: define "done" before you start
 4. Verify, cite, repeat — the three questions
+5. **Context beats compute — the right context contract beats a bigger model**
 
 > Next summer semester: the chair decides what this evidence feeds into
 > the Bachelor course "Sales Strategy and Execution".
@@ -440,6 +476,9 @@ the ranked shortlist — is the evidence base for the Bachelor course
 "Sales Strategy and Execution" next summer semester; the chair decides
 what and how much to use. That is the "output as input" promise from
 the title slide.
+Take-away 5 is the one-liner to leave them with: a small model with
+your context beats a big model with none. That reframe is what makes
+this lecture's message portable beyond today's demo.
 -->
 
 ---
@@ -488,6 +527,10 @@ to try it themselves (resources slide).
 If asked about non-determinism: repeatability is process-level —
 same contract → same method → auditable, re-runnable result; output
 is never guaranteed byte-identical with a stochastic model.
+If asked "isn't this just a fancy search engine?": search returns
+matches; this returns judgements — because the contract carries the
+chair's context and every judgement is source-traceable. Context is
+the difference, and it is yours, not the model's.
 Hard stop at 16:00: the course's Übung starts in the same room right
 after — never overrun Q&A; the ten minutes belong to the students.
 -->

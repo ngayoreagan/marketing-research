@@ -34,3 +34,5 @@ live demo this is deliberately small (2–3 companies, one sector).
 - No invented facts. If a criterion cannot be verified, write `unverified`.
 - 2–3 companies are enough for this demo — depth beats breadth.
 - If a source contradicts another, flag it instead of averaging.
+- **Context you do not have** (chair's history, current partnerships,
+  strategic priorities) must not be guessed — mark `unverified`.
