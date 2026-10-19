@@ -101,10 +101,9 @@ What you need is to recognise — and judge — an agentic workflow,
 and to read the contract that drives it. The demo we watch produces
 a ranked list of partners, every claim with a source. That list is
 the dataset our Bachelor students build on next year.
--->
-
 [jot: the "ranked list" is the handoff artefact — the
 "output as input" promise. Protect it; it returns on slides 16/18.]
+-->
 
 ---
 
@@ -131,11 +130,10 @@ output — checked? citable? repeatable? And you'll be able to reuse
 the loop you see today: contract, run, verify. One headline before
 we start: model is the brain, harness is the hands, workflow is the
 muscles — and context is the memory. That part is yours.
--->
-
 [Not read — colour:] Row 5 is the thread of the whole talk:
 intelligence is distributed — generation (model), execution
 (harness), context (you).
+-->
 
 ---
 
@@ -161,11 +159,10 @@ then the method, then the live walkthrough — that is the heart —
 and a short reflection at the end. Ten minutes are reserved for your
 questions. So if one comes to you mid-talk: write it down, we'll
 get to it.
--->
-
 [Not read:] The notes sum to ~32 min; the gap to 35 is deliberate
 buffer for transitions and demo hiccups. Q&A is fixed at 10 min —
 bank questions with "hold that for Q&A".
+-->
 
 ---
 
@@ -215,10 +212,9 @@ disclosure: pi, the harness you'll see in the demo, is my own
 project. I use it mainly because it has a small memory footprint.
 OpenCode and Claude Code are solid alternatives. Same model,
 different results — the harness decides.
--->
-
 [Not read:] If asked later — pi default is memory footprint, not
 "my software is better"; keep it honest, students test this.
+-->
 
 ---
 
@@ -250,11 +246,10 @@ context-aware — but they all stay in attribution and
 personalisation; none of them touch agentic work. So the triple
 intersection is empty. Nobody is doing this yet — and that empty
 cell is this chair's to fill.
--->
-
 [Not read — honesty note if probed:] Counts come from keyword search
 over title/abstract of our own corpus — a heuristic, not a citation
 index — but conservative; the gap is real and wide.
+-->
 
 ---
 
@@ -304,11 +299,10 @@ where the context lives. Notice the amber line along the bottom —
 that's what you learn on a run, feeding back to tighten the
 contract for the next run. The agent stays inside the loop. The
 human stays in charge.
--->
-
 [Not read:] DEFINE injects context (criteria, sector, guard rails);
 EVALUATE judges with context (the three questions). Next slide makes
 DEFINE concrete — the sector choice, still human work.
+-->
 
 ---
 
@@ -341,10 +335,9 @@ engineering wins on every axis. So that's the sector you're about
 to see in the demo. And notice what just happened: the AI did not
 choose the sector. We did. Choosing target segments is a core
 sales-strategy decision — one we can teach in the Bachelor course.
--->
-
 [Not read:] This is the DEFINE box made concrete; guards the claim
 the walkthrough is human-steered, not agent-chosen.
+-->
 
 ---
 
@@ -402,10 +395,9 @@ go on — because it really matters: every source this contract
 lists is self-reported by the companies themselves. A URL proves a
 claim exists; it does not prove the claim is true. So the standing
 question for everything we do today is: whose evidence is this?
--->
-
 [Not read:] The live file is lecture/demo/AGENTS.md; full kickoff
 prompt + narration: lecture/demo/demo-script.md.
+-->
 
 ---
 
@@ -450,8 +442,6 @@ do those URLs actually resolve? That's step five: verify."
 
 [final table] "And there's the shortlist — ranked, cited, done.
 Let's judge it with the three questions."
--->
-
 [Not read:] Steps: (1) open browser via MCP, search prospects;
 (2) read real pages, extract fit signals; (3) score vs contract;
 (4) write markdown table with URLs; (5) re-check citations;
@@ -460,6 +450,7 @@ running long. Demo runs on real public data via cloud API — never
 paste private/customer data. Fallback: no network → play
 fallback-demo.mp4 and narrate the same beats over it (see
 demo/demo-script.md).
+-->
 
 ---
 
@@ -489,11 +480,10 @@ untraceable context. Repeatable guards against lost context. If the
 output passes, it's a deliverable. If not — it's a draft. And that
 is the same discipline you'd apply to a prospect's claims before
 you sign anything. Verify before you trust.
--->
-
 [Not read:] Repeatability is process-level, not byte-identical
 output — models are stochastic, the method is re-runnable. Sales
 connection: you verify a prospect's claims before signing.
+-->
 
 ---
 
@@ -519,10 +509,9 @@ Context. Supplied by you. Enforced by the contract. Checked by the
 loop. That's the method — and it's reusable for any
 partner-sourcing task. The result is what a demo produces. The
 method is what you take home.
--->
-
 [Not read:] Point to resources slide for how to start trying it
 yourself.
+-->
 
 ---
 
@@ -580,12 +569,11 @@ is one key for many models, free tiers included. Ollama runs
 locally — free and private. And the harnesses, OpenCode and pi,
 are what you've seen today. If you take one thing from this slide:
 start with HRZ.
--->
-
 [Not read — for questions:] Google deal redeem by Dec 31 2026,
 SheerID verification; OpenCode via LiteLLM provider block
 (baseURL api.hrz.uni-giessen.de) or Claude Code via
 ANTHROPIC_BASE_URL.
+-->
 
 ---
 
@@ -611,10 +599,9 @@ the line I want you to take home: context beats compute. A small
 model with your context beats a big model with none. Next summer,
 this shortlist becomes the Bachelor course's input — and the chair
 decides what it feeds.
--->
-
 [Not read:] Take-away 5 is the portable one-liner; it reframes the
 lecture beyond today's demo.
+-->
 
 ---
 
@@ -638,13 +625,12 @@ Fork it — it's a skeleton you can grow into your own corpus."
 
 [If you only say one sentence:] "All links are in the deck — the
 corpus and the one-pager are where I'd start."
--->
-
 [Not read:] Lead with HRZ API-Service (free, university-provided).
 Google link repeats the providers slide so it survives sharing.
 marketing-research = evidence base of the "why now" slides;
 skeleton-research = forkable starter for a student's own curated
 corpus; hrz-access-one-pager.md = student quick start.
+-->
 
 ---
 
