@@ -192,8 +192,6 @@ it's the whole lecture in one picture.
 
 **Harnesses (2026):** pi, OpenCode, Claude Code — same model, different results. The harness decides.
 
-*(Disclosure: pi is my own project.)*
-
 <!-- notes:
 ⏱ ~2.5 min · READ ALOUD
 
@@ -203,13 +201,12 @@ hands and the workspace. And the loop — what makes it agentic: it
 plans, acts, checks, corrects itself. Two asides. First: a fourth
 ingredient is deliberately not on this diagram — context, the
 criteria and judgement the loop cannot invent for itself. That's
-yours, and it comes back in two slides. Second, full disclosure:
-pi, the harness you see in the demo, is my own project. I use it
-mainly for its small memory footprint. OpenCode and Claude Code are
-solid alternatives. Same model, different results — the harness
-decides.
-[Not read:] If asked later — pi default is memory footprint, not
-"my software is better"; keep it honest, students test this.
+yours, and it comes back in two slides. Second: pi is the harness
+you see in the demo. I use it mainly for its small memory footprint.
+OpenCode and Claude Code are solid alternatives. Same model,
+different results — the harness decides.
+[Not read:] If asked why pi — small memory footprint; OpenCode and
+Claude Code are solid alternatives.
 -->
 
 ---
@@ -218,14 +215,14 @@ decides.
 
 ## Why now — the evidence inside the research corpus
 
-The chair's open corpus (marketing-research, public on GitHub): **13,096 papers — 7,771 published in 2026 alone**
+The chair's open corpus (marketing-research, public on GitHub): **14,044 papers — 8,702 published in 2026 alone**
 
 | Signal | Count |
 |---|---|
-| Papers mentioning **agentic AI** | 91 |
-| Papers on **lead generation** | 27 |
+| Papers mentioning **agentic AI** | 107 |
+| Papers on **lead generation** | 31 |
 | **Both** (agentic × lead-gen) | **0** |
-| Papers on **context-aware** marketing | 22 |
+| Papers on **context-aware** marketing | 23 |
 
 > Context-aware marketing exists. Agentic lead generation doesn't. Nobody connects the two yet.
 
@@ -233,17 +230,19 @@ The chair's open corpus (marketing-research, public on GitHub): **13,096 papers 
 ⏱ ~1.5 min · READ ALOUD
 
 Why now? The evidence — from this chair's own open research corpus,
-public on GitHub. Thirteen thousand and ninety-six marketing
-papers. Seven thousand seven hundred and seventy-one published in
-2026 alone. Ninety-one papers mention agentic AI. Twenty-seven are
-about lead generation. The intersection — papers that do both?
-Zero. Twenty-two papers are context-aware — all in attribution and
+public on GitHub. Fourteen thousand and forty-four marketing
+papers. Eight thousand seven hundred and two published in 2026
+alone. One hundred and seven papers mention agentic AI — ninety-
+five of them from this year alone. Thirty-one are about lead
+generation. The intersection — papers that do both? Zero.
+Twenty-three papers are context-aware — all in attribution and
 personalisation; none touch agentic work. The triple intersection
 is empty. Nobody is doing this yet — and that empty cell is this
 chair's to fill.
 [Not read — honesty note if probed:] Counts come from keyword search
-over title/abstract of our own corpus — a heuristic, not a citation
-index — but conservative; the gap is real and wide.
+over title/abstract of our own corpus (docs/papers.json, regenerated
+19 Oct 2026) — a heuristic, not a citation index — but conservative;
+the intersection of zero holds for every lead-gen variant we tried.
 -->
 
 ---
@@ -535,7 +534,7 @@ The lecture is not the output. The shortlist is.
 | **JLU HRZ API-Service** ⭐ | LLMs for all JLU members: free local Qwen models (256K–1M ctx) + commercial, works with OpenCode / Claude Code | [uni-giessen.de → HRZ → KI → API-Service](https://www.uni-giessen.de/de/fbz/svc/hrz/svc/services/ki/api-service) · access via **ki@uni-giessen.de** |
 | **Google AI student plan** | 1 year Google AI **Plus** free · Gemini, higher limits, 400 GB | [one.google.com/ai-student](https://one.google.com/ai-student?g1_landing_page=75) — verify via SheerID (student status) |
 | **OpenRouter** | one API key → many models (OpenAI, Anthropic, Google, open) · free models + pay-as-you-go | [openrouter.ai](https://openrouter.ai) |
-| **Harnesses** | the tools from today's demo — **OpenCode**, pi *(full disclosure: pi is my own project)* — work with any key above | [opencode.ai](https://opencode.ai) · [pi.dev](https://pi.dev) |
+| **Harnesses** | the tools from today's demo — **OpenCode**, pi — work with any key above | [opencode.ai](https://opencode.ai) · [pi.dev](https://pi.dev) |
 | **Local models (Ollama)** | free, run on your own laptop, no account, private | [ollama.com](https://ollama.com) |
 
 > Start with **HRZ API**: free for JLU members · Google deal expires **Dec 31, 2026**.
@@ -593,7 +592,7 @@ lecture beyond today's demo.
 
 - **JLU HRZ API-Service** (free LLMs for JLU members) — [uni-giessen.de → HRZ → KI → API-Service](https://www.uni-giessen.de/de/fbz/svc/hrz/svc/services/ki/api-service) · [model overview](https://api.hrz.uni-giessen.de/ui/model_hub_table/)
 - **HRZ access one-pager** (student quick start, 1 page) — [`hrz-access-one-pager.md`](hrz-access-one-pager.md)
-- **pi** — [pi.dev](https://pi.dev) · docs: [pi.dev/docs](https://pi.dev/docs) *(full disclosure: my own project)* · **OpenCode** — [opencode.ai](https://opencode.ai) · **OpenRouter** (one key, many models) — [openrouter.ai](https://openrouter.ai)
+- **pi** — [pi.dev](https://pi.dev) · docs: [pi.dev/docs](https://pi.dev/docs) · **OpenCode** — [opencode.ai](https://opencode.ai) · **OpenRouter** (one key, many models) — [openrouter.ai](https://openrouter.ai)
 - **Google AI student plan** — [one.google.com/ai-student](https://one.google.com/ai-student?g1_landing_page=75) (1 year free for students)
 - **marketing-research** (chair corpus, public) — [github.com/tobias-weiss-ai-xr/marketing-research](https://github.com/tobias-weiss-ai-xr/marketing-research)
 - **skeleton-research** (forkable corpus skeleton) — [github.com/tobias-weiss-ai-xr/skeleton-research](https://github.com/tobias-weiss-ai-xr/skeleton-research)
