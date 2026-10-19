@@ -92,6 +92,16 @@ arxiv_queries:
   - query: 'cat:cs.LG AND (abs:"machine learning" AND (abs:"marketing" OR abs:"lead"))'
     category: ai-marketing
     subcategory_hint: measurement
+  # ── GAP-FOCUSED: agentic AI × lead generation / sales (ingestion round) ──
+  - query: 'cat:cs.AI AND abs:"agentic" AND (abs:"lead generation" OR abs:"sales" OR abs:"prospecting")'
+    category: ai-marketing
+    subcategory_hint: empirical
+  - query: 'cat:cs.CY AND abs:"agentic" AND (abs:"marketing" OR abs:"advertising" OR abs:"customer" OR abs:"sales")'
+    category: ai-marketing
+    subcategory_hint: empirical
+  - query: 'cat:cs.AI AND (abs:"LLM agent" OR abs:"AI agent") AND (abs:"sales" OR abs:"lead" OR abs:"prospect")'
+    category: ai-marketing
+    subcategory_hint: empirical
 
 # ── Discovery: multi-source queries (fetch_other_sources.py) ─────────────────
 # Each entry defines one query against a source (dblp, crossref, europepmc, …).
@@ -180,6 +190,22 @@ openalex_queries:
     subcategory_hint: measurement
   - category: b2b
     query: '"AI" "B2B marketing" "lead generation"'
+    subcategory_hint: empirical
+  # ── GAP-FOCUSED: agentic AI × lead generation / sales (ingestion round) ──
+  - category: ai-marketing
+    query: '"agentic AI" "lead generation"'
+    subcategory_hint: empirical
+  - category: ai-marketing
+    query: '"AI agents" "lead generation"'
+    subcategory_hint: empirical
+  - category: ai-marketing
+    query: '"autonomous agents" "lead qualification"'
+    subcategory_hint: framework
+  - category: b2b
+    query: '"AI sales development representative" OR "AI SDR"'
+    subcategory_hint: case-study
+  - category: ai-marketing
+    query: '"agentic" "sales"'
     subcategory_hint: empirical
   - category: ai-marketing
     query: 'marketing chatbots consumers'

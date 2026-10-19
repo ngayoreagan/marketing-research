@@ -1,6 +1,6 @@
 # 📚 Paper list
 
-14044 papers · generated from `papers.yaml` — do not edit by hand.
+14052 papers · generated from `papers.yaml` — do not edit by hand.
 
 
 - [📚 AI & Marketing](#ai-&-marketing)
@@ -692,6 +692,7 @@
 - [2026] **Development of Mobile Marketing Strategies Using Artificial Intelligence and Data Analytics** *Al-Zaytoonah University Journal of Business* [[paper](https://doi.org/10.15849/zjjb.v2i01.21)]
 - [2026] **TRENDS IN THE USE OF ARTIFICIAL INTELLIGENCE IN HEALTHCARE MARKETING GLOBALLY AND IN UKRAINE** *Business Navigator* [[paper](https://doi.org/10.32782/business-navigator.85-51)]
 - [2026] **A STUDY ON THE INFLUENCE OF ARTIFICIAL INTELLIGENCE ON CONSUMERS’ UNDERSTANDING OF EV FEATURES AND BENEFITS AND ITS IMPACT ON PURCHASE INTENTION** *International Scientific Journal of Engineering and Management* [[paper](https://doi.org/10.55041/isjem07017)]
+- [2026] **Agentic Agent, Better Agent: Evidence from Agentic AI in Telemarketing** *SSRN Electronic Journal (working paper)* [[paper](https://doi.org/10.2139/ssrn.6502379)]
 - [2026] **impact of generative AI on marketing innovation and business growth challenges and opportunities in the digital economy** *Heritage and Sustainable Development ISSN 2712-0554* [[paper](https://doi.org/10.37868/hsd.v8i1.1714)]
 - [2026] **Artificial Intelligence Marketing Technologies and Consumer Purchasing Decisions: The Moderating Role of Virtual Customer Experience and Implications for Sustainable Consumption in Telecommunications Service Environments** *Sustainability* [[paper](https://doi.org/10.3390/su18062674)]
 - [2026] **Hybrid Intent-Aware Personalization with Machine Learning and RAG-Enabled Large Language Models for Financial Services Marketing** [[paper](https://arxiv.org/abs/2603.14173)]
@@ -879,6 +880,7 @@
 - [2025] **USE OF AI AND REALITY TECHNOLOGIES INEXPERIENTIAL MARKETING STRATEGIES IN TÜRKİYE** *Mehmet Akif Ersoy Üniversitesi Sosyal Bilimler Enstitüsü Dergisi* [[paper](https://doi.org/10.20875/makusobed.1681897)]
 - [2025] **Guest editorial: Corporate digital responsibility in hospitality and tourism in the International Journal of Contemporary Hospitality Management** *International Journal of Contemporary Hospitality Management* [[paper](https://doi.org/10.1108/ijchm-11-2025-292)]
 - [2025] **Revolutionizing Marketing Strategies** *Advances in computational intelligence and robotics book series* [[paper](https://doi.org/10.4018/979-8-3373-2497-5.ch009)]
+- [2025] **Learning When to Quit in Sales Conversations** *arXiv preprint arXiv:2511.01181* [[paper](https://arxiv.org/abs/2511.01181)]
 - [2025] **The Impact of Generative AI Images on Consumer Attitudes in Advertising** *Administrative Sciences* [[paper](https://doi.org/10.3390/admsci15100395)]
 - [2025] **Technology-enabled democratization: Impact of generative AI on content marketing agencies** *Industrial Marketing Management* [[paper](https://doi.org/10.1016/j.indmarman.2025.09.007)]
 - [2025] **How generative AI is reshaping entrepreneurial marketing** *The Journal of Marketing Theory and Practice* [[paper](https://doi.org/10.1080/10696679.2025.2571634)]
@@ -922,6 +924,7 @@
 - [2025] **Penguatan Branding Produk Pangan Lokal melalui Pelatihan Penggunaan Chatbot dan Green Economy di Agrowisata Sukapulang Kabupaten Ciamis** *SAFARI Jurnal Pengabdian Masyarakat Indonesia* [[paper](https://doi.org/10.56910/safari.v5i4.3261)]
 - [2025] **Modernizing Vulnerability Prioritization: Automated Risk Scoring Using Generative AI** [[paper](https://doi.org/10.36227/techrxiv.174495391.16123741/v2)]
 - [2025] **Sales Pipeline Technology: Automated Lead Nurturing** *Journal of Marketing* [[paper](https://doi.org/10.1177/00222429251321417)]
+- [2025] **Cloning a Conversational Voice AI Agent from Call Recording Datasets for Telesales** *arXiv preprint arXiv:2509.04871* [[paper](https://arxiv.org/abs/2509.04871)]
 - [2025] **Generative AI: capturing strategic value in businesses** *Revista de Gestão* [[paper](https://doi.org/10.1108/rege-02-2025-0026)]
 - [2025] **The impact of parasocial interaction with anthropomorphized AI chatbots on sport consumers’ loyalty** *International Journal of Sports Marketing and Sponsorship* [[paper](https://doi.org/10.1108/ijsms-09-2024-0265)]
 - [2025] **Driving Personalized Marketing with AWS Generative Artificial Intelligence Services** *International Journal of Research Publication and Reviews* [[paper](https://doi.org/10.55248/gengpi.6.0825.2823)]
@@ -1686,6 +1689,7 @@
 - [2026] **Leveraging AI in Influencer Marketing: Opportunities and Ethical Challenges for Brands** *Delhi Business Review* [[paper](https://doi.org/10.51768/dbr.v26i2.262202503)]
 - [2026] **Biases and heuristics in chatbot enabled everyday fashion rental in the UK** *ResearchOnline (Glasgow Caledonian University)* [[paper](https://researchonline.gcu.ac.uk/en/publications/be10d531-9fb5-4886-a88a-aae0139bb069)]
 - [2026] **AI Chatbots in Customer Service: Do they Truly Enhance Customer Satisfaction?** *Zenodo (CERN European Organization for Nuclear Research)* [[paper](https://doi.org/10.5281/zenodo.18113513)]
+- [2026] **AI agents, agentic AI, and the future of sales** *Journal of Business Research* [[paper](https://doi.org/10.1016/j.jbusres.2025.115799)]
 
 ##### 2025
 
@@ -2793,6 +2797,7 @@
 - [2026] **Conditioned Initialization for Attention** [[paper](https://arxiv.org/abs/2609.07086)]
 - [2026] **Stochastically Perturbed Weights: Ensembles from Deterministic Machine-Learning Weather Models** [[paper](https://arxiv.org/abs/2609.08412)]
 - [2026] **MomentQuant: an even more minimalist interval method with linear time complexity for time series classification** [[paper](https://arxiv.org/abs/2609.05136)]
+- [2026] **GTM-Bench: Evaluating Agentic AI Systems for Buyer/Seller Coherence in Go-to-Market Workflows** *Blackpearl Group (technical report)* [[paper](https://gtm-bench.ai/assets/gtm-bench-paper.pdf)]
 - [2026] **Institutional archetypes of resistance to artificial intelligence** *Frontiers in Human Dynamics* [[paper](https://doi.org/10.3389/fhumd.2026.1871733)]
 - [2026] **The The use of artificial intelligence and big data in advertising** *Comunicação, Mídia e Consumo* [[paper](https://doi.org/10.18568/cmc.2026.e3133)]
 - [2026] **Market response, individual-level choice and diffusion models: from Frank Bass to artificial intelligence** *Marketing Letters* [[paper](https://doi.org/10.1007/s11002-026-09834-5)]
@@ -2999,6 +3004,7 @@
 - [2025] **Adoption and Impact of Artificial Intelligence Technologies in Digital Marketing: a Study with Special Reference to Coimbatore City** *International Journal For Multidisciplinary Research* [[paper](https://doi.org/10.36948/ijfmr.2025.v07i05.55014)]
 - [2025] **The Influence Of Artificial Intelligence In Digital Marketing On Generation Z Consumer Decision Making** *Eduvest - Journal Of Universal Studies* [[paper](https://doi.org/10.59188/eduvest.v5i9.51509)]
 - [2025] **INTEGRATING ARTIFICIAL INTELLIGENCE INTO MARKETING STRATEGIES: A COMPREHENSIVE ANALYSIS OF CONSUMER ENGAGEMENT AND BUSINESS PERFORMANCE** *The International Conference on Sustainable Economics Management and Accounting Proceeding* [[paper](https://doi.org/10.32424/icsema.v1i1.450)]
+- [2025] **asLLR: LLM based Leads Ranking in Auto Sales** *arXiv preprint arXiv:2510.21713* [[paper](https://arxiv.org/abs/2510.21713)]
 - [2025] **The influence of social norms and word-of-mouth marketing on behavioral intention and behavioral use of generative AI chatbots among university students** *Computers in Human Behavior Reports* [[paper](https://doi.org/10.1016/j.chbr.2025.100760)]
 - [2025] **A Neuromarketing Framework for Data‐Driven Intelligent Automation in Marketing** [[paper](https://doi.org/10.1002/9781394302734.ch20)]
 - [2025] **Editorial** *Dibon Journal of Business* [[paper](https://doi.org/10.64169/djb.102)]
@@ -3033,6 +3039,7 @@
 - [2025] **Emerging Trends in Digital Marketing** *BENTHAM SCIENCE PUBLISHERS eBooks* [[paper](https://doi.org/10.2174/9789815305456125010016)]
 - [2025] **Mimicking Consumer Centric Technology and Customer Engagement** [[paper](https://doi.org/10.1108/978-1-83797-815-120251010)]
 - [2025] **The significance of marketing in the era of artificial intelligence** *Journal of Management Research and Analysis* [[paper](https://doi.org/10.18231/j.jmra.2025.013)]
+- [2025] **SalesRLAgent: A Reinforcement Learning Approach for Real-Time Sales Conversion Prediction and Optimization** *arXiv preprint arXiv:2503.23303* [[paper](https://arxiv.org/abs/2503.23303)]
 - [2025] **Understanding Artificial Intelligence and Its Impact on Branding** *Advances in marketing, customer relationship management, and e-services book series* [[paper](https://doi.org/10.4018/979-8-3693-9461-8.ch009)]
 - [2025] **PERAN TEKNOLOGI KOMUNIKASI DALAM MENINGKATKAN EFEKTIVITAS PEMASARAN DIGITAL PADA GENERASI Z** *Sintesa* [[paper](https://doi.org/10.30996/sintesa.v4i01.12645)]
 - [2025] **Exploring AI in Marketing of Financial Products** *Advances in computational intelligence and robotics book series* [[paper](https://doi.org/10.4018/979-8-3693-9395-6.ch006)]
@@ -12748,6 +12755,7 @@
 - [2026] **Theoretical Analysis of The Relationship Between Digital Marketing Activities and Sales Conversion in Business-To-Business E-Commerce Based on The Technology Acceptance Model (TAM)** *Journal Research of Social Science Economics and Management* [[paper](https://doi.org/10.59141/jrssem.v5i6.1267)]
 - [2026] **Organisatoriska och strategiska beslut om AI i B2B-marknadsföring** *Lund University Publications Student Papers (Lund University)* [[paper](https://lup.lub.lu.se/student-papers/record/9222580)]
 - [2026] **The Role of Marketing Automation in Improving Lead Management Efficiency in B2B Companies** *Opus-HSO (Offenburg University of Applied Sciences)* [[paper](https://opus.hs-offenburg.de/frontdoor/index/index/docId/12795)]
+- [2026] **From Manual Outreach to Autonomous Pipelines: A Conceptual Framework for Conversational, MCP-Orchestrated B2B Sales Prospecting** *SSRN Electronic Journal (working paper)* [[paper](https://doi.org/10.2139/ssrn.6980618)]
 
 ##### 2025
 

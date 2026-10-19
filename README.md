@@ -102,15 +102,15 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 
 ## 📊 Corpus Statistics
 
-**14,044 papers** across **11 categories**.
-Sources: **arXiv** 1036 (7%) · **DOI** 11900 (85%) · **Other** 1108 (8%).
+**14,052 papers** across **11 categories**.
+Sources: **arXiv** 1040 (7%) · **DOI** 11903 (85%) · **Other** 1109 (8%).
 Full paper list: [GitHub Pages site](https://tobias-weiss-ai-xr.github.io/marketing-research).
 
 ### Top categories
 
 | Category | Papers | Recent | |
 |----------|--------|--------|-
-| AI & Marketing | **2931** | 1728 | ████████████ |
+| AI & Marketing | **2938** | 1732 | ████████████ |
 | Surveys, Trends & Meta-Studies | **2068** | 1645 | ████████░░░░ |
 | Social Media & Creator Marketing | **1571** | 1060 | ██████░░░░░░ |
 | Consumer Behavior & Psychology | **1533** | 1031 | ██████░░░░░░ |
@@ -120,11 +120,11 @@ Full paper list: [GitHub Pages site](https://tobias-weiss-ai-xr.github.io/market
 | Analytics, Attribution & Measurement | **581** | 354 | ██░░░░░░░░░░ |
 | Content & Storytelling | **491** | 266 | ██░░░░░░░░░░ |
 | Data, Privacy & Cookieless Advertising | **449** | 215 | ██░░░░░░░░░░ |
-| B2B & Account-Based Marketing | **347** | 178 | █░░░░░░░░░░░ |
+| B2B & Account-Based Marketing | **348** | 179 | █░░░░░░░░░░░ |
 
 ## 📚 Paper list
 
-All **14044 papers** (grouped by category, subcategory and year) live in **[PAPERS.md](PAPERS.md)** — kept out of this README to keep it readable.
+All **14052 papers** (grouped by category, subcategory and year) live in **[PAPERS.md](PAPERS.md)** — kept out of this README to keep it readable.
 
 Browsable alternatives:
 

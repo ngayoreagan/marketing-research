@@ -1,7 +1,7 @@
 # Trends (12-Month View)
 
 **Generated:** 2026-10-19  
-**Window:** since 2025-10 — 9243 of 14044 papers
+**Window:** since 2025-10 — 9248 of 14052 papers
 
 ## 🔥 Keyword Bursts
 
@@ -13,13 +13,13 @@
 | policy | 650 | 728 | 1.4× |
 | causal | 275 | 309 | 1.4× |
 | uncertainty | 201 | 215 | 1.4× |
-| benchmark | 191 | 211 | 1.4× |
+| benchmark | 192 | 212 | 1.4× |
 | transfer | 134 | 148 | 1.4× |
-| agentic | 101 | 107 | 1.4× |
+| agentic | 104 | 110 | 1.4× |
 | hierarchical | 76 | 84 | 1.4× |
 | embodied | 8 | 9 | 1.4× |
 | graph | 571 | 675 | 1.3× |
-| agent | 376 | 444 | 1.3× |
+| agent | 381 | 451 | 1.3× |
 | imitation | 368 | 416 | 1.3× |
 | planning | 236 | 275 | 1.3× |
 

@@ -301453,3 +301453,168 @@ papers:
     upon the existing work on HFHR algorithms. Numerical experiments including Bayesian
     learning problems on real data are provided to illustrate the effect of positive
     α and its benefit.
+- title: AI agents, agentic AI, and the future of sales
+  date: 2026-01
+  url: https://doi.org/10.1016/j.jbusres.2025.115799
+  category: ai-marketing
+  subcategory: framework
+  authors:
+  - Gabriel R. Gonzalez
+  - Johannes Habel
+  - Gary K. Hunter
+  abstract: This article conceptualizes and explores autonomous artificial intelligence
+    (AI) agents in personal selling and sales management contexts. Unlike traditional
+    AI assistants that merely augment or automate specific tasks, autonomous AI
+    agents perceive, reason, and act independently, enabling multi-step processes
+    such as lead generation, qualification, customer interaction, and performance
+    management. We conceptualize autonomous AI agents, distinguishing them from
+    conventional AI tools, and map their emerging applications across selling
+    and sales management processes. The authors outline seven research priorities
+    and provide actionable guidance for integrating autonomous AI agents into
+    curricula.
+  venue: Journal of Business Research
+- title: 'Agentic Agent, Better Agent: Evidence from Agentic AI in Telemarketing'
+  date: 2026-04
+  url: https://doi.org/10.2139/ssrn.6502379
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Mingrui Zhang
+  - Yu (Rain) Kan
+  - Wenkang Qiu
+  - Fengwen Chen
+  - Yong Tan
+  abstract: Large language models are increasingly being deployed as agentic AI
+    systems that autonomously manage customer interactions, yet their effectiveness
+    in persuasion-intensive telemarketing settings remains largely unknown. We
+    examine whether agentic AI can become a better agent in outbound financial
+    telemarketing through a collaboration with a leading Chinese FinTech firm.
+    Using a quasi-experimental design and 7.41 million unique customer interactions,
+    standard agentic AI increases the odds of same-day loan initiation by 96.0%
+    relative to human agents, while RAG-enhanced agentic AI increases those odds
+    by 213.9%.
+  venue: SSRN Electronic Journal (working paper)
+- title: 'From Manual Outreach to Autonomous Pipelines: A Conceptual Framework
+    for Conversational, MCP-Orchestrated B2B Sales Prospecting'
+  date: 2026-01
+  url: https://doi.org/10.2139/ssrn.6980618
+  category: b2b
+  subcategory: framework
+  authors:
+  - Deepak Amirtha Raj
+  abstract: Business-to-business (B2B) sales development has long depended on
+    manual prospecting, in which sales development representatives (SDRs) research
+    prospects individually on professional networks such as LinkedIn, compose
+    outreach by hand, and track activity in spreadsheets. This paper proposes
+    a conceptual framework in which the prospecting workflow is reconceived as
+    an autonomous, agent-orchestrated pipeline exposed to the operator through
+    a conversational interface, integrating data-enrichment providers and Model
+    Context Protocol (MCP) servers such as Clay, Apollo.io, and ZoomInfo to identify
+    target accounts and assemble multi-dimensional research profiles.
+  venue: SSRN Electronic Journal (working paper)
+- title: Cloning a Conversational Voice AI Agent from Call Recording Datasets
+    for Telesales
+  date: 2025-09
+  url: https://arxiv.org/abs/2509.04871
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Krittanon Kaewtawee
+  - Wachiravit Modecrua
+  - Krittin Pachtrachai
+  - Touchapon Kraisingkorn
+  abstract: Recent advances in language and speech modeling have made it possible
+    to build autonomous voice assistants that understand and generate human dialogue
+    in real time. We present a general methodology for cloning a conversational
+    voice AI agent from a corpus of call recordings. Although the case study uses
+    telesales data to illustrate the approach, the process generalizes to any
+    domain with call transcripts. The system listens, responds with a synthetic
+    voice, and follows a structured playbook learned from top performing human
+    agents. Blind tests show the AI agent approaches human performance in routine
+    aspects of the call while underperforming in persuasion and objection handling.
+  venue: arXiv preprint arXiv:2509.04871
+- title: 'asLLR: LLM based Leads Ranking in Auto Sales'
+  date: 2025-09
+  url: https://arxiv.org/abs/2510.21713
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Yin Sun
+  - Yiwen Liu
+  - Junjie Song
+  - Chenyu Zhang
+  - Xinyuan Zhang
+  - Lingjie Liu
+  - Siqi Chen
+  - Yuji Cao
+  abstract: In commercial auto sales systems, high-quality lead score sequencing
+    determines the priority of a sale's work and is essential for optimizing sales
+    efficiency. This study introduces asLLR (LLM-based Leads Ranking in Auto Sales),
+    which integrates CTR loss and Question Answering loss within a decoder-only
+    large language model architecture to jointly model tabular and natural language
+    features of CRM leads. On a dataset from a new-energy-vehicle brand (300k
+    train / 40k test), asLLR achieves AUC 0.8127, surpassing traditional CTR methods
+    by 0.0231; online A/B testing increased sales volume by about 9.5%.
+  venue: arXiv preprint arXiv:2510.21713
+- title: Learning When to Quit in Sales Conversations
+  date: 2025-11
+  url: https://arxiv.org/abs/2511.01181
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Emaad Manzoor
+  - Eva Ascarza
+  - Oded Netzer
+  abstract: Salespeople frequently face the dynamic screening decision of whether
+    to persist in a conversation or abandon it to pursue the next lead. We formalize
+    this dynamic screening decision as an optimal stopping problem and develop
+    a generative language model-based sequential decision agent that learns whether
+    and when to quit conversations. Applied to calls from a large European telecommunications
+    firm, the stopping agent reduces time spent on failed calls by up to 54% while
+    preserving nearly all sales; reallocating the saved time increases expected
+    sales by up to 37%.
+  venue: arXiv preprint arXiv:2511.01181
+- title: 'SalesRLAgent: A Reinforcement Learning Approach for Real-Time Sales
+    Conversion Prediction and Optimization'
+  date: 2025-03
+  url: https://arxiv.org/abs/2503.23303
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Nandakishor M.
+  abstract: Current approaches to sales conversation analysis and conversion prediction
+    typically rely on LLMs combined with basic retrieval augmented generation.
+    We present SalesRLAgent, a framework leveraging specialized reinforcement
+    learning to predict conversion probability throughout sales conversations,
+    treating conversion prediction as a sequential decision problem trained on
+    synthetic data generated using GPT-4o. The system achieves 96.7% accuracy
+    in conversion prediction, outperforming LLM-only approaches by 34.7% with
+    significantly faster inference, and a 43.2% increase in conversion rates in
+    real-time guidance settings.
+  venue: arXiv preprint arXiv:2503.23303
+- title: 'GTM-Bench: Evaluating Agentic AI Systems for Buyer/Seller Coherence
+    in Go-to-Market Workflows'
+  date: 2026-09
+  url: https://gtm-bench.ai/assets/gtm-bench-paper.pdf
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Maksymilian Polaczuk
+  - Jeremy Baron
+  - Reuben Horne
+  - Trevor Cavill
+  - Callum Mudgway
+  - Chris Herrmann
+  - Patrick Horne
+  - Sam Daish
+  abstract: AI agents are increasingly deployed in go-to-market (GTM) workflows,
+    where value depends not on generating more outreach but on selecting buyers
+    that coherently match a seller's offer. We introduce GTM-Bench, the first
+    benchmark for evidence-grounded buyer/seller coherence in GTM workflows, containing
+    72 realistic tasks derived from real prospecting queries. Agents produce an
+    offer summary, an actionable ideal customer profile, and a ranked prospect
+    list. Six frontier generalist agent systems and one purpose-built GTM system
+    are evaluated; successful systems combine broad retrieval with evidence-based
+    pruning, while failures stem from identity errors, unsupported claims, and
+    poor stopping decisions.
+  venue: Blackpearl Group (technical report)

@@ -215,46 +215,39 @@ Claude Code are solid alternatives.
 
 ## Why now — the evidence inside the research corpus
 
-The chair's open corpus (marketing-research, public on GitHub): **14,044 papers — 8,702 published in 2026 alone**
+The chair's open corpus (marketing-research, public on GitHub): **14,052 papers — 8,706 published in 2026 alone**
 
 | Signal | Count |
 |---|---|
-| Papers mentioning **agentic AI** | 107 |
-| Papers on **lead generation** | 31 |
-| **Both** (agentic × lead-gen) | **0** |
+| Papers mentioning **agentic AI** | 110 |
+| Papers on **lead generation** | 32 |
+| **Both** (agentic × lead-gen) | **1** |
 | Papers on **context-aware** marketing | 23 |
 
-> Inside this corpus: **0** connects the two. Outside it, the field just opened (2025/26). Claim the gap before it closes.
+> A targeted search round turned the intersection from **0 to 1** (JBR, 2026) — the field just opened. Claim the gap while it's a gap.
 
 <!-- notes:
 ⏱ ~1.5 min · READ ALOUD
 
 Why now? The evidence — from this chair's own open research corpus,
-public on GitHub. Fourteen thousand and forty-four marketing
-papers. Eight thousand seven hundred and two published in 2026
-alone. One hundred and seven papers mention agentic AI — ninety-
-five of them from this year alone. Thirty-one are about lead
-generation. The intersection — papers that do both? Zero.
-Twenty-three papers are context-aware — all in attribution and
-personalisation; none touch agentic work. The triple intersection
-is empty — inside this corpus. One honest qualification: outside
-this corpus, the wave has already started — the first academic
-papers on agentic sales agents appeared in 2025 and 2026, and the
-AI-SDR industry is booming. But those are telemarketing studies
-and conceptual frameworks. None of them does what you're about to
-see: a contract-governed, citation-verified agentic loop, run for
-a university chair's partner sourcing. The window is open — and
-that empty cell is this chair's to fill.
+public on GitHub. Fourteen thousand and fifty-two marketing papers.
+Eight thousand seven hundred and six published in 2026 alone. One
+hundred and ten papers mention agentic AI — ninety-eight of them
+from this year. Thirty-two are about lead generation. Now the
+intersection — papers that do both? Until a few weeks ago, zero.
+We ran a targeted search round before this lecture: zero became
+one. The first paper connecting agentic AI to lead generation
+landed in the Journal of Business Research at the start of this
+year. One paper. That is the signal, not the wall: the field just
+opened, and the first position in it is still free.
 [Not read — honesty note if probed:] Counts are keyword search over
-title/abstract of our own corpus (docs/papers.json, regenerated 19
-Oct 2026) — a heuristic, not a citation index. The zero is
-corpus-internal and survives every lead-gen variant we tried.
-Externally the field began 2025/26: JBR special issue "AI agents,
-agentic AI, and the future of sales" (2026); SSRN telemarketing
-field study, 7.41M interactions (2026); SSRN MCP-orchestrated B2B
-prospecting framework (2026); GTM-Bench (2026); arXiv 2503.23303,
-2510.21713, 2511.01181. If probed: we claim the corpus gap, not a
-blank slate.
+title/abstract of our own corpus (docs/papers.json, 14,052 papers,
+regenerated 19 Oct 2026). Intersection went 0→1 when the gap round
+added 8 verifiable papers (JBR agentic-sales 2026; SSRN telemarketing
+field study 2026; SSRN MCP-orchestrated B2B prospecting 2026;
+GTM-Bench 2026; arXiv 2503.23303 / 2509.04871 / 2510.21713 /
+2511.01181). The corpus gap was real but closing — never claim an
+empty field, claim the lead.
 -->
 
 ---
