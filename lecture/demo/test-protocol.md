@@ -75,7 +75,7 @@ only when `python3 leads/validate_leads.py` exits 0 on the produced
 - Correction: let the agent re-check the claim, then continue
 - Practice in pi: **interrupt + edit the task input** — your steering hand must be smooth
 
-## 6. Three questions on the real output (slide 15)
+## 6. Three questions on the real output (slide 16)
 
 1. **Checked?** — every claim carries evidence
 2. **Citable?** — URLs resolve **and** support the sentence

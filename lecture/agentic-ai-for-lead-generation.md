@@ -101,7 +101,7 @@ drives it. The demo produces a ranked list of partners, every claim
 with a source. That list is the dataset the Bachelor course builds
 on next year.
 [jot: the "ranked list" is the handoff artefact — the
-"output as input" promise. Protect it; it returns on slides 17/19.]
+"output as input" promise. Protect it; it returns on slides 18/20.]
 -->
 
 ---
@@ -142,8 +142,8 @@ intelligence is distributed — generation (model), execution
 
 | Block | Content | Time |
 |---|---|---|
-| 1 · Foundations | agentic ≠ chat · model · harness · loop | ~8 min |
-| 2 · Method | contracts · the lead-gen loop · rating formulas · evidence | ~9 min |
+| 1 · Foundations | agentic ≠ chat · model · harness · loop · git & the repo | ~9 min |
+| 2 · Method | contracts · the lead-gen loop · rating formulas · evidence | ~8 min |
 | 3 · Walkthrough | live demo: repo → agent → validator | ~13 min |
 | 4 · Reflection | providers · take-aways · resources | ~5 min |
 | 5 · Q&A | your questions · discussion | 10 min |
@@ -213,6 +213,45 @@ Claude Code are solid alternatives.
 
 <!-- _class: smaller -->
 
+## The workspace: git and the repo itself
+
+**git** = a lab notebook that never forgets — every change is a **commit**: who · when · what exactly — **GitHub** = the public copy anyone can audit
+
+| This repo — `marketing-research`, public | The numbers |
+|---|---|
+| The **corpus**: 14,052 marketing papers in **one file** (`papers.yaml`, 301,620 lines) — title · authors · abstract · venue · URL | **158 commits** since Aug 2026 · 5 contributors · 92 in the last month |
+| The **machinery**: taxonomy · discovery scripts · **executable validators** | generated files are **never hand-edited** |
+| **Your exercise**: `leads/` — same rules, same history | every lead a commit · every claim a URL |
+
+> If it isn't in the repo, it didn't happen. If it is, you can check it — line by line, back to day one.
+
+<!-- notes:
+⏱ ~2 min · READ ALOUD
+
+Before we go further: the workspace. Git is a lab notebook that
+never forgets. Every change is a commit — it records who changed
+what, when, down to the line. GitHub is the public copy of that
+notebook; anyone can audit it — including you. This lecture lives
+in such a repo: the chair's marketing-research repository. Inside
+it: the corpus. Fourteen thousand and fifty-two marketing papers in
+a single file — three hundred thousand lines — each with title,
+authors, abstract, venue, and a link. The history: one hundred
+fifty-eight commits since August, five contributors, ninety-two in
+the last month alone. And one rule that makes it trustworthy:
+generated files are never hand-edited, and a validator runs before
+anything is committed. Your exercise lives in the same repo, in
+the leads folder — same rules, same history. One sentence to keep:
+if it isn't in the repo, it didn't happen. If it is, you can check
+it.
+[Not read:] BWL students may never have used git — the lab-notebook
+framing is the point; hands-on comes in the leads exercise
+(fork, commit, pull request).
+-->
+
+---
+
+<!-- _class: smaller -->
+
 ## Why now — the evidence inside the research corpus
 
 The chair's open corpus (marketing-research, public on GitHub): **14,052 papers — 8,706 published in 2026 alone**
@@ -272,7 +311,7 @@ prompt turns an idea-generator into a conversation. A contract
 turns it into a reproducible research pipeline. And in this
 project the contract is not a document the agent might ignore — it
 is the repository itself: schema, rubric, executable validator.
-You'll see it in ten minutes.
+You'll see it in action in the walkthrough.
 -->
 
 ---
@@ -719,6 +758,9 @@ difference — and it's yours, not the model's.
   stochastic.
 - Data privacy — local models (Ollama, HRZ Qwen) if it matters;
   today's demo is public data only.
+- "What is git?" — version control: every change is a commit with
+  author, timestamp, exact diff; the repo's history is public — that
+  is what makes the work auditable.
 - "What does qualified mean?" — defined in the rubric
   (`leads/leads.yaml`): fit, region, size, evidence, timing, each
   0–5; gates first, then the published weighted sum.
