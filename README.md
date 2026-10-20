@@ -102,15 +102,15 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 
 ## 📊 Corpus Statistics
 
-**14,065 papers** across **11 categories**.
-Sources: **arXiv** 1046 (7%) · **DOI** 11910 (85%) · **Other** 1109 (8%).
+**14,067 papers** across **11 categories**.
+Sources: **arXiv** 1046 (7%) · **DOI** 11912 (85%) · **Other** 1109 (8%).
 Full paper list: [GitHub Pages site](https://tobias-weiss-ai-xr.github.io/marketing-research).
 
 ### Top categories
 
 | Category | Papers | Recent | |
 |----------|--------|--------|-
-| AI & Marketing | **2950** | 1741 | ████████████ |
+| AI & Marketing | **2952** | 1742 | ████████████ |
 | Surveys, Trends & Meta-Studies | **2068** | 1645 | ████████░░░░ |
 | Social Media & Creator Marketing | **1571** | 1060 | ██████░░░░░░ |
 | Consumer Behavior & Psychology | **1533** | 1031 | ██████░░░░░░ |
@@ -124,7 +124,7 @@ Full paper list: [GitHub Pages site](https://tobias-weiss-ai-xr.github.io/market
 
 ## 📚 Paper list
 
-All **14065 papers** (grouped by category, subcategory and year) live in **[PAPERS.md](PAPERS.md)** — kept out of this README to keep it readable.
+All **14067 papers** (grouped by category, subcategory and year) live in **[PAPERS.md](PAPERS.md)** — kept out of this README to keep it readable.
 
 Browsable alternatives:
 

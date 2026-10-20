@@ -3,26 +3,26 @@
   {
    "id": "ai-marketing",
    "name": "AI & Marketing",
-   "count": 2950,
+   "count": 2952,
    "trajectory": {
     "2017": 1,
     "2020": 1,
     "2021": 1,
     "2023": 76,
     "2024": 572,
-    "2025": 726,
-    "2026": 1573
+    "2025": 727,
+    "2026": 1574
    },
    "momentum": {
     "id": "ai-marketing",
     "name": "Ai Marketing",
-    "total": 2950,
-    "recent": 1741,
-    "prior": 723,
-    "growth_pct": 140.8,
+    "total": 2952,
+    "recent": 1742,
+    "prior": 724,
+    "growth_pct": 140.6,
     "recent_share": 0.59,
-    "papers_per_month": 145.1,
-    "score": 199.8
+    "papers_per_month": 145.2,
+    "score": 199.6
    }
   },
   {
@@ -284,7 +284,7 @@
   {
    "id": "framework",
    "name": "Frameworks & Models",
-   "count": 2600
+   "count": 2601
   },
   {
    "id": "measurement",
@@ -295,6 +295,11 @@
    "id": "review",
    "name": "Reviews & Surveys",
    "count": 2128
+  },
+  {
+   "id": "survey",
+   "name": "survey",
+   "count": 1
   },
   {
    "id": "theory",
@@ -23706,6 +23711,11 @@
   [
    "2025-09",
    "ai-marketing",
+   "survey"
+  ],
+  [
+   "2025-09",
+   "ai-marketing",
    "theory"
   ],
   [
@@ -32097,6 +32107,11 @@
    "2026-04",
    "ai-marketing",
    "empirical"
+  ],
+  [
+   "2026-04",
+   "ai-marketing",
+   "framework"
   ],
   [
    "2026-04",
@@ -70735,22 +70750,22 @@
   },
   {
    "keyword": "framework",
-   "recent": 2475,
-   "total": 2869,
+   "recent": 2476,
+   "total": 2870,
    "burst_score": 1.31,
-   "recent_share": 0.2673
+   "recent_share": 0.2674
   },
   {
    "keyword": "autonomous",
-   "recent": 124,
-   "total": 149,
-   "burst_score": 1.26,
-   "recent_share": 0.0134
+   "recent": 125,
+   "total": 150,
+   "burst_score": 1.27,
+   "recent_share": 0.0135
   },
   {
    "keyword": "model",
-   "recent": 2853,
-   "total": 3495,
+   "recent": 2854,
+   "total": 3496,
    "burst_score": 1.24,
    "recent_share": 0.3082
   },
@@ -70759,7 +70774,7 @@
    "recent": 2066,
    "total": 2533,
    "burst_score": 1.24,
-   "recent_share": 0.2232
+   "recent_share": 0.2231
   },
   {
    "keyword": "scalable",
@@ -70770,10 +70785,10 @@
   },
   {
    "keyword": "system",
-   "recent": 2459,
-   "total": 3099,
+   "recent": 2460,
+   "total": 3101,
    "burst_score": 1.21,
-   "recent_share": 0.2656
+   "recent_share": 0.2657
   },
   {
    "keyword": "dataset",
@@ -70785,9 +70800,9 @@
   {
    "keyword": "analysis",
    "recent": 2503,
-   "total": 3227,
+   "total": 3228,
    "burst_score": 1.18,
-   "recent_share": 0.2704
+   "recent_share": 0.2703
   },
   {
    "keyword": "human",

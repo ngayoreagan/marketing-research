@@ -1,6 +1,6 @@
 # 📚 Paper list
 
-14065 papers · generated from `papers.yaml` — do not edit by hand.
+14067 papers · generated from `papers.yaml` — do not edit by hand.
 
 
 - [📚 AI & Marketing](#ai-&-marketing)
@@ -1674,6 +1674,7 @@
 - [2026] **The Use of Artificial Intelligence for Personalized Advertising and Marketing.** *International Journal of Advanced Research in Science Communication and Technology* [[paper](https://doi.org/10.48175/ijarsct-32854)]
 - [2026] **Personalized destination marketing through ai: a theory driven blueprint for practitioners** [[paper](https://doi.org/10.20867/cromar.29.8)]
 - [2026] **Artificial Intelligence Chatbots and B2B Lead Generation in the Manufacturing Industry: A Systematic Literature Review** *International Journal of Science Architecture Technology and Environment* [[paper](https://doi.org/10.63680/ijsate0426244.153)]
+- [2026] **GENIE CRM: An Agentic AI-Powered Customer Relationship Management System with Multi-Agent Autonomous Operation** *International Scientific Journal of Engineering and Management (ISJEM)* [[paper](https://doi.org/10.55041/isjem06720)]
 - [2026] **DIGITAL PLATFORMS AND ARTIFICIAL INTELLIGENCE IN SPORTS MARKETING: BOOSTING CUSTOMER INTERACTION AND PERSONALIZATION** *SPORTS MEDIA AND BUSINESS* [[paper](https://doi.org/10.58984/smb2601079s)]
 - [2026] **Artificial Intelligence-Driven Hyper-Personalization in Digital Marketing: Effects on Customer Engagement and Brand Loyalty** *International Journal of Science Architecture Technology and Environment* [[paper](https://doi.org/10.63680/ijsate0326094.073)]
 - [2026] **How Consumer Attention Shapes Personalized Experiences in Generative AI Products: A Configurational Perspective** *International Journal of Consumer Studies* [[paper](https://doi.org/10.1111/ijcs.70199)]

@@ -1,7 +1,7 @@
 # Literature Review
 
 **Generated:** 2026-10-20  
-**Corpus:** 14,065 papers across 11 categories
+**Corpus:** 14,067 papers across 11 categories
 
 > Synthesis of the corpus. Category insights are grounded in title/abstract analysis of the papers themselves.
 
@@ -11,7 +11,7 @@
 
 | Rank | Category | Papers |
 |------|----------|--------|
-| 1 | AI & Marketing | 2950 |
+| 1 | AI & Marketing | 2952 |
 | 2 | Surveys, Trends & Meta-Studies | 2068 |
 | 3 | Social Media & Creator Marketing | 1571 |
 | 4 | Consumer Behavior & Psychology | 1533 |
@@ -21,7 +21,7 @@
 | 8 | Analytics, Attribution & Measurement | 581 |
 
 **Time span:** 1987–2026 (median year 2016)
-**Dominant aspects:** Empirical Studies (5254), Frameworks & Models (2600), Reviews & Surveys (2128)
+**Dominant aspects:** Empirical Studies (5254), Frameworks & Models (2601), Reviews & Surveys (2128)
 
 ---
 
@@ -35,7 +35,7 @@
 | Digital Marketing | 1501 | 1010 | 255 | +296% | 67% | 84.2 |
 | Consumer Behavior | 1533 | 1031 | 275 | +275% | 67% | 85.9 |
 | Cx Retail | 1116 | 731 | 252 | +190% | 66% | 60.9 |
-| Ai Marketing | 2950 | 1741 | 723 | +141% | 59% | 145.1 |
+| Ai Marketing | 2952 | 1742 | 724 | +141% | 59% | 145.2 |
 | Analytics | 581 | 354 | 160 | +121% | 61% | 29.5 |
 | B2B | 349 | 180 | 98 | +84% | 52% | 15.0 |
 | Content Marketing | 491 | 266 | 165 | +61% | 54% | 22.2 |
@@ -47,6 +47,7 @@
 
 | Cell | Papers |
 |------|--------:|
+| `ai-marketing/survey` | 1 |
 | `b2b/measurement` | 8 |
 | `analytics/theory` | 36 |
 | `b2b/review` | 40 |
@@ -54,7 +55,6 @@
 | `content-marketing/measurement` | 44 |
 | `content-marketing/empirical` | 49 |
 | `b2b/case-study` | 51 |
-| `privacy-data/case-study` | 54 |
 
 ---
 
@@ -62,7 +62,7 @@
 
 | Cell | Papers |
 |------|--------:|
-| `b2b/measurement` | 8 |
+| `ai-marketing/survey` | 1 |
 
 ---
 
@@ -84,7 +84,7 @@
 
 ### AI & Marketing (`ai-marketing`)
 
-**Corpus size:** 2950 papers
+**Corpus size:** 2952 papers
 
 **Recent papers:**
 

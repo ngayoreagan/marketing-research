@@ -301816,3 +301816,32 @@ papers:
     lead qualification to auto-generated demand, moving the qualification stage of the pipeline
     into autonomous AI.
   venue: Zenodo (technical report)
+- title: 'The Transformative Role of AI Agents in Marketing: Applications, Challenges, and Future
+    Directions'
+  date: 2025-09
+  url: https://doi.org/10.36227/techrxiv.175756685.50137934
+  category: ai-marketing
+  subcategory: survey
+  authors:
+  - Satyadhar Joshi
+  abstract: Artificial Intelligence (AI) agents are revolutionizing the marketing landscape
+    by automating tasks, enhancing personalization, and optimizing campaigns. This paper explores
+    the multifaceted role of AI agents in marketing, including their applications in content
+    creation, customer engagement, data analysis and lead generation, and discusses the challenges
+    and future directions of agent-based marketing systems.
+  venue: TechRxiv (preprint)
+- title: 'GENIE CRM: An Agentic AI-Powered Customer Relationship Management System with Multi-Agent
+    Autonomous Operation'
+  date: 2026-04
+  url: https://doi.org/10.55041/isjem06720
+  category: ai-marketing
+  subcategory: framework
+  authors:
+  - Hinaben Bharatbhai Dudharejiya
+  - Dev Tejas Shah
+  abstract: The rapid evolution of large language models and agentic AI frameworks has opened
+    a new frontier for intelligent enterprise software. This paper presents GENIE CRM, a full-stack
+    customer relationship management platform that embeds autonomous AI agents across sixteen
+    functional modules to automate sales, marketing and customer-service workflows, including
+    lead management and qualification.
+  venue: International Scientific Journal of Engineering and Management (ISJEM)

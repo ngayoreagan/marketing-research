@@ -720,7 +720,7 @@ section.lead h2 { border-bottom: none; color: var(--ink); font-weight: 400; }
 </thead>
 <tbody>
 <tr>
-<td>The <strong>corpus</strong>: 14,065 marketing papers in <strong>one file</strong> (<code>papers.yaml</code>, 301,620 lines) — title · authors · abstract · venue · URL</td>
+<td>The <strong>corpus</strong>: 14,067 marketing papers in <strong>one file</strong> (<code>papers.yaml</code>, 301,847 lines) — title · authors · abstract · venue · URL</td>
 <td><strong>158 commits</strong> since Aug 2026 · <strong>1 researcher + AI agents</strong> · 92 in the last month</td>
 </tr>
 <tr>
@@ -824,7 +824,7 @@ section.lead h2 { border-bottom: none; color: var(--ink); font-weight: 400; }
 <header><img src="img/jlu-logo.png" alt="" style="height:56px;" /></header>
 
 <h2 id="why-now--the-evidence-inside-the-research-corpus">Why now — the evidence inside the research corpus</h2>
-<p>The chair's open corpus (marketing-research, public on GitHub): <strong>14,065 papers — 8,715 published in 2026 alone</strong></p>
+<p>The chair's open corpus (marketing-research, public on GitHub): <strong>14,067 papers — 8,716 published in 2026 alone</strong></p>
 <table>
 <thead>
 <tr>
@@ -835,15 +835,19 @@ section.lead h2 { border-bottom: none; color: var(--ink); font-weight: 400; }
 <tbody>
 <tr>
 <td>Papers mentioning <strong>agentic AI</strong></td>
-<td>111</td>
+<td>112</td>
 </tr>
 <tr>
 <td>Papers on <strong>lead generation</strong></td>
-<td>35</td>
+<td>36</td>
 </tr>
 <tr>
-<td><strong>Both</strong> (agentic × lead-gen)</td>
+<td><strong>Both</strong> — strict (agentic × lead-gen)</td>
 <td><strong>2</strong></td>
+</tr>
+<tr>
+<td>Agent-aware × lead-ops (agentic / AI agents × leads)</td>
+<td><strong>5</strong></td>
 </tr>
 <tr>
 <td>Papers on <strong>context-aware</strong> marketing</td>
@@ -852,7 +856,7 @@ section.lead h2 { border-bottom: none; color: var(--ink); font-weight: 400; }
 </tbody>
 </table>
 <blockquote>
-<p>A targeted OpenAlex round turned the intersection from <strong>1 to 2</strong> (JBR 2026 · IRJAEM 2026). The field just opened — claim the gap while it's a gap.</p>
+<p>Two rounds of OpenAlex ingestion took the strict intersection <strong>1 → 2</strong>, the broader agent-aware set <strong>3 → 5</strong>. The field just opened — claim the gap while it's a gap.</p>
 </blockquote>
 <footer>Marketing Chair · Agentic AI for Lead Generation · Tobias Weiß</footer>
 </section>
@@ -1478,7 +1482,7 @@ section.lead h2 { border-bottom: none; color: var(--ink); font-weight: 400; }
 
 <h2 id="walkthrough--step-1--the-repo-is-the-contract">Walkthrough · Step 1 — The repo is the contract</h2>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-text">marketing-research/               github.com/tobias-weiss-ai-xr/marketing-research
-├─ papers.yaml                    14,065 papers — single source of truth
+├─ papers.yaml                    14,067 papers — single source of truth
 ├─ config/taxonomy.yaml           categories + discovery queries
 ├─ scripts/validate_papers.py     the contract, executable
 ├─ leads/leads.yaml              your starting point: schema + rubric
@@ -2391,33 +2395,35 @@ framing is the point; hands-on comes in the leads exercise
 ⏱ ~1.5 min · READ ALOUD
 
 Why now? The evidence — from this chair's own open research corpus,
-public on GitHub. Fourteen thousand and sixty-five marketing
-papers. Eight thousand seven hundred and fifteen published in 2026
-alone. One hundred and eleven papers mention agentic AI —
-ninety-nine of them from this year. Thirty-five are about lead
+public on GitHub. Fourteen thousand and sixty-seven marketing
+papers. Eight thousand seven hundred and sixteen published in 2026
+alone. One hundred and twelve papers mention agentic AI — one
+hundred of them from this year. Thirty-six are about lead
 generation. Now the intersection — papers that do both? Until a
-few weeks ago, zero. A targeted round took it from zero to one —
-the Journal of Business Research — and the latest round took it to
-two. Two papers. That is the signal, not the wall: the field just
-opened, and the first position in it is still free.
+few weeks ago, zero. Two rounds of targeted ingestion took the
+strict intersection from zero to one — the Journal of Business
+Research — and then to two. Count the agent-aware field more
+broadly and it's already five. The field just opened, and the
+first position in it is still free.
 [Not read — honesty note if probed:] Counts are keyword search over
-title/abstract of our own corpus (docs/papers.json, 14,065 papers,
-regenerated today). Definitions: agentic = substring 'agentic';
-lead-gen = substring 'lead generation'; context-aware =
-'context-aware' or 'contextual intelligence'. Intersection is now
-2: the JBR paper 'AI agents, agentic AI, and the future of sales'
-(2026) and 'The Augmented Rep: Agentic AI Across the Enterprise
-Sales Cycle' (IRJAEM, 2026), which explicitly lists 'lead
-generation' among the sales activities agentic AI automates.
-This round added 7 agentic×lead-gen-qualifying papers via OpenAlex
-(SSRN Governing Machines; IMM Inbound sales management; JISEM
-Autonomous CRM agents; IJRASET RAG lead generation; Springer Trade
-Show Lead Matching; Zenodo Lead Qualification; IRJAEM Augmented
-Rep) plus 6 agentic conversational-sales agents/benchmarks
-(SmartSalesBench, Sales Research Agent &amp; Bench, Selling in the
-Wild, Ottilie, Personality-Aware Salesperson Agents, Personalized
-Conversational Sales Agents). All URLs resolve; all DOIs verified;
-validation passes.</p></div><div class="bespoke-marp-note" data-index="8" tabindex="0"><p>notes:
+title/abstract of our own corpus (docs/papers.json, 14,067 papers,
+regenerated today). Definitions: strict intersection = substring
+'agentic' AND 'lead generation'; broader agent-aware × lead-ops =
+(agentic | ai agents | ai agent | multi-agent | autonomous agents)
+AND (lead generation | lead scoring | lead qualification | prospecting).
+Strict intersection is 2: the JBR paper 'AI agents, agentic AI, and
+the future of sales' (2026) and 'The Augmented Rep: Agentic AI
+Across the Enterprise Sales Cycle' (IRJAEM, 2026), which lists lead
+generation among the sales activities agentic AI automates. The
+broader set adds GTM-Bench, Governing Machines (SSRN), and The
+Transformative Role of AI Agents in Marketing (TechRxiv). Context-
+aware = 'context-aware' or 'contextual intelligence'. Corpus grew
+14,065 → 14,067 this round (The Transformative Role of AI Agents in
+Marketing, TechRxiv 2025; GENIE CRM, ISJEM 2026) on top of the 13
+from the prior round (6 agentic conversational-sales benchmarks +
+7 agentic×lead-gen via OpenAlex). All URLs resolve; all DOIs
+verified; lower-evidence Zenodo/empty-abstract candidates were
+excluded rather than inflating the count; validation passes.</p></div><div class="bespoke-marp-note" data-index="8" tabindex="0"><p>notes:
 ⏱ ~2 min · READ ALOUD
 
 This is the central mental model of the lecture. A prompt is how
