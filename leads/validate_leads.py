@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Validate students/leads.yaml — schema, gates, score math, source format.
+"""Validate leads/leads.yaml — schema, gates, score math, source format.
 
 The student-side twin of scripts/validate_papers.py: the contract is not
 a prose file, it is executable. Run before every commit:
 
-    python3 students/validate_leads.py
+    python3 leads/validate_leads.py
 
 Exit 0 = pass. Any FAIL prints and exits 1.
 """

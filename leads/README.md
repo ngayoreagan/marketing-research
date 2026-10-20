@@ -12,7 +12,7 @@ chair's actual shortlist for "Sales Strategy and Execution" (SS 2027).
    top of that file.
 3. **Score & rank** them with the published rubric (below and in
    `leads.yaml`). Gates first, then the weighted-sum formula.
-4. **Validate**: `python3 students/validate_leads.py` must pass.
+4. **Validate**: `python3 leads/validate_leads.py` must pass.
 5. **Submit a pull request.** The chair reviews it like a paper.
 
 ## The six boxes — who does what

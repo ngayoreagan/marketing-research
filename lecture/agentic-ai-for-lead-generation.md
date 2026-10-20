@@ -352,7 +352,7 @@ the walkthrough is human-steered, not agent-chosen.
 
 Example (each criterion 0–5): fit 5 · region 3 · size 4 · evidence 4 · timing 2 → `L = 3.90`
 
-> Weights live in the repo (`students/leads.yaml`, `rubric:`) — **published context, not vibes**. Change them — in a PR, with reasons.
+> Weights live in the repo (`leads/leads.yaml`, `rubric:`) — **published context, not vibes**. Change them — in a PR, with reasons.
 
 <!-- notes:
 ⏱ ~2 min · READ ALOUD
@@ -377,11 +377,11 @@ request, with reasons. That is what published context means.
 
 ## Now: a live walkthrough
 
-Task: ingest **2 leads** into the chair's repo — `students/leads.yaml` — with:
+Task: ingest **2 leads** into the chair's repo — `leads/leads.yaml` — with:
 
 - scores per criterion + the weighted sum, gates applied, ranked
 - named source URL per claim (citable, verifiable)
-- `python3 students/validate_leads.py` passing before anything counts
+- `python3 leads/validate_leads.py` passing before anything counts
 
 I run this live in a harness — in the same repo you will work in.
 No fallback video: this exact exercise was **tested agentically**, end to end.
@@ -409,8 +409,8 @@ marketing-research/               github.com/tobias-weiss-ai-xr/marketing-resear
 ├─ papers.yaml                    14,052 papers — single source of truth
 ├─ config/taxonomy.yaml           categories + discovery queries
 ├─ scripts/validate_papers.py     the contract, executable
-├─ students/leads.yaml            your starting point: schema + rubric
-├─ students/validate_leads.py     same pattern: validate before commit
+├─ leads/leads.yaml              your starting point: schema + rubric
+├─ leads/validate_leads.py       same pattern: validate before commit
 └─ README.md · statistics.json    auto-generated — never hand-edited
 ```
 
@@ -425,7 +425,7 @@ reads at start and may ignore. It is the repository itself. One
 source of truth: papers.yaml, fourteen thousand and fifty-two
 papers. Everything downstream is generated, never hand-edited.
 Every change passes an executable validator before it is committed.
-And your exercise lives in the same pattern: students/leads.yaml —
+And your exercise lives in the same pattern: leads/leads.yaml —
 schema, rubric, weights — and its own validator. Done does not mean
 "looks finished". Done means the validator passes. One
 critical-literacy point before we go on: every source in this repo
@@ -447,7 +447,7 @@ Watch the six-step loop run live:
 
 - **only watch** — no magic, every tick is visible in the terminal
 - agent reads the **repo** (schema + rubric), then **opens the browser** (MCP) — real company pages
-- writes leads into `students/leads.yaml` → runs the **validator** → fixes what fails
+- writes leads into `leads/leads.yaml` → runs the **validator** → fixes what fails
 - **iterates**: pause, correct, re-check — that is the loop
 
 > Nothing happens off-screen — the loop is fully visible.
@@ -481,7 +481,7 @@ score math — the validator checks both. That's step five: verify."
 Let's judge it with the three questions."
 [Not read:] Steps: (1) open browser via MCP, search prospects;
 (2) read real pages, extract fit signals; (3) score vs rubric;
-(4) write students/leads.yaml entries with URLs; (5) run
+(4) write leads/leads.yaml entries with URLs; (5) run
 validate_leads.py, fix failures; (6) ranked table. Speed beats
 completeness — cut lead two if running long. Demo runs on real
 public data via cloud API — never paste private/customer data.
@@ -530,7 +530,7 @@ connection: you verify a prospect's claims before signing.
 
 ## Your turn: ingest + rate leads for the chair
 
-1. **Fork & clone** — the repo is public; open `students/`
+1. **Fork & clone** — the repo is public; open `leads/`
 2. **Ingest 3 leads** — real B2B companies, every claim with a URL
 3. **Score & rank** — gates first, then the published formula
 4. **Validate & submit** — validator passes → pull request
@@ -541,7 +541,7 @@ connection: you verify a prospect's claims before signing.
 ⏱ ~1.5 min · READ ALOUD
 
 Now it's your turn. The repo is public — fork it, clone it, open
-the students folder. The brief, the schema, the rubric, the
+the leads folder. The brief, the schema, the rubric, the
 validator: all there. Your task: ingest three leads — real
 companies that could partner with this chair. Score them with the
 published formula: gates first, then the weighted sum. Run the
@@ -665,7 +665,7 @@ lecture beyond today's demo.
 - **HRZ access one-pager** (student quick start, 1 page) — [`hrz-access-one-pager.md`](hrz-access-one-pager.md)
 - **pi** — [pi.dev](https://pi.dev) · docs: [pi.dev/docs](https://pi.dev/docs) · **OpenCode** — [opencode.ai](https://opencode.ai) · **OpenRouter** (one key, many models) — [openrouter.ai](https://openrouter.ai)
 - **Google AI student plan** — [one.google.com/ai-student](https://one.google.com/ai-student?g1_landing_page=75) (1 year free for students)
-- **marketing-research** (chair corpus, public) — [github.com/tobias-weiss-ai-xr/marketing-research](https://github.com/tobias-weiss-ai-xr/marketing-research) → start at **`students/`** (exercise brief · rubric · validator)
+- **marketing-research** (chair corpus, public) — [github.com/tobias-weiss-ai-xr/marketing-research](https://github.com/tobias-weiss-ai-xr/marketing-research) → start at **`leads/`** (exercise brief · rubric · validator)
 - **skeleton-research** (forkable corpus skeleton) — [github.com/tobias-weiss-ai-xr/skeleton-research](https://github.com/tobias-weiss-ai-xr/skeleton-research)
 - **This deck** — [`lecture/`](.) in this corpus repo (English, 45 min)
 
@@ -720,12 +720,12 @@ difference — and it's yours, not the model's.
 - Data privacy — local models (Ollama, HRZ Qwen) if it matters;
   today's demo is public data only.
 - "What does qualified mean?" — defined in the rubric
-  (`students/leads.yaml`): fit, region, size, evidence, timing, each
+  (`leads/leads.yaml`): fit, region, size, evidence, timing, each
   0–5; gates first, then the published weighted sum.
 - "What if the demo breaks?" — we debug it live; the approach was
   tested agentically beforehand (timed runs of the exact exercise).
 - Trying it themselves — resources slide; start with HRZ API and the
-  `students/` folder in the repo.
+  `leads/` folder in the repo.
 
 [Hard stop at 16:00 — the course's Übung starts in this room right
 after; the ten minutes belong to the students, never overrun.]

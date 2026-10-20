@@ -17,7 +17,7 @@ shortlist produced in the demo becomes **evidence the Bachelor course
 | [`agentic-ai-for-lead-generation.pptx`](agentic-ai-for-lead-generation.pptx) | PowerPoint export |
 | [`img/`](img/) | Custom SVG diagrams (light, JLU colours) + JLU logo used by the slides |
 | [`demo/`](demo/) | Demo kit for the live walkthrough: kickoff prompt + narration (`demo-script.md`), agentic test protocol (`test-protocol.md`), `shortlist-template.md` target format, sector-choice playbook (`branchenauswahl-playbook.md`) |
-| [`../students/`](../students/) | **Student exercise — ingest + rate leads for the chair**: brief (`README.md`), schema + rubric (`leads.yaml`), executable validator (`validate_leads.py`) |
+| [`../leads/`](../leads/) | **Lead exercise — ingest + rate leads for the chair**: brief (`README.md`), schema + rubric (`leads.yaml`), executable validator (`validate_leads.py`) |
 
 ## Structure (35 min + 10 min Q&A)
 

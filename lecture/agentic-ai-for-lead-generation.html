@@ -1178,7 +1178,7 @@ section.lead h2 { border-bottom: none; color: var(--ink); font-weight: 400; }
 </table>
 <p>Example (each criterion 0–5): fit 5 · region 3 · size 4 · evidence 4 · timing 2 → <code>L = 3.90</code></p>
 <blockquote>
-<p>Weights live in the repo (<code>students/leads.yaml</code>, <code>rubric:</code>) — <strong>published context, not vibes</strong>. Change them — in a PR, with reasons.</p>
+<p>Weights live in the repo (<code>leads/leads.yaml</code>, <code>rubric:</code>) — <strong>published context, not vibes</strong>. Change them — in a PR, with reasons.</p>
 </blockquote>
 <footer>Marketing Chair · Agentic AI for Lead Generation · Tobias Weiß</footer>
 </section>
@@ -1267,11 +1267,11 @@ section.lead h2 { border-bottom: none; color: var(--ink); font-weight: 400; }
 ;" data-marpit-pagination-total="21">
 <header><img src="img/jlu-logo.png" alt="" style="height:56px;" /></header>
 <h2 id="now-a-live-walkthrough">Now: a live walkthrough</h2>
-<p>Task: ingest <strong>2 leads</strong> into the chair's repo — <code>students/leads.yaml</code> — with:</p>
+<p>Task: ingest <strong>2 leads</strong> into the chair's repo — <code>leads/leads.yaml</code> — with:</p>
 <ul>
 <li>scores per criterion + the weighted sum, gates applied, ranked</li>
 <li>named source URL per claim (citable, verifiable)</li>
-<li><code>python3 students/validate_leads.py</code> passing before anything counts</li>
+<li><code>python3 leads/validate_leads.py</code> passing before anything counts</li>
 </ul>
 <p>I run this live in a harness — in the same repo you will work in.<br />
 No fallback video: this exact exercise was <strong>tested agentically</strong>, end to end.</p>
@@ -1367,8 +1367,8 @@ section.lead h2 { border-bottom: none; color: var(--ink); font-weight: 400; }
 ├─ papers.yaml                    14,052 papers — single source of truth
 ├─ config/taxonomy.yaml           categories + discovery queries
 ├─ scripts/validate_papers.py     the contract, executable
-├─ students/leads.yaml            your starting point: schema + rubric
-├─ students/validate_leads.py     same pattern: validate before commit
+├─ leads/leads.yaml              your starting point: schema + rubric
+├─ leads/validate_leads.py       same pattern: validate before commit
 └─ README.md · statistics.json    auto-generated — never hand-edited
 </code></pre>
 <blockquote>
@@ -1466,7 +1466,7 @@ section.lead h2 { border-bottom: none; color: var(--ink); font-weight: 400; }
 <ul>
 <li><strong>only watch</strong> — no magic, every tick is visible in the terminal</li>
 <li>agent reads the <strong>repo</strong> (schema + rubric), then <strong>opens the browser</strong> (MCP) — real company pages</li>
-<li>writes leads into <code>students/leads.yaml</code> → runs the <strong>validator</strong> → fixes what fails</li>
+<li>writes leads into <code>leads/leads.yaml</code> → runs the <strong>validator</strong> → fixes what fails</li>
 <li><strong>iterates</strong>: pause, correct, re-check — that is the loop</li>
 </ul>
 <blockquote>
@@ -1660,7 +1660,7 @@ section.lead h2 { border-bottom: none; color: var(--ink); font-weight: 400; }
 
 <h2 id="your-turn-ingest--rate-leads-for-the-chair">Your turn: ingest + rate leads for the chair</h2>
 <ol>
-<li><strong>Fork &amp; clone</strong> — the repo is public; open <code>students/</code></li>
+<li><strong>Fork &amp; clone</strong> — the repo is public; open <code>leads/</code></li>
 <li><strong>Ingest 3 leads</strong> — real B2B companies, every claim with a URL</li>
 <li><strong>Score &amp; rank</strong> — gates first, then the published formula</li>
 <li><strong>Validate &amp; submit</strong> — validator passes → pull request</li>
@@ -2081,7 +2081,7 @@ section.lead h2 { border-bottom: none; color: var(--ink); font-weight: 400; }
 <li><strong>HRZ access one-pager</strong> (student quick start, 1 page) — <a href="hrz-access-one-pager.md"><code>hrz-access-one-pager.md</code></a></li>
 <li><strong>pi</strong> — <a href="https://pi.dev">pi.dev</a> · docs: <a href="https://pi.dev/docs">pi.dev/docs</a> · <strong>OpenCode</strong> — <a href="https://opencode.ai">opencode.ai</a> · <strong>OpenRouter</strong> (one key, many models) — <a href="https://openrouter.ai">openrouter.ai</a></li>
 <li><strong>Google AI student plan</strong> — <a href="https://one.google.com/ai-student?g1_landing_page=75">one.google.com/ai-student</a> (1 year free for students)</li>
-<li><strong>marketing-research</strong> (chair corpus, public) — <a href="https://github.com/tobias-weiss-ai-xr/marketing-research">github.com/tobias-weiss-ai-xr/marketing-research</a> → start at <strong><code>students/</code></strong> (exercise brief · rubric · validator)</li>
+<li><strong>marketing-research</strong> (chair corpus, public) — <a href="https://github.com/tobias-weiss-ai-xr/marketing-research">github.com/tobias-weiss-ai-xr/marketing-research</a> → start at <strong><code>leads/</code></strong> (exercise brief · rubric · validator)</li>
 <li><strong>skeleton-research</strong> (forkable corpus skeleton) — <a href="https://github.com/tobias-weiss-ai-xr/skeleton-research">github.com/tobias-weiss-ai-xr/skeleton-research</a></li>
 <li><strong>This deck</strong> — <a href="."><code>lecture/</code></a> in this corpus repo (English, 45 min)</li>
 </ul>
@@ -2351,7 +2351,7 @@ reads at start and may ignore. It is the repository itself. One
 source of truth: papers.yaml, fourteen thousand and fifty-two
 papers. Everything downstream is generated, never hand-edited.
 Every change passes an executable validator before it is committed.
-And your exercise lives in the same pattern: students/leads.yaml —
+And your exercise lives in the same pattern: leads/leads.yaml —
 schema, rubric, weights — and its own validator. Done does not mean
 &quot;looks finished&quot;. Done means the validator passes. One
 critical-literacy point before we go on: every source in this repo
@@ -2389,7 +2389,7 @@ score math — the validator checks both. That's step five: verify.&quot;
 Let's judge it with the three questions.&quot;
 [Not read:] Steps: (1) open browser via MCP, search prospects;
 (2) read real pages, extract fit signals; (3) score vs rubric;
-(4) write students/leads.yaml entries with URLs; (5) run
+(4) write leads/leads.yaml entries with URLs; (5) run
 validate_leads.py, fix failures; (6) ranked table. Speed beats
 completeness — cut lead two if running long. Demo runs on real
 public data via cloud API — never paste private/customer data.
@@ -2416,7 +2416,7 @@ connection: you verify a prospect's claims before signing.</p></div><div class="
 ⏱ ~1.5 min · READ ALOUD
 
 Now it's your turn. The repo is public — fork it, clone it, open
-the students folder. The brief, the schema, the rubric, the
+the leads folder. The brief, the schema, the rubric, the
 validator: all there. Your task: ingest three leads — real
 companies that could partner with this chair. Score them with the
 published formula: gates first, then the weighted sum. Run the
@@ -2516,12 +2516,12 @@ difference — and it's yours, not the model's.
 - Data privacy — local models (Ollama, HRZ Qwen) if it matters;
   today's demo is public data only.
 - &quot;What does qualified mean?&quot; — defined in the rubric
-  (`students/leads.yaml`): fit, region, size, evidence, timing, each
+  (`leads/leads.yaml`): fit, region, size, evidence, timing, each
   0–5; gates first, then the published weighted sum.
 - &quot;What if the demo breaks?&quot; — we debug it live; the approach was
   tested agentically beforehand (timed runs of the exact exercise).
 - Trying it themselves — resources slide; start with HRZ API and the
-  `students/` folder in the repo.
+  `leads/` folder in the repo.
 
 [Hard stop at 16:00 — the course's Übung starts in this room right
 after; the ten minutes belong to the students, never overrun.]</p></div><script>/*!! License: https://unpkg.com/@marp-team/marp-cli@4.5.1/lib/bespoke.js.LICENSE.txt */

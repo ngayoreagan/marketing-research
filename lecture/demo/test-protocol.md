@@ -3,8 +3,8 @@
 No fallback video, no recording. **The approach must prove itself
 agentically**: the exact exercise the audience will see is run end-to-end
 with the agent, repeatedly, before the lecture. A run counts as passed
-only when `python3 students/validate_leads.py` exits 0 on the produced
-`students/leads.yaml`.
+only when `python3 leads/validate_leads.py` exits 0 on the produced
+`leads/leads.yaml`.
 
 ---
 
@@ -12,7 +12,7 @@ only when `python3 students/validate_leads.py` exits 0 on the produced
 
 | Level | What | Where | When |
 |---|---|---|---|
-| **T0 — Brief rehearsal** | Read `students/README.md` + `leads.yaml` aloud, walk the six pipeline boxes, rehearse narration (incl. sector-choice beat) + stumble placement. No tech needed. | anywhere | now |
+| **T0 — Brief rehearsal** | Read `leads/README.md` + `leads.yaml` aloud, walk the six pipeline boxes, rehearse narration (incl. sector-choice beat) + stumble placement. No tech needed. | anywhere | now |
 | **T1 — Agentic test runs** | Full runs in pi with BrowserMCP: exact kickoff prompt from `demo-script.md`, 2 leads (mechanical engineering: market leader + Mittelstand specialist), ends with the validator passing. Log per-phase times + failures + fixes. | home office | 2–3× this week |
 | **T2 — Dress rehearsal** | One full agentic run under exact room conditions: Licher Straße 68, Raum 45, beamer, JLU network, zoom/font sizes. | the lecture room | 22 Oct, 14:15–14:30 |
 
@@ -24,7 +24,7 @@ only when `python3 students/validate_leads.py` exits 0 on the produced
 - [ ] Network tested **in the target network** (JLU/eduroam, not home) — no captive portal
 - [ ] `opencode.ai` resolves in the hall network (`nslookup opencode.ai`) — if not → DNS fix box below
 - [ ] The 2–3 target company URLs + funding registry resolve (no 404 traps)
-- [ ] `students/leads.yaml` fresh (template state, `leads: []`) after every test run
+- [ ] `leads/leads.yaml` fresh (template state, `leads: []`) after every test run
 - [ ] Beamer resolution known (16:9 vs 4:3); browser zoom 125–150 %; terminal font readable from row 20
 - [ ] HDMI adapter + cable packed
 
@@ -84,12 +84,12 @@ only when `python3 students/validate_leads.py` exits 0 on the produced
 ## Kickoff prompt (copy block — identical to demo-script.md)
 
 ```text
-Work in this repository. Read students/README.md and students/leads.yaml.
+Work in this repository. Read leads/README.md and leads/leads.yaml.
 Task: ingest 2 partner-candidate leads for the chair — German mechanical
 and plant engineering, one global market leader, one Mittelstand
 specialist. Follow the six-step loop: source real pages, qualify against
 the rubric (gates first, then the weighted sum), record every claim with
-a source URL. Add both leads to students/leads.yaml, then run
-python3 students/validate_leads.py and fix what fails. Show your plan
+a source URL. Add both leads to leads/leads.yaml, then run
+python3 leads/validate_leads.py and fix what fails. Show your plan
 first, then work step by step.
 ```

@@ -1,13 +1,13 @@
 # Student leads — partner candidates for the Marketing Chair
 #
-# Schema + rubric. The brief lives in students/README.md.
+# Schema + rubric. The brief lives in leads/README.md.
 #
 # Workflow:
 #   1. copy a block from `template:` into `leads:` and fill every field
 #   2. every claim needs a source URL that resolves AND supports the sentence
 #   3. scores: integers 0-5 per criterion; `score` = weighted sum
 #      (the validator checks the math — no fudging)
-#   4. run:  python3 students/validate_leads.py   <- must pass before you commit
+#   4. run:  python3 leads/validate_leads.py   <- must pass before you commit
 #   5. open a pull request — the chair reviews it like a paper
 
 rubric:
