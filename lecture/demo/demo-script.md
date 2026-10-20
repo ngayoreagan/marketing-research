@@ -38,6 +38,7 @@ Small scope on purpose: 2 leads, one industry — the demo must finish.
 | 0–2 | Show the repo (slide 14): `papers.yaml`, validators, `leads/` | "This is the contract — not a document the agent may ignore, but the repo itself: schema, rubric, executable validator. Done means: the validator passes. And look at the sources — company sites, press, registries. **Whose evidence?**" |
 | 2–3 | Paste kickoff prompt, agent plans | "Watch the plan — it maps one-to-one onto the six boxes from the pipeline slide." |
 | 3–8 | Agent browses, extracts, scores | Narrate each tick: source → fit signal → score → URL. Point at the pipeline boxes. |
+| ~3.5 | **BrowserMCP intermezzo** | The agent opens a real browser. "Why a real browser and not an API? LinkedIn, consent walls, logged-in portals block plain HTTP — a search API gets a 403. So it drives a real browser — login, accept consent, read the page. A browser as one more tool." Point at the protected page it just logged into. |
 | ~6 | **Deliberate stumble** | If the agent over-claims, stop it: "Which URL says that?" — let it correct itself. **This is the loop.** |
 | 8–11 | Agent writes `leads/leads.yaml`, runs the validator | "It verifies its own citations and the score math — the validator checks both. That is step five: verify." At the stumble, ask two students: "What would you check here?" |
 | 11–13 | Final table → slide 16 (three questions) | "Now we judge it: checked? citable? repeatable?" |

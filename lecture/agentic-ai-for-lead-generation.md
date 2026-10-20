@@ -159,7 +159,9 @@ reflection at the end. Ten minutes are reserved for your questions.
 If one comes to you mid-talk, write it down — we'll get to it.
 [Not read:] The notes sum to ~32 min; the gap to 35 is deliberate
 buffer for transitions and demo hiccups. Q&A is fixed at 10 min —
-bank questions with "hold that for Q&A".
+bank questions with "hold that for Q&A". The BrowserMCP intermezzo
+inside Step 2 (~45 s: why a real browser — LinkedIn, consent walls,
+logins) folds into the walkthrough buffer.
 -->
 
 ---
@@ -499,6 +501,7 @@ Watch the six-step loop run live:
 
 - **only watch** — no magic, every tick is visible in the terminal
 - agent reads the **repo** (schema + rubric), then **opens the browser** (MCP) — real company pages
+- **why a browser:** LinkedIn, consent walls, logged-in portals block plain HTTP — the good context sits behind them
 - writes leads into `leads/leads.yaml` → runs the **validator** → fixes what fails
 - **iterates**: pause, correct, re-check — that is the loop
 
@@ -518,6 +521,25 @@ from the pipeline slide."
 what agentic means. It's reading the companies' own pages. Right
 now it is absorbing our context — the criteria it could not invent
 for itself."
+
+[same beat — THE INTERMEZZO, pause & explain:] "Why a real browser
+and not just an API call? Because the richest lead sources are
+protected. LinkedIn hides contacts behind a login. Half the
+companies gate their site behind a cookie banner or an anti-bot
+wall, and vendor pages sit in logged-in portals. A plain HTTP
+request or a search API gets a '403' — or a consent wall it can't
+click through. So the agent drives a real browser — log in, accept
+the consent, scroll the page — a tool purpose-built for exactly the
+sites where the good context lives. That's the MCP part: a browser
+as one more tool the model can pick up."
+
+[quick show — one protected page it just logged into:] "Watch it
+open that profile. It didn't scrape a summary; it read the real
+page — the context behind the wall is what we're after."
+[Not read — honesty if probed:] The agent is rate-limited and
+touches only public or already-authenticated pages; we never paste
+private or customer data. If the wall blocks it, we name it and
+move on — a fixed failure is the lesson.
 
 [it scores] "It scores each lead against the rubric — fit signal,
 one sentence, source alongside."
