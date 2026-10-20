@@ -3,26 +3,26 @@
   {
    "id": "ai-marketing",
    "name": "AI & Marketing",
-   "count": 2938,
+   "count": 2950,
    "trajectory": {
     "2017": 1,
     "2020": 1,
     "2021": 1,
     "2023": 76,
     "2024": 572,
-    "2025": 722,
-    "2026": 1565
+    "2025": 726,
+    "2026": 1573
    },
    "momentum": {
     "id": "ai-marketing",
     "name": "Ai Marketing",
-    "total": 2938,
-    "recent": 1732,
-    "prior": 720,
-    "growth_pct": 140.6,
+    "total": 2950,
+    "recent": 1741,
+    "prior": 723,
+    "growth_pct": 140.8,
     "recent_share": 0.59,
-    "papers_per_month": 144.3,
-    "score": 199.6
+    "papers_per_month": 145.1,
+    "score": 199.8
    }
   },
   {
@@ -59,23 +59,23 @@
   {
    "id": "b2b",
    "name": "B2B & Account-Based Marketing",
-   "count": 348,
+   "count": 349,
    "trajectory": {
     "2023": 20,
     "2024": 70,
     "2025": 104,
-    "2026": 154
+    "2026": 155
    },
    "momentum": {
     "id": "b2b",
     "name": "B2B",
-    "total": 348,
-    "recent": 179,
+    "total": 349,
+    "recent": 180,
     "prior": 98,
-    "growth_pct": 82.7,
-    "recent_share": 0.514,
-    "papers_per_month": 14.9,
-    "score": 134.1
+    "growth_pct": 83.7,
+    "recent_share": 0.516,
+    "papers_per_month": 15.0,
+    "score": 135.3
    }
   },
   {
@@ -279,12 +279,12 @@
   {
    "id": "empirical",
    "name": "Empirical Studies",
-   "count": 5244
+   "count": 5254
   },
   {
    "id": "framework",
    "name": "Frameworks & Models",
-   "count": 2597
+   "count": 2600
   },
   {
    "id": "measurement",
@@ -17596,6 +17596,11 @@
   [
    "2025-03",
    "ai-marketing",
+   "empirical"
+  ],
+  [
+   "2025-03",
+   "ai-marketing",
    "framework"
   ],
   [
@@ -18692,6 +18697,11 @@
    "2025-04",
    "ai-marketing",
    "case-study"
+  ],
+  [
+   "2025-04",
+   "ai-marketing",
+   "empirical"
   ],
   [
    "2025-04",
@@ -23442,6 +23452,11 @@
    "2025-09",
    "ai-marketing",
    "case-study"
+  ],
+  [
+   "2025-09",
+   "ai-marketing",
+   "empirical"
   ],
   [
    "2025-09",
@@ -26107,6 +26122,11 @@
    "2025-12",
    "ai-marketing",
    "case-study"
+  ],
+  [
+   "2025-12",
+   "ai-marketing",
+   "empirical"
   ],
   [
    "2025-12",
@@ -28072,6 +28092,11 @@
    "2026-01",
    "b2b",
    "case-study"
+  ],
+  [
+   "2026-01",
+   "b2b",
+   "empirical"
   ],
   [
    "2026-01",
@@ -29446,6 +29471,11 @@
   [
    "2026-02",
    "ai-marketing",
+   "framework"
+  ],
+  [
+   "2026-02",
+   "ai-marketing",
    "measurement"
   ],
   [
@@ -33792,6 +33822,11 @@
    "2026-05",
    "ai-marketing",
    "case-study"
+  ],
+  [
+   "2026-05",
+   "ai-marketing",
+   "empirical"
   ],
   [
    "2026-05",
@@ -33942,6 +33977,11 @@
    "2026-05",
    "ai-marketing",
    "empirical"
+  ],
+  [
+   "2026-05",
+   "ai-marketing",
+   "framework"
   ],
   [
    "2026-05",
@@ -35662,6 +35702,11 @@
    "2026-06",
    "ai-marketing",
    "case-study"
+  ],
+  [
+   "2026-06",
+   "ai-marketing",
+   "empirical"
   ],
   [
    "2026-06",
@@ -35927,6 +35972,11 @@
    "2026-06",
    "ai-marketing",
    "empirical"
+  ],
+  [
+   "2026-06",
+   "ai-marketing",
+   "framework"
   ],
   [
    "2026-06",
@@ -56857,6 +56907,11 @@
    "2026-09",
    "ai-marketing",
    "case-study"
+  ],
+  [
+   "2026-09",
+   "ai-marketing",
+   "empirical"
   ],
   [
    "2026-09",
@@ -67627,6 +67682,16 @@
    "2026-10",
    "ai-marketing",
    "case-study"
+  ],
+  [
+   "2026-10",
+   "ai-marketing",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "ai-marketing",
+   "empirical"
   ],
   [
    "2026-10",
@@ -70639,10 +70704,10 @@
   },
   {
    "name": "Industrial Marketing Management",
-   "papers": 47
+   "papers": 48
   },
   {
-   "name": "Journal of Business and Industrial Marketing",
+   "name": "arXiv (Cornell University)",
    "papers": 46
   }
  ],
@@ -70652,40 +70717,40 @@
    "recent": 1169,
    "total": 1283,
    "burst_score": 1.38,
-   "recent_share": 0.1264
+   "recent_share": 0.1263
   },
   {
    "keyword": "benchmark",
-   "recent": 192,
-   "total": 212,
+   "recent": 194,
+   "total": 214,
    "burst_score": 1.38,
-   "recent_share": 0.0208
+   "recent_share": 0.021
   },
   {
    "keyword": "evaluation",
-   "recent": 619,
-   "total": 696,
+   "recent": 620,
+   "total": 697,
    "burst_score": 1.35,
-   "recent_share": 0.0669
+   "recent_share": 0.067
   },
   {
    "keyword": "framework",
    "recent": 2475,
-   "total": 2868,
+   "total": 2869,
    "burst_score": 1.31,
-   "recent_share": 0.2676
+   "recent_share": 0.2673
   },
   {
    "keyword": "autonomous",
-   "recent": 119,
-   "total": 144,
+   "recent": 124,
+   "total": 149,
    "burst_score": 1.26,
-   "recent_share": 0.0129
+   "recent_share": 0.0134
   },
   {
    "keyword": "model",
-   "recent": 2850,
-   "total": 3492,
+   "recent": 2853,
+   "total": 3495,
    "burst_score": 1.24,
    "recent_share": 0.3082
   },
@@ -70694,7 +70759,7 @@
    "recent": 2066,
    "total": 2533,
    "burst_score": 1.24,
-   "recent_share": 0.2234
+   "recent_share": 0.2232
   },
   {
    "keyword": "scalable",
@@ -70705,50 +70770,50 @@
   },
   {
    "keyword": "system",
-   "recent": 2455,
-   "total": 3093,
+   "recent": 2459,
+   "total": 3099,
    "burst_score": 1.21,
-   "recent_share": 0.2655
+   "recent_share": 0.2656
   },
   {
    "keyword": "dataset",
    "recent": 328,
    "total": 415,
    "burst_score": 1.2,
-   "recent_share": 0.0355
+   "recent_share": 0.0354
   },
   {
    "keyword": "analysis",
-   "recent": 2502,
-   "total": 3225,
+   "recent": 2503,
+   "total": 3227,
    "burst_score": 1.18,
-   "recent_share": 0.2705
+   "recent_share": 0.2704
   },
   {
    "keyword": "human",
-   "recent": 827,
-   "total": 1071,
+   "recent": 831,
+   "total": 1075,
    "burst_score": 1.17,
-   "recent_share": 0.0894
+   "recent_share": 0.0898
   },
   {
    "keyword": "review",
    "recent": 2072,
-   "total": 2767,
+   "total": 2768,
    "burst_score": 1.14,
-   "recent_share": 0.224
+   "recent_share": 0.2238
   },
   {
    "keyword": "tool",
-   "recent": 1115,
-   "total": 1541,
+   "recent": 1116,
+   "total": 1542,
    "burst_score": 1.1,
-   "recent_share": 0.1206
+   "recent_share": 0.1205
   },
   {
    "keyword": "novel",
    "recent": 294,
-   "total": 406,
+   "total": 407,
    "burst_score": 1.1,
    "recent_share": 0.0318
   }

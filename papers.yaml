@@ -301618,3 +301618,201 @@ papers:
     pruning, while failures stem from identity errors, unsupported claims, and
     poor stopping decisions.
   venue: Blackpearl Group (technical report)
+- title: Sales Research Agent and Sales Research Bench
+  date: 2025-12
+  url: https://arxiv.org/abs/2602.17017
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Deepanjan Bhol
+  abstract: Enterprises increasingly need AI systems that can answer sales-leader questions
+    over live, customized CRM data, but most available models do not expose transparent, repeatable
+    evidence of quality. This paper describes the Sales Research Agent in Microsoft Dynamics
+    365 Sales, an AI-first application that connects to live CRM and related data, reasons over
+    complex schemas, and produces decision-ready answers for sales leaders.
+  venue: arXiv (Cornell University)
+- title: Exploring Personality-Aware Interactions in Salesperson Dialogue Agents
+  date: 2025-04
+  url: https://arxiv.org/abs/2504.18058
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Sijia Cheng
+  - Wen-Yu Chang
+  - Yun-Nung Chen
+  abstract: The integration of dialogue agents into the sales domain requires a deep understanding
+    of how these systems interact with users possessing diverse personas. This study explores
+    the influence of user personas, defined using the Myers-Briggs Type Indicator (MBTI), on
+    the interaction quality and performance of sales-oriented dialogue agents. Through large-scale
+    testing and analysis, we assess the preferred strategies and outcomes across personas.
+  venue: arXiv (Cornell University)
+- title: 'SmartSalesBench: A Resistance-Aware Multi-Turn Benchmark for Evaluating LLM Sales
+    Agents'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.12975
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - P N Bhargav Teja
+  - Velpula Lokesh Reddy
+  - Madhu Basumata
+  - Susen Sarkar
+  - Rajasekhara Reddy Duvvuru Muni
+  abstract: We present SmartSalesBench, the first multi-turn conversational benchmark explicitly
+    designed to evaluate large language model (LLM) sales agents against psychologically grounded,
+    resistant buyer personas. Existing task-oriented dialogue benchmarks assume cooperative
+    users and measure task completion; SmartSalesBench inverts this assumption, placing agents
+    against personas programmed to resist and deflect.
+  venue: arXiv (Cornell University)
+- title: 'Towards Personalized Conversational Sales Agents: Contextual User Profiling for Strategic
+    Action'
+  date: 2025-03
+  url: https://arxiv.org/abs/2504.08754
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Tongyoung Kim
+  - J. Lee
+  - Soojin Yoon
+  - Sunghwan Kim
+  - Dongha Lee
+  abstract: Conversational Recommender Systems (CRSs) aim to engage users in dialogue to provide
+    tailored recommendations. While traditional CRSs focus on eliciting preferences and retrieving
+    items, real-world e-commerce interactions involve more complex decision-making, where users
+    consider multiple factors beyond simple attributes. To capture this complexity we introduce
+    Conversational Sales (CSALES), a novel framework for personalized conversational sales agents
+    with contextual user profiling.
+  venue: arXiv (Cornell University)
+- title: 'Ottilie: A Socially Intelligent Virtual Host for Sales-Driven Live Commerce'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.14542
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Yuyan Chen
+  abstract: A skilled live-commerce host is not merely a narrator, but a sales agent who converts
+    viewer curiosity into purchase intent through expert product knowledge, emotionally intelligent
+    response tactics, and entertainment that serves as a vehicle for product exposure. Yet no
+    existing AI system replicates this. We present Ottilie, a socially intelligent virtual host
+    for sales-driven live commerce.
+  venue: arXiv (Cornell University)
+- title: 'Selling in the Wild: Benchmark and Randomized Field Evidence for a Sales Agent Trained
+    on Commercial Conversations'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.25461
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Benjamin Tannenbaum
+  abstract: We test whether Javo, a sales agent fine-tuned on 4.6 million consented, de-identified
+    commercial conversations, sells better than a frontier general-purpose model and better
+    than human sales associates. The evaluation has four parts. Study 1 scores the agent on
+    two public sales benchmarks, SalesLLM and SmartSalesBench, against 10 frontier and open-weight
+    models. Study 2 is a randomized controlled trial on 100 live websites in 14 industries (e-commerce,
+    travel and hospitality, and high-consideration services), run from 1 May to 30 September
+    2026, in which 14.8 million visitors were randomized to no agent, Javo, or a frontier-model
+    agent with an identical interface, catalog tools and guardrails. Study 3 isolates the effect
+    of the model by comparing the two agent arms. Study 4 compares Javo with each site's own
+    human associates on 20 sites with staffed live chat. Relative to no agent, Javo changed
+    revenue per visitor by +10.0% (95% CI +5.1 to +14.9). Among engaged visitors, it changed
+    conversion by +21.6% relative to the frontier-model agent (95% CI +16.9 to +26.3). Against
+    human associates, its engaged conversion was 11.26% versus 11.20% (non-inferior, margin
+    -7%, one-sided p = 0.004; no significant superiority), at 1.8% of the cost per conversation.
+    Return rates, unsupported product claims and complaint rates met the prespecified safety
+    guardrails.
+  venue: arXiv (Cornell University)
+- title: 'Governing Machines: How Platform Governance Shapes AI Agent Lead Generation'
+  date: 2026-05
+  url: https://doi.org/10.2139/ssrn.6749098
+  category: ai-marketing
+  subcategory: framework
+  authors:
+  - Jafar Sabbah
+  - Oguz Ali Acar
+  abstract: How platform governance shapes lead generation by AI agents — an analysis of the
+    rules, incentives and design choices through which digital platforms govern autonomous agents
+    that generate and qualify B2B leads (SSRN preprint, Bayes Business School / City, University
+    of London and King's College London).
+  venue: SSRN Electronic Journal (preprint)
+- title: 'The Augmented Rep: Agentic AI Across the Enterprise Sales Cycle'
+  date: 2026-06
+  url: https://doi.org/10.47392/eclearnix.2026.b058
+  category: ai-marketing
+  subcategory: framework
+  authors:
+  - Akhila Gudla
+  abstract: 'The Augmented Rep: Agentic AI Across the Enterprise Sales Cycle. Objectives: 1.
+    To explain the role of Agentic AI in enterprise sales and how autonomous AI agents support
+    sales teams. 2. To show how AI-driven automation enhances key sales activities such as lead
+    generation, customer engagement, opportunity management, proposal creation and pipeline
+    acceleration, augmenting the human sales representative across the enterprise sales cycle.'
+  venue: International Research Journal on Advanced Engineering and Management (IRJAEM)
+- title: 'Autonomous AI Agents in Enterprise CRM: Architecture, Governance, and Operational
+    Safety'
+  date: 2026-02
+  url: https://doi.org/10.52783/jisem.v11i2s.14537
+  category: ai-marketing
+  subcategory: framework
+  authors:
+  - Aditya Pothukuchi
+  abstract: Enterprise Customer Relationship Management platforms are undergoing a fundamental
+    transformation from passive systems of record into intelligent systems capable of autonomous
+    decision-making. This paper presents an architecture for autonomous AI agents in enterprise
+    CRM, addressing governance, operational safety and how agents autonomously support sales
+    workflows including lead management and qualification.
+  venue: Journal of Information Systems Engineering & Management (JISEM)
+- title: Lead Generation System Using AI and Retrieval Augmented Generation for Customer Interaction
+  date: 2026-06
+  url: https://doi.org/10.22214/ijraset.2026.83306
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Karthik B
+  - Prashanth K
+  abstract: This paper presents the design and development of an AI-driven lead generation platform
+    that combines a Retrieval Augmented Generation (RAG) pipeline with a stateful conversational
+    interface for customer interaction, demonstrating how AI and RAG can automate and improve
+    lead generation in B2B/B2C settings.
+  venue: International Journal for Research in Applied Science and Engineering Technology (IJRASET)
+- title: 'Inbound Sales Management: Exploring the Substitutability of Autonomous AI Sales Agents
+    in Advancing B2B Relationships'
+  date: 2026-01
+  url: https://doi.org/10.1016/j.indmarman.2025.11.007
+  category: b2b
+  subcategory: empirical
+  authors:
+  - Christopher A. Nelson
+  - Lana Waschka
+  - Gary K. Hunter
+  abstract: Generative AI is reshaping how B2B buyer-seller relationships are initiated and
+    developed. When a prospective buyer initiates contact through digital channels, creating
+    inbound leads, sales managers must decide whether to assign relationship-forging tasks to
+    an AI agent or a human. Drawing on relationship phases, the authors test AI effectiveness
+    in exploration and expansion phases, finding human salespeople more effective in vital relationship-building
+    tasks, while technology-proficient buyers prefer AI agents — informing when to deploy people
+    versus agents in lead nurturing (Industrial Marketing Management).
+  venue: Industrial Marketing Management
+- title: AI Agent Design for Trade Show Lead Matching
+  date: 2025-09
+  url: https://doi.org/10.1007/978-3-031-97913-2_14
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Victoria Martin del Campo Alcocer
+  - David Efrain Munoz Morales
+  abstract: Design of AI agents for matching trade-show leads to vendor interest — a peer-reviewed
+    application paper from the 17th Mexican Congress on Artificial Intelligence (COMIA 2025,
+    Springer CCIS 2554) on agent-based matching of exhibition visitor leads.
+  venue: Communications in Computer and Information Science, Springer (COMIA 2025)
+- title: From Lead Qualification to Auto-Generated Demand
+  date: 2026-09
+  url: https://doi.org/10.5281/zenodo.22313632
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Jaime Ventura
+  abstract: AI voice agents that place the first call to a new contact, run a scripted pre-qualification,
+    and hand only the contacts that pass to a human salesperson have become a viable path from
+    lead qualification to auto-generated demand, moving the qualification stage of the pipeline
+    into autonomous AI.
+  venue: Zenodo (technical report)

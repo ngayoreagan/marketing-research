@@ -219,7 +219,7 @@ Claude Code are solid alternatives.
 
 | This repo — `marketing-research`, public | The numbers |
 |---|---|
-| The **corpus**: 14,052 marketing papers in **one file** (`papers.yaml`, 301,620 lines) — title · authors · abstract · venue · URL | **158 commits** since Aug 2026 · 5 contributors · 92 in the last month |
+| The **corpus**: 14,065 marketing papers in **one file** (`papers.yaml`, 301,620 lines) — title · authors · abstract · venue · URL | **158 commits** since Aug 2026 · **1 researcher + AI agents** · 92 in the last month |
 | The **machinery**: taxonomy · discovery scripts · **executable validators** | generated files are **never hand-edited** |
 | **Your exercise**: `leads/` — same rules, same history | every lead a commit · every claim a URL |
 
@@ -236,7 +236,8 @@ in such a repo: the chair's marketing-research repository. Inside
 it: the corpus. Fourteen thousand and fifty-two marketing papers in
 a single file — three hundred thousand lines — each with title,
 authors, abstract, venue, and a link. The history: one hundred
-fifty-eight commits since August, five contributors, ninety-two in
+fifty-eight commits since August — one researcher and the AI
+agents beside them, every commit attributed — ninety-two in
 the last month alone. And one rule that makes it trustworthy:
 generated files are never hand-edited, and a validator runs before
 anything is committed. Your exercise lives in the same repo, in
@@ -254,39 +255,48 @@ framing is the point; hands-on comes in the leads exercise
 
 ## Why now — the evidence inside the research corpus
 
-The chair's open corpus (marketing-research, public on GitHub): **14,052 papers — 8,706 published in 2026 alone**
+The chair's open corpus (marketing-research, public on GitHub): **14,065 papers — 8,715 published in 2026 alone**
 
 | Signal | Count |
 |---|---|
-| Papers mentioning **agentic AI** | 110 |
-| Papers on **lead generation** | 32 |
-| **Both** (agentic × lead-gen) | **1** |
-| Papers on **context-aware** marketing | 23 |
+| Papers mentioning **agentic AI** | 111 |
+| Papers on **lead generation** | 35 |
+| **Both** (agentic × lead-gen) | **2** |
+| Papers on **context-aware** marketing | 22 |
 
-> A targeted search round turned the intersection from **0 to 1** (JBR, 2026) — the field just opened. Claim the gap while it's a gap.
+> A targeted OpenAlex round turned the intersection from **1 to 2** (JBR 2026 · IRJAEM 2026). The field just opened — claim the gap while it's a gap.
 
 <!-- notes:
 ⏱ ~1.5 min · READ ALOUD
 
 Why now? The evidence — from this chair's own open research corpus,
-public on GitHub. Fourteen thousand and fifty-two marketing papers.
-Eight thousand seven hundred and six published in 2026 alone. One
-hundred and ten papers mention agentic AI — ninety-eight of them
-from this year. Thirty-two are about lead generation. Now the
-intersection — papers that do both? Until a few weeks ago, zero.
-We ran a targeted search round before this lecture: zero became
-one. The first paper connecting agentic AI to lead generation
-landed in the Journal of Business Research at the start of this
-year. One paper. That is the signal, not the wall: the field just
+public on GitHub. Fourteen thousand and sixty-five marketing
+papers. Eight thousand seven hundred and fifteen published in 2026
+alone. One hundred and eleven papers mention agentic AI —
+ninety-nine of them from this year. Thirty-five are about lead
+generation. Now the intersection — papers that do both? Until a
+few weeks ago, zero. A targeted round took it from zero to one —
+the Journal of Business Research — and the latest round took it to
+two. Two papers. That is the signal, not the wall: the field just
 opened, and the first position in it is still free.
 [Not read — honesty note if probed:] Counts are keyword search over
-title/abstract of our own corpus (docs/papers.json, 14,052 papers,
-regenerated 19 Oct 2026). Intersection went 0→1 when the gap round
-added 8 verifiable papers (JBR agentic-sales 2026; SSRN telemarketing
-field study 2026; SSRN MCP-orchestrated B2B prospecting 2026;
-GTM-Bench 2026; arXiv 2503.23303 / 2509.04871 / 2510.21713 /
-2511.01181). The corpus gap was real but closing — never claim an
-empty field, claim the lead.
+title/abstract of our own corpus (docs/papers.json, 14,065 papers,
+regenerated today). Definitions: agentic = substring 'agentic';
+lead-gen = substring 'lead generation'; context-aware =
+'context-aware' or 'contextual intelligence'. Intersection is now
+2: the JBR paper 'AI agents, agentic AI, and the future of sales'
+(2026) and 'The Augmented Rep: Agentic AI Across the Enterprise
+Sales Cycle' (IRJAEM, 2026), which explicitly lists 'lead
+generation' among the sales activities agentic AI automates.
+This round added 7 agentic×lead-gen-qualifying papers via OpenAlex
+(SSRN Governing Machines; IMM Inbound sales management; JISEM
+Autonomous CRM agents; IJRASET RAG lead generation; Springer Trade
+Show Lead Matching; Zenodo Lead Qualification; IRJAEM Augmented
+Rep) plus 6 agentic conversational-sales agents/benchmarks
+(SmartSalesBench, Sales Research Agent & Bench, Selling in the
+Wild, Ottilie, Personality-Aware Salesperson Agents, Personalized
+Conversational Sales Agents). All URLs resolve; all DOIs verified;
+validation passes.
 -->
 
 ---
@@ -445,7 +455,7 @@ beforehand — same task, same prompt, several timed runs. Let's go.
 
 ```text
 marketing-research/               github.com/tobias-weiss-ai-xr/marketing-research
-├─ papers.yaml                    14,052 papers — single source of truth
+├─ papers.yaml                    14,065 papers — single source of truth
 ├─ config/taxonomy.yaml           categories + discovery queries
 ├─ scripts/validate_papers.py     the contract, executable
 ├─ leads/leads.yaml              your starting point: schema + rubric

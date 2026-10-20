@@ -1,6 +1,6 @@
 # 📚 Paper list
 
-14052 papers · generated from `papers.yaml` — do not edit by hand.
+14065 papers · generated from `papers.yaml` — do not edit by hand.
 
 
 - [📚 AI & Marketing](#ai-&-marketing)
@@ -149,6 +149,8 @@
 - [2026] **Price of Anarchy of First-Price Auctions in Agentic Markets** [[paper](https://arxiv.org/abs/2610.20587)]
 - [2026] **Data Portability Revisited: Toward the Human-Centric, AI-Driven Data Ecosystems of Tomorrow** [[paper](https://arxiv.org/abs/2610.15503)]
 - [2026] **When and How Order-Flow Interventions Work After Dealers Adapt** [[paper](https://arxiv.org/abs/2610.18158)] [[code](https://github.com/moderncavemann/state-aligned-order-flow-contracts)]
+- [2026] **SmartSalesBench: A Resistance-Aware Multi-Turn Benchmark for Evaluating LLM Sales Agents** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2610.12975)]
+- [2026] **Selling in the Wild: Benchmark and Randomized Field Evidence for a Sales Agent Trained on Commercial Conversations** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2610.25461)]
 - [2026] **Competitive Market Behavior of LLMs** [[paper](https://arxiv.org/abs/2609.02580)]
 - [2026] **Generative Marketing Mix Modeling: A Causal Inference Framework Linking GEO and GEM to Business Impact** [[paper](https://arxiv.org/abs/2609.11915)]
 - [2026] **Shopping by algorithm: How agentic AI deploys human heuristics as a surrogate consumer** [[paper](https://arxiv.org/abs/2609.28372)]
@@ -341,6 +343,7 @@
 - [2026] **When Are Aggregate Agent Traces Diagnosable? Traffic-Governed Interpretation and Calibrated Abstention** [[paper](https://arxiv.org/abs/2609.25806)]
 - [2026] **Enhanced Trading Systems with Intelligent Market Analysis** [[paper](https://arxiv.org/abs/2610.13998)]
 - [2026] **Making Alternative Data Work: Context-Augmented LLMs for Financial Forecasting** [[paper](https://arxiv.org/abs/2609.11607)]
+- [2026] **From Lead Qualification to Auto-Generated Demand** *Zenodo (technical report)* [[paper](https://doi.org/10.5281/zenodo.22313632)]
 - [2026] **Implementasi Generative AI untik Digital Marketing &amp; Konten Sosial Media** *Journal of Applied Engineering and Social Science (JAESS)* [[paper](https://doi.org/10.25124/jaess.v4i1.11157)]
 - [2026] **A Path from Generative AI to Agentic AI in Marketing: A Critical Review, Capability Framework and Future Research Agenda** *International Journal of Science Strategic Management and Technology* [[paper](https://doi.org/10.55041/ijsmt.v2i8.036)]
 - [2026] **Beyond Retrieval Accuracy: Evidence-Grounded and Exposure-Aware Evaluation of Generative-AI Product Recommendations in E-Commerce Marketing** *Zenodo (CERN European Organization for Nuclear Research)* [[paper](https://doi.org/10.5281/zenodo.21829211)]
@@ -619,6 +622,7 @@
 - [2026] **Understanding the Impact of Artificial Intelligence (AI) on Consumer Buying Behavior** *International Journal on Research and Development - A Management Review* [[paper](https://doi.org/10.65521/ijrdmr.v15i2.3286)]
 - [2026] **Rethinking Sales Lead Scoring with LLM-based Hierarchical Preference Ranking** [[paper](https://arxiv.org/abs/2606.04387)]
 - [2026] **Exploiting Verification-Generation Gap: Test-Time Reinforcement Learning with Confidence-Conditioned Verification** [[paper](https://arxiv.org/abs/2606.03608)] [[code](https://github.com/shanjf666/CoCoV)]
+- [2026] **Lead Generation System Using AI and Retrieval Augmented Generation for Customer Interaction** *International Journal for Research in Applied Science and Engineering Technology (IJRASET)* [[paper](https://doi.org/10.22214/ijraset.2026.83306)]
 - [2026] **Simpson's Paradox in Behavioral Curves: How Aggregation Distorts Parametric Models of User Dynamics** [[paper](https://arxiv.org/abs/2605.11017)]
 - [2026] **Prominence-Stratified Failure Modes in Retrieval-Augmented Commercial Recommendation: A 37,000-Run Audit** [[paper](https://arxiv.org/abs/2605.27439)]
 - [2026] **Three-in-One World Model: Energy-Based Consistency, Prediction, and Counterfactual Inference for Marketing Intervention** [[paper](https://arxiv.org/abs/2605.07199)]
@@ -649,6 +653,7 @@
 - [2026] **Agentic Trading: When LLM Agents Meet Financial Markets** [[paper](https://arxiv.org/abs/2605.19337)]
 - [2026] **PortBench: A Correlation-Aware, Full-Pipeline Benchmark for LLM-Driven Portfolio Management** [[paper](https://arxiv.org/abs/2605.27887)] [[code](https://github.com/AgenticFinLab/portbench)]
 - [2026] **Coloring the Noise: Adversarial Sobolev Alignment for Faithful Image Super Resolution** [[paper](https://arxiv.org/abs/2605.23264)]
+- [2026] **Ottilie: A Socially Intelligent Virtual Host for Sales-Driven Live Commerce** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2605.14542)]
 - [2026] **Wise sage or goofy performer: The double-edged sword effect of chatbots using Chinese Xiehouyu on prosocial consumer behavior** *Journal of Retailing and Consumer Services* [[paper](https://doi.org/10.1016/j.jretconser.2026.104840)]
 - [2026] **TimeSeek: Temporal Reliability of Agentic Forecasters** [[paper](https://arxiv.org/abs/2604.04220)]
 - [2026] **MarketBench: Evaluating AI Agents as Market Participants** [[paper](https://arxiv.org/abs/2604.23897)]
@@ -857,6 +862,7 @@
 - [2025] **The Effect of Social Media Marketing on Consumer Purchase Decisions in Klang Valley: The Mediating Role of Brand Awareness** *Journal of Entrepreneurship and Business Innovation* [[paper](https://doi.org/10.5296/jebi.v12i1.23244)]
 - [2025] **The Effects of Negative Online Reviews on Purchase Intention and the Moderating Roles of Corporate and AI Chatbot Responses: Focusing on Luxury Brands** *The Journal of Internet Electronic Commerce Resarch* [[paper](https://doi.org/10.37272/jiecr.2025.12.25.6.235)]
 - [2025] **Travel into my future: perceptions of Generation Z along a fictive journey** *Journal of Tourism Futures* [[paper](https://doi.org/10.1108/jtf-07-2024-0141)]
+- [2025] **Sales Research Agent and Sales Research Bench** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2602.17017)]
 - [2025] **Responsible AI for trustworthy tourism: A framework for mitigating ambiguity and anxiety with generative AI** *Technological Forecasting and Social Change* [[paper](https://doi.org/10.1016/j.techfore.2025.124407)]
 - [2025] **The Influence of ChatGPT and AI Chatbots on Consumer Behavior and Purchase Decisions** [[paper](https://doi.org/10.38124/ijisrt/25oct1525)]
 - [2025] **When Chatbots Feel Human: How Anthropomorphism Shapes Consumer Satisfaction, Trust, and Loyalty in AI-Driven Brand Interactions** *Journal of Cultural Analysis and Social Change* [[paper](https://doi.org/10.64753/jcasc.v10i3.2543)]
@@ -925,6 +931,7 @@
 - [2025] **Modernizing Vulnerability Prioritization: Automated Risk Scoring Using Generative AI** [[paper](https://doi.org/10.36227/techrxiv.174495391.16123741/v2)]
 - [2025] **Sales Pipeline Technology: Automated Lead Nurturing** *Journal of Marketing* [[paper](https://doi.org/10.1177/00222429251321417)]
 - [2025] **Cloning a Conversational Voice AI Agent from Call Recording Datasets for Telesales** *arXiv preprint arXiv:2509.04871* [[paper](https://arxiv.org/abs/2509.04871)]
+- [2025] **AI Agent Design for Trade Show Lead Matching** *Communications in Computer and Information Science, Springer (COMIA 2025)* [[paper](https://doi.org/10.1007/978-3-031-97913-2_14)]
 - [2025] **Generative AI: capturing strategic value in businesses** *Revista de Gestão* [[paper](https://doi.org/10.1108/rege-02-2025-0026)]
 - [2025] **The impact of parasocial interaction with anthropomorphized AI chatbots on sport consumers’ loyalty** *International Journal of Sports Marketing and Sponsorship* [[paper](https://doi.org/10.1108/ijsms-09-2024-0265)]
 - [2025] **Driving Personalized Marketing with AWS Generative Artificial Intelligence Services** *International Journal of Research Publication and Reviews* [[paper](https://doi.org/10.55248/gengpi.6.0825.2823)]
@@ -1030,6 +1037,7 @@
 - [2025] **Boosting Solar Energy Sales through Innovative NLP-Driven AI Solutions for Enhanced Consumer Engagement** [[paper](https://doi.org/10.4018/979-8-3693-9944-6.ch005)]
 - [2025] **Marketing Automation and Lead Generation Effectiveness: AI-Powered Marketing Systems Performance Analysis** *Iconic Research and Engineering Journals* [[paper](https://doi.org/10.64388/irev8i10-1716694)]
 - [2025] **Generative AI-powered Automated Essay Scoring System** [[paper](https://doi.org/10.2139/ssrn.5203163)]
+- [2025] **Exploring Personality-Aware Interactions in Salesperson Dialogue Agents** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2504.18058)]
 - [2025] **Unveiling the Impact of AI Technological Anxiety on the Marketers' Intention to Adopt Generative AI** *Journal of Global Information Management* [[paper](https://doi.org/10.4018/jgim.372177)]
 - [2025] **Generative AI as a Disruptive Innovation: Implications for Marketing Strategic Transformations** *Foresight-Russia* [[paper](https://doi.org/10.17323/fstig.2025.24831)]
 - [2025] **From test to scale: Leveraging generative AI for the five ‘C’s of digital marketing** *Applied marketing analytics* [[paper](https://doi.org/10.69554/jfkw4935)]
@@ -1048,6 +1056,7 @@
 - [2025] **From Predictive and Generative to Agentic AI: Shaping the Future of Marketing Operations and Strategies** *Computer* [[paper](https://doi.org/10.1109/mc.2025.3530304)]
 - [2025] **Applications of Mimicking Technology in Understanding Consumer Behaviour and Its Effects on Consumer Engagement** [[paper](https://doi.org/10.1108/978-1-83797-815-120251014)]
 - [2025] **From Businesses-Centric to Consumers-Centric: A Shift of Power in AI-Driven Social Media** [[paper](https://doi.org/10.1108/978-1-83797-815-120251007)]
+- [2025] **Towards Personalized Conversational Sales Agents: Contextual User Profiling for Strategic Action** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2504.08754)]
 - [2025] **Facilitating Generative AI Literacy in the Face of Evolving Technology: Interventions in Marketing Classrooms** *Journal of Marketing Education* [[paper](https://doi.org/10.1177/02734753251316569)]
 - [2025] **Image Generative AI in Tourism: Trends, Impacts, and Future Research Directions** *Journal of Hospitality & Tourism Research* [[paper](https://doi.org/10.1177/10963480251324676)]
 - [2025] **Empowering African American Tourism Entrepreneurs with Generative AI: Bridging Innovation and Cultural Heritage** *Societies* [[paper](https://doi.org/10.3390/soc15020034)]
@@ -1650,6 +1659,7 @@
 - [2026] **The Influence of Chatbot-Based Digital Marketing Innovation on Business Performance Mediated by Consumer Behavior in Retail Companies** *Journal of Logistics Informatics and Service Science* [[paper](https://doi.org/10.33168/jliss.2026.0606)]
 - [2026] **The Role of Marketing Automation Platforms and AI Chatbots in Enhancing the Effectiveness of Digital Marketing Strategies in E-commerce: A Socio-Technical Perspective** *International Journal of Economics (IJEC)* [[paper](https://doi.org/10.55299/ijec.v5i1.1926)]
 - [2026] **From Artificial Empathy To Brand Trust: A Study Of Emotion-Centric Marketing** *International Journal of Economic Practices and Theories* [[paper](https://doi.org/10.52783/ijept.515)]
+- [2026] **The Augmented Rep: Agentic AI Across the Enterprise Sales Cycle** *International Research Journal on Advanced Engineering and Management (IRJAEM)* [[paper](https://doi.org/10.47392/eclearnix.2026.b058)]
 - [2026] **Trust in Generative AI: Multi-Stakeholder Perspective in the Context of UK Marketing** *European Conference on Social Media* [[paper](https://doi.org/10.34190/ecsm.13.1.4764)]
 - [2026] **Generative AI in the Enterprise** [[paper](https://doi.org/10.1201/9781032658056-12)]
 - [2026] **Generative AI in Marketing Communication: Consumer Perceptions, Brand Credibility, and Responsible AI Practices** *Cardiff Metropolitan Research Repository (Cardiff Metropolitan University)* [[paper](https://doi.org/10.25401/cardiffmet.32326287)]
@@ -1658,6 +1668,7 @@
 - [2026] **ARTIFICIAL INTELLIGENCE FOR GENERATION Z IN MARKETING MANAGEMENT** *Zenodo (CERN European Organization for Nuclear Research)* [[paper](https://doi.org/10.5281/zenodo.20485637)]
 - [2026] **From Search Engines to AI Engines: How Generative Artificial Intelligence Is Transforming Consumer Discovery, Decision-Making, and Digital Marketing Ecosystems** *Inverge Journal of Social Sciences* [[paper](https://doi.org/10.63544/ijss.v5i3.300)]
 - [2026] **Development of An Artificial Intelligence-Based Model To Improve Digital Marketing Effectiveness For Tempe Chips MSME A.M.J** *International Journal Of Science Technology & Management* [[paper](https://doi.org/10.46729/ijstm.v7i3.1435)]
+- [2026] **Governing Machines: How Platform Governance Shapes AI Agent Lead Generation** *SSRN Electronic Journal (preprint)* [[paper](https://doi.org/10.2139/ssrn.6749098)]
 - [2026] **Generative AI: The Future of Machine Learning** *Zenodo (CERN European Organization for Nuclear Research)* [[paper](https://doi.org/10.5281/zenodo.19909085)]
 - [2026] **The implementation of artificial intelligence in organizations by functional areas: A review and conceptual model** *Journal of Management & Organization* [[paper](https://doi.org/10.1017/jmo.2026.10091)]
 - [2026] **The Use of Artificial Intelligence for Personalized Advertising and Marketing.** *International Journal of Advanced Research in Science Communication and Technology* [[paper](https://doi.org/10.48175/ijarsct-32854)]
@@ -1677,6 +1688,7 @@
 - [2026] **The Impact of Online Customer Experience on Repurchase Intention in the Context of Digital Transformation and the Prevalence of AI/Chatbots** *International Journal of Analysis and Applications* [[paper](https://doi.org/10.28924/2291-8639-24-2026-40)]
 - [2026] **Digital Integrity and the Barrier of Anxiety: A Moderated Mediation of Chatbot Trust and Brand Image** [[paper](https://doi.org/10.1145/3797491.3797514)]
 - [2026] **Best Digital Marketing Company in Hyderabad: 2026 Growth Strategy Guide** *Zenodo (CERN European Organization for Nuclear Research)* [[paper](https://doi.org/10.5281/zenodo.18465130)]
+- [2026] **Autonomous AI Agents in Enterprise CRM: Architecture, Governance, and Operational Safety** *Journal of Information Systems Engineering & Management (JISEM)* [[paper](https://doi.org/10.52783/jisem.v11i2s.14537)]
 - [2026] **Role of Artificial Intelligence in Marketing Decision-Making for Customer Personalization** *Encyclopedia of Artificial Intelligence in Marketing* [[paper](https://doi.org/10.1007/978-3-031-75316-9_56-1)]
 - [2026] **Generative AI for Inclusive Marketing** *Advances in computational intelligence and robotics book series* [[paper](https://doi.org/10.4018/979-8-3373-6731-6.ch013)]
 - [2026] **Integrating Generative AI in Marketing : Exploring the Potential of Generative AI within Marketing Workflows and Processes** *Uppsala University Publications (Uppsala University)* [[paper](https://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-593064)]
@@ -12634,6 +12646,7 @@
 - [2026] **ACCOUNT-BASED MARKETING -WINNING BEFORE THE FIRST MEETING&amp;nbsp;** *SSRN Electronic Journal* [[paper](https://doi.org/10.2139/ssrn.6399039)]
 - [2026] **The Dual-Journey Model of Marketing in the Agentic Era** *SSRN Electronic Journal* [[paper](https://doi.org/10.2139/ssrn.6436240)]
 - [2026] **Proyecto Final Inchcape - Develon / Énfasis Marketing Digital** *Repositorio Digital Universidad Ceipa* [[paper](https://hdl.handle.net/20.500.13018/2185)]
+- [2026] **Inbound Sales Management: Exploring the Substitutability of Autonomous AI Sales Agents in Advancing B2B Relationships** *Industrial Marketing Management* [[paper](https://doi.org/10.1016/j.indmarman.2025.11.007)]
 
 ##### 2025
 

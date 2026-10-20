@@ -11,20 +11,21 @@ shortlist produced in the demo becomes **evidence the Bachelor course
 
 | File | What |
 |---|---|
-| [`agentic-ai-for-lead-generation.md`](agentic-ai-for-lead-generation.md) | Deck source (Marp, 20 slides, JLU design: white background, JLU blue, speaker notes with timing) |
+| [`agentic-ai-for-lead-generation.md`](agentic-ai-for-lead-generation.md) | Deck source (Marp, 22 slides, JLU design: white background, JLU blue, speaker notes with timing) |
 | [`agentic-ai-for-lead-generation.html`](agentic-ai-for-lead-generation.html) | Rendered deck (open in browser) |
 | [`agentic-ai-for-lead-generation.pdf`](agentic-ai-for-lead-generation.pdf) | PDF for sharing / printing |
 | [`agentic-ai-for-lead-generation.pptx`](agentic-ai-for-lead-generation.pptx) | PowerPoint export |
 | [`img/`](img/) | Custom SVG diagrams (light, JLU colours) + JLU logo used by the slides |
 | [`demo/`](demo/) | Demo kit for the live walkthrough: kickoff prompt + narration (`demo-script.md`), agentic test protocol (`test-protocol.md`), `shortlist-template.md` target format, sector-choice playbook (`branchenauswahl-playbook.md`) |
-| [`../leads/`](../leads/) | **Lead exercise — ingest + rate leads for the chair**: brief (`README.md`), schema + rubric (`leads.yaml`), executable validator (`validate_leads.py`) |
+| [`../leads/`](../leads/) | **Lead exercise — ingest + rate leads for the chair**: brief (`README.md`), schema + rubric (`leads.yaml`), executable validator (`validate_leads.py`). Restored to a clean template between runs |
+| [`../demo_walked/`](../demo_walked/) | **T1 agentic test-run archive** — the walked state from the opencode T1 run (2 verified leads, validator output), kept as the auditable record |
 
 ## Structure (35 min + 10 min Q&A)
 
 | Block | Content | Time |
 |---|---|---|
-| 1 · Foundations | agentic ≠ chat · model · harness · loop | ~8 min |
-| 2 · Method | contracts · the lead-gen loop · rating formulas · evidence | ~9 min |
+| 1 · Foundations | agentic ≠ chat · model · harness · loop · git & the repo | ~9 min |
+| 2 · Method | contracts · the lead-gen loop · rating formulas · evidence | ~8 min |
 | 3 · Walkthrough | live demo: repo → agent at work → validator → the three questions | ~13 min |
 | 4 · Reflection | AI providers for students · take-aways · resources | ~5 min |
 | 5 · Q&A | your questions · discussion | 10 min |
