@@ -1,15 +1,15 @@
 # Paper Landscape Report
 
-**Generated:** 2026-10-19  
-**Corpus:** 14,044 papers (1987-2026) | 1,036 arXiv preprints · 13,008 journal/publisher records
+**Generated:** 2026-10-20  
+**Corpus:** 14,067 papers (1987-2026) | 1,046 arXiv preprints · 13,021 journal/publisher records
 
 ## Category Landscape
 
 | Category | Total | Prev Yr | This Yr | YoY | 12m Share |
 |----------|------:|--------:|--------:|----:|----------:|
-| Ai Marketing | 2931 | 718 | 1562 | +118% | 19% |
+| Ai Marketing | 2952 | 727 | 1574 | +117% | 19% |
 | Survey | 2068 | 190 | 1615 | +750% | 18% |
-| Social Media | 1571 | 219 | 1022 | +367% | 12% |
+| Social Media | 1571 | 219 | 1022 | +367% | 11% |
 | Consumer Behavior | 1533 | 251 | 987 | +293% | 11% |
 | Digital Marketing | 1501 | 222 | 966 | +335% | 11% |
 | Brand | 1456 | 218 | 989 | +354% | 11% |
@@ -17,15 +17,16 @@
 | Analytics | 581 | 177 | 313 | +77% | 4% |
 | Content Marketing | 491 | 175 | 222 | +27% | 3% |
 | Privacy Data | 449 | 153 | 185 | +21% | 2% |
-| B2B | 347 | 104 | 153 | +47% | 2% |
+| B2B | 349 | 104 | 155 | +49% | 2% |
 
 ## Research Aspects
 
 - **Case Study**: 1478 papers (11%) #####
-- **Empirical**: 5241 papers (37%) ##################
-- **Framework**: 2595 papers (18%) #########
-- **Measurement**: 1458 papers (10%) #####
+- **Empirical**: 5254 papers (37%) ##################
+- **Framework**: 2601 papers (18%) #########
+- **Measurement**: 1461 papers (10%) #####
 - **Review**: 2128 papers (15%) #######
+- **Survey**: 1 papers (0%) 
 - **Theory**: 1144 papers (8%) ####
 
 ## Year Trend
@@ -52,25 +53,25 @@
 | 2022 | 2 |
 | 2023 | 169 |
 | 2024 | 2479 |
-| 2025 | 2653 |
-| 2026 | 8702 |
+| 2025 | 2662 |
+| 2026 | 8716 |
 
 ## Emerging Themes (12-Month Bursts)
 
 | Keyword | Recent | Total | Burst |
 |---------|-------:|------:|------:|
 | world model | 3 | 3 | 1.52× |
-| agentic | 101 | 107 | 1.43× |
+| agentic | 106 | 112 | 1.44× |
 | uncertainty | 201 | 215 | 1.42× |
 | survey | 1169 | 1283 | 1.38× |
-| benchmark | 191 | 211 | 1.38× |
+| benchmark | 194 | 214 | 1.38× |
 | transfer | 134 | 148 | 1.38× |
 | hierarchical | 76 | 84 | 1.37× |
 | causal | 275 | 309 | 1.35× |
 | embodied | 8 | 9 | 1.35× |
 | imitation | 368 | 416 | 1.34× |
 | memory | 79 | 91 | 1.32× |
-| retrieval | 64 | 74 | 1.31× |
+| planning | 236 | 275 | 1.3× |
 
 ## Top Venues
 
@@ -104,19 +105,20 @@
 
 ## Hottest Cells
 
-- `ai-marketing/empirical` — 1329
+- `ai-marketing/empirical` — 1341
 - `social-media/empirical` — 763
 - `survey/empirical` — 758
 - `consumer-behavior/empirical` — 675
 - `digital-marketing/empirical` — 576
 - `brand/empirical` — 531
 - `survey/review` — 529
-- `ai-marketing/framework` — 461
+- `ai-marketing/framework` — 466
 - `survey/framework` — 409
-- `ai-marketing/measurement` — 394
+- `ai-marketing/measurement` — 397
 
 ## Thin Cells (White Space)
 
+- `ai-marketing/survey` — 1
 - `b2b/measurement` — 8
 - `analytics/theory` — 36
 - `b2b/review` — 40
@@ -126,4 +128,3 @@
 - `b2b/case-study` — 51
 - `privacy-data/case-study` — 54
 - `analytics/case-study` — 54
-- `privacy-data/measurement` — 54

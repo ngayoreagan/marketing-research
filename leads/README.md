@@ -7,7 +7,7 @@ chair's actual shortlist for "Sales Strategy and Execution" (SS 2027).
 ## The task
 
 1. **Fork & clone** this repository.
-2. **Ingest 3 leads** — real B2B companies that could partner with the
+2. **Ingest 2 leads** — real B2B companies that could partner with the
    chair — into [`leads.yaml`](leads.yaml), following the schema at the
    top of that file.
 3. **Score & rank** them with the published rubric (below and in

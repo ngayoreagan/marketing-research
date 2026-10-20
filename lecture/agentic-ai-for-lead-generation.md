@@ -221,7 +221,7 @@ Claude Code are solid alternatives.
 
 | This repo — `marketing-research`, public | The numbers |
 |---|---|
-| The **corpus**: 14,067 marketing papers in **one file** (`papers.yaml`, 301,847 lines) — title · authors · abstract · venue · URL | **158 commits** since Aug 2026 · **1 researcher + AI agents** · 92 in the last month |
+| The **corpus**: 14,067 marketing papers in **one file** (`papers.yaml`, 301,847 lines) — title · authors · abstract · venue · URL | **163 commits** since Aug 2026 · **1 researcher + AI agents** · 97 in the last month |
 | The **machinery**: taxonomy · discovery scripts · **executable validators** | generated files are **never hand-edited** |
 | **Your exercise**: `leads/` — same rules, same history | every lead a commit · every claim a URL |
 
@@ -235,12 +235,12 @@ never forgets. Every change is a commit — it records who changed
 what, when, down to the line. GitHub is the public copy of that
 notebook; anyone can audit it — including you. This lecture lives
 in such a repo: the chair's marketing-research repository. Inside
-it: the corpus. Fourteen thousand and fifty-two marketing papers in
-a single file — three hundred thousand lines — each with title,
+it: the corpus. Fourteen thousand and sixty-seven marketing papers
+in a single file — three hundred thousand lines — each with title,
 authors, abstract, venue, and a link. The history: one hundred
-fifty-eight commits since August — one researcher and the AI
-agents beside them, every commit attributed — ninety-two in
-the last month alone. And one rule that makes it trustworthy:
+sixty-three commits since August — one researcher and the AI
+agents beside them, every commit attributed — ninety-seven in the
+last month alone. And one rule that makes it trustworthy:
 generated files are never hand-edited, and a validator runs before
 anything is committed. Your exercise lives in the same repo, in
 the leads folder — same rules, same history. One sentence to keep:
@@ -248,7 +248,10 @@ if it isn't in the repo, it didn't happen. If it is, you can check
 it.
 [Not read:] BWL students may never have used git — the lab-notebook
 framing is the point; hands-on comes in the leads exercise
-(fork, commit, pull request).
+(fork, commit, pull request). Commit counts (163 / 97) and corpus
+size (14,067) are a prep-date snapshot (20 Oct 2026) — they drift
+with every commit; if asked, re-read them from `git rev-list`
+beneath/next to the lectern rather than quoting stale numbers.
 -->
 
 ---
@@ -476,7 +479,7 @@ marketing-research/               github.com/tobias-weiss-ai-xr/marketing-resear
 Step one: the contract. Earlier I said contracts beat prompts —
 here is what that means in practice. It is not a document the agent
 reads at start and may ignore. It is the repository itself. One
-source of truth: papers.yaml, fourteen thousand and fifty-two
+source of truth: papers.yaml, fourteen thousand and sixty-seven
 papers. Everything downstream is generated, never hand-edited.
 Every change passes an executable validator before it is committed.
 And your exercise lives in the same pattern: leads/leads.yaml —
@@ -605,7 +608,7 @@ connection: you verify a prospect's claims before signing.
 ## Your turn: ingest + rate leads for the chair
 
 1. **Fork & clone** — the repo is public; open `leads/`
-2. **Ingest 3 leads** — real B2B companies, every claim with a URL
+2. **Ingest 2 leads** — real B2B companies, every claim with a URL
 3. **Score & rank** — gates first, then the published formula
 4. **Validate & submit** — validator passes → pull request
 
@@ -616,7 +619,7 @@ connection: you verify a prospect's claims before signing.
 
 Now it's your turn. The repo is public — fork it, clone it, open
 the leads folder. The brief, the schema, the rubric, the
-validator: all there. Your task: ingest three leads — real
+validator: all there. Your task: ingest two leads — real
 companies that could partner with this chair. Score them with the
 published formula: gates first, then the weighted sum. Run the
 validator; if it passes, open a pull request. The chair reviews
