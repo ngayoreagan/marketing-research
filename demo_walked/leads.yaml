@@ -1,0 +1,127 @@
+# Student leads — partner candidates for the Marketing Chair
+#
+# Schema + rubric. The brief lives in leads/README.md.
+#
+# Workflow:
+#   1. copy a block from `template:` into `leads:` and fill every field
+#   2. every claim needs a source URL that resolves AND supports the sentence
+#   3. scores: integers 0-5 per criterion; `score` = weighted sum
+#      (the validator checks the math — no fudging)
+#   4. run:  python3 leads/validate_leads.py   <- must pass before you commit
+#   5. open a pull request — the chair reviews it like a paper
+
+rubric:
+  criteria: [fit, region, size, evidence, timing]   # each scored 0-5 (integer)
+  weights:                 # must sum to 1.0 — published context, not vibes;
+                           # propose changes in your PR, with reasons
+    fit: 0.35
+    region: 0.25
+    size: 0.15
+    evidence: 0.15
+    timing: 0.10
+  gates:                   # hard filters — fail any gate -> status: rejected
+    - b2b == true          #   (rejected leads stay in the file, never deleted)
+    - region_reachable == true
+    - at least one source with verified == true
+
+template:
+  - company: "Example Maschinenbau AG"     # TEMPLATE — copy me into leads:, then
+    sector: "mechanical & plant engineering"
+    b2b: true
+    region_reachable: true
+    hq: "Stadt, Hessen"
+    employees: 1200
+    scores: { fit: 0, region: 0, size: 0, evidence: 0, timing: 0 }
+    fit_signal: "One sentence: why is this a partner for a sales-management chair?"
+    sources:
+      - claim: "the specific claim this URL supports"
+        url: "https://example.com/newsroom"
+        verified: false
+    score: 0.0
+    scored_by: "your-name"
+    date: "2026-10-22"
+    status: unverified          # verified | unverified | rejected
+
+leads:
+
+  # ---- Candidate 1: global market leader (process measuring / feeding tech) ----
+  - company: "Qlar Group (formerly Schenck Process)"
+    sector: "mechanical & plant engineering (process weighing, feeding & measuring technology)"
+    b2b: true
+    region_reachable: true
+    hq: "Darmstadt, Hessen"
+    employees: 1100
+    scores: { fit: 5, region: 5, size: 4, evidence: 3, timing: 4 }
+    fit_signal: "Pure-B2B seller of weighing, feeding and process machinery to chemicals,
+      energy and infrastructure majors, with a large service and digital aftermarket and
+      a live rebrand-plus-portfolio-refocus — rich teaching and research material for a
+      sales-management chair."
+    sources:
+      - claim: "Qlar Europe GmbH is headquartered at Pallaswiesenstr. 100, 64293 Darmstadt
+          (Hessen); registered Amtsgericht Darmstadt HRB 89371; CEO Dr. Jörg Ulrich."
+        url: "https://www.qlar.com/legal-notice"
+        verified: true
+      - claim: "Qlar sells process machinery and services business-to-business, partnering
+          with infrastructure, energy, chemicals and performance-materials majors, through
+          a network of companies in 14 countries with over 1,100 employees."
+        url: "https://www.qlar.com/about-us"
+        verified: true
+      - claim: "Independent overview: the Qlar Group (formerly Schenck Process Group) is a
+          German mechanical and plant engineering company seated in Darmstadt with ~1,100
+          employees and €256m revenue (2023); renamed from Schenck Process to Qlar effective
+          13 May 2024; owned by Blackstone since December 2017."
+        url: "https://de.wikipedia.org/wiki/Qlar"
+        verified: true
+      - claim: "Independent confirmation of market-leader status: Wikipedia (citing
+          WirtschaftsWoche's ranking of German world market leaders) reports a globally
+          leading market position in industrial measuring and process technology, with
+          regular top-450 placements in that ranking."
+        url: "https://de.wikipedia.org/wiki/Qlar"
+        verified: true
+    score: 4.45
+    scored_by: "student (agent-assisted, OpenCode)"
+    date: "2026-10-20"
+    status: verified
+
+  # ---- Candidate 2: Mittelstand specialist (clamping / gripping / automation) ----
+  - company: "SCHUNK SE & Co. KG"
+    sector: "mechanical & plant engineering (clamping, gripping & automation technology)"
+    b2b: true
+    region_reachable: true
+    hq: "Lauffen am Neckar, Baden-Württemberg"
+    employees: 3700
+    scores: { fit: 5, region: 4, size: 5, evidence: 3, timing: 5 }
+    fit_signal: "Family-run Mittelstand specialist selling clamping, gripping and automation
+      solutions through a large field-sales and partner network — a textbook B2B
+      sales-organization case, currently expanding into humanoid robotics with live
+      cooperations (Bosch Robotics, DLR, Offenburg University)."
+    sources:
+      - claim: "Legal entity SCHUNK SE & Co. KG is seated at Bahnhofstr. 106-134, 74348
+          Lauffen/Neckar (Baden-Württemberg); register HRA 103726, Amtsgericht Stuttgart;
+          employs 3,700 people worldwide; product groups toolholding/workholding, gripping/
+          automation technology, depaneling; VDMA and DIN member."
+        url: "https://www.schunk.com/de/en/global/legal-notice"
+        verified: true
+      - claim: "Founded in 1945 by Friedrich Schunk; today an international technology
+          company with around 3,700 employees in more than 75 countries, managed by the
+          third family generation."
+        url: "https://www.schunk.com/de/en/company/about-schunk"
+        verified: true
+      - claim: "Independent overview: Schunk SE & Co. KG is a gripping-systems and
+          clamping-technology company headquartered in Lauffen am Neckar, founded 1945,
+          ~3,500 employees (2019), €515m revenue, third-generation family management; in
+          2018 it was confirmed as world market leader for gripping systems and clamping
+          technology (Weltmarktführerindex)."
+        url: "https://de.wikipedia.org/wiki/Schunk_SE_%26_Co._KG"
+        verified: true
+      - claim: "Live 2026 signals from the company newsroom: new SLD linear axes launched
+          at SPS 2026 Nuremberg (Oct 2026), AMB 2026 (Jul 2026), development cooperation
+          with Bosch Robotics GmbH on humanoid robot hands (Jun 2026), expanded DLR
+          cooperation on humanoid robotics (Mar 2026), and a foundation for humanoid
+          robotics and embodied AI with Offenburg University (Jul 2026)."
+        url: "https://www.schunk.com/de/en/latest-news/news"
+        verified: true
+    score: 4.45
+    scored_by: "student (agent-assisted, OpenCode)"
+    date: "2026-10-20"
+    status: verified

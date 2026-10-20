@@ -41,13 +41,24 @@ only when `python3 leads/validate_leads.py` exits 0 on the produced
 
 | Phase (demo-script rows) | Target | T1 run 1 | T1 run 2 | T2 |
 |---|---|---|---|---|
-| 0–2 min — walk the repo | 2 min | | | |
-| 2–3 min — kickoff prompt + plan | 1 min | | | |
-| 3–8 min — browse / extract / score | 5 min | | | |
-| ~6 min — deliberate stumble + student question | ~1 min | | | |
-| 8–11 min — write leads.yaml, run validator | 3 min | | | |
-| 11–13 min — final table + three questions | 2 min | | | |
-| **Validator exit code at end** | **0** | | | |
+| 0–2 min — walk the repo | 2 min | — | | |
+| 2–3 min — kickoff prompt + plan | 1 min | — | | |
+| 3–8 min — browse / extract / score | 5 min | — | | |
+| ~6 min — deliberate stumble + student question | ~1 min | — | | |
+| 8–11 min — write leads.yaml, run validator | 3 min | — | | |
+| 11–13 min — final table + three questions | 2 min | — | | |
+| **Validator exit code at end** | **0** | **0** | | |
+| **Total** | **≤ 13 min** (agent run ≤ 8 min) | **12:00** | | |
+
+**T1 run 1 — 20 Oct 2026 · opencode v2.0.29 · model `litellm/glm-5-turbo` · headless `opencode run`**
+
+- Result: **passed.** 2 leads ingested (Qlar Group, ex-Schenck Process, Darmstadt · SCHUNK SE & Co. KG, Lauffen), validator exit 0, score math exact (both 4.45), **8/8 source URLs resolve** (curl-checked).
+- Over the 8-min agent target — browsing + cross-checks ate the time. Keep the minute-11 cut point; rehearse with the single-lead fallback.
+- Stumbles handled autonomously (better than scripted): WebSearch cancelled (no provider configured) → pivoted to direct page fetches; 404 on schenckprocess.com (Qlar rebrand) → found qlar.com; SCHUNK/Schunk-Group **disambiguation trap avoided unprompted**.
+- Honest evidence discounting: `evidence: 3` because only one independent source each (Wikipedia citing WirtschaftsWoche) — agent flagged where a second source would lift the score.
+- Headless quirk: `opencode run` exited 1 despite a completed task (cancelled web-search calls) — judge by output + validator, not exit code alone.
+- Per-phase timings not measurable headless — fill from T2 (human watches the clock).
+- Archive: post-run state in `demo_walked/` (leads.yaml with the 2 leads); `leads/` restored to template (`leads: []`).
 
 ## 4. Cut points (if behind)
 
