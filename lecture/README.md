@@ -16,15 +16,16 @@ shortlist produced in the demo becomes **evidence the Bachelor course
 | [`agentic-ai-for-lead-generation.pdf`](agentic-ai-for-lead-generation.pdf) | PDF for sharing / printing |
 | [`agentic-ai-for-lead-generation.pptx`](agentic-ai-for-lead-generation.pptx) | PowerPoint export |
 | [`img/`](img/) | Custom SVG diagrams (light, JLU colours) + JLU logo used by the slides |
-| [`demo/`](demo/) | Demo kit for the live walkthrough: `AGENTS.md` contract, kickoff prompt + narration (`demo-script.md`), `shortlist-template.md` target format, sector-choice playbook (`branchenauswahl-playbook.md`) |
+| [`demo/`](demo/) | Demo kit for the live walkthrough: kickoff prompt + narration (`demo-script.md`), agentic test protocol (`test-protocol.md`), `shortlist-template.md` target format, sector-choice playbook (`branchenauswahl-playbook.md`) |
+| [`../students/`](../students/) | **Student exercise — ingest + rate leads for the chair**: brief (`README.md`), schema + rubric (`leads.yaml`), executable validator (`validate_leads.py`) |
 
 ## Structure (35 min + 10 min Q&A)
 
 | Block | Content | Time |
 |---|---|---|
 | 1 · Foundations | agentic ≠ chat · model · harness · loop | ~8 min |
-| 2 · Method | contracts · the lead-gen loop · sector decision · evidence | ~7 min |
-| 3 · Walkthrough | live demo: contract → agent at work → the three questions | ~13 min |
+| 2 · Method | contracts · the lead-gen loop · rating formulas · evidence | ~9 min |
+| 3 · Walkthrough | live demo: repo → agent at work → validator → the three questions | ~13 min |
 | 4 · Reflection | AI providers for students · take-aways · resources | ~5 min |
 | 5 · Q&A | your questions · discussion | 10 min |
 

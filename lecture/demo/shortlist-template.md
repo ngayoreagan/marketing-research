@@ -1,6 +1,6 @@
 # Shortlist — Partner candidates for the marketing chair (demo target format)
 
-*Sector: German mechanical & plant engineering · 2 companies (demo scope) · generated from AGENTS.md*
+*Sector: German mechanical & plant engineering · 2 leads (demo scope) · rendered from `students/leads.yaml`*
 
 | Rank | Company | Fit signal | Score | Source URL(s) |
 |---|---|---|---|---|

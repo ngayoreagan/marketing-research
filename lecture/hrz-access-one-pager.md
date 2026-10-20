@@ -27,6 +27,26 @@ Point your harness at the HRZ endpoint, e.g. via a LiteLLM provider
 configuration depends on your harness — the HRZ docs or the model hub page
 show the current values.
 
+## If DNS blocks opencode.ai (campus / hall Wi-Fi)
+
+Symptom: `opencode.ai` won't resolve (`nslookup opencode.ai` fails) while
+other pages load fine. Two fixes, fastest first:
+
+1. **Public resolver** — set DNS on your Wi-Fi adapter to `1.1.1.1` +
+   `8.8.8.8`, reconnect, retry. (Windows: adapter options → IPv4 → DNS ·
+   macOS: System Settings → Network → Details → DNS · Linux: NetworkManager →
+   IPv4 → DNS.)
+2. **Hosts entry** (needs admin rights) — resolve the current IP with
+   `dig +short opencode.ai @1.1.1.1`, then append `<IP> opencode.ai` to your
+   hosts file:
+   - Linux/macOS: `/etc/hosts`
+   - Windows: `C:\Windows\System32\drivers\etc\hosts`
+   - Verified 19 Oct 2026: `172.65.90.20 opencode.ai` (Cloudflare anycast,
+     `.20`–`.23` all work) — **re-verify before relying on it; IPs change.**
+
+If neither helps, the network blocks by firewall, not DNS — switch to your
+phone's hotspot instead of fighting a deliberate campus block.
+
 ## Rules of thumb
 
 - **Never paste private or customer data** into a commercial/cloud harness.

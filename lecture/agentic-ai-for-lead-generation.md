@@ -101,7 +101,7 @@ drives it. The demo produces a ranked list of partners, every claim
 with a source. That list is the dataset the Bachelor course builds
 on next year.
 [jot: the "ranked list" is the handoff artefact — the
-"output as input" promise. Protect it; it returns on slides 16/18.]
+"output as input" promise. Protect it; it returns on slides 17/19.]
 -->
 
 ---
@@ -113,7 +113,7 @@ on next year.
 | **Understand** | Explain what "agentic" means, and why it is not a chatbot |
 | **Operate** | Read how a harness (pi) gives an AI tools, rules and a task |
 | **Assess** | Judge an agentic output: checked? citable? repeatable? |
-| **Apply** | Reuse the loop from the demo (contract → run → verify) for partner sourcing |
+| **Apply** | Run the exercise yourself: ingest + rate leads for the chair (repo → rubric → validator) |
 | **Context** | Say which context an agent can't know — and why that keeps you in charge |
 
 > Model = brain. Harness = hands. Workflow = muscles. **Context = memory — the part only you can supply.**
@@ -125,8 +125,8 @@ Here's the promise of the next forty-five minutes, in four rows.
 You'll be able to explain what agentic means — and why it is not
 a clever chatbot. You'll be able to read how a harness gives an AI
 tools, rules, and a task. You'll be able to judge an agentic output
-— checked? citable? repeatable? And you'll be able to reuse the
-loop you see today: contract, run, verify. One headline before we
+— checked? citable? repeatable? And you'll run the loop yourself: repo, rubric, validator —
+you'll ingest and rate leads for the chair before the course ends. One headline before we
 start: model is the brain, harness is the hands, workflow is the
 muscles — and context is the memory. That part is yours.
 [Not read — colour:] Row 5 is the thread of the whole talk:
@@ -143,8 +143,8 @@ intelligence is distributed — generation (model), execution
 | Block | Content | Time |
 |---|---|---|
 | 1 · Foundations | agentic ≠ chat · model · harness · loop | ~8 min |
-| 2 · Method | contracts · the lead-gen loop · sector decision · evidence | ~7 min |
-| 3 · Walkthrough | live demo: contract → agent → verify | ~13 min |
+| 2 · Method | contracts · the lead-gen loop · rating formulas · evidence | ~9 min |
+| 3 · Walkthrough | live demo: repo → agent → validator | ~13 min |
 | 4 · Reflection | providers · take-aways · resources | ~5 min |
 | 5 · Q&A | your questions · discussion | 10 min |
 
@@ -269,7 +269,10 @@ container for context — the chair's criteria, the sources we trust,
 our judgement, the history of partnerships. Without it, the agent
 is a brilliant generalist with no idea what 'good' means here. A
 prompt turns an idea-generator into a conversation. A contract
-turns it into a reproducible research pipeline.
+turns it into a reproducible research pipeline. And in this
+project the contract is not a document the agent might ignore — it
+is the repository itself: schema, rubric, executable validator.
+You'll see it in ten minutes.
 -->
 
 ---
@@ -337,60 +340,101 @@ the walkthrough is human-steered, not agent-chosen.
 
 ---
 
+<!-- _class: smaller -->
+
+## Rate a lead: pick a formula — before the agent runs
+
+| Formula | Rule | Trade-off |
+|---|---|---|
+| Weighted sum | `L = Σ wᵢ·sᵢ` · w: fit .35 · region .25 · size .15 · evidence .15 · timing .10 | transparent · **compensatory**: a 5 on fit can hide a 0 on evidence |
+| Geometric mean | `L = Π sᵢ^wᵢ` | **non-compensatory**: one zero sinks the lead · harsh to defend |
+| **Gated weighted sum** ✓ | gates first — B2B · region reachable · ≥ 1 verified source — then weighted sum | matches the chair's decision · thresholds = judgement calls |
+
+Example (each criterion 0–5): fit 5 · region 3 · size 4 · evidence 4 · timing 2 → `L = 3.90`
+
+> Weights live in the repo (`students/leads.yaml`, `rubric:`) — **published context, not vibes**. Change them — in a PR, with reasons.
+
+<!-- notes:
+⏱ ~2 min · READ ALOUD
+
+Before the agent scores anything, we decide how scoring works.
+Five criteria, each nought to five: fit — chair research fit;
+region — Mittelhessen reachability; size — at least a thousand
+employees; evidence — independent sources; timing — live signals
+like expansion or sales hiring. Three candidate formulas. The
+weighted sum: transparent — but compensatory. A five on fit can
+hide a zero on evidence. The geometric mean: one zero sinks the
+whole lead — harsh, and hard to explain to a dean. Our choice:
+gates first — B2B, region reachable, at least one verified source
+— then the weighted sum on the survivors. Exactly like the sector
+guard two slides ago. Worked example: three point nine. And the
+weights are not vibes — they are published in the repository, in
+the same file you will edit. Disagree? Change them — in a pull
+request, with reasons. That is what published context means.
+-->
+
+---
+
 ## Now: a live walkthrough
 
-Task: build the **partner-candidate shortlist** — top 10 B2B companies (live today: 2 of them) with:
+Task: ingest **2 leads** into the chair's repo — `students/leads.yaml` — with:
 
-- Fit signal per company vs. the chair's partnership goals
-- Named source URL per claim (citable, verifiable)
-- Ranked output — evidence base for the Bachelor course "Sales Strategy and Execution"
+- scores per criterion + the weighted sum, gates applied, ranked
+- named source URL per claim (citable, verifiable)
+- `python3 students/validate_leads.py` passing before anything counts
 
-I run this live in a harness — what you see is what the agent does.
+I run this live in a harness — in the same repo you will work in.
+No fallback video: this exact exercise was **tested agentically**, end to end.
 
 <!-- notes:
 ⏱ ~30 s · READ ALOUD
 
-The live walkthrough. Task: build the partner-candidate shortlist
-— top ten B2B companies. Live today, two of them; the method is
-what matters. Each company gets a fit signal in one sentence, every
-claim carries a source URL, the output is ranked. That shortlist is
-evidence for the Bachelor course next year. No hands-on today —
-this is a walkthrough. I run it in the harness live; what you see
-is what the agent does. Watch what happens — and what doesn't.
-Let's go.
+The live walkthrough. Task: ingest two leads into the chair's
+repository — the same file, schema and validator you will use
+yourself. Every claim with a source URL, scores per criterion,
+gates first, then the weighted sum. And no fallback video: if
+something breaks, I fix it live — that is the loop working. The
+approach is trustworthy because it was tested agentically
+beforehand — same task, same prompt, several timed runs. Let's go.
 -->
 
 ---
 
 <!-- _class: smaller -->
 
-## Walkthrough · Step 1 — The contract
+## Walkthrough · Step 1 — The repo is the contract
 
 ```text
-AGENTS.md / brief (what the agent reads at start)
-Goal:      shortlist of 10 B2B partner candidates for the chair
-Criteria:  industry fit, innovation agenda, university links
-Sources:   company sites, press, funding registries
-Output:    ranked list, every claim with a URL
-Rules:     no invented facts; if unsure, mark as unverified
+marketing-research/               github.com/tobias-weiss-ai-xr/marketing-research
+├─ papers.yaml                    14,052 papers — single source of truth
+├─ config/taxonomy.yaml           categories + discovery queries
+├─ scripts/validate_papers.py     the contract, executable
+├─ students/leads.yaml            your starting point: schema + rubric
+├─ students/validate_leads.py     same pattern: validate before commit
+└─ README.md · statistics.json    auto-generated — never hand-edited
 ```
 
-> Done means: verified, cited, repeatable.
+> No prose rules file the agent can ignore: **structure + validators + one source of truth.**
 
 <!-- notes:
 ⏱ ~2 min · READ ALOUD
 
-Step one: the contract. The file the agent reads every time it
-starts — and it's in this repository, open to you. Look at what a
-contract contains: a goal, criteria, sources, an output format,
-rules. The natural instinct is that you prompt an AI by typing a
-question. You don't. You start by writing rules. One
-critical-literacy point before we go on: every source this contract
-lists is self-reported by the companies. A URL proves a claim
-exists; it does not prove the claim is true. So the standing
-question today is: whose evidence is this?
-[Not read:] The live file is lecture/demo/AGENTS.md; full kickoff
-prompt + narration: lecture/demo/demo-script.md.
+Step one: the contract. Earlier I said contracts beat prompts —
+here is what that means in practice. It is not a document the agent
+reads at start and may ignore. It is the repository itself. One
+source of truth: papers.yaml, fourteen thousand and fifty-two
+papers. Everything downstream is generated, never hand-edited.
+Every change passes an executable validator before it is committed.
+And your exercise lives in the same pattern: students/leads.yaml —
+schema, rubric, weights — and its own validator. Done does not mean
+"looks finished". Done means the validator passes. One
+critical-literacy point before we go on: every source in this repo
+is self-reported by companies. A URL proves a claim exists; it does
+not prove the claim is true. So the standing question today: whose
+evidence is this?
+[Not read:] The earlier approach — an AGENTS.md rules file — kept
+getting ignored and drifting; structure plus executable validation
+is what survived contact with real runs.
 -->
 
 ---
@@ -402,8 +446,8 @@ prompt + narration: lecture/demo/demo-script.md.
 Watch the six-step loop run live:
 
 - **only watch** — no magic, every tick is visible in the terminal
-- agent **opens the browser** (MCP), reads real company pages
-- scores against **the contract** → markdown table with **URLs**
+- agent reads the **repo** (schema + rubric), then **opens the browser** (MCP) — real company pages
+- writes leads into `students/leads.yaml` → runs the **validator** → fixes what fails
 - **iterates**: pause, correct, re-check — that is the loop
 
 > Nothing happens off-screen — the loop is fully visible.
@@ -412,8 +456,8 @@ Watch the six-step loop run live:
 ⏱ ~8 min live action — spoken play-by-play, in this order:
 
 [agent starts] "I'm introducing the agent the way I'd introduce a
-new colleague: here's the contract, here's the task — show me your
-plan first."
+new colleague: here's the repo — schema, rubric, validator.
+Here's the task. Show me your plan first."
 
 [it plans] "Watch the plan — it maps one-to-one onto the six boxes
 from the pipeline slide."
@@ -423,26 +467,28 @@ what agentic means. It's reading the companies' own pages. Right
 now it is absorbing our context — the criteria it could not invent
 for itself."
 
-[it scores] "It scores each company against the contract — fit
-signal, one sentence, source alongside."
+[it scores] "It scores each lead against the rubric — fit signal,
+one sentence, source alongside."
 
 [on a mistake — pause, then:] "Hold on. It over-claimed. Stop.
 Which URL says that?" [let it correct itself] "That
 pause-and-correct is the loop in action."
 
-[it re-checks citations] "It's re-checking its own citations — do
-those URLs resolve? That's step five: verify."
+[it runs the validator] "It re-checks its own citations and the
+score math — the validator checks both. That's step five: verify."
 
-[final table] "There's the shortlist — ranked, cited. Let's judge it
-with the three questions."
+[final table] "There's the shortlist — ranked, cited, validated.
+Let's judge it with the three questions."
 [Not read:] Steps: (1) open browser via MCP, search prospects;
-(2) read real pages, extract fit signals; (3) score vs contract;
-(4) write markdown table with URLs; (5) re-check citations;
-(6) ranked list. Speed beats completeness — cut company two if
-running long. Demo runs on real public data via cloud API — never
-paste private/customer data. Fallback: no network → play
-fallback-demo.mp4 and narrate the same beats over it (see
-demo/demo-script.md).
+(2) read real pages, extract fit signals; (3) score vs rubric;
+(4) write students/leads.yaml entries with URLs; (5) run
+validate_leads.py, fix failures; (6) ranked table. Speed beats
+completeness — cut lead two if running long. Demo runs on real
+public data via cloud API — never paste private/customer data.
+Tested beforehand: ≥2 timed agentic runs of this exact exercise
+(demo/test-protocol.md). If it breaks live: debug on screen and
+name it — a fixed failure is the lesson. No recording, no
+fallback video.
 -->
 
 ---
@@ -451,7 +497,7 @@ demo/demo-script.md).
 
 1. **Checked?** Did the agent verify its output, not just generate it?
 2. **Citable?** Does every claim have a URL that resolves — and actually supports it?
-3. **Repeatable?** Same contract → same method → a result you can re-run and audit?
+3. **Repeatable?** Same repo, same rubric, same validator → a result you can re-run and audit?
 
 *The 1–5 scores are a transparent heuristic — each criterion with evidence — not a measurement.*
 
@@ -465,8 +511,9 @@ demo/demo-script.md).
 The last step of the walkthrough: judge the output with three
 questions. Checked — did the agent verify its output, or just
 generate it? Citable — does every claim carry a URL that resolves
-and supports the sentence? Repeatable — re-run the same contract,
-same method: a result you can audit. All three guard context.
+and supports the sentence? Repeatable — re-run the same repo, the
+same rubric, the same validator: a result you can audit. All three
+guard context.
 Checked guards against invented context. Citable guards against
 untraceable context. Repeatable guards against lost context. If the
 output passes, it's a deliverable. If not, it's a draft. Same
@@ -481,27 +528,30 @@ connection: you verify a prospect's claims before signing.
 
 <!-- _class: lead -->
 
-## What you just saw
+## Your turn: ingest + rate leads for the chair
 
-1. A contract (rules) — not a prompt
-2. An agent doing the loop: plan → act → check → correct
-3. A verifiable artefact — the ranked shortlist
-4. **Context — supplied by you, enforced by the contract, checked by the loop**
+1. **Fork & clone** — the repo is public; open `students/`
+2. **Ingest 3 leads** — real B2B companies, every claim with a URL
+3. **Score & rank** — gates first, then the published formula
+4. **Validate & submit** — validator passes → pull request
 
-**That is the method** — reusable for any partner-sourcing task.
+> Best submissions join the chair's real shortlist — "Sales Strategy and Execution", SS 2027.
 
 <!-- notes:
-⏱ ~1 min · READ ALOUD
+⏱ ~1.5 min · READ ALOUD
 
-What did you just see? Three things. A contract — rules, not a
-prompt. An agent doing a loop — plan, act, check, correct. A
-verifiable artefact — a ranked shortlist, every claim with a
-source. And one more thing, the thread of the hour: context.
-Supplied by you. Enforced by the contract. Checked by the loop.
-That's the method — reusable for any partner-sourcing task. The
-result is what a demo produces. The method is what you take home.
-[Not read:] Point to resources slide for how to start trying it
-yourself.
+Now it's your turn. The repo is public — fork it, clone it, open
+the students folder. The brief, the schema, the rubric, the
+validator: all there. Your task: ingest three leads — real
+companies that could partner with this chair. Score them with the
+published formula: gates first, then the weighted sum. Run the
+validator; if it passes, open a pull request. The chair reviews
+submissions like papers. And the best ones join the real shortlist
+for the Bachelor course next summer. Everything you saw today,
+you now run yourself.
+[Not read:] Replaces the old 'what you just saw' recap — that
+content lives in the take-aways now. This slide is an action, not
+a summary.
 -->
 
 ---
@@ -509,7 +559,7 @@ yourself.
 ## What the chair gets out of it
 
 - A reproducible partner-sourcing method (not a one-off search)
-- A ranked, sourced shortlist — usable immediately
+- A ranked, sourced shortlist — fed by the course's best submissions
 - Students who can run agentic workflows (a real skill for the CV)
 - Evidence base for the **Bachelor course "Sales Strategy and Execution"** (SS 2027)
 
@@ -520,7 +570,7 @@ yourself.
 
 What does the chair get out of this? Four things. A reproducible
 partner-sourcing method — not a one-off search. A ranked, sourced
-shortlist — usable immediately. Students who can run agentic
+shortlist — and it grows with every student submission. Students who can run agentic
 workflows — a real CV skill; that's what companies hire for now.
 And an evidence base for the Bachelor course Sales Strategy and
 Execution next summer. One note: everything here is open and
@@ -542,7 +592,7 @@ The lecture is not the output. The shortlist is.
 | **Harnesses** | the tools from today's demo — **OpenCode**, pi — work with any key above | [opencode.ai](https://opencode.ai) · [pi.dev](https://pi.dev) |
 | **Local models (Ollama)** | free, run on your own laptop, no account, private | [ollama.com](https://ollama.com) |
 
-> Start with **HRZ API**: free for JLU members · Google deal expires **Dec 31, 2026**.
+> Start with **HRZ API** (free for JLU) · Google deal expires **Dec 31, 2026** · campus DNS can't resolve `opencode.ai`? → resolver `1.1.1.1` / `8.8.8.8` or hosts entry `172.65.90.20 opencode.ai` — how-to: one-pager
 
 <!-- notes:
 ⏱ ~1.25 min · READ ALOUD
@@ -557,6 +607,21 @@ university email by the end of December. OpenRouter: one key, many
 models, free tiers included. Ollama runs locally — free and
 private. And the harnesses, OpenCode and pi, are what you've seen
 today. If you take one thing from this slide: start with HRZ.
+One practical note on the network: if the campus Wi-Fi cannot
+resolve opencode.ai, the fix — a public resolver or a hosts entry —
+is in the HRZ one-pager. Thirty seconds of setup, then move on.
+[Not read — DNS fix if opencode.ai does not resolve (hall Wi-Fi):]
+Diagnose: `nslookup opencode.ai` fails while other pages load.
+Fix A — resolver: set DNS on the Wi-Fi adapter to 1.1.1.1 +
+8.8.8.8 (Windows: adapter → IPv4 → DNS; macOS: Network → Details →
+DNS; Linux: NetworkManager → IPv4 → DNS); reconnect, retry.
+Fix B — hosts entry (admin): resolve fresh via
+`dig +short opencode.ai @1.1.1.1`, then append `<IP> opencode.ai`
+to /etc/hosts (Linux/macOS) or C:\Windows\System32\drivers\etc\hosts
+(Windows). Verified 19 Oct 2026: 172.65.90.20 (Cloudflare anycast,
+.20–.23 all work) — re-verify at prep time, IPs can change.
+Still failing → it is the firewall, not DNS → phone hotspot for
+the demo machine; do not fight a deliberate campus block.
 [Not read — for questions:] Google deal redeem by Dec 31 2026,
 SheerID verification; OpenCode via LiteLLM provider block
 (baseURL api.hrz.uni-giessen.de) or Claude Code via
@@ -569,7 +634,7 @@ ANTHROPIC_BASE_URL.
 
 1. Agentic = working environment, not a chatbot
 2. Harness = model + tools + rules = accountable AI work
-3. Contract first: define "done" before you start
+3. The repo is the contract: schema, rubric, validator — "done" is executable
 4. Verify, cite, repeat — the three questions
 5. **Context beats compute — the right context contract beats a bigger model**
 
@@ -581,8 +646,9 @@ ANTHROPIC_BASE_URL.
 
 Five lines to take home. Agentic is a working environment, not a
 chatbot. A harness is a model plus tools plus rules — that's what
-makes AI work accountable. Contract first: define 'done' before
-you start. Verify, cite, repeat — the three questions. And the one
+makes AI work accountable. The repo is the contract — schema,
+rubric, validator. Done is not 'looks finished'; done is the
+validator passing. Verify, cite, repeat — the three questions. And the one
 to remember: context beats compute. A small model with your
 context beats a big model with none. Next summer, this shortlist
 becomes the Bachelor course's input — the chair decides what it
@@ -599,7 +665,7 @@ lecture beyond today's demo.
 - **HRZ access one-pager** (student quick start, 1 page) — [`hrz-access-one-pager.md`](hrz-access-one-pager.md)
 - **pi** — [pi.dev](https://pi.dev) · docs: [pi.dev/docs](https://pi.dev/docs) · **OpenCode** — [opencode.ai](https://opencode.ai) · **OpenRouter** (one key, many models) — [openrouter.ai](https://openrouter.ai)
 - **Google AI student plan** — [one.google.com/ai-student](https://one.google.com/ai-student?g1_landing_page=75) (1 year free for students)
-- **marketing-research** (chair corpus, public) — [github.com/tobias-weiss-ai-xr/marketing-research](https://github.com/tobias-weiss-ai-xr/marketing-research)
+- **marketing-research** (chair corpus, public) — [github.com/tobias-weiss-ai-xr/marketing-research](https://github.com/tobias-weiss-ai-xr/marketing-research) → start at **`students/`** (exercise brief · rubric · validator)
 - **skeleton-research** (forkable corpus skeleton) — [github.com/tobias-weiss-ai-xr/skeleton-research](https://github.com/tobias-weiss-ai-xr/skeleton-research)
 - **This deck** — [`lecture/`](.) in this corpus repo (English, 45 min)
 
@@ -653,9 +719,13 @@ difference — and it's yours, not the model's.
   stochastic.
 - Data privacy — local models (Ollama, HRZ Qwen) if it matters;
   today's demo is public data only.
-- "What does qualified mean?" — defined in the contract: fit
-  signal, innovation agenda, university links, each with evidence.
-- Trying it themselves — resources slide; start with HRZ API.
+- "What does qualified mean?" — defined in the rubric
+  (`students/leads.yaml`): fit, region, size, evidence, timing, each
+  0–5; gates first, then the published weighted sum.
+- "What if the demo breaks?" — we debug it live; the approach was
+  tested agentically beforehand (timed runs of the exact exercise).
+- Trying it themselves — resources slide; start with HRZ API and the
+  `students/` folder in the repo.
 
 [Hard stop at 16:00 — the course's Übung starts in this room right
 after; the ten minutes belong to the students, never overrun.]

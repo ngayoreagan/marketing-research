@@ -1,0 +1,45 @@
+# Student leads — partner candidates for the Marketing Chair
+#
+# Schema + rubric. The brief lives in students/README.md.
+#
+# Workflow:
+#   1. copy a block from `template:` into `leads:` and fill every field
+#   2. every claim needs a source URL that resolves AND supports the sentence
+#   3. scores: integers 0-5 per criterion; `score` = weighted sum
+#      (the validator checks the math — no fudging)
+#   4. run:  python3 students/validate_leads.py   <- must pass before you commit
+#   5. open a pull request — the chair reviews it like a paper
+
+rubric:
+  criteria: [fit, region, size, evidence, timing]   # each scored 0-5 (integer)
+  weights:                 # must sum to 1.0 — published context, not vibes;
+                           # propose changes in your PR, with reasons
+    fit: 0.35
+    region: 0.25
+    size: 0.15
+    evidence: 0.15
+    timing: 0.10
+  gates:                   # hard filters — fail any gate -> status: rejected
+    - b2b == true          #   (rejected leads stay in the file, never deleted)
+    - region_reachable == true
+    - at least one source with verified == true
+
+template:
+  - company: "Example Maschinenbau AG"     # TEMPLATE — copy me into leads:, then
+    sector: "mechanical & plant engineering"
+    b2b: true
+    region_reachable: true
+    hq: "Stadt, Hessen"
+    employees: 1200
+    scores: { fit: 0, region: 0, size: 0, evidence: 0, timing: 0 }
+    fit_signal: "One sentence: why is this a partner for a sales-management chair?"
+    sources:
+      - claim: "the specific claim this URL supports"
+        url: "https://example.com/newsroom"
+        verified: false
+    score: 0.0
+    scored_by: "your-name"
+    date: "2026-10-22"
+    status: unverified          # verified | unverified | rejected
+
+leads: []        # <- your leads go here (copy the template block)

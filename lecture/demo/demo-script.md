@@ -1,55 +1,54 @@
 # Demo script — Walkthrough (Block 3, ~13 min)
 
-Live demo in the pi harness. The contract is [`AGENTS.md`](AGENTS.md) in this
-folder; the target result looks like [`shortlist-template.md`](shortlist-template.md).
+Live demo in the pi harness, **inside the chair's repository**
+(`marketing-research/`). No AGENTS.md contract, no fallback video, no
+recording: reliability comes from **testing the approach agentically** —
+the exact exercise is run end-to-end with the agent before the lecture
+(see [`test-protocol.md`](test-protocol.md)).
 
 ## Pre-flight (before the lecture, ~5 min)
 
 - [ ] Room: **Licher Straße 68, Raum 45** (FB02) — arrive 14:15–14:30 and set up during Prof. Haas's part
 - [ ] Beamer/port: test HDMI adapter + cable in the room before the break
-- [ ] Network works **in the lecture hall** — test hall Wi-Fi, not office Wi-Fi
+- [ ] Network works **in the lecture hall** — test hall Wi-Fi, not office Wi-Fi, incl. `opencode.ai` DNS (fix: `test-protocol.md` §2b)
 - [ ] `pi` starts, model selected (fast model is fine — speed beats depth)
 - [ ] Browser tool (BrowserMCP/MCP) connects — open one company page once
-- [ ] This folder open in the editor: `lecture/demo/`
-- [ ] **Fallback artefacts ready:** `fallback-session.md` (transcript) + `fallback-demo.mp4` (recording), both in this folder
+- [ ] **Repo root open in the editor:** `students/leads.yaml` + `students/validate_leads.py` in view
+- [ ] **Agentic test runs done:** ≥ 2 timed T1 runs of the exact exercise, validator passing (log in `test-protocol.md`)
 
-## Kickoff prompt (paste after showing AGENTS.md)
+## Kickoff prompt (paste after walking through the repo, slide 13)
 
 ```text
-Read AGENTS.md in this folder and follow it. Build the shortlist for
-2 companies from the German mechanical and plant engineering sector
-(e.g. a global market leader and a Mittelstand specialist). Show your
-plan first, then work step by step.
+Work in this repository. Read students/README.md and students/leads.yaml.
+Task: ingest 2 partner-candidate leads for the chair — German mechanical
+and plant engineering, one global market leader, one Mittelstand
+specialist. Follow the six-step loop: source real pages, qualify against
+the rubric (gates first, then the weighted sum), record every claim with
+a source URL. Add both leads to students/leads.yaml, then run
+python3 students/validate_leads.py and fix what fails. Show your plan
+first, then work step by step.
 ```
 
-Small scope on purpose: 2 companies, one industry — the demo must finish.
+Small scope on purpose: 2 leads, one industry — the demo must finish.
 
 ## Narration beats
 
 | Minute | What happens | What you say |
 |---|---|---|
-| 0–2 | Show `AGENTS.md` (slide 12) | "This is the contract — the agent reads this at every start. Done means: verified, cited, repeatable. And look at the sources — company sites, press, registries. Those are the companies' own reports. **Whose evidence?**" |
-| 2–3 | Paste kickoff prompt, agent plans | "Watch the plan — it maps to the six boxes from the pipeline slide." |
+| 0–2 | Show the repo (slide 13): `papers.yaml`, validators, `students/` | "This is the contract — not a document the agent may ignore, but the repo itself: schema, rubric, executable validator. Done means: the validator passes. And look at the sources — company sites, press, registries. **Whose evidence?**" |
+| 2–3 | Paste kickoff prompt, agent plans | "Watch the plan — it maps one-to-one onto the six boxes from the pipeline slide." |
 | 3–8 | Agent browses, extracts, scores | Narrate each tick: source → fit signal → score → URL. Point at the pipeline boxes. |
-| ~6 | **Deliberate stumble** | If the agent invents or over-claims, stop it: "Which URL says that?" — let it correct itself. **This is the loop.** |
-| 8–11 | Agent writes the table, re-checks URLs | "It verifies its own citations — that is step 5. Each URL must resolve **and** support the sentence." At the stumble, ask two students: "What would you check here?" before the agent corrects itself. |
-| 11–13 | Final table → slide 14 (three questions) | "Now we judge it: checked? citable? repeatable?" |
+| ~6 | **Deliberate stumble** | If the agent over-claims, stop it: "Which URL says that?" — let it correct itself. **This is the loop.** |
+| 8–11 | Agent writes `students/leads.yaml`, runs the validator | "It verifies its own citations and the score math — the validator checks both. That is step five: verify." At the stumble, ask two students: "What would you check here?" |
+| 11–13 | Final table → slide 15 (three questions) | "Now we judge it: checked? citable? repeatable?" |
 
-## Timing guard
+## Timing guard — debug live, no safety net
 
 - Hard stop at minute 11 for the final table — if the demo runs long, cut the
-  second company and show the table with one.
+  second lead and finish with one.
+- **If something breaks: debug it live and say so.** A workflow failing and
+  getting fixed in front of the room *is* the lesson — that is the loop working.
+  The approach is trustworthy because it was tested agentically beforehand,
+  not because a video stands by.
 - Hard stop at 16:00 absolute: the course's Übung follows in the same room.
 - Bank questions: "Hold that for Q&A — we have 10 minutes at the end."
-
-## Fallback — three tiers (if the live demo fails)
-
-1. **Play the recording.** Run `fallback-demo.mp4` (same contract, same run,
-   recorded at home, ~8–10 min) and narrate over it: "I'm showing the
-   untouched recording of the same contract run." Pause at the stumble and
-   ask the students the same question — the loop still lands.
-2. **Walk the transcript.** No video either → show `AGENTS.md`, open
-   `fallback-session.md` and the final shortlist table, walk the audience
-   through what the agent did at each pipeline box.
-3. **Apply the three questions either way.** Judge the saved result
-   (checked? citable? repeatable?) — the method lands regardless.
