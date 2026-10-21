@@ -21,7 +21,7 @@ Sektor Maschinen-/Anlagenbau). Aus ihr wachsen zwei Horizonte:
   thematisch bündelt.
 
 **Paper-Territorium:** *Agentic operationalization of value opportunity recognition in B2B
-lead generation.* Der Gap (Deck Slide 7: agentic AI ∩ lead generation = 0) ist die Motivation,
+lead generation.* Der Gap (Deck Slide 9: agentic AI ∩ lead generation = 0 bis vor wenigen Wochen, jetzt ≥ 2 — Slide-Zahl Stand nach Umsortierung 21. Okt) ist die Motivation,
 Layer-0 „Value Context" (`paper/g6_haas_integration.md`) der theoretische Rahmen. Ziel ist ein
 **Working Paper zuerst** (kein Journal- oder Timeline-Druck).
 

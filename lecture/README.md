@@ -15,7 +15,7 @@ shortlist produced in the demo becomes **evidence the Bachelor course
 | [`agentic-ai-for-lead-generation.html`](agentic-ai-for-lead-generation.html) | Rendered deck (open in browser) |
 | [`agentic-ai-for-lead-generation.pdf`](agentic-ai-for-lead-generation.pdf) | PDF for sharing / printing |
 | [`agentic-ai-for-lead-generation.pptx`](agentic-ai-for-lead-generation.pptx) | PowerPoint export |
-| [`img/`](img/) | Custom SVG diagrams (light, JLU colours) + JLU logo + repo QR code (`qr-repo.png`, decodes to the GitHub URL shown on slide 7) used by the slides |
+| [`img/`](img/) | Custom SVG diagrams (light, JLU colours) + JLU logo + repo QR code (`qr-repo.png`, decodes to the GitHub URL shown on slide 8) used by the slides |
 | [`demo/`](demo/) | Demo kit for the live walkthrough: kickoff prompt + narration (`demo-script.md`), agentic test protocol (`test-protocol.md`), `shortlist-template.md` target format, sector-choice playbook (`branchenauswahl-playbook.md`) |
 | [`../leads/`](../leads/) | **Lead exercise — ingest + rate leads for the chair**: brief (`README.md`), schema + rubric (`leads.yaml`), executable validator (`validate_leads.py`). Restored to a clean template between runs |
 | [`../demo_walked/`](../demo_walked/) | **T1 agentic test-run archive** — the walked state from the opencode T1 run (2 verified leads, validator output), kept as the auditable record |

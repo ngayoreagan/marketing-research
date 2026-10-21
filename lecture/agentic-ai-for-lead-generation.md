@@ -101,7 +101,7 @@ drives it. The demo produces a ranked list of partners, every claim
 with a source. That list is the dataset the Bachelor course builds
 on next year.
 [jot: the "ranked list" is the handoff artefact — the
-"output as input" promise. Protect it; it returns on slides 18/20.]
+"output as input" promise. Protect it; it returns on slides 19/20.]
 -->
 
 ---
@@ -142,10 +142,10 @@ intelligence is distributed — generation (model), execution
 
 | Block | Content | Time |
 |---|---|---|
-| 1 · Foundations | agentic ≠ chat · model · harness · loop · git & the repo | ~9 min |
+| 1 · Foundations | agentic ≠ chat · model · harness · loop · providers · git & the repo | ~10 min |
 | 2 · Method | contracts · the lead-gen loop · rating formulas · evidence | ~8 min |
 | 3 · Walkthrough | live demo: repo → agent → validator | ~13 min |
-| 4 · Reflection | providers · take-aways · resources | ~5 min |
+| 4 · Reflection | take-aways · resources | ~4 min |
 | 5 · Q&A | your questions · discussion | 10 min |
 
 > The walkthrough is the heart — theory is fuel for it. **10 minutes are reserved for your questions.**
@@ -209,6 +209,57 @@ OpenCode and Claude Code are solid alternatives. Same model,
 different results — the harness decides.
 [Not read:] If asked why pi — small memory footprint; OpenCode and
 Claude Code are solid alternatives.
+-->
+
+---
+
+<!-- _class: smaller -->
+
+## Key AI providers — what you can use as a student
+
+| Provider / offer | What you get | Where |
+|---|---|---|
+| **JLU HRZ API-Service** ⭐ | LLMs for all JLU members: free local Qwen models (256K–1M ctx) + commercial, works with OpenCode / Claude Code | [uni-giessen.de → HRZ → KI → API-Service](https://www.uni-giessen.de/de/fbz/svc/hrz/svc/services/ki/api-service) · access via **ki@uni-giessen.de** |
+| **Google AI student plan** | 1 year Google AI **Plus** free · Gemini, higher limits, 400 GB | [one.google.com/ai-student](https://one.google.com/ai-student?g1_landing_page=75) — verify via SheerID (student status) |
+| **OpenRouter** | one API key → many models (OpenAI, Anthropic, Google, open) · free models + pay-as-you-go | [openrouter.ai](https://openrouter.ai) |
+| **Harnesses** | the tools from today's demo — **OpenCode**, pi — work with any key above | [opencode.ai](https://opencode.ai) · [pi.dev](https://pi.dev) |
+| **Local models (Ollama)** | free, run on your own laptop, no account, private | [ollama.com](https://ollama.com) |
+
+> Start with **HRZ API** (free for JLU) · Google deal expires **Dec 31, 2026** · campus DNS can't resolve `opencode.ai`? → resolver `1.1.1.1` / `8.8.8.8` or hosts entry `172.65.90.20 opencode.ai` — how-to: one-pager
+
+<!-- notes:
+⏱ ~1.25 min · READ ALOUD
+
+What can you use as a student, starting tomorrow? Best option
+first: the JLU HRZ API-Service. Free LLMs for every university
+member — locally hosted Qwen models with up to a million tokens of
+context, plus commercial models. Access by emailing
+ki@uni-giessen.de; works with OpenCode out of the box. Google gives
+students a year of Google AI Plus free — verify with your
+university email by the end of December. OpenRouter: one key, many
+models, free tiers included. Ollama runs locally — free and
+private. And the harnesses — OpenCode and pi — are the tools
+behind today's live demo. If you take one thing from this slide:
+start with HRZ.
+One practical note on the network: if the campus Wi-Fi cannot
+resolve opencode.ai, the fix — a public resolver or a hosts entry —
+is in the HRZ one-pager. Thirty seconds of setup, then move on.
+[Not read — DNS fix if opencode.ai does not resolve (hall Wi-Fi):]
+Diagnose: `nslookup opencode.ai` fails while other pages load.
+Fix A — resolver: set DNS on the Wi-Fi adapter to 1.1.1.1 +
+8.8.8.8 (Windows: adapter → IPv4 → DNS; macOS: Network → Details →
+DNS; Linux: NetworkManager → IPv4 → DNS); reconnect, retry.
+Fix B — hosts entry (admin): resolve fresh via
+`dig +short opencode.ai @1.1.1.1`, then append `<IP> opencode.ai`
+to /etc/hosts (Linux/macOS) or C:\Windows\System32\drivers\etc\hosts
+(Windows). Verified 19 Oct 2026: 172.65.90.20 (Cloudflare anycast,
+.20–.23 all work) — re-verify at prep time, IPs can change.
+Still failing → it is the firewall, not DNS → phone hotspot for
+the demo machine; do not fight a deliberate campus block.
+[Not read — for questions:] Google deal redeem by Dec 31 2026,
+SheerID verification; OpenCode via LiteLLM provider block
+(baseURL api.hrz.uni-giessen.de) or Claude Code via
+ANTHROPIC_BASE_URL.
 -->
 
 ---
@@ -657,56 +708,6 @@ And an evidence base for the Bachelor course Sales Strategy and
 Execution next summer. One note: everything here is open and
 reusable — you can take this method into internships and theses.
 The lecture is not the output. The shortlist is.
--->
-
----
-
-<!-- _class: smaller -->
-
-## Key AI providers — what you can use as a student
-
-| Provider / offer | What you get | Where |
-|---|---|---|
-| **JLU HRZ API-Service** ⭐ | LLMs for all JLU members: free local Qwen models (256K–1M ctx) + commercial, works with OpenCode / Claude Code | [uni-giessen.de → HRZ → KI → API-Service](https://www.uni-giessen.de/de/fbz/svc/hrz/svc/services/ki/api-service) · access via **ki@uni-giessen.de** |
-| **Google AI student plan** | 1 year Google AI **Plus** free · Gemini, higher limits, 400 GB | [one.google.com/ai-student](https://one.google.com/ai-student?g1_landing_page=75) — verify via SheerID (student status) |
-| **OpenRouter** | one API key → many models (OpenAI, Anthropic, Google, open) · free models + pay-as-you-go | [openrouter.ai](https://openrouter.ai) |
-| **Harnesses** | the tools from today's demo — **OpenCode**, pi — work with any key above | [opencode.ai](https://opencode.ai) · [pi.dev](https://pi.dev) |
-| **Local models (Ollama)** | free, run on your own laptop, no account, private | [ollama.com](https://ollama.com) |
-
-> Start with **HRZ API** (free for JLU) · Google deal expires **Dec 31, 2026** · campus DNS can't resolve `opencode.ai`? → resolver `1.1.1.1` / `8.8.8.8` or hosts entry `172.65.90.20 opencode.ai` — how-to: one-pager
-
-<!-- notes:
-⏱ ~1.25 min · READ ALOUD
-
-What can you use as a student, starting tomorrow? Best option
-first: the JLU HRZ API-Service. Free LLMs for every university
-member — locally hosted Qwen models with up to a million tokens of
-context, plus commercial models. Access by emailing
-ki@uni-giessen.de; works with OpenCode out of the box. Google gives
-students a year of Google AI Plus free — verify with your
-university email by the end of December. OpenRouter: one key, many
-models, free tiers included. Ollama runs locally — free and
-private. And the harnesses, OpenCode and pi, are what you've seen
-today. If you take one thing from this slide: start with HRZ.
-One practical note on the network: if the campus Wi-Fi cannot
-resolve opencode.ai, the fix — a public resolver or a hosts entry —
-is in the HRZ one-pager. Thirty seconds of setup, then move on.
-[Not read — DNS fix if opencode.ai does not resolve (hall Wi-Fi):]
-Diagnose: `nslookup opencode.ai` fails while other pages load.
-Fix A — resolver: set DNS on the Wi-Fi adapter to 1.1.1.1 +
-8.8.8.8 (Windows: adapter → IPv4 → DNS; macOS: Network → Details →
-DNS; Linux: NetworkManager → IPv4 → DNS); reconnect, retry.
-Fix B — hosts entry (admin): resolve fresh via
-`dig +short opencode.ai @1.1.1.1`, then append `<IP> opencode.ai`
-to /etc/hosts (Linux/macOS) or C:\Windows\System32\drivers\etc\hosts
-(Windows). Verified 19 Oct 2026: 172.65.90.20 (Cloudflare anycast,
-.20–.23 all work) — re-verify at prep time, IPs can change.
-Still failing → it is the firewall, not DNS → phone hotspot for
-the demo machine; do not fight a deliberate campus block.
-[Not read — for questions:] Google deal redeem by Dec 31 2026,
-SheerID verification; OpenCode via LiteLLM provider block
-(baseURL api.hrz.uni-giessen.de) or Claude Code via
-ANTHROPIC_BASE_URL.
 -->
 
 ---

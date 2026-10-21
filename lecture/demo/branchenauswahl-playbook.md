@@ -32,7 +32,7 @@ Der Ablauf aus V1 (13.10.2026), ausgelöst durch die Frage *„wieso Handel?"*:
    - `demo-script.md` → Kickoff-Prompt („…from the German grocery retail sector…" ersetzen)
    - `test-protocol.md` → Copy-Block (Abschnitt „Kickoff prompt") + T1-Zeile („2 companies (discounter + wholesaler)")
    - `leads/leads.yaml` → beim nächsten T1-Lauf mit neuem Sektor neu befüllen (Validator muss exit 0 liefern)
-   - **Deck**: Sektor-Slide „Define the hunt“ (Slide 10) bei Branchenwechsel mit anpassen; restliche Slides bleiben branchenneutral.
+   - **Deck**: Sektor-Slide „Define the hunt“ (Slide 12) bei Branchenwechsel mit anpassen; restliche Slides bleiben branchenneutral.
 6. **Run-Log-Eintrag** anlegen (Abschnitt 6.1) — Datum, Sektor, Ergebnis, Annahmen, Kalibrierung.
 
 ---
@@ -127,4 +127,4 @@ begründetem Log-Eintrag von v1 ab.
 | `test-protocol.md` | Teststufen + Copy-Block | Copy-Block + T1-Zeile anpassen |
 | `shortlist-template.md` | Zielformat der Shortlist | Header-Sektor anpassen |
 | `leads/leads.yaml` + `leads/validate_leads.py` | Zielformat + ausführbarer Vertrag | Rubrik-Gewichte bei Branchenwechsel prüfen |
-| `agentic-ai-for-lead-generation.md` | Deck (20 Slides; Sektor-Slide „Define the hunt“ = Slide 10) | Sektor-Slide bei Branchenwechsel anpassen; Rest branchenneutral |
+| `agentic-ai-for-lead-generation.md` | Deck (22 Slides; Sektor-Slide „Define the hunt“ = Slide 12) | Sektor-Slide bei Branchenwechsel anpassen; Rest branchenneutral |
