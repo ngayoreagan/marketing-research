@@ -215,15 +215,19 @@ Claude Code are solid alternatives.
 
 <!-- _class: smaller -->
 
+![bg right:26% fit](img/qr-repo.png)
+
 ## The workspace: git and the repo itself
 
-**git** = a lab notebook that never forgets — every change is a **commit**: who · when · what exactly — **GitHub** = the public copy anyone can audit
+**git** = a lab notebook that never forgets — every change is a **commit**: who · when · what. **GitHub** = the public copy — anyone can audit it.
 
 | This repo — `marketing-research`, public | The numbers |
 |---|---|
-| The **corpus**: 14,067 marketing papers in **one file** (`papers.yaml`, 301,847 lines) — title · authors · abstract · venue · URL | **163 commits** since Aug 2026 · **1 researcher + AI agents** · 97 in the last month |
+| The **corpus**: >14,000 marketing papers in **one file** (`papers.yaml`, >300,000 lines) — title · authors · abstract · venue · URL | **>150 commits** since Aug 2026 · 1 researcher + AI agents · >90 in the last month |
 | The **machinery**: taxonomy · discovery scripts · **executable validators** | generated files are **never hand-edited** |
 | **Your exercise**: `leads/` — same rules, same history | every lead a commit · every claim a URL |
+
+<p style="text-align:center;margin:10px 0 0;"><code>github.com/tobias-weiss-ai-xr/marketing-research</code></p>
 
 > If it isn't in the repo, it didn't happen. If it is, you can check it — line by line, back to day one.
 
@@ -231,27 +235,28 @@ Claude Code are solid alternatives.
 ⏱ ~2 min · READ ALOUD
 
 Before we go further: the workspace. Git is a lab notebook that
-never forgets. Every change is a commit — it records who changed
-what, when, down to the line. GitHub is the public copy of that
-notebook; anyone can audit it — including you. This lecture lives
-in such a repo: the chair's marketing-research repository. Inside
-it: the corpus. Fourteen thousand and sixty-seven marketing papers
-in a single file — three hundred thousand lines — each with title,
-authors, abstract, venue, and a link. The history: one hundred
-sixty-three commits since August — one researcher and the AI
-agents beside them, every commit attributed — ninety-seven in the
-last month alone. And one rule that makes it trustworthy:
-generated files are never hand-edited, and a validator runs before
-anything is committed. Your exercise lives in the same repo, in
-the leads folder — same rules, same history. One sentence to keep:
-if it isn't in the repo, it didn't happen. If it is, you can check
-it.
+never forgets. Every change is a commit — who changed what, when,
+down to the line. GitHub is the public copy; anyone can audit it —
+including you. This lecture lives in one: the chair's
+marketing-research repository. Inside: the corpus — more than
+fourteen thousand marketing papers in a single file, over three
+hundred thousand lines, each with title, authors, abstract, venue,
+and a link. The history: more than one hundred fifty commits since
+August — one researcher and the AI agents beside them, every commit
+attributed — more than ninety in the last month alone. One rule
+makes it trustworthy: generated files are never hand-edited, and a
+validator runs before anything is committed. Your exercise lives in
+the same repo, in the leads folder — same rules, same history. The
+QR code on the right goes straight to the repository — scan it now
+or after the session. One sentence to keep: if it isn't in the
+repo, it didn't happen. If it is, you can check it.
 [Not read:] BWL students may never have used git — the lab-notebook
 framing is the point; hands-on comes in the leads exercise
-(fork, commit, pull request). Commit counts (163 / 97) and corpus
-size (14,067) are a prep-date snapshot (20 Oct 2026) — they drift
-with every commit; if asked, re-read them from `git rev-list`
-beneath/next to the lectern rather than quoting stale numbers.
+(fork, commit, pull request). Numbers are thresholds, not snapshots:
+on 20 Oct 2026 the true counts were 163 commits / 97 in the last
+month / 14,067 papers / 301,847 lines. ">X" stays true as counts
+grow; only the rolling "last month" figure can decay. If probed,
+re-read exact counts from `git rev-list` and `wc -l papers.yaml`.
 -->
 
 ---
