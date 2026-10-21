@@ -3,7 +3,7 @@ marp: true
 theme: default
 paginate: true
 header: '![h:56](img/jlu-logo.png)'
-footer: 'Marketing Chair · Agentic AI for Lead Generation · Tobias Weiß'
+footer: 'Professur Marketing & Verkaufsmanagement · Agentic AI for Lead Generation · Tobias Weiß'
 style: |
   /* JLU Gießen look: white background, JLU blue #165A97 */
   :root { --jlu-blue: #165A97; --jlu-light: #e8eff6; --jlu-green: #E5F0CF; --ink: #212529; --muted: #6c757d; }
@@ -52,9 +52,9 @@ style: |
 
 # Agentic AI for Lead Generation
 
-## Partner companies for the Marketing Chair
+## Partner companies for the chair
 
-Tobias Weiß · Guest Lecture · Marketing Chair
+Tobias Weiß · Guest Lecture · Professur Marketing & Verkaufsmanagement
 
 Thursday, 22 October 2026 · 15:15–16:00
 within "Advanced Issues in Marketing and Sales" (Prof. Haas)
@@ -775,7 +775,7 @@ corpus; hrz-access-one-pager.md = student quick start.
 
 ## Questions?
 
-Tobias Weiß · guest lecture · Marketing Chair
+Tobias Weiß · guest lecture · Professur Marketing & Verkaufsmanagement
 
 Agentic AI for Lead Generation · 22 Oct 2026 · 45 min
 
