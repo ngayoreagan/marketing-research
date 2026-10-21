@@ -58,7 +58,7 @@ only when `python3 leads/validate_leads.py` exits 0 on the produced
 - Honest evidence discounting: `evidence: 3` because only one independent source each (Wikipedia citing WirtschaftsWoche) — agent flagged where a second source would lift the score.
 - Headless quirk: `opencode run` exited 1 despite a completed task (cancelled web-search calls) — judge by output + validator, not exit code alone.
 - Per-phase timings not measurable headless — fill from T2 (human watches the clock).
-- Archive: post-run state in `demo_walked/` (leads.yaml with the 2 leads); `leads/` restored to template (`leads: []`).
+- Archive: post-run state in `leads_walked/` (leads.yaml with the 2 leads); `leads/` restored to template (`leads: []`).
 
 ## 4. Cut points (if behind)
 
