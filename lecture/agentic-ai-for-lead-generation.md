@@ -157,11 +157,14 @@ The map for the next thirty-five minutes: foundations first, then
 the method, then the live walkthrough — the heart — and a short
 reflection at the end. Ten minutes are reserved for your questions.
 If one comes to you mid-talk, write it down — we'll get to it.
-[Not read:] The notes sum to ~32 min; the gap to 35 is deliberate
-buffer for transitions and demo hiccups. Q&A is fixed at 10 min —
-bank questions with "hold that for Q&A". The BrowserMCP intermezzo
-inside Step 2 (~45 s: why a real browser — LinkedIn, consent walls,
-logins) folds into the walkthrough buffer.
+[Not read:] The notes sum to ~37 min — slightly over the 35 budget.
+The flex is Step 2: its ~8 min estimate is padded; in the T1 run the
+agent finished well inside it. If running behind: trim Define-the-
+hunt (45 s), compress Providers to the HRZ line, skip the DNS aside
+unless it bites. Q&A is fixed at 10 min — bank questions with
+"hold that for Q&A". The BrowserMCP intermezzo inside Step 2 (~45 s:
+why a real browser — LinkedIn, consent walls, logins) folds into
+the walkthrough buffer.
 -->
 
 ---
@@ -720,8 +723,7 @@ The lecture is not the output. The shortlist is.
 4. Verify, cite, repeat — the three questions
 5. **Context beats compute — the right context contract beats a bigger model**
 
-> Next summer semester: the chair decides what this evidence feeds into
-> the Bachelor course "Sales Strategy and Execution".
+> Next summer semester, the chair decides what this feeds: the Bachelor course "Sales Strategy and Execution".
 
 <!-- notes:
 ⏱ ~1 min · READ ALOUD
