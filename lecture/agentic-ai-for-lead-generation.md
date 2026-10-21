@@ -215,19 +215,19 @@ Claude Code are solid alternatives.
 
 <!-- _class: smaller -->
 
-![bg right:26% fit](img/qr-repo.png)
+![bg right:22% fit](img/qr-repo.png)
 
 ## The workspace: git and the repo itself
 
-**git** = a lab notebook that never forgets — every change is a **commit**: who · when · what. **GitHub** = the public copy — anyone can audit it.
+**git** = a lab notebook that never forgets
 
 | This repo — `marketing-research`, public | The numbers |
 |---|---|
-| The **corpus**: >14,000 marketing papers in **one file** (`papers.yaml`, >300,000 lines) — title · authors · abstract · venue · URL | **>150 commits** since Aug 2026 · 1 researcher + AI agents · >90 in the last month |
+| The **corpus**: >14,000 papers in one `papers.yaml` — title · authors · abstract · venue · URL | **>150 commits** since Aug 2026 · 1 researcher + AI agents · >90 last month |
 | The **machinery**: taxonomy · discovery scripts · **executable validators** | generated files are **never hand-edited** |
 | **Your exercise**: `leads/` — same rules, same history | every lead a commit · every claim a URL |
 
-<p style="text-align:center;margin:10px 0 0;"><code>github.com/tobias-weiss-ai-xr/marketing-research</code></p>
+<p style="text-align:center;margin:6px 0 0;font-size:15px;"><code>github.com/tobias-weiss-ai-xr/marketing-research</code></p>
 
 > If it isn't in the repo, it didn't happen. If it is, you can check it — line by line, back to day one.
 
@@ -265,51 +265,50 @@ re-read exact counts from `git rev-list` and `wc -l papers.yaml`.
 
 ## Why now — the evidence inside the research corpus
 
-The chair's open corpus (marketing-research, public on GitHub): **14,067 papers — 8,716 published in 2026 alone**
+The chair's open corpus, public on GitHub: **>14,000 marketing papers — >8,700 published in 2026 alone**
 
 | Signal | Count |
 |---|---|
-| Papers mentioning **agentic AI** | 112 |
-| Papers on **lead generation** | 36 |
-| **Both** — strict (agentic × lead-gen) | **2** |
-| Agent-aware × lead-ops (agentic / AI agents × leads) | **5** |
-| Papers on **context-aware** marketing | 22 |
+| Papers mentioning **agentic AI** | >100 — >90 of them from 2026 |
+| Papers on **lead generation** | >30 |
+| **Both** — strict (agentic × lead-gen) | **≥ 2** |
+| **Both** — broader (agent-aware × lead-ops) | **≥ 5** |
+| Papers on **context-aware** marketing | >20 |
 
-> Two rounds of OpenAlex ingestion took the strict intersection **1 → 2**, the broader agent-aware set **3 → 5**. The field just opened — claim the gap while it's a gap.
+> Two rounds of OpenAlex ingestion took the strict intersection from **1** to **≥ 2**, the broader set from **3** to **≥ 5**. The field just opened — claim the gap while it's a gap.
 
 <!-- notes:
 ⏱ ~1.5 min · READ ALOUD
 
-Why now? The evidence — from this chair's own open research corpus,
-public on GitHub. Fourteen thousand and sixty-seven marketing
-papers. Eight thousand seven hundred and sixteen published in 2026
-alone. One hundred and twelve papers mention agentic AI — one
-hundred of them from this year. Thirty-six are about lead
-generation. Now the intersection — papers that do both? Until a
-few weeks ago, zero. Two rounds of targeted ingestion took the
-strict intersection from zero to one — the Journal of Business
-Research — and then to two. Count the agent-aware field more
-broadly and it's already five. The field just opened, and the
-first position in it is still free.
-[Not read — honesty note if probed:] Counts are keyword search over
-title/abstract of our own corpus (docs/papers.json, 14,067 papers,
-regenerated today). Definitions: strict intersection = substring
-'agentic' AND 'lead generation'; broader agent-aware × lead-ops =
-(agentic | ai agents | ai agent | multi-agent | autonomous agents)
-AND (lead generation | lead scoring | lead qualification | prospecting).
-Strict intersection is 2: the JBR paper 'AI agents, agentic AI, and
-the future of sales' (2026) and 'The Augmented Rep: Agentic AI
-Across the Enterprise Sales Cycle' (IRJAEM, 2026), which lists lead
-generation among the sales activities agentic AI automates. The
-broader set adds GTM-Bench, Governing Machines (SSRN), and The
-Transformative Role of AI Agents in Marketing (TechRxiv). Context-
-aware = 'context-aware' or 'contextual intelligence'. Corpus grew
-14,065 → 14,067 this round (The Transformative Role of AI Agents in
-Marketing, TechRxiv 2025; GENIE CRM, ISJEM 2026) on top of the 13
-from the prior round (6 agentic conversational-sales benchmarks +
-7 agentic×lead-gen via OpenAlex). All URLs resolve; all DOIs
-verified; lower-evidence Zenodo/empty-abstract candidates were
-excluded rather than inflating the count; validation passes.
+Why now? The evidence — from this chair's own open corpus, public
+on GitHub. More than fourteen thousand marketing papers — more
+than eight thousand seven hundred published in 2026 alone. More
+than a hundred papers mention agentic AI — more than ninety of
+them from this year. More than thirty are about lead generation.
+Now the intersection — papers that do both? Until a few weeks
+ago: zero. Two rounds of targeted ingestion later, the strict
+intersection is at least two — the Journal of Business Research,
+then a second. Count the agent-aware field more broadly and it is
+at least five. The field just opened, and the first position in it
+is still free.
+[Not read — honesty note if probed:] Slide shows lower bounds so
+they stay true as the corpus grows. Exact snapshot 20 Oct 2026,
+keyword search over title/abstract of our own corpus
+(docs/papers.json, 14,067 papers, regenerated today): agentic 112
+(100 in 2026), lead-gen 36, strict intersection 2, broader 5,
+context-aware 22. Definitions: strict = substring 'agentic' AND
+'lead generation'; broader = (agentic | ai agents | ai agent |
+multi-agent | autonomous agents) AND (lead generation | lead
+scoring | lead qualification | prospecting). Strict 2: the JBR
+paper 'AI agents, agentic AI, and the future of sales' (2026) and
+'The Augmented Rep' (IRJAEM, 2026). Broader adds GTM-Bench,
+Governing Machines (SSRN), The Transformative Role of AI Agents in
+Marketing (TechRxiv). Context-aware = 'context-aware' or
+'contextual intelligence'. Corpus grew 14,065 → 14,067 this round
+(TechRxiv Transformative Role; GENIE CRM, ISJEM) on top of 13 from
+the prior round. All URLs resolve; all DOIs verified;
+lower-evidence candidates excluded rather than inflating the count;
+validation passes.
 -->
 
 ---
