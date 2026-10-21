@@ -3,7 +3,7 @@ marp: true
 theme: default
 paginate: true
 header: '![h:56](img/jlu-logo.png)'
-footer: 'Professur Marketing & Verkaufsmanagement · Agentic AI for Lead Generation · Tobias Weiß'
+footer: 'Professur Marketing & Verkaufsmanagement · Agentic AI for Lead Generation · github.com/tobias-weiss-ai-xr/marketing-research'
 style: |
   /* JLU Gießen look: white background, JLU blue #165A97 */
   :root { --jlu-blue: #165A97; --jlu-light: #e8eff6; --jlu-green: #E5F0CF; --ink: #212529; --muted: #6c757d; }
