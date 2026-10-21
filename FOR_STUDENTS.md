@@ -166,7 +166,7 @@ If you're here from the marketing chair's **Agentic AI for Lead Generation**
 guest lecture, the slides and demo live in [lecture/](lecture/README.md):
 - Slides (Markdown/HTML/PDF/PPTX) — `lecture/agentic-ai-for-lead-generation.*`
 - The **live demo kit** — how an AI agent builds a ranked partner-company
-  shortlist: contract ([`lecture/demo/AGENTS.md`](lecture/demo/AGENTS.md)),
+  shortlist: contract ([`lecture/demo/demo-script.md`](lecture/demo/demo-script.md)),
   target format ([`lecture/demo/shortlist-template.md`](lecture/demo/shortlist-template.md)),
   and the full walkthrough script.
 - The "why now" claim of the lecture is backed by this corpus's trends report.
