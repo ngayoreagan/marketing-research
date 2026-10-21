@@ -12,9 +12,7 @@ shortlist produced in the demo becomes **evidence the Bachelor course
 | File | What |
 |---|---|
 | [`agentic-ai-for-lead-generation.md`](agentic-ai-for-lead-generation.md) | Deck source (Marp, 22 slides, JLU design: white background, JLU blue, speaker notes with timing) |
-| [`agentic-ai-for-lead-generation.html`](agentic-ai-for-lead-generation.html) | Rendered deck (open in browser) |
-| [`agentic-ai-for-lead-generation.pdf`](agentic-ai-for-lead-generation.pdf) | PDF for sharing / printing |
-| [`agentic-ai-for-lead-generation.pptx`](agentic-ai-for-lead-generation.pptx) | PowerPoint export |
+| `agentic-ai-for-lead-generation.html` / `.pdf` / `.pptx` | Built locally with the marp-cli commands below — not tracked (5 MB binary churn per rebuild); final lecture versions ship as Release assets |
 | [`img/`](img/) | Custom SVG diagrams (light, JLU colours) + JLU logo + repo QR code (`qr-repo.png`, decodes to the GitHub URL shown on slide 8) used by the slides |
 | [`demo/`](demo/) | Demo kit for the live walkthrough: kickoff prompt + narration (`demo-script.md`), agentic test protocol (`test-protocol.md`), `shortlist-template.md` target format, sector-choice playbook (`branchenauswahl-playbook.md`) |
 | [`../leads/`](../leads/) | **Lead exercise — ingest + rate leads for the chair**: brief (`README.md`), schema + rubric (`leads.yaml`), executable validator (`validate_leads.py`). Restored to a clean template between runs |

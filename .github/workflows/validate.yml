@@ -84,8 +84,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet papers.yaml README.md assets/graph_analysis.json; then echo "no new papers"; exit 0; fi
-          git add papers.yaml README.md assets/graph_analysis.json
+          if git diff --quiet papers.yaml README.md; then echo "no new papers"; exit 0; fi
+          git add papers.yaml README.md
           git commit -m "Weekly OpenAlex refresh (auto)"
           git push origin main
 
