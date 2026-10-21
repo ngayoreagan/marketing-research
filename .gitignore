@@ -16,6 +16,13 @@ af-campaigns/research-sophistication/run-code.log
 
 # Agent/tooling state (local only)
 .omo/
+.pytest_cache/
+
+# Stale paths (dirs moved into archive/ — kept so old local state stays ignored)
+af-campaigns/research-sophistication/run.log
+af-campaigns/research-sophistication/run-code.log
+archive/af-campaigns/research-sophistication/run.log
+archive/af-campaigns/research-sophistication/run-code.log
 
 # Local-only research artifacts (kept on disk, not tracked)
 knowledgebase/
