@@ -222,13 +222,14 @@ Claude Code are solid alternatives.
 
 | Provider / offer | What you get | Where |
 |---|---|---|
-| **JLU HRZ API-Service** ⭐ | LLMs for all JLU members: free local Qwen models (256K–1M ctx) + commercial, works with OpenCode / Claude Code | [uni-giessen.de → HRZ → KI → API-Service](https://www.uni-giessen.de/de/fbz/svc/hrz/svc/services/ki/api-service) · access via **ki@uni-giessen.de** |
-| **Google AI student plan** | 1 year Google AI **Plus** free · Gemini, higher limits, 400 GB | [one.google.com/ai-student](https://one.google.com/ai-student?g1_landing_page=75) — verify via SheerID (student status) |
-| **OpenRouter** | one API key → many models (OpenAI, Anthropic, Google, open) · free models + pay-as-you-go | [openrouter.ai](https://openrouter.ai) |
-| **Harnesses** | the tools from today's demo — **OpenCode**, pi — work with any key above | [opencode.ai](https://opencode.ai) · [pi.dev](https://pi.dev) |
-| **Local models (Ollama)** | free, run on your own laptop, no account, private | [ollama.com](https://ollama.com) |
+| **JLU HRZ API-Service** ⭐ | Free LLMs for JLU members: local Qwen (256K–1M ctx) + commercial | [uni-giessen.de → HRZ → KI](https://www.uni-giessen.de/de/fbz/svc/hrz/svc/services/ki/api-service) · **ki@uni-giessen.de** |
+| **OpenCode Zen — free models** | **Big Pickle** (stealth) · **Beam Free** (Reflection 501B, 1M ctx, no training) | [opencode.ai/zen](https://opencode.ai/zen) — `/models` |
+| **Google AI student plan** | 1 year Google AI **Plus** free · Gemini, 400 GB | [one.google.com/ai-student](https://one.google.com/ai-student?g1_landing_page=75) |
+| **OpenRouter** | one key → many models (OpenAI, Anthropic, Google, open) | [openrouter.ai](https://openrouter.ai) |
+| **Harnesses** | today's demo tools — **OpenCode**, pi | [opencode.ai](https://opencode.ai) · [pi.dev](https://pi.dev) |
+| **Local models (Ollama)** | free, on your laptop, no account, private | [ollama.com](https://ollama.com) |
 
-> Start with **HRZ API** (free for JLU) · Google deal expires **Dec 31, 2026** · campus DNS can't resolve `opencode.ai`? → resolver `1.1.1.1` / `8.8.8.8` or hosts entry `172.65.90.20 opencode.ai` — how-to: one-pager
+> ⚠️ **Privacy:** Big Pickle's provider **may train on your input**; Beam Free and HRZ local models **do not**. **Never paste private, customer, or unpublished data into a model that trains on user input** — for sensitive work use HRZ or Ollama. · Start with **HRZ API**.
 
 <!-- notes:
 ⏱ ~1.25 min · READ ALOUD
@@ -237,13 +238,19 @@ What can you use as a student, starting tomorrow? Best option
 first: the JLU HRZ API-Service. Free LLMs for every university
 member — locally hosted Qwen models with up to a million tokens of
 context, plus commercial models. Access by emailing
-ki@uni-giessen.de; works with OpenCode out of the box. Google gives
-students a year of Google AI Plus free — verify with your
-university email by the end of December. OpenRouter: one key, many
-models, free tiers included. Ollama runs locally — free and
-private. And the harnesses — OpenCode and pi — are the tools
-behind today's live demo. If you take one thing from this slide:
-start with HRZ.
+ki@uni-giessen.de; works with OpenCode out of the box. Second,
+OpenCode Zen lists free models — Big Pickle (a stealth model, free
+for now) and Beam Free (Reflection's open-weight 501-billion model,
+also free, with a one-million-token context). One privacy caveat:
+Big Pickle's provider may train on your input; Beam Free and the
+HRZ local models do not. So never paste private, customer, or
+unpublished research data into a model that trains on user input —
+for sensitive work, use HRZ or run Ollama on your own laptop.
+Google gives students a year of Google AI Plus free — verify with
+your university email by the end of December. OpenRouter: one key,
+many models, free tiers included. And the harnesses — OpenCode and
+pi — are the tools behind today's live demo. If you take one thing
+from this slide: start with HRZ.
 One practical note on the network: if the campus Wi-Fi cannot
 resolve opencode.ai, the fix — a public resolver or a hosts entry —
 is in the HRZ one-pager. Thirty seconds of setup, then move on.
