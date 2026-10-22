@@ -721,32 +721,41 @@ connection: you verify a prospect's claims before signing.
 ## Your turn: clone the repo, ingest 2 leads
 
 ```bash
-git clone https://github.com/tobias-weiss-ai-xr/marketing-research.git
+# Fork on GitHub, then clone your fork:
+git clone https://github.com/YOUR-USERNAME/marketing-research.git
 cd marketing-research
+# … edit leads/leads.yaml, then validate …
+python3 leads/validate_leads.py
+git add leads/leads.yaml
+git commit -m "Add 2 leads: CompanyA, CompanyB"
+git push   # → open a pull request on GitHub
 ```
 
-1. **Clone** — public repo; open `leads/`
+1. **Fork & clone** — the commands above (repo is public)
 2. **Ingest 2 leads** — real B2B companies, every claim with a URL
 3. **Score & rank** — gates first, then the published formula
-4. **Validate & submit** — `python3 leads/validate_leads.py` passes → pull request
+4. **Validate & push** — validator passes → `git push` → pull request
 
 > Best submissions join the chair's real shortlist — "Sales Strategy and Execution", SS 2027.
 
 <!-- notes:
 ⏱ ~1.5 min · READ ALOUD
 
-Now it's your turn. The repo is public — clone it, cd in, open
-the leads folder. The command is on the slide. The brief, the
+Now it's your turn. The repo is public — fork it on GitHub, clone
+your fork, cd in. The commands are on the slide. The brief, the
 schema, the rubric, the validator: all there. Your task: in your
 own clone, ingest two leads — real companies that could partner
 with this chair. Score them with the published formula: gates
 first, then the weighted sum. Run the validator; if it passes,
-open a pull request. The chair reviews submissions like papers.
-And the best ones join the real shortlist for the Bachelor course
-next summer. Everything you saw today, you now run yourself.
-[Not read:] To submit a PR: fork on GitHub first, then clone your
-fork (same command, your username). The slide shows the upstream
-URL for reference.
+add, commit, push, and open a pull request. The chair reviews
+submissions like papers. And the best ones join the real shortlist
+for the Bachelor course next summer. Everything you saw today,
+you now run yourself.
+[Not read:] YOUR-USERNAME is the student's GitHub fork; the
+upstream repo is github.com/tobias-weiss-ai-xr/marketing-research.
+Fork button is top-right on GitHub. After forking, the clone URL
+has the student's own username. The commit message is a pattern —
+replace CompanyA, CompanyB with the real company names.
 -->
 
 ---

@@ -2161,14 +2161,20 @@ section.lead h2 { border-bottom: none; color: var(--ink); font-weight: 400; }
 <header><img src="img/jlu-logo.png" alt="" style="height:56px;" /></header>
 
 <h2 id="your-turn-clone-the-repo-ingest-2-leads">Your turn: clone the repo, ingest 2 leads</h2>
-<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash">git <span class="hljs-built_in">clone</span> https://github.com/tobias-weiss-ai-xr/marketing-research.git
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash"><span class="hljs-comment"># Fork on GitHub, then clone your fork:</span>
+git <span class="hljs-built_in">clone</span> https://github.com/YOUR-USERNAME/marketing-research.git
 <span class="hljs-built_in">cd</span> marketing-research
+<span class="hljs-comment"># … edit leads/leads.yaml, then validate …</span>
+python3 leads/validate_leads.py
+git add leads/leads.yaml
+git commit -m <span class="hljs-string">&quot;Add 2 leads: CompanyA, CompanyB&quot;</span>
+git push   <span class="hljs-comment"># → open a pull request on GitHub</span>
 </code></pre>
 <ol>
-<li><strong>Clone</strong> — public repo; open <code>leads/</code></li>
+<li><strong>Fork &amp; clone</strong> — the commands above (repo is public)</li>
 <li><strong>Ingest 2 leads</strong> — real B2B companies, every claim with a URL</li>
 <li><strong>Score &amp; rank</strong> — gates first, then the published formula</li>
-<li><strong>Validate &amp; submit</strong> — <code>python3 leads/validate_leads.py</code> passes → pull request</li>
+<li><strong>Validate &amp; push</strong> — validator passes → <code>git push</code> → pull request</li>
 </ol>
 <blockquote>
 <p>Best submissions join the chair's real shortlist — &quot;Sales Strategy and Execution&quot;, SS 2027.</p>
@@ -2914,18 +2920,21 @@ output — models are stochastic, the method is re-runnable. Sales
 connection: you verify a prospect's claims before signing.</p></div><div class="bespoke-marp-note" data-index="18" tabindex="0"><p>notes:
 ⏱ ~1.5 min · READ ALOUD
 
-Now it's your turn. The repo is public — clone it, cd in, open
-the leads folder. The command is on the slide. The brief, the
+Now it's your turn. The repo is public — fork it on GitHub, clone
+your fork, cd in. The commands are on the slide. The brief, the
 schema, the rubric, the validator: all there. Your task: in your
 own clone, ingest two leads — real companies that could partner
 with this chair. Score them with the published formula: gates
 first, then the weighted sum. Run the validator; if it passes,
-open a pull request. The chair reviews submissions like papers.
-And the best ones join the real shortlist for the Bachelor course
-next summer. Everything you saw today, you now run yourself.
-[Not read:] To submit a PR: fork on GitHub first, then clone your
-fork (same command, your username). The slide shows the upstream
-URL for reference.</p></div><div class="bespoke-marp-note" data-index="19" tabindex="0"><p>notes:
+add, commit, push, and open a pull request. The chair reviews
+submissions like papers. And the best ones join the real shortlist
+for the Bachelor course next summer. Everything you saw today,
+you now run yourself.
+[Not read:] YOUR-USERNAME is the student's GitHub fork; the
+upstream repo is github.com/tobias-weiss-ai-xr/marketing-research.
+Fork button is top-right on GitHub. After forking, the clone URL
+has the student's own username. The commit message is a pattern —
+replace CompanyA, CompanyB with the real company names.</p></div><div class="bespoke-marp-note" data-index="19" tabindex="0"><p>notes:
 ⏱ ~1.5 min · READ ALOUD
 
 What does the chair get out of this? Four things. A reproducible
