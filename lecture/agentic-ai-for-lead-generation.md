@@ -716,32 +716,37 @@ connection: you verify a prospect's claims before signing.
 
 ---
 
-<!-- _class: lead -->
+<!-- _class: smaller -->
 
-## Your turn: ingest + rate leads for the chair
+## Your turn: clone the repo, ingest 2 leads
 
-1. **Fork & clone** — the repo is public; open `leads/`
+```bash
+git clone https://github.com/tobias-weiss-ai-xr/marketing-research.git
+cd marketing-research
+```
+
+1. **Clone** — public repo; open `leads/`
 2. **Ingest 2 leads** — real B2B companies, every claim with a URL
 3. **Score & rank** — gates first, then the published formula
-4. **Validate & submit** — validator passes → pull request
+4. **Validate & submit** — `python3 leads/validate_leads.py` passes → pull request
 
 > Best submissions join the chair's real shortlist — "Sales Strategy and Execution", SS 2027.
 
 <!-- notes:
 ⏱ ~1.5 min · READ ALOUD
 
-Now it's your turn. The repo is public — fork it, clone it, open
-the leads folder. The brief, the schema, the rubric, the
-validator: all there. Your task: ingest two leads — real
-companies that could partner with this chair. Score them with the
-published formula: gates first, then the weighted sum. Run the
-validator; if it passes, open a pull request. The chair reviews
-submissions like papers. And the best ones join the real shortlist
-for the Bachelor course next summer. Everything you saw today,
-you now run yourself.
-[Not read:] Replaces the old 'what you just saw' recap — that
-content lives in the take-aways now. This slide is an action, not
-a summary.
+Now it's your turn. The repo is public — clone it, cd in, open
+the leads folder. The command is on the slide. The brief, the
+schema, the rubric, the validator: all there. Your task: in your
+own clone, ingest two leads — real companies that could partner
+with this chair. Score them with the published formula: gates
+first, then the weighted sum. Run the validator; if it passes,
+open a pull request. The chair reviews submissions like papers.
+And the best ones join the real shortlist for the Bachelor course
+next summer. Everything you saw today, you now run yourself.
+[Not read:] To submit a PR: fork on GitHub first, then clone your
+fork (same command, your username). The slide shows the upstream
+URL for reference.
 -->
 
 ---
