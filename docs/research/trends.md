@@ -1,6 +1,6 @@
 # Trends (12-Month View)
 
-**Generated:** 2026-10-20  
+**Generated:** 2026-10-22  
 **Window:** since 2025-10 — 9259 of 14067 papers
 
 ## 🔥 Keyword Bursts

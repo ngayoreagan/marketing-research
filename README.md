@@ -8,7 +8,7 @@
 > 🎤 **Teaching:** Guest lecture *Agentic AI for Lead Generation* (45 min, EN, marketing chair) — see [`lecture/`](lecture/README.md).
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/tobias-weiss-ai-xr/marketing-research/main/assets/visualizations/category_distribution.png" alt="Teaser" width="600" />
+  <img src="https://raw.githubusercontent.com/tobias-weiss-ai-xr/marketing-research/main/lecture/img/hero-agentic-leadgen.svg" alt="Agentic AI for Lead Generation — Model · Harness · Loop → Leads" width="700" />
 </p>
 
 ---

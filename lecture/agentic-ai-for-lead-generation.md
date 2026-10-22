@@ -61,6 +61,8 @@ within "Advanced Issues in Marketing and Sales" (Prof. Haas)
 
 45 minutes · BWL Master students · WS 2026/27 edition
 
+![w:780](img/hero-agentic-leadgen.svg)
+
 <!-- notes:
 ⏱ ~45 s · READ ALOUD
 
