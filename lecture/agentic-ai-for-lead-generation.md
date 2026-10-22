@@ -103,7 +103,7 @@ drives it. The demo produces a ranked list of partners, every claim
 with a source. That list is the dataset the Bachelor course builds
 on next year.
 [jot: the "ranked list" is the handoff artefact — the
-"output as input" promise. Protect it; it returns on slides 19/20.]
+"output as input" promise. Protect it; it returns on slides 20/21.]
 -->
 
 ---
@@ -144,7 +144,7 @@ intelligence is distributed — generation (model), execution
 
 | Block | Content | Time |
 |---|---|---|
-| 1 · Foundations | agentic ≠ chat · model · harness · loop · providers · git & the repo | ~10 min |
+| 1 · Foundations | agentic ≠ chat · model · harness · loop · providers · corpus & rate limits · git & the repo | ~11 min |
 | 2 · Method | contracts · the lead-gen loop · rating formulas · evidence | ~8 min |
 | 3 · Walkthrough | live demo: repo → agent → validator | ~13 min |
 | 4 · Reflection | take-aways · resources | ~4 min |
@@ -159,10 +159,10 @@ The map for the next thirty-five minutes: foundations first, then
 the method, then the live walkthrough — the heart — and a short
 reflection at the end. Ten minutes are reserved for your questions.
 If one comes to you mid-talk, write it down — we'll get to it.
-[Not read:] The notes sum to ~37 min — slightly over the 35 budget.
+[Not read:] The notes sum to ~38 min — slightly over the 35 budget.
 The flex is Step 2: its ~8 min estimate is padded; in the T1 run the
 agent finished well inside it. If running behind: trim Define-the-
-hunt (45 s), compress Providers to the HRZ line, skip the DNS aside
+hunt (45 s), compress Providers and the corpus slide to the HRZ line, skip the DNS aside
 unless it bites. Q&A is fixed at 10 min — bank questions with
 "hold that for Q&A". The BrowserMCP intermezzo inside Step 2 (~45 s:
 why a real browser — LinkedIn, consent walls, logins) folds into
@@ -272,6 +272,52 @@ the demo machine; do not fight a deliberate campus block.
 SheerID verification; OpenCode via LiteLLM provider block
 (baseURL api.hrz.uni-giessen.de) or Claude Code via
 ANTHROPIC_BASE_URL.
+-->
+
+---
+
+<!-- _class: smaller -->
+
+## The corpus and the rate limits — know your scale, know your ceiling
+
+The agent searches a corpus of **>14,000 marketing papers** (title, authors, abstract, venue, URL for each) and calls the model in a loop — a lead-gen pass is dozens of calls. So the rate limit matters.
+
+| Provider | Limit | Notes |
+|---|---|---|
+| **HRZ API-Service** ⭐ | free for JLU · no published cap | local Qwen, 256K–1M ctx |
+| **OpenCode Zen** (free models) | ~15–20 req/min | silent 429 · models are temporary |
+| **Google AI student plan** | ~90 prompts/day (Gemini 3 Flash) | AI Plus 2× standard · refreshes every 5h |
+| **OpenRouter** | free tier limited | pay-as-you-go lifts the cap |
+| **Ollama** (local) | no API limit | bounded by your hardware (VRAM, tokens/sec) |
+
+> Free tiers are fine for learning. For a real run, start with **HRZ** — free, local, no training on your data.
+
+<!-- notes:
+⏱ ~1 min · READ ALOUD
+
+Two things to know about your tools. First, the corpus: the agent
+searches more than fourteen thousand marketing papers — title,
+authors, abstract, venue, URL for each. A single lead-generation
+pass is dozens of model calls, so the rate limit matters. Second,
+the limits. HRZ is free for JLU members with no published cap —
+start there. OpenCode Zen's free models run about fifteen to
+twenty requests per minute, and the four-twenty-nine is silent —
+no retry-after header, so the agent just waits and retries.
+Google's student plan gives you roughly ninety prompts a day with
+Gemini 3 Flash on the AI Plus tier, refreshing every five hours.
+OpenRouter's free tier is limited; pay-as-you-go lifts the cap.
+And Ollama running locally has no API limit — you are bounded by
+your own hardware. For learning, any free tier is fine. For a real
+run, start with HRZ.
+[Not read — honesty note if probed:] Corpus numbers are lower
+bounds (>14,000, >150 commits since Aug 2026, >90 last month);
+exact snapshot 20 Oct 2026 in the workspace slide. Rate limits
+verified 21 Oct 2026: OpenCode Zen ~15–20 RPM (GitHub
+lidge-jun/opencodex#1145, freetokens.fyi); Google AI Plus ~90
+prompts/day Gemini 3 Flash (9to5Google, Jan 2026); HRZ has no
+published rate limit on the model hub page
+(api.hrz.uni-giessen.de/ui/model_hub_table). Ollama is local —
+bounded by VRAM and tokens/sec.
 -->
 
 ---
