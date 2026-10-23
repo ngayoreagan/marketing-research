@@ -1,7 +1,7 @@
 # Trends (12-Month View)
 
-**Generated:** 2026-10-22  
-**Window:** since 2025-10 — 9259 of 14067 papers
+**Generated:** 2026-10-23  
+**Window:** since 2025-10 — 9280 of 14088 papers
 
 ## 🔥 Keyword Bursts
 
@@ -9,19 +9,19 @@
 |---------|--------|-------|-------|
 | world model | 3 | 3 | 1.5× |
 | teaming | 3 | 3 | 1.5× |
-| survey | 1169 | 1283 | 1.4× |
-| policy | 650 | 728 | 1.4× |
+| survey | 1170 | 1284 | 1.4× |
+| policy | 653 | 731 | 1.4× |
 | causal | 275 | 309 | 1.4× |
-| uncertainty | 201 | 215 | 1.4× |
-| benchmark | 194 | 214 | 1.4× |
+| uncertainty | 202 | 216 | 1.4× |
+| benchmark | 198 | 218 | 1.4× |
 | transfer | 134 | 148 | 1.4× |
-| agentic | 106 | 112 | 1.4× |
+| agentic | 107 | 113 | 1.4× |
 | hierarchical | 76 | 84 | 1.4× |
-| embodied | 8 | 9 | 1.4× |
 | graph | 571 | 675 | 1.3× |
-| agent | 391 | 465 | 1.3× |
-| imitation | 368 | 416 | 1.3× |
+| agent | 398 | 472 | 1.3× |
+| imitation | 369 | 417 | 1.3× |
 | planning | 236 | 275 | 1.3× |
+| simulation | 127 | 152 | 1.3× |
 
 ## 📈 Fastest-Growing Cells
 
@@ -35,7 +35,7 @@
 | `cx-retail/empirical` | 188 | 219 | 86% |
 | `social-media/review` | 154 | 196 | 79% |
 | `social-media/case-study` | 78 | 101 | 77% |
-| `digital-marketing/empirical` | 436 | 576 | 76% |
+| `digital-marketing/empirical` | 438 | 578 | 76% |
 | `consumer-behavior/review` | 142 | 187 | 76% |
 | `brand/framework` | 256 | 336 | 76% |
 | `social-media/framework` | 177 | 238 | 74% |

@@ -1,6 +1,6 @@
 # 📚 Paper list
 
-14067 papers · generated from `papers.yaml` — do not edit by hand.
+14088 papers · generated from `papers.yaml` — do not edit by hand.
 
 
 - [📚 AI & Marketing](#ai-&-marketing)
@@ -151,6 +151,17 @@
 - [2026] **When and How Order-Flow Interventions Work After Dealers Adapt** [[paper](https://arxiv.org/abs/2610.18158)] [[code](https://github.com/moderncavemann/state-aligned-order-flow-contracts)]
 - [2026] **SmartSalesBench: A Resistance-Aware Multi-Turn Benchmark for Evaluating LLM Sales Agents** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2610.12975)]
 - [2026] **Selling in the Wild: Benchmark and Randomized Field Evidence for a Sales Agent Trained on Commercial Conversations** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2610.25461)]
+- [2026] **Optimizing Marketing Budgets for Social Influence: A Generalized Fractional Incentives Framework** [[paper](https://arxiv.org/abs/2610.25823)]
+- [2026] **LLM Evolution in a Simple Simulated Market** [[paper](https://arxiv.org/abs/2610.24033)]
+- [2026] **Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research** [[paper](https://arxiv.org/abs/2610.30113)]
+- [2026] **Unified Sharp Bounds on Probabilities of Causation** [[paper](https://arxiv.org/abs/2610.27398)]
+- [2026] **TwinStore: A Synthetic Consumer Platform Using Vision--Language Models** [[paper](https://arxiv.org/abs/2610.30909)]
+- [2026] **Toolflation: Seller Agents Distort Tool Markets Through Spontaneous Generative Engine Optimization** [[paper](https://arxiv.org/abs/2610.28454)]
+- [2026] **Governed Self-Evolution for Autonomous Investing: A Multi-Agent LLM System with an Invariant Core** [[paper](https://arxiv.org/abs/2610.30557)] [[code](https://github.com/yebof/quant-agent)]
+- [2026] **Lineage-Aware Search Control for LLM-Based Evolutionary Factor Mining** [[paper](https://arxiv.org/abs/2610.29663)]
+- [2026] **Generative Artificial Intelligence in Marketing: Consumer Responses, Authenticity, and Governance Challenges** *Pazarlamada Güncel Konular* [[paper](https://doi.org/10.58830/ozgur.pub1533.c6201)]
+- [2026] **ROLE OF GENERATIVE ARTIFICIAL INTELLIGENCE IN CONTENT MARKETING: IMPACT ON CONSUMER PERCEPTION AND BRAND INTERACTION** *International Journal of Drug Delivery Technology* [[paper](https://doi.org/10.25258/ijddt.16.74s.12)]
+- [2026] **Optimizing for happiness in EU technology policy to repay public subsidies for AI** *PMC* [[paper](https://europepmc.org/article/pmc/PMC13682884)]
 - [2026] **Competitive Market Behavior of LLMs** [[paper](https://arxiv.org/abs/2609.02580)]
 - [2026] **Generative Marketing Mix Modeling: A Causal Inference Framework Linking GEO and GEM to Business Impact** [[paper](https://arxiv.org/abs/2609.11915)]
 - [2026] **Shopping by algorithm: How agentic AI deploys human heuristics as a surrogate consumer** [[paper](https://arxiv.org/abs/2609.28372)]
@@ -831,6 +842,7 @@
 - [2026] **AIM2 framework for smart marketing innovation using AI driven consumer analytics with SOR neural networks and XGBoost in Saudi retail.** *MED* [[paper](https://doi.org/10.1038/s41598-026-42787-3)]
 - [2026] **AI ethics in hospitality and tourism: theoretical perspectives, ethical beliefs, and actionable outcomes.** *MED* [[paper](https://doi.org/10.3389/frai.2026.1913343)]
 - [2026] **A feasibility study on integrating Generative AI and video conferencing into Indonesian recruitment processes.** *MED* [[paper](https://doi.org/10.3389/frai.2026.1784986)]
+- [2026] **Redefining drug discovery: AI-driven strategies for efficient cancer therapeutics.** *MED* [[paper](https://doi.org/10.3389/fonc.2026.1907591)]
 
 ##### 2025
 
@@ -2107,6 +2119,7 @@
 - [2025] **The Rise of Virtual Influencers: A Business 5.0 Approach to Ethical and Personalized Marketing** *Cureus Journal of Business and Economics.* [[paper](https://doi.org/10.7759/s44404-025-08712-z)]
 - [2025] **Fundamental Models of Digital Stimulus on Consumer Purchasing Decisions: Implications For AI-Based Marketing Strategies and The Digital Economy** *Proceedings of The International Conference on Computer Science Engineering Social Science and Multi-Disciplinary Studies* [[paper](https://doi.org/10.64803/cessmuds.v1.11)]
 - [2025] **Do consumers trust the Bot? A study of consumer trust in conversational AI Systems** *The Business & Management Review* [[paper](https://doi.org/10.24052/bmr/v16nu02/art-14)]
+- [2025] **The Transformative Role of AI Agents in Marketing: Applications, Challenges, and Future Directions** *TechRxiv (preprint)* [[paper](https://doi.org/10.36227/techrxiv.175756685.50137934)]
 - [2025] **Artificial Intelligence in Digital Marketing: A Systematic Review and Strategic Framework for AI-Augmented Marketing** *International Research Journal on Advanced Engineering and Management (IRJAEM)* [[paper](https://doi.org/10.47392/irjaem.2025.0410)]
 - [2025] **Integrating sensory marketing with artificial intelligence in hospitality: a future research agenda** *International Journal of Contemporary Hospitality Management* [[paper](https://doi.org/10.1108/ijchm-10-2024-1560)]
 - [2025] **Conditions of use and impacts of artificial intelligence in marketing practices: a mixed-method literature review** *Italian Journal of Marketing* [[paper](https://doi.org/10.1007/s43039-025-00117-x)]
@@ -2753,6 +2766,10 @@
 - [2026] **PocketTSLM: Deploying an On-Device Soft-Prompt Time-Series Language Model for Privacy-Preserving Smartphone Reasoning** *COLM 2026. Code* [[paper](https://arxiv.org/abs/2610.21308)]
 - [2026] **The Optimal Ranking Tradeoffs Between Two Ranking Scores in Two-Class Classification** [[paper](https://arxiv.org/abs/2610.23294)]
 - [2026] **Classical methods for modern applications: synthetic tabular data generation using lightweight discrete response continuous latent variable model** [[paper](https://arxiv.org/abs/2610.21674)]
+- [2026] **Can Entanglement-Induced Feature-Map Designs Improve Projected Quantum Kernels?** [[paper](https://arxiv.org/abs/2610.31260)]
+- [2026] **Auto-MD-bench: Evaluating Autoresearch Agents for Real-World Medical Tasks** [[paper](https://arxiv.org/abs/2610.25069)]
+- [2026] **Estimating Performance for Safe Deployment of Machine Learning Models** [[paper](https://arxiv.org/abs/2610.29262)]
+- [2026] **OptScientist: Automated Discovery of Optimization Laws** [[paper](https://arxiv.org/abs/2610.28562)]
 - [2026] **Distribution and Marketing** *Routledge eBooks* [[paper](https://doi.org/10.4324/9781003607922-11)]
 - [2026] **An AI-Powered Advertising Assistant for Meta Platforms Using Large Language and Generative Models** *RESEARCH JOURNAL OF PURE SCIENCE AND TECHNOLOGY* [[paper](https://doi.org/10.56201/rjpst.vol.9.no1.2026.pg80.86)]
 - [2026] **Examining the scientific developments in artificial intelligence and branding: a scientometric analysis** *Human-Intelligent Systems Integration* [[paper](https://doi.org/10.1007/s42454-026-00114-1)]
@@ -3203,6 +3220,8 @@
 - [2026] **Institutionalizing Trust in Data Exchange: Trust-Anchor Model of the Data Credit Guarantee Organization and Its Simulation-Based Comparison** [[paper](https://arxiv.org/abs/2610.18400)]
 - [2026] **Causal Value Attribution of Marketing Labels in LLM-Generated Ads: A Deconfounder Approach** [[paper](https://arxiv.org/abs/2610.23025)]
 - [2026] **Displacement Is Endogenous: AI Workers in a Search-and-Matching Labor Market** [[paper](https://arxiv.org/abs/2610.14850)]
+- [2026] **The Customer Is the Builder: How AI Coding Agents Are Rewriting the Economics of Software** [[paper](https://arxiv.org/abs/2610.30307)]
+- [2026] **The Privacy Paradox Is a Misnomer: Data Under Structural Uncertainty** [[paper](https://arxiv.org/abs/2610.29756)]
 - [2026] **Seeing Is Not Perceiving: When Synthetic Consumers Can and Cannot Pretest Visual Marketing** [[paper](https://arxiv.org/abs/2609.25677)]
 - [2026] **Price Dislocations, News Citations, and Epistemic Leverage on Polymarket** [[paper](https://arxiv.org/abs/2609.06005)]
 - [2026] **Differentiable Electricity-Market Clearing for Gradient-Based Planning** [[paper](https://arxiv.org/abs/2609.02646)]
@@ -4783,6 +4802,7 @@
 - [2026] **How Social Reinforcement Shapes Word-of-Mouth: A Conviction-Based Model for Marketing Diffusion and Network Targeting** [[paper](https://arxiv.org/abs/2610.13890)]
 - [2026] **The Effect of Expertise Signaling when Sharing Medical Information in Opinion Dynamics** [[paper](https://arxiv.org/abs/2610.16623)]
 - [2026] **Political Narratives in the 2024 Moldovan Presidential Election: Stance, Amplification, and Influence** [[paper](https://arxiv.org/abs/2610.22464)]
+- [2026] **YouTube Clips and Broad but Shallow Attention to Candidates: Evidence from the 2024 Tokyo Gubernatorial Election** [[paper](https://arxiv.org/abs/2610.24387)]
 - [2026] **Digital Persuasion: Understanding the Impact of Online Influencers on Public Opinion** [[paper](https://arxiv.org/abs/2609.16062)]
 - [2026] **Influence Ranking Improvement via Link Addition in Social Networks** [[paper](https://arxiv.org/abs/2609.36791)]
 - [2026] **OranSim: Simulating Consumer Response to Social Media Campaigns Before Launch** [[paper](https://arxiv.org/abs/2609.28388)] [[code](https://github.com/OranAi-Ltd/oransim)]
@@ -7015,6 +7035,8 @@
 - [2026] **Creative destruction: Human-AI competition in an experimental market** [[paper](https://arxiv.org/abs/2610.18921)]
 - [2026] **Auction-based allocation of routes in capacity-constrained networks** [[paper](https://arxiv.org/abs/2610.20125)]
 - [2026] **The Source of Data Value: Consumer Disclosure, Access Design, and Platform Monetization** [[paper](https://arxiv.org/abs/2610.22864)]
+- [2026] **Speculative Imbalance Positions by Non-Physical Traders: Impacts on Electricity System Balancing in Great Britain** [[paper](https://arxiv.org/abs/2610.28075)]
+- [2026] **Joules-to-GDP: How Much Economic Value Do AI Systems Produce per Unit of Energy?** [[paper](https://arxiv.org/abs/2610.30858)]
 - [2026] **Whom Do AI Agents Work For? Role Assignment Induces Sponsorship Bias in LLM Recommenders** [[paper](https://arxiv.org/abs/2609.17989)]
 - [2026] **The consequences of high SMR operating costs in electricity markets** [[paper](https://arxiv.org/abs/2609.08929)]
 - [2026] **Buy Now, Pay Later: Academic Insights and Open Policy Questions** [[paper](https://arxiv.org/abs/2609.09323)]

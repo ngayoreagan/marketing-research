@@ -301464,14 +301464,13 @@ papers:
   - Gary K. Hunter
   abstract: This article conceptualizes and explores autonomous artificial intelligence
     (AI) agents in personal selling and sales management contexts. Unlike traditional
-    AI assistants that merely augment or automate specific tasks, autonomous AI
-    agents perceive, reason, and act independently, enabling multi-step processes
-    such as lead generation, qualification, customer interaction, and performance
-    management. We conceptualize autonomous AI agents, distinguishing them from
-    conventional AI tools, and map their emerging applications across selling
-    and sales management processes. The authors outline seven research priorities
-    and provide actionable guidance for integrating autonomous AI agents into
-    curricula.
+    AI assistants that merely augment or automate specific tasks, autonomous AI agents
+    perceive, reason, and act independently, enabling multi-step processes such as
+    lead generation, qualification, customer interaction, and performance management.
+    We conceptualize autonomous AI agents, distinguishing them from conventional AI
+    tools, and map their emerging applications across selling and sales management
+    processes. The authors outline seven research priorities and provide actionable
+    guidance for integrating autonomous AI agents into curricula.
   venue: Journal of Business Research
 - title: 'Agentic Agent, Better Agent: Evidence from Agentic AI in Telemarketing'
   date: 2026-04
@@ -301484,36 +301483,35 @@ papers:
   - Wenkang Qiu
   - Fengwen Chen
   - Yong Tan
-  abstract: Large language models are increasingly being deployed as agentic AI
-    systems that autonomously manage customer interactions, yet their effectiveness
-    in persuasion-intensive telemarketing settings remains largely unknown. We
-    examine whether agentic AI can become a better agent in outbound financial
-    telemarketing through a collaboration with a leading Chinese FinTech firm.
-    Using a quasi-experimental design and 7.41 million unique customer interactions,
-    standard agentic AI increases the odds of same-day loan initiation by 96.0%
-    relative to human agents, while RAG-enhanced agentic AI increases those odds
-    by 213.9%.
+  abstract: Large language models are increasingly being deployed as agentic AI systems
+    that autonomously manage customer interactions, yet their effectiveness in persuasion-intensive
+    telemarketing settings remains largely unknown. We examine whether agentic AI
+    can become a better agent in outbound financial telemarketing through a collaboration
+    with a leading Chinese FinTech firm. Using a quasi-experimental design and 7.41
+    million unique customer interactions, standard agentic AI increases the odds of
+    same-day loan initiation by 96.0% relative to human agents, while RAG-enhanced
+    agentic AI increases those odds by 213.9%.
   venue: SSRN Electronic Journal (working paper)
-- title: 'From Manual Outreach to Autonomous Pipelines: A Conceptual Framework
-    for Conversational, MCP-Orchestrated B2B Sales Prospecting'
+- title: 'From Manual Outreach to Autonomous Pipelines: A Conceptual Framework for
+    Conversational, MCP-Orchestrated B2B Sales Prospecting'
   date: 2026-01
   url: https://doi.org/10.2139/ssrn.6980618
   category: b2b
   subcategory: framework
   authors:
   - Deepak Amirtha Raj
-  abstract: Business-to-business (B2B) sales development has long depended on
-    manual prospecting, in which sales development representatives (SDRs) research
-    prospects individually on professional networks such as LinkedIn, compose
-    outreach by hand, and track activity in spreadsheets. This paper proposes
-    a conceptual framework in which the prospecting workflow is reconceived as
-    an autonomous, agent-orchestrated pipeline exposed to the operator through
-    a conversational interface, integrating data-enrichment providers and Model
-    Context Protocol (MCP) servers such as Clay, Apollo.io, and ZoomInfo to identify
-    target accounts and assemble multi-dimensional research profiles.
+  abstract: Business-to-business (B2B) sales development has long depended on manual
+    prospecting, in which sales development representatives (SDRs) research prospects
+    individually on professional networks such as LinkedIn, compose outreach by hand,
+    and track activity in spreadsheets. This paper proposes a conceptual framework
+    in which the prospecting workflow is reconceived as an autonomous, agent-orchestrated
+    pipeline exposed to the operator through a conversational interface, integrating
+    data-enrichment providers and Model Context Protocol (MCP) servers such as Clay,
+    Apollo.io, and ZoomInfo to identify target accounts and assemble multi-dimensional
+    research profiles.
   venue: SSRN Electronic Journal (working paper)
-- title: Cloning a Conversational Voice AI Agent from Call Recording Datasets
-    for Telesales
+- title: Cloning a Conversational Voice AI Agent from Call Recording Datasets for
+    Telesales
   date: 2025-09
   url: https://arxiv.org/abs/2509.04871
   category: ai-marketing
@@ -301525,13 +301523,13 @@ papers:
   - Touchapon Kraisingkorn
   abstract: Recent advances in language and speech modeling have made it possible
     to build autonomous voice assistants that understand and generate human dialogue
-    in real time. We present a general methodology for cloning a conversational
-    voice AI agent from a corpus of call recordings. Although the case study uses
-    telesales data to illustrate the approach, the process generalizes to any
-    domain with call transcripts. The system listens, responds with a synthetic
-    voice, and follows a structured playbook learned from top performing human
-    agents. Blind tests show the AI agent approaches human performance in routine
-    aspects of the call while underperforming in persuasion and objection handling.
+    in real time. We present a general methodology for cloning a conversational voice
+    AI agent from a corpus of call recordings. Although the case study uses telesales
+    data to illustrate the approach, the process generalizes to any domain with call
+    transcripts. The system listens, responds with a synthetic voice, and follows
+    a structured playbook learned from top performing human agents. Blind tests show
+    the AI agent approaches human performance in routine aspects of the call while
+    underperforming in persuasion and objection handling.
   venue: arXiv preprint arXiv:2509.04871
 - title: 'asLLR: LLM based Leads Ranking in Auto Sales'
   date: 2025-09
@@ -301547,14 +301545,14 @@ papers:
   - Lingjie Liu
   - Siqi Chen
   - Yuji Cao
-  abstract: In commercial auto sales systems, high-quality lead score sequencing
-    determines the priority of a sale's work and is essential for optimizing sales
-    efficiency. This study introduces asLLR (LLM-based Leads Ranking in Auto Sales),
-    which integrates CTR loss and Question Answering loss within a decoder-only
-    large language model architecture to jointly model tabular and natural language
-    features of CRM leads. On a dataset from a new-energy-vehicle brand (300k
-    train / 40k test), asLLR achieves AUC 0.8127, surpassing traditional CTR methods
-    by 0.0231; online A/B testing increased sales volume by about 9.5%.
+  abstract: In commercial auto sales systems, high-quality lead score sequencing determines
+    the priority of a sale's work and is essential for optimizing sales efficiency.
+    This study introduces asLLR (LLM-based Leads Ranking in Auto Sales), which integrates
+    CTR loss and Question Answering loss within a decoder-only large language model
+    architecture to jointly model tabular and natural language features of CRM leads.
+    On a dataset from a new-energy-vehicle brand (300k train / 40k test), asLLR achieves
+    AUC 0.8127, surpassing traditional CTR methods by 0.0231; online A/B testing increased
+    sales volume by about 9.5%.
   venue: arXiv preprint arXiv:2510.21713
 - title: Learning When to Quit in Sales Conversations
   date: 2025-11
@@ -301567,15 +301565,15 @@ papers:
   - Oded Netzer
   abstract: Salespeople frequently face the dynamic screening decision of whether
     to persist in a conversation or abandon it to pursue the next lead. We formalize
-    this dynamic screening decision as an optimal stopping problem and develop
-    a generative language model-based sequential decision agent that learns whether
-    and when to quit conversations. Applied to calls from a large European telecommunications
+    this dynamic screening decision as an optimal stopping problem and develop a generative
+    language model-based sequential decision agent that learns whether and when to
+    quit conversations. Applied to calls from a large European telecommunications
     firm, the stopping agent reduces time spent on failed calls by up to 54% while
-    preserving nearly all sales; reallocating the saved time increases expected
-    sales by up to 37%.
+    preserving nearly all sales; reallocating the saved time increases expected sales
+    by up to 37%.
   venue: arXiv preprint arXiv:2511.01181
-- title: 'SalesRLAgent: A Reinforcement Learning Approach for Real-Time Sales
-    Conversion Prediction and Optimization'
+- title: 'SalesRLAgent: A Reinforcement Learning Approach for Real-Time Sales Conversion
+    Prediction and Optimization'
   date: 2025-03
   url: https://arxiv.org/abs/2503.23303
   category: ai-marketing
@@ -301583,17 +301581,16 @@ papers:
   authors:
   - Nandakishor M.
   abstract: Current approaches to sales conversation analysis and conversion prediction
-    typically rely on LLMs combined with basic retrieval augmented generation.
-    We present SalesRLAgent, a framework leveraging specialized reinforcement
-    learning to predict conversion probability throughout sales conversations,
-    treating conversion prediction as a sequential decision problem trained on
-    synthetic data generated using GPT-4o. The system achieves 96.7% accuracy
-    in conversion prediction, outperforming LLM-only approaches by 34.7% with
-    significantly faster inference, and a 43.2% increase in conversion rates in
-    real-time guidance settings.
+    typically rely on LLMs combined with basic retrieval augmented generation. We
+    present SalesRLAgent, a framework leveraging specialized reinforcement learning
+    to predict conversion probability throughout sales conversations, treating conversion
+    prediction as a sequential decision problem trained on synthetic data generated
+    using GPT-4o. The system achieves 96.7% accuracy in conversion prediction, outperforming
+    LLM-only approaches by 34.7% with significantly faster inference, and a 43.2%
+    increase in conversion rates in real-time guidance settings.
   venue: arXiv preprint arXiv:2503.23303
-- title: 'GTM-Bench: Evaluating Agentic AI Systems for Buyer/Seller Coherence
-    in Go-to-Market Workflows'
+- title: 'GTM-Bench: Evaluating Agentic AI Systems for Buyer/Seller Coherence in Go-to-Market
+    Workflows'
   date: 2026-09
   url: https://gtm-bench.ai/assets/gtm-bench-paper.pdf
   category: ai-marketing
@@ -301607,16 +301604,15 @@ papers:
   - Chris Herrmann
   - Patrick Horne
   - Sam Daish
-  abstract: AI agents are increasingly deployed in go-to-market (GTM) workflows,
-    where value depends not on generating more outreach but on selecting buyers
-    that coherently match a seller's offer. We introduce GTM-Bench, the first
-    benchmark for evidence-grounded buyer/seller coherence in GTM workflows, containing
-    72 realistic tasks derived from real prospecting queries. Agents produce an
-    offer summary, an actionable ideal customer profile, and a ranked prospect
-    list. Six frontier generalist agent systems and one purpose-built GTM system
-    are evaluated; successful systems combine broad retrieval with evidence-based
-    pruning, while failures stem from identity errors, unsupported claims, and
-    poor stopping decisions.
+  abstract: AI agents are increasingly deployed in go-to-market (GTM) workflows, where
+    value depends not on generating more outreach but on selecting buyers that coherently
+    match a seller's offer. We introduce GTM-Bench, the first benchmark for evidence-grounded
+    buyer/seller coherence in GTM workflows, containing 72 realistic tasks derived
+    from real prospecting queries. Agents produce an offer summary, an actionable
+    ideal customer profile, and a ranked prospect list. Six frontier generalist agent
+    systems and one purpose-built GTM system are evaluated; successful systems combine
+    broad retrieval with evidence-based pruning, while failures stem from identity
+    errors, unsupported claims, and poor stopping decisions.
   venue: Blackpearl Group (technical report)
 - title: Sales Research Agent and Sales Research Bench
   date: 2025-12
@@ -301625,11 +301621,12 @@ papers:
   subcategory: empirical
   authors:
   - Deepanjan Bhol
-  abstract: Enterprises increasingly need AI systems that can answer sales-leader questions
-    over live, customized CRM data, but most available models do not expose transparent, repeatable
-    evidence of quality. This paper describes the Sales Research Agent in Microsoft Dynamics
-    365 Sales, an AI-first application that connects to live CRM and related data, reasons over
-    complex schemas, and produces decision-ready answers for sales leaders.
+  abstract: Enterprises increasingly need AI systems that can answer sales-leader
+    questions over live, customized CRM data, but most available models do not expose
+    transparent, repeatable evidence of quality. This paper describes the Sales Research
+    Agent in Microsoft Dynamics 365 Sales, an AI-first application that connects to
+    live CRM and related data, reasons over complex schemas, and produces decision-ready
+    answers for sales leaders.
   venue: arXiv (Cornell University)
 - title: Exploring Personality-Aware Interactions in Salesperson Dialogue Agents
   date: 2025-04
@@ -301640,14 +301637,15 @@ papers:
   - Sijia Cheng
   - Wen-Yu Chang
   - Yun-Nung Chen
-  abstract: The integration of dialogue agents into the sales domain requires a deep understanding
-    of how these systems interact with users possessing diverse personas. This study explores
-    the influence of user personas, defined using the Myers-Briggs Type Indicator (MBTI), on
-    the interaction quality and performance of sales-oriented dialogue agents. Through large-scale
-    testing and analysis, we assess the preferred strategies and outcomes across personas.
+  abstract: The integration of dialogue agents into the sales domain requires a deep
+    understanding of how these systems interact with users possessing diverse personas.
+    This study explores the influence of user personas, defined using the Myers-Briggs
+    Type Indicator (MBTI), on the interaction quality and performance of sales-oriented
+    dialogue agents. Through large-scale testing and analysis, we assess the preferred
+    strategies and outcomes across personas.
   venue: arXiv (Cornell University)
-- title: 'SmartSalesBench: A Resistance-Aware Multi-Turn Benchmark for Evaluating LLM Sales
-    Agents'
+- title: 'SmartSalesBench: A Resistance-Aware Multi-Turn Benchmark for Evaluating
+    LLM Sales Agents'
   date: 2026-10
   url: https://arxiv.org/abs/2610.12975
   category: ai-marketing
@@ -301658,14 +301656,15 @@ papers:
   - Madhu Basumata
   - Susen Sarkar
   - Rajasekhara Reddy Duvvuru Muni
-  abstract: We present SmartSalesBench, the first multi-turn conversational benchmark explicitly
-    designed to evaluate large language model (LLM) sales agents against psychologically grounded,
-    resistant buyer personas. Existing task-oriented dialogue benchmarks assume cooperative
-    users and measure task completion; SmartSalesBench inverts this assumption, placing agents
-    against personas programmed to resist and deflect.
+  abstract: We present SmartSalesBench, the first multi-turn conversational benchmark
+    explicitly designed to evaluate large language model (LLM) sales agents against
+    psychologically grounded, resistant buyer personas. Existing task-oriented dialogue
+    benchmarks assume cooperative users and measure task completion; SmartSalesBench
+    inverts this assumption, placing agents against personas programmed to resist
+    and deflect.
   venue: arXiv (Cornell University)
-- title: 'Towards Personalized Conversational Sales Agents: Contextual User Profiling for Strategic
-    Action'
+- title: 'Towards Personalized Conversational Sales Agents: Contextual User Profiling
+    for Strategic Action'
   date: 2025-03
   url: https://arxiv.org/abs/2504.08754
   category: ai-marketing
@@ -301676,12 +301675,12 @@ papers:
   - Soojin Yoon
   - Sunghwan Kim
   - Dongha Lee
-  abstract: Conversational Recommender Systems (CRSs) aim to engage users in dialogue to provide
-    tailored recommendations. While traditional CRSs focus on eliciting preferences and retrieving
-    items, real-world e-commerce interactions involve more complex decision-making, where users
-    consider multiple factors beyond simple attributes. To capture this complexity we introduce
-    Conversational Sales (CSALES), a novel framework for personalized conversational sales agents
-    with contextual user profiling.
+  abstract: Conversational Recommender Systems (CRSs) aim to engage users in dialogue
+    to provide tailored recommendations. While traditional CRSs focus on eliciting
+    preferences and retrieving items, real-world e-commerce interactions involve more
+    complex decision-making, where users consider multiple factors beyond simple attributes.
+    To capture this complexity we introduce Conversational Sales (CSALES), a novel
+    framework for personalized conversational sales agents with contextual user profiling.
   venue: arXiv (Cornell University)
 - title: 'Ottilie: A Socially Intelligent Virtual Host for Sales-Driven Live Commerce'
   date: 2026-05
@@ -301690,36 +301689,37 @@ papers:
   subcategory: empirical
   authors:
   - Yuyan Chen
-  abstract: A skilled live-commerce host is not merely a narrator, but a sales agent who converts
-    viewer curiosity into purchase intent through expert product knowledge, emotionally intelligent
-    response tactics, and entertainment that serves as a vehicle for product exposure. Yet no
-    existing AI system replicates this. We present Ottilie, a socially intelligent virtual host
-    for sales-driven live commerce.
+  abstract: A skilled live-commerce host is not merely a narrator, but a sales agent
+    who converts viewer curiosity into purchase intent through expert product knowledge,
+    emotionally intelligent response tactics, and entertainment that serves as a vehicle
+    for product exposure. Yet no existing AI system replicates this. We present Ottilie,
+    a socially intelligent virtual host for sales-driven live commerce.
   venue: arXiv (Cornell University)
-- title: 'Selling in the Wild: Benchmark and Randomized Field Evidence for a Sales Agent Trained
-    on Commercial Conversations'
+- title: 'Selling in the Wild: Benchmark and Randomized Field Evidence for a Sales
+    Agent Trained on Commercial Conversations'
   date: 2026-10
   url: https://arxiv.org/abs/2610.25461
   category: ai-marketing
   subcategory: empirical
   authors:
   - Benjamin Tannenbaum
-  abstract: We test whether Javo, a sales agent fine-tuned on 4.6 million consented, de-identified
-    commercial conversations, sells better than a frontier general-purpose model and better
-    than human sales associates. The evaluation has four parts. Study 1 scores the agent on
-    two public sales benchmarks, SalesLLM and SmartSalesBench, against 10 frontier and open-weight
-    models. Study 2 is a randomized controlled trial on 100 live websites in 14 industries (e-commerce,
-    travel and hospitality, and high-consideration services), run from 1 May to 30 September
-    2026, in which 14.8 million visitors were randomized to no agent, Javo, or a frontier-model
-    agent with an identical interface, catalog tools and guardrails. Study 3 isolates the effect
-    of the model by comparing the two agent arms. Study 4 compares Javo with each site's own
-    human associates on 20 sites with staffed live chat. Relative to no agent, Javo changed
-    revenue per visitor by +10.0% (95% CI +5.1 to +14.9). Among engaged visitors, it changed
-    conversion by +21.6% relative to the frontier-model agent (95% CI +16.9 to +26.3). Against
-    human associates, its engaged conversion was 11.26% versus 11.20% (non-inferior, margin
-    -7%, one-sided p = 0.004; no significant superiority), at 1.8% of the cost per conversation.
-    Return rates, unsupported product claims and complaint rates met the prespecified safety
-    guardrails.
+  abstract: We test whether Javo, a sales agent fine-tuned on 4.6 million consented,
+    de-identified commercial conversations, sells better than a frontier general-purpose
+    model and better than human sales associates. The evaluation has four parts. Study
+    1 scores the agent on two public sales benchmarks, SalesLLM and SmartSalesBench,
+    against 10 frontier and open-weight models. Study 2 is a randomized controlled
+    trial on 100 live websites in 14 industries (e-commerce, travel and hospitality,
+    and high-consideration services), run from 1 May to 30 September 2026, in which
+    14.8 million visitors were randomized to no agent, Javo, or a frontier-model agent
+    with an identical interface, catalog tools and guardrails. Study 3 isolates the
+    effect of the model by comparing the two agent arms. Study 4 compares Javo with
+    each site's own human associates on 20 sites with staffed live chat. Relative
+    to no agent, Javo changed revenue per visitor by +10.0% (95% CI +5.1 to +14.9).
+    Among engaged visitors, it changed conversion by +21.6% relative to the frontier-model
+    agent (95% CI +16.9 to +26.3). Against human associates, its engaged conversion
+    was 11.26% versus 11.20% (non-inferior, margin -7%, one-sided p = 0.004; no significant
+    superiority), at 1.8% of the cost per conversation. Return rates, unsupported
+    product claims and complaint rates met the prespecified safety guardrails.
   venue: arXiv (Cornell University)
 - title: 'Governing Machines: How Platform Governance Shapes AI Agent Lead Generation'
   date: 2026-05
@@ -301729,10 +301729,10 @@ papers:
   authors:
   - Jafar Sabbah
   - Oguz Ali Acar
-  abstract: How platform governance shapes lead generation by AI agents — an analysis of the
-    rules, incentives and design choices through which digital platforms govern autonomous agents
-    that generate and qualify B2B leads (SSRN preprint, Bayes Business School / City, University
-    of London and King's College London).
+  abstract: How platform governance shapes lead generation by AI agents — an analysis
+    of the rules, incentives and design choices through which digital platforms govern
+    autonomous agents that generate and qualify B2B leads (SSRN preprint, Bayes Business
+    School / City, University of London and King's College London).
   venue: SSRN Electronic Journal (preprint)
 - title: 'The Augmented Rep: Agentic AI Across the Enterprise Sales Cycle'
   date: 2026-06
@@ -301741,11 +301741,12 @@ papers:
   subcategory: framework
   authors:
   - Akhila Gudla
-  abstract: 'The Augmented Rep: Agentic AI Across the Enterprise Sales Cycle. Objectives: 1.
-    To explain the role of Agentic AI in enterprise sales and how autonomous AI agents support
-    sales teams. 2. To show how AI-driven automation enhances key sales activities such as lead
-    generation, customer engagement, opportunity management, proposal creation and pipeline
-    acceleration, augmenting the human sales representative across the enterprise sales cycle.'
+  abstract: 'The Augmented Rep: Agentic AI Across the Enterprise Sales Cycle. Objectives:
+    1. To explain the role of Agentic AI in enterprise sales and how autonomous AI
+    agents support sales teams. 2. To show how AI-driven automation enhances key sales
+    activities such as lead generation, customer engagement, opportunity management,
+    proposal creation and pipeline acceleration, augmenting the human sales representative
+    across the enterprise sales cycle.'
   venue: International Research Journal on Advanced Engineering and Management (IRJAEM)
 - title: 'Autonomous AI Agents in Enterprise CRM: Architecture, Governance, and Operational
     Safety'
@@ -301755,13 +301756,15 @@ papers:
   subcategory: framework
   authors:
   - Aditya Pothukuchi
-  abstract: Enterprise Customer Relationship Management platforms are undergoing a fundamental
-    transformation from passive systems of record into intelligent systems capable of autonomous
-    decision-making. This paper presents an architecture for autonomous AI agents in enterprise
-    CRM, addressing governance, operational safety and how agents autonomously support sales
-    workflows including lead management and qualification.
+  abstract: Enterprise Customer Relationship Management platforms are undergoing a
+    fundamental transformation from passive systems of record into intelligent systems
+    capable of autonomous decision-making. This paper presents an architecture for
+    autonomous AI agents in enterprise CRM, addressing governance, operational safety
+    and how agents autonomously support sales workflows including lead management
+    and qualification.
   venue: Journal of Information Systems Engineering & Management (JISEM)
-- title: Lead Generation System Using AI and Retrieval Augmented Generation for Customer Interaction
+- title: Lead Generation System Using AI and Retrieval Augmented Generation for Customer
+    Interaction
   date: 2026-06
   url: https://doi.org/10.22214/ijraset.2026.83306
   category: ai-marketing
@@ -301769,13 +301772,14 @@ papers:
   authors:
   - Karthik B
   - Prashanth K
-  abstract: This paper presents the design and development of an AI-driven lead generation platform
-    that combines a Retrieval Augmented Generation (RAG) pipeline with a stateful conversational
-    interface for customer interaction, demonstrating how AI and RAG can automate and improve
-    lead generation in B2B/B2C settings.
-  venue: International Journal for Research in Applied Science and Engineering Technology (IJRASET)
-- title: 'Inbound Sales Management: Exploring the Substitutability of Autonomous AI Sales Agents
-    in Advancing B2B Relationships'
+  abstract: This paper presents the design and development of an AI-driven lead generation
+    platform that combines a Retrieval Augmented Generation (RAG) pipeline with a
+    stateful conversational interface for customer interaction, demonstrating how
+    AI and RAG can automate and improve lead generation in B2B/B2C settings.
+  venue: International Journal for Research in Applied Science and Engineering Technology
+    (IJRASET)
+- title: 'Inbound Sales Management: Exploring the Substitutability of Autonomous AI
+    Sales Agents in Advancing B2B Relationships'
   date: 2026-01
   url: https://doi.org/10.1016/j.indmarman.2025.11.007
   category: b2b
@@ -301784,13 +301788,14 @@ papers:
   - Christopher A. Nelson
   - Lana Waschka
   - Gary K. Hunter
-  abstract: Generative AI is reshaping how B2B buyer-seller relationships are initiated and
-    developed. When a prospective buyer initiates contact through digital channels, creating
-    inbound leads, sales managers must decide whether to assign relationship-forging tasks to
-    an AI agent or a human. Drawing on relationship phases, the authors test AI effectiveness
-    in exploration and expansion phases, finding human salespeople more effective in vital relationship-building
-    tasks, while technology-proficient buyers prefer AI agents — informing when to deploy people
-    versus agents in lead nurturing (Industrial Marketing Management).
+  abstract: Generative AI is reshaping how B2B buyer-seller relationships are initiated
+    and developed. When a prospective buyer initiates contact through digital channels,
+    creating inbound leads, sales managers must decide whether to assign relationship-forging
+    tasks to an AI agent or a human. Drawing on relationship phases, the authors test
+    AI effectiveness in exploration and expansion phases, finding human salespeople
+    more effective in vital relationship-building tasks, while technology-proficient
+    buyers prefer AI agents — informing when to deploy people versus agents in lead
+    nurturing (Industrial Marketing Management).
   venue: Industrial Marketing Management
 - title: AI Agent Design for Trade Show Lead Matching
   date: 2025-09
@@ -301800,9 +301805,10 @@ papers:
   authors:
   - Victoria Martin del Campo Alcocer
   - David Efrain Munoz Morales
-  abstract: Design of AI agents for matching trade-show leads to vendor interest — a peer-reviewed
-    application paper from the 17th Mexican Congress on Artificial Intelligence (COMIA 2025,
-    Springer CCIS 2554) on agent-based matching of exhibition visitor leads.
+  abstract: Design of AI agents for matching trade-show leads to vendor interest —
+    a peer-reviewed application paper from the 17th Mexican Congress on Artificial
+    Intelligence (COMIA 2025, Springer CCIS 2554) on agent-based matching of exhibition
+    visitor leads.
   venue: Communications in Computer and Information Science, Springer (COMIA 2025)
 - title: From Lead Qualification to Auto-Generated Demand
   date: 2026-09
@@ -301811,27 +301817,28 @@ papers:
   subcategory: empirical
   authors:
   - Jaime Ventura
-  abstract: AI voice agents that place the first call to a new contact, run a scripted pre-qualification,
-    and hand only the contacts that pass to a human salesperson have become a viable path from
-    lead qualification to auto-generated demand, moving the qualification stage of the pipeline
-    into autonomous AI.
+  abstract: AI voice agents that place the first call to a new contact, run a scripted
+    pre-qualification, and hand only the contacts that pass to a human salesperson
+    have become a viable path from lead qualification to auto-generated demand, moving
+    the qualification stage of the pipeline into autonomous AI.
   venue: Zenodo (technical report)
-- title: 'The Transformative Role of AI Agents in Marketing: Applications, Challenges, and Future
-    Directions'
+- title: 'The Transformative Role of AI Agents in Marketing: Applications, Challenges,
+    and Future Directions'
   date: 2025-09
   url: https://doi.org/10.36227/techrxiv.175756685.50137934
   category: ai-marketing
-  subcategory: survey
+  subcategory: review
   authors:
   - Satyadhar Joshi
-  abstract: Artificial Intelligence (AI) agents are revolutionizing the marketing landscape
-    by automating tasks, enhancing personalization, and optimizing campaigns. This paper explores
-    the multifaceted role of AI agents in marketing, including their applications in content
-    creation, customer engagement, data analysis and lead generation, and discusses the challenges
-    and future directions of agent-based marketing systems.
+  abstract: Artificial Intelligence (AI) agents are revolutionizing the marketing
+    landscape by automating tasks, enhancing personalization, and optimizing campaigns.
+    This paper explores the multifaceted role of AI agents in marketing, including
+    their applications in content creation, customer engagement, data analysis and
+    lead generation, and discusses the challenges and future directions of agent-based
+    marketing systems.
   venue: TechRxiv (preprint)
-- title: 'GENIE CRM: An Agentic AI-Powered Customer Relationship Management System with Multi-Agent
-    Autonomous Operation'
+- title: 'GENIE CRM: An Agentic AI-Powered Customer Relationship Management System
+    with Multi-Agent Autonomous Operation'
   date: 2026-04
   url: https://doi.org/10.55041/isjem06720
   category: ai-marketing
@@ -301839,9 +301846,597 @@ papers:
   authors:
   - Hinaben Bharatbhai Dudharejiya
   - Dev Tejas Shah
-  abstract: The rapid evolution of large language models and agentic AI frameworks has opened
-    a new frontier for intelligent enterprise software. This paper presents GENIE CRM, a full-stack
-    customer relationship management platform that embeds autonomous AI agents across sixteen
-    functional modules to automate sales, marketing and customer-service workflows, including
-    lead management and qualification.
+  abstract: The rapid evolution of large language models and agentic AI frameworks
+    has opened a new frontier for intelligent enterprise software. This paper presents
+    GENIE CRM, a full-stack customer relationship management platform that embeds
+    autonomous AI agents across sixteen functional modules to automate sales, marketing
+    and customer-service workflows, including lead management and qualification.
   venue: International Scientific Journal of Engineering and Management (ISJEM)
+- title: 'The Customer Is the Builder: How AI Coding Agents Are Rewriting the Economics
+    of Software'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.30307
+  category: digital-marketing
+  subcategory: empirical
+  authors:
+  - Ripon Chandra Malo
+  - Zimeng Yu
+  - Tong Qiu
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'AI coding agents could change whether organizations buy software or build
+    the functionality they need. We focus on organizations and professional buyers
+    whose domain knowledge can help them specify and evaluate tools for their work.
+    We define the software substitution frontier as the functions customers could
+    build and maintain at an acceptable standard for less than buying them. Using
+    public data, we compare growing capacity to build with indicators of market change.
+    Since 2023, the length of benchmark tasks that leading agents can complete at
+    50 percent success, measured in human working time, has doubled about every 129
+    days. A broad search identified 575 potential open-source alternatives to selected
+    commercial products, although some functional matches still require independent
+    validation. The Craft suite produced 12 application repositories over 12.0 days
+    of public development, but these remain early versions with unverified completeness
+    and reliability. Market evidence is mixed: purchased software gained US investment
+    share and tracked commercial installations grew. Yet 32 percent of respondents
+    to an organizational survey reported forgoing at least one software purchase because
+    their organization could build the functionality with coding agents. These self-reports
+    do not establish the spending displaced or the reliability of the resulting tools.
+    The gap motivates a warning: customers'' capacity to build could affect individual
+    buying decisions before a broad purchasing shift becomes visible. We examine this
+    possibility using benchmark projections and observable market tests. The projections
+    are an extrapolation, not a forecast of customer switching.'
+- title: 'The Privacy Paradox Is a Misnomer: Data Under Structural Uncertainty'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.29756
+  category: digital-marketing
+  subcategory: empirical
+  authors:
+  - Ignacio Cofone
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'The infamous privacy paradox refers to the apparent inconsistency between
+    people''s stated concern for privacy and their readiness to disclose personal
+    information. This phenomenon has sparked two largely disconnected literatures:
+    one offering experimental evidence of inconsistent behavior, and another providing
+    qualitative accounts and defending the importance of privacy. The Article presents
+    an online field experiment that bridges those literatures and shows that the so-called
+    paradox arises from a mischaracterization of the underlying behavior. The Article
+    finds that it is structural uncertainty about risk that drives seemingly paradoxical
+    privacy decisions. It does so by isolating discounting mechanisms and empirically
+    testing whether observed privacy choices reflect temptation or rational responses
+    to uncertainty. The results suggest that privacy behavior is not paradoxical but,
+    rather, consistent with choices shaped by incomplete information. The Article
+    then discusses the policy implications of this reframing. As privacy decisions
+    stem from structural uncertainty, which operates as a market failure, regulation
+    should aim to reduce that uncertainty. This supports regulation that prioritizes
+    transparency (for people to assess the risks of data collection) and flexibility
+    mechanisms that accommodate evolving contexts. Such reframing provides a new argument
+    for the right to be forgotten, which allows people to revisit prior disclosures
+    as new risks become apparent. By shifting the focus from individual inconsistency
+    to structural uncertainty, the findings call for privacy law to better reflect
+    the reality of people''s decision-making environments.'
+- title: 'Optimizing Marketing Budgets for Social Influence: A Generalized Fractional
+    Incentives Framework'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.25823
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Abhishek K. Umrawal
+  - Akhil Bhimaraju
+  - Eliot W. Robson
+  - Lav R. Varshney
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Marketing managers routinely allocate limited budgets across individuals
+    in social networks whose responsiveness and influence vary substantially. We study
+    the problem of Budgeted Generalized Fractional Influence Maximization (BGFIM),
+    which captures the allocation of continuous levels of marketing spend across users
+    in the presence of heterogeneous response and network spillovers. In this framework,
+    adoption probabilities are governed by user-specific response functions that capture
+    both baseline propensity and marginal responsiveness, while incentive costs vary
+    across users. We propose a scalable solution approach based on a discrete greedy
+    procedure with provable approximation guarantees, enabling tractable optimization
+    under realistic budget constraints. Our formulation generalizes prior influence
+    maximization models by allowing heterogeneous response and cost structures, providing
+    a more flexible representation of targeted marketing interventions. Using experiments
+    on multiple large-scale networks, we show that continuous allocation strategies
+    can outperform standard heuristics and improve influence outcomes under heterogeneous
+    conditions, and we illustrate how the framework can support profit-oriented decision
+    making by identifying budget levels that balance marginal returns and costs. Overall,
+    our results highlight the value of fine-grained budget allocation in networked
+    marketing environments and offer a scalable approach for data-driven marketing
+    resource allocation.
+- title: LLM Evolution in a Simple Simulated Market
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.24033
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Charlie Pilgrim
+  - Christopher Krupenye
+  - Dora Biro
+  - Richard P. Mann
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Arguments that AI systems will evolve in harmful ways are largely made
+    in the abstract. We provide a concrete empirical example. We simulate simple markets
+    consisting of populations of twenty Large Language Model agents tasked with solving
+    arithmetic problems. Agents differ only in their system prompt; those that go
+    bankrupt are removed and replaced by mutated copies of the prompts of successful
+    agents. Two market conditions select for opposite phenotypes: a market that rewards
+    accuracy produces agents with high accuracy (94%) and high token use; a market
+    that charges per token produces agents with low accuracy (10%) and low token use.
+    In the second market, only tokens are incentivised yet we see a collapse in accuracy.
+    Token use and accuracy are correlated traits such that selection on one also moves
+    the other, and behaviour adapts along an unpriced dimension. A third neutral condition
+    with no selection allows us to separate these effects from bias in the mutation
+    operator. Adaptation occurs through a collective optimisation process that operates
+    above the level of individual agents, who are never told the payment rule, do
+    not receive feedback, and have no memory.'
+- title: 'Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.30113
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Houde Qian
+  - Zheng Jiang
+  - Wenyi Li
+  - Chenxi Xu
+  - Xinjie Lin
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Quantitative research is an iterative loop: a researcher proposes a market
+    hypothesis, implements it as an executable signal, tests it on historical data,
+    and decides what to keep. Existing benchmarks score formulas, code, or individual
+    trading decisions, leaving open whether large language models (LLMs) can complete
+    this loop and produce strategies that work beyond the research period. We introduce
+    Quant-Arena, a benchmark and public leaderboard for end-to-end quantitative research
+    on real A-share market data. A model constructs features and stock-scoring code,
+    receives feedback only on 2022--2023, and freezes one strategy for assessment
+    on the sealed year 2024. A cash-account evaluator applies trading constraints
+    and costs, including market impact estimated from a simulated order book. Scores
+    are dominated by realized excess return and complemented by signal quality and
+    the diversity of features used by the strategy. We evaluate nine frontier models,
+    among which GPT-6 Astra scores highest; yet no model beats the equal-weight market
+    in 2024. Quant-Arena is open to submissions from any model or agent harness.'
+- title: Unified Sharp Bounds on Probabilities of Causation
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.27398
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Xin Shu
+  - Ang Li
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Probabilities of causation (PoCs) have developed steadily, from the binary
+    measures first introduced by Pearl to the non-binary setting recently studied
+    by Shu et al. As the theory has matured, PoCs have found applications in a growing
+    range of areas, including personalized medicine, marketing and legal attribution.
+    Shu et al. proposed closed-form bounds for multi-valued treatments and outcomes
+    and proved them valid, but left their sharpness in high dimensions open. We close
+    this gap with a mathematical proof. We further show that \PNS, \PSub, \PRep and
+    \PN are all special cases of a single, more general formula. Combined with their
+    equivalence classes, this settles the question of sharp bounds for discrete PoCs
+    from experimental and observational data: in every dimension, they are given in
+    closed form by a single theorem.'
+- title: 'TwinStore: A Synthetic Consumer Platform Using Vision--Language Models'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.30909
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Minhyeok Lee
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: We present TwinStore, a source-available synthetic consumer platform for
+    physical retail built on vision--language models. TwinStore turns a store into
+    a digital twin---from 82 ready-made formats, a floor-plan image or phone photos
+    of its shelves---and fills it with synthetic shoppers who plan a trip, walk the
+    aisles and decide what to buy by looking at rendered shelves with packs, price
+    tags and promotion signs. Every trip ends in a receipt, so a layout, price, pack
+    or promotion can be tried on the same shoppers before it reaches the store. Around
+    this core, TwinStore provides 3D playback, paired comparisons and layout optimization,
+    shopper interviews, a trade-area model, counterfactual edits of real shelf photos,
+    a marketing studio with eleven tools, and an assistant that turns a plain sentence
+    into a drafted study or an answer grounded in a run's own numbers. In a held-out
+    validation on eleven public datasets, simulated receipts approach the households'
+    own natural variation (category-mix divergence 0.017--0.018 against a real drift
+    of 0.012), price elasticities fall inside the range measured in the field, and
+    three independent decision models agree. TwinStore runs on cloud or on-device
+    models and is distributed with installers for Windows, macOS and Linux.
+- title: 'Toolflation: Seller Agents Distort Tool Markets Through Spontaneous Generative
+    Engine Optimization'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.28454
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Zhenwei Tang
+  - Di Bai
+  - Jintao Liu
+  - Xidong Wu
+  - Qianfeng Wen
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Agents are starting to sell to other agents. Seller agents write the listings
+    of tools, services and products, and buyer agents read these listings when they
+    choose what to use. We show that seller agents told only to be selected more often
+    practice generative engine optimization on their own, and that this distorts the
+    market for sellers and for buyers. We build tool markets from real data tools
+    on Amazon and Instagram and run every tool on every question, so we know which
+    tools can answer each question. Under all five production models we test, sellers
+    rewrite their descriptions to claim more and more fields, including fields that
+    their tools return for fewer than half of the targets. We call this process toolflation.
+    Nothing in the market limits it, and how far it goes depends on the model, as
+    the number of claims that contradict the sellers' own evidence differs by an order
+    of magnitude between models. Toolflation shifts the buyers' choices between sellers,
+    and the most capable tool loses share in seven of the ten combinations of seller
+    model and platform. Under four models, the choices stay with capable tools and
+    buyer agents keep their task success. Under the fifth, sellers copy one another
+    until the descriptions no longer tell the tools apart. Buyer agents then pick
+    tools by their position in the list, tools that answer almost nothing win a quarter
+    to two fifths of the choices, and task success falls from 89% to about 30% on
+    Amazon, close to random choice, and from 77% to 40% on Instagram. The sellers
+    did only what their vendors asked, and the cost fell on buyers they never dealt
+    with. We therefore argue that honesty toward third parties under competition is
+    part of safety alignment, and that models should be tested as sellers before they
+    are deployed as sellers.
+- title: 'Governed Self-Evolution for Autonomous Investing: A Multi-Agent LLM System
+    with an Invariant Core'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.30557
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Yebo Feng
+  - Jingyang Dai
+  - Liangrui Pan
+  - Nelson Lau
+  - Jiahua Xu
+  venue: ''
+  code_url: https://github.com/yebof/quant-agent
+  project_url: ''
+  abstract: 'LLM agents that act on live Web data must combine heterogeneous evidence,
+    remember what they have done and improve from outcomes without weakening their
+    own safeguards. We study this problem in autonomous investing, where every action
+    is irreversible and based on untrusted Web content. We present Steward, a multi-agent
+    LLM system that draws the boundary of self-evolution in its type system. First,
+    nine role-specialised agents decide jointly: four analysts read news feeds, SEC
+    filings, macroeconomic series and market data and emit typed reports, from which
+    a Portfolio Manager sets target positions that a protected Risk Manager audits.
+    Second, a seven-layer shared memory, assembled by code from the system''s own
+    record, gives each decision its position context, the market narrative, calibration
+    and the agent''s past decisions. Third, the system improves itself by review:
+    code grades every trade and forecast nightly and writes the grades into memory,
+    and each quarter a reflector proposes prompt learnings that a deterministic gate
+    applies reversibly and replay of recorded inputs verifies. All three operate around
+    an invariant core of order arithmetic, risk rules and discipline-agent prompts
+    that no self-edit can reach. In a five-month live deployment (102 trading days,
+    1,632 LLM calls), the system contained a 24.6% sector drawdown to a 0.3% loss;
+    in replay of its recorded inputs, a single model given the same raw data traded
+    more and lost 1.35 points against the market over five days where the joint design
+    showed no significant loss, and no injected instruction was followed; and a 2015-2026
+    backtest shows the core alone lowering the maximum drawdown under all 50 random
+    entry policies. The reflector traced the dominant failure to its root cause, and
+    the gate applied a learning that the agent adopted on trigger evenings and on
+    no control evening. Code: https://github.com/yebof/quant-agent'
+- title: Lineage-Aware Search Control for LLM-Based Evolutionary Factor Mining
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.29663
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Xintong Liu
+  - Chenkai Zhang
+  - Yanzhao Ma
+  - Peng Yang
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Formulaic alpha factor mining searches for symbolic expressions that
+    transform market data into predictive signals. Recent LLM-based evolutionary factor
+    mining methods use large language models as semantic variation operators. Under
+    the conventional LLM-EA paradigm, stochastic variation and fitness-based selection
+    can leave the search weakly directed and concentrated around a narrow set of structurally
+    similar factors. We argue that these limitations arise because current methods
+    mainly organize search at the individual and population levels, leaving lineage-level
+    control underused. A lineage connects successive factor variants through evolutionary
+    descent. We propose LineageEvo, which uses lineage in two coupled forms of search
+    control: (1) lineage-conditioned LLM variation, which distills Lineage-Scoped
+    Search Experience into operator-specific priors and fuses them with global operator
+    priors, providing persistent, lineage-relevant guidance for LLM generation; and
+    (2) lineage-stratified search allocation, which balances factor quality against
+    lineage concentration by distributing the search budget across lineages during
+    evolutionary search. Together, these mechanisms make semantic variation more direction
+    aware and prevent branches from dominating the evolution, thereby promoting the
+    discovery of predictive and diverse factors. We evaluate LineageEvo on CSI 500
+    and S&amp;P 500 in terms of factor predictiveness, portfolio performance, search
+    efficiency, and lineage- and expression-level diversity. LineageEvo achieves the
+    strongest predictive performance on both markets, while LSPS produces a more balanced
+    lineage distribution and a structurally broader factor pool. The results support
+    lineage as a useful intermediate unit for controlling LLM-based evolutionary factor
+    search.'
+- title: 'YouTube Clips and Broad but Shallow Attention to Candidates: Evidence from
+    the 2024 Tokyo Gubernatorial Election'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.24387
+  category: social-media
+  subcategory: empirical
+  authors:
+  - Yoshito Miwa
+  - Kazutoshi Sasahara
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Video-sharing platforms and social media have gained influence in election
+    campaigns, and third-party edited videos (called kirinuki in Japanese; hereafter,
+    "clip videos") in particular have attracted attention. In Japan, Shinji Ishimaru,
+    previously unknown nationally, finished second in the 2024 Tokyo gubernatorial
+    election, a result widely attributed to his popularity on YouTube. Focusing on
+    this case, we analyzed 44,331 YouTube videos relating to the nine leading candidates,
+    posted between July 5, 2020, and July 7, 2024. Using cumulative views and engagement
+    data as of June 25, 2025, we examined the relationship between clip videos and
+    the attention candidates received. Regression analyses with standard errors clustered
+    by channel showed that Ishimaru, the most watched candidate, did not draw the
+    most active engagement. Videos mentioning Ishimaru received about 36% fewer likes
+    and 41% fewer comments at the same number of views, whereas some candidates with
+    fewer views recorded higher engagement rates. Clip videos were associated with
+    this breadth of attention. They received about 1.8 times more views but 26% fewer
+    comments at the same number of views, and mentions of Ishimaru were associated
+    with about 2.6 times more views among non-clip videos. The interaction between
+    the two, however, was not significant, and understanding the prominence of Ishimaru's
+    cumulative views requires considering both the number of clip videos about him
+    and the views per video. These results suggest that the spread of attention through
+    clip videos may have functioned as a broad but shallow pathway, distinct from
+    the formation of committed support.
+- title: 'Speculative Imbalance Positions by Non-Physical Traders: Impacts on Electricity
+    System Balancing in Great Britain'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.28075
+  category: consumer-behavior
+  subcategory: empirical
+  authors:
+  - Joseph Cary
+  - Thomas Morstyn
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: The electricity system in Great Britain (GB) allows participants to deliberately
+    produce or consume a different volume to their traded position and has incentivised
+    this practice with a single imbalance price since 2015. In particular, non-physical
+    traders (NPTs) often take an open position to imbalance without any intention
+    to produce or consume power. However, new government proposals could restrict
+    this practice due to concerns over supply-demand balancing feasibility and costs.
+    This article presents the first empirical analysis of speculative imbalance positioning
+    (SIP) by NPTs in the GB electricity system through its effects on imbalance volumes,
+    balancing costs, the imbalance price, and associated settlement costs over the
+    period 2021-2024. Our research uses party-level imbalance data in each settlement
+    period to run counterfactual simulations of the electricity balancing mechanism
+    without the aggregate NPT imbalance. Our results indicate that SIP by NPTs reduced
+    the total net balancing volume required by 3.1-3.9 TWh (16-20%), reduced system
+    imbalance standard deviation by 48-65 MWh (13-17%), reduced balancing costs by
+    £347-396m (5.9-6.7%), and reduced supplier imbalance costs by £193-325m (65-75%)
+    over the analysis period. These results suggest that consumer bills would have
+    been higher without SIP by NPTs, since the extra costs would likely have been
+    passed on to consumers through levies, although the potential for effects in the
+    wholesale (primarily late-stage intraday) markets complicates this picture.
+- title: 'Joules-to-GDP: How Much Economic Value Do AI Systems Produce per Unit of
+    Energy?'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.30858
+  category: consumer-behavior
+  subcategory: empirical
+  authors:
+  - Amirreza Zeinali
+  - Jon Saad-Falcon
+  - Avanika Narayan
+  - Mersad Abbasi
+  - Jonathan S. Hartley
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'An AI system can produce more economically valuable work while delivering
+    less value for the energy it consumes. We therefore ask: How much economic value
+    does an AI system create per unit of energy consumed? We formalize economic value
+    in two ways: (1) net dollar value, the output''s dollar value minus AI-system
+    execution cost, and (2) time saving, the expert''s completion time minus the AI
+    system''s completion time. Dividing each by measured end-to-end energy yields
+    Net Value per Joule (NVJ) and Time Saving per Joule (TSJ), reported in USD/MJ
+    and hours/MJ. We study 220 public GDPval tasks across 44 occupations, serving
+    five open-weight models locally and evaluating four accelerator types. First,
+    the occupation groups where AI systems succeed most often, deliver the greatest
+    dollar value, or save the most time do not necessarily provide the greatest economic
+    return per joule. For example, among the tested tasks, engineering work delivers
+    about 10% more net dollar value per task than software development. Yet software
+    development delivers about 27% more net value per joule. Second, GLM 5.2 delivers
+    the highest average net dollar value, at $72.27 per task using 0.430 MJ, equivalent
+    in energy to about four hours of active laptop use. By contrast, Gemma 4 31B delivers
+    56% of that net dollar value using just 23% of the energy, achieving approximately
+    2.5 times the NVJ and 2.8 times the TSJ. Third, across four single-accelerator
+    deployments, Qwen3.6-27B''s NVJ varies by a factor of 4.32 and TSJ by 9.27, with
+    B200 leading both. Additionally, one and eight H100s deliver similar net dollar
+    value, but eight reduce completion time by 22% at 3.24 times the energy. Our framework
+    makes output value and expert time saving under an energy budget explicit objectives
+    for improving models, accelerators, and software, while offering a new basis for
+    assessing AI''s potential economic effect on occupational work.'
+- title: Can Entanglement-Induced Feature-Map Designs Improve Projected Quantum Kernels?
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.31260
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Ravi Kumar Jha
+  - Hsuan-Yin Lin
+  - Eirik Rosnes
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Projected quantum kernels (PQKs) have emerged as a notable approach to
+    circumvent the hardness of machine learning tasks arising from the exponential
+    dimensionality of the quantum Hilbert space. However, recent PQK studies often
+    rely heavily on extensive classical hyperparameter tuning of the radial basis
+    function (RBF) kernel parameter and the support vector machine regularization
+    parameter. The extensive tuning can mask the true representational power of the
+    underlying PQKs induced by quantum feature maps, which has not been explored in
+    detail. Thus, this work aims to expose the structural capabilities of PQKs by
+    isolating and evaluating their native inductive bias through comparisons between
+    untuned and tuned PQKs against the RBF baseline. Furthermore, we propose novel
+    quantum feature maps that leverage two-qubit entanglement to capture multivariate
+    correlations in IoT data. The results show that extensive tuning can lead to competitive
+    performance architectures, while our proposed entanglement topologies exhibit
+    a significantly stronger native inductive bias. This reveals that superior quantum
+    architectural design can yield structurally better PQKs with improvements arising
+    from quantum-mechanical properties rather than from classical hyperparameter tuning.
+- title: 'Auto-MD-bench: Evaluating Autoresearch Agents for Real-World Medical Tasks'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.25069
+  category: ai-marketing
+  subcategory: measurement
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Autonomous agents are increasingly capable of developing machine learning
+    (ML) models end to end. In medical practice, however, strong performance on the
+    target metric does not fully characterize how good the models are in real-world
+    use cases. For example, medical ML models should also provide well-calibrated
+    risk estimates and remain robust across patient populations. Yet autonomous model
+    development is typically guided by task objectives that emphasize simple predictive
+    discrimination (e.g. AUROC). This raises a key question: are these objectives
+    sufficient to guide agents toward models that meet the broader requirements of
+    real-world medical use? In this study, we introduce Auto-MD-bench, a benchmark
+    of 15 real-world medical tasks from 10 clinical datasets, spanning survival analysis,
+    classification and sequential prediction, with external validation across cohorts,
+    hospitals and time periods. We evaluate four agents: AIDE, AI Scientist v2, Codex,
+    and Autoresearch. The strongest agents achieve competitive primary scores, yet
+    their predicted risks are less calibrated than those of the simple baseline models,
+    which could lead to severe medical accidents. Moreover, models with nearly identical
+    primary scores can exhibit markedly different calibration, while performance varies
+    substantially across population shifts. These findings show that primary task
+    performance alone is insufficient to assess autonomous clinical modeling and multiple
+    different metrics widely used in healthcare practice need to be taken into consideration.'
+- title: Estimating Performance for Safe Deployment of Machine Learning Models
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.29262
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Zeju Li
+  - Konstantinos Kamnitsas
+  - Mobarakol Islam
+  - Melanie Roschewitz
+  - Cheng Ouyang
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: The main challenge in applying deep neural networks to real-world scenarios
+    lies in distributional discrepancies between training and test datasets, often
+    caused by variations in data acquisition conditions. Assessing the performance
+    of pre-trained models without labels is crucial for safety, but this is complicated
+    by deep models' overly optimistic probabilistic outputs, often exacerbated by
+    class imbalances, leading to unreliable predictions. To address these issues,
+    we introduce MOVAL, a novel MOdel eVALuation tool that estimates performance using
+    unlabeled test data. MOVAL incorporates class-wise confidence calibration to adjust
+    model outputs, allowing for the estimation of metrics beyond accuracy and mitigating
+    the detrimental effects of class imbalance on confidence calibration. Additionally,
+    we propose an ensemble approach that combines multiple calibrated confidence scores
+    for a more robust solution. We validate MOVAL on natural and medical image datasets
+    with various acquisition shifts, covering tasks from classification to segmentation.
+    It achieves state-of-the-art results across evaluation metrics such as accuracy,
+    F1-Score, AUC, and more. Furthermore, we demonstrate that MOVAL provides accurate
+    performance estimations at the class, instance, and pixel levels, ensuring the
+    transparent and safe deployment of machine learning models. We provide MOVAL as
+    a deployment tool for monitoring and estimating performance under a range of domain
+    shifts.
+- title: 'OptScientist: Automated Discovery of Optimization Laws'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.28562
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Ma ZhenYao
+  - Yue Liang
+  - Jian-Qiao Zhu
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Many scientific phenomena are best understood as outcomes of underlying
+    optimization problems, yet automated scientific discovery has largely focused
+    on recovering equations that describe observed input-output patterns. We introduce
+    OptScientist, a novel automated framework for discovering compact symbolic optimization
+    laws directly from data. OptScientist comprises (i) a model that infers symbolic
+    optimization problems by first learning to represent data as an optimization problem
+    and then extracting its symbolic form, and (ii) an LLM agentic system embedding
+    the model in a discovery process that integrates theoretical priors from scientific
+    literature, discovers candidate laws, abstracts their underlying mechanisms, and
+    suggests new data to collect. We first evaluate OptScientist on OptFeynman, a
+    novel benchmark of 99 physics-derived optimization problems, where OptScientist
+    recovers ground-truth laws for over 80% of the problems and remains robust to
+    noisy contextual information, while substantially outperforming machine-learning,
+    symbolic, and LLM-based model-discovery baselines. On human risky choice and central-bank
+    monetary policy, OptScientist discovers compact symbolic optimization laws that
+    achieve held-out predictive performance competitive with leading baselines, while
+    using few parameters and substantially fewer tokens than LLM baselines. Overall,
+    OptScientist extends automated scientific discovery to uncovering optimization
+    laws that generate observed phenomena, enabling automated theory building across
+    the physical, biological, behavioral, and social sciences.
+- title: 'Generative Artificial Intelligence in Marketing: Consumer Responses, Authenticity,
+    and Governance Challenges'
+  date: 2026-10
+  url: https://doi.org/10.58830/ozgur.pub1533.c6201
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Suat Okay
+  abstract: Generative artificial intelligence (GenAI) has moved within a few years
+    from experimental tool to routine instrument in marketing departments, and the
+    academic literature is still catching up with that speed. This chapter offers
+    a structured review of work published between 2020 and 2026 on how GenA
+  doi: 10.58830/ozgur.pub1533.c6201
+  venue: Pazarlamada Güncel Konular
+- title: 'ROLE OF GENERATIVE ARTIFICIAL INTELLIGENCE IN CONTENT MARKETING: IMPACT
+    ON CONSUMER PERCEPTION AND BRAND INTERACTION'
+  date: 2026-10
+  url: https://doi.org/10.25258/ijddt.16.74s.12
+  category: ai-marketing
+  subcategory: empirical
+  authors: []
+  doi: 10.25258/ijddt.16.74s.12
+  venue: International Journal of Drug Delivery Technology
+- title: 'Redefining drug discovery: AI-driven strategies for efficient cancer therapeutics.'
+  date: 2026-01
+  url: https://doi.org/10.3389/fonc.2026.1907591
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - De D
+  - Chakraborty S
+  - Banerjee S
+  abstract: The practice of artificial intelligence has recently expanded several
+    social spheres, with the pharmaceutical domain leading the way. Given that AI
+    can facilitate rational drug design, it is plausible to envision its involvement
+    in developing pharmaceutical products from the laboratory to the patien
+  doi: 10.3389/fonc.2026.1907591
+  venue: MED
+- title: Optimizing for happiness in EU technology policy to repay public subsidies
+    for AI
+  date: 2026-10
+  url: https://europepmc.org/article/pmc/PMC13682884
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Wachter S
+  - Mittelstadt B
+  - Onitiu D
+  venue: PMC

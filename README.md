@@ -102,19 +102,19 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 
 ## 📊 Corpus Statistics
 
-**14,067 papers** across **11 categories**.
-Sources: **arXiv** 1046 (7%) · **DOI** 11912 (85%) · **Other** 1109 (8%).
+**14,088 papers** across **11 categories**.
+Sources: **arXiv** 1063 (8%) · **DOI** 11915 (85%) · **Other** 1110 (8%).
 Full paper list: [GitHub Pages site](https://tobias-weiss-ai-xr.github.io/marketing-research).
 
 ### Top categories
 
 | Category | Papers | Recent | |
 |----------|--------|--------|-
-| AI & Marketing | **2952** | 1742 | ████████████ |
+| AI & Marketing | **2968** | 1758 | ████████████ |
 | Surveys, Trends & Meta-Studies | **2068** | 1645 | ████████░░░░ |
-| Social Media & Creator Marketing | **1571** | 1060 | ██████░░░░░░ |
-| Consumer Behavior & Psychology | **1533** | 1031 | ██████░░░░░░ |
-| Digital & Performance Marketing | **1501** | 1010 | ██████░░░░░░ |
+| Social Media & Creator Marketing | **1572** | 1061 | ██████░░░░░░ |
+| Consumer Behavior & Psychology | **1535** | 1033 | ██████░░░░░░ |
+| Digital & Performance Marketing | **1503** | 1012 | ██████░░░░░░ |
 | Brand Strategy & Management | **1456** | 1025 | ██████░░░░░░ |
 | Customer Experience, Omnichannel & Retail | **1116** | 731 | █████░░░░░░░ |
 | Analytics, Attribution & Measurement | **581** | 354 | ██░░░░░░░░░░ |
@@ -124,7 +124,7 @@ Full paper list: [GitHub Pages site](https://tobias-weiss-ai-xr.github.io/market
 
 ## 📚 Paper list
 
-All **14067 papers** (grouped by category, subcategory and year) live in **[PAPERS.md](PAPERS.md)** — kept out of this README to keep it readable.
+All **14088 papers** (grouped by category, subcategory and year) live in **[PAPERS.md](PAPERS.md)** — kept out of this README to keep it readable.
 
 Browsable alternatives:
 
