@@ -102,21 +102,21 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 
 ## 📊 Corpus Statistics
 
-**14,088 papers** across **11 categories**.
-Sources: **arXiv** 1063 (8%) · **DOI** 11915 (85%) · **Other** 1110 (8%).
+**14,221 papers** across **11 categories**.
+Sources: **arXiv** 1196 (8%) · **DOI** 11915 (84%) · **Other** 1110 (8%).
 Full paper list: [GitHub Pages site](https://tobias-weiss-ai-xr.github.io/marketing-research).
 
 ### Top categories
 
 | Category | Papers | Recent | |
 |----------|--------|--------|-
-| AI & Marketing | **2968** | 1758 | ████████████ |
+| AI & Marketing | **3101** | 1891 | ████████████ |
 | Surveys, Trends & Meta-Studies | **2068** | 1645 | ████████░░░░ |
 | Social Media & Creator Marketing | **1572** | 1061 | ██████░░░░░░ |
 | Consumer Behavior & Psychology | **1535** | 1033 | ██████░░░░░░ |
 | Digital & Performance Marketing | **1503** | 1012 | ██████░░░░░░ |
 | Brand Strategy & Management | **1456** | 1025 | ██████░░░░░░ |
-| Customer Experience, Omnichannel & Retail | **1116** | 731 | █████░░░░░░░ |
+| Customer Experience, Omnichannel & Retail | **1116** | 731 | ████░░░░░░░░ |
 | Analytics, Attribution & Measurement | **581** | 354 | ██░░░░░░░░░░ |
 | Content & Storytelling | **491** | 266 | ██░░░░░░░░░░ |
 | Data, Privacy & Cookieless Advertising | **449** | 215 | ██░░░░░░░░░░ |
@@ -124,7 +124,7 @@ Full paper list: [GitHub Pages site](https://tobias-weiss-ai-xr.github.io/market
 
 ## 📚 Paper list
 
-All **14088 papers** (grouped by category, subcategory and year) live in **[PAPERS.md](PAPERS.md)** — kept out of this README to keep it readable.
+All **14221 papers** (grouped by category, subcategory and year) live in **[PAPERS.md](PAPERS.md)** — kept out of this README to keep it readable.
 
 Browsable alternatives:
 

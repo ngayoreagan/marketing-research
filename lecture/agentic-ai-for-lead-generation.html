@@ -1865,7 +1865,7 @@ section.lead h2 { border-bottom: none; color: var(--ink); font-weight: 400; }
 
 <h2 id="walkthrough--step-1--the-repo-is-the-contract">Walkthrough · Step 1 — The repo is the contract</h2>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-text">marketing-research/               github.com/tobias-weiss-ai-xr/marketing-research
-├─ papers.yaml                    14,088 papers — single source of truth
+├─ papers.yaml                    14,221 papers — single source of truth
 ├─ config/taxonomy.yaml           categories + discovery queries
 ├─ scripts/validate_papers.py     the contract, executable
 ├─ leads/leads.yaml              your starting point: schema + rubric
@@ -2725,8 +2725,8 @@ repo, it didn't happen. If it is, you can check it.
 [Not read:] BWL students may never have used git — the lab-notebook
 framing is the point; hands-on comes in the leads exercise
 (fork, commit, pull request). Numbers are thresholds, not snapshots:
-on 23 Oct 2026 the true counts were 180 commits / 113 in the last
-month / 14,088 papers / 302,442 lines. &quot;&gt;X&quot; stays true as counts
+on 23 Oct 2026 the true counts were 181 commits / 114 in the last
+month / 14,221 papers / 306,811 lines. &quot;&gt;X&quot; stays true as counts
 grow; only the rolling &quot;last month&quot; figure can decay. If probed,
 re-read exact counts from `git rev-list` and `wc -l papers.yaml`.</p></div><div class="bespoke-marp-note" data-index="9" tabindex="0"><p>notes:
 ⏱ ~1.5 min · READ ALOUD
@@ -2745,9 +2745,9 @@ is still free.
 [Not read — honesty note if probed:] Slide shows lower bounds so
 they stay true as the corpus grows. Exact snapshot 23 Oct 2026,
 keyword search over title/abstract of our own corpus
-(docs/papers.json, 14,088 papers, regenerated today): agentic 113
-(101 in 2026), lead-gen 36, strict intersection 2, broader 5,
-context-aware 22. Definitions: strict = substring 'agentic' AND
+(docs/papers.json, 14,221 papers, regenerated today): agentic 140
+(128 in 2026), lead-gen 36, strict intersection 2, broader 5,
+context-aware 25. Definitions: strict = substring 'agentic' AND
 'lead generation'; broader = (agentic | ai agents | ai agent |
 multi-agent | autonomous agents) AND (lead generation | lead
 scoring | lead qualification | prospecting). Strict 2: the JBR
@@ -2755,9 +2755,9 @@ paper 'AI agents, agentic AI, and the future of sales' (2026) and
 'The Augmented Rep' (IRJAEM, 2026). Broader adds GTM-Bench,
 Governing Machines (SSRN), The Transformative Role of AI Agents in
 Marketing (TechRxiv). Context-aware = 'context-aware' or
-'contextual intelligence'. Corpus grew 14,067 → 14,088 this round
-(arXiv 3-month catch-up + Crossref/EuropePMC; 21 unique after dedup
-against the prior 14,067) on top of the prior rounds. All URLs resolve; all DOIs verified;
+'contextual intelligence'. Corpus grew 14,088 → 14,221 this round
+(arXiv 3-month catch-up, 133 new papers all ai-marketing; 21 unique
+after dedup against the prior 14,088). All URLs resolve; all DOIs verified;
 lower-evidence candidates excluded rather than inflating the count;
 validation passes.</p></div><div class="bespoke-marp-note" data-index="10" tabindex="0"><p>notes:
 ⏱ ~2 min · READ ALOUD

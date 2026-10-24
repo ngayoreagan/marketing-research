@@ -1,27 +1,27 @@
 # Trends (12-Month View)
 
-**Generated:** 2026-10-23  
-**Window:** since 2025-10 — 9280 of 14088 papers
+**Generated:** 2026-10-24  
+**Window:** since 2025-10 — 9413 of 14221 papers
 
 ## 🔥 Keyword Bursts
 
 | Keyword | Recent | Total | Burst |
 |---------|--------|-------|-------|
-| world model | 3 | 3 | 1.5× |
+| world model | 8 | 8 | 1.5× |
 | teaming | 3 | 3 | 1.5× |
-| survey | 1170 | 1284 | 1.4× |
-| policy | 653 | 731 | 1.4× |
-| causal | 275 | 309 | 1.4× |
-| uncertainty | 202 | 216 | 1.4× |
-| benchmark | 198 | 218 | 1.4× |
-| transfer | 134 | 148 | 1.4× |
-| agentic | 107 | 113 | 1.4× |
-| hierarchical | 76 | 84 | 1.4× |
-| graph | 571 | 675 | 1.3× |
-| agent | 398 | 472 | 1.3× |
-| imitation | 369 | 417 | 1.3× |
-| planning | 236 | 275 | 1.3× |
-| simulation | 127 | 152 | 1.3× |
+| deep rl | 1 | 1 | 1.5× |
+| survey | 1171 | 1285 | 1.4× |
+| policy | 692 | 770 | 1.4× |
+| benchmark | 255 | 275 | 1.4× |
+| uncertainty | 206 | 220 | 1.4× |
+| transfer | 148 | 162 | 1.4× |
+| agentic | 134 | 140 | 1.4× |
+| memory | 114 | 126 | 1.4× |
+| hierarchical | 81 | 89 | 1.4× |
+| embodied | 13 | 14 | 1.4× |
+| graph | 580 | 684 | 1.3× |
+| agent | 531 | 605 | 1.3× |
+| imitation | 379 | 427 | 1.3× |
 
 ## 📈 Fastest-Growing Cells
 

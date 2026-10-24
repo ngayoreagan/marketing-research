@@ -44,7 +44,7 @@ Emil Häglund's 2025 thesis (*"Contextual intelligence: leveraging AI for target
 - **RQ3 (Performance):** Do context-aware agents outperform non-context-aware agents on marketing outcomes?
 - **RQ4 (Mechanism):** Through which mechanisms does situational awareness improve marketing performance?
 
-**Key Insight:** No paper in our corpus combines agentic reasoning with an explicit situational-awareness framework (agentic ∩ situational = 0); agentic ∩ contextual has exactly 6 lexical co-mentions (snapshot 2026-10-23).
+**Key Insight:** No paper in our corpus combines agentic reasoning with an explicit situational-awareness framework (agentic ∩ "situational awareness" = 0; agentic ∩ "situational" = 1 — Darwin-Claw, a lexical co-mention about agent self-evolution, not marketing situational awareness); agentic ∩ contextual has exactly 7 lexical co-mentions (snapshot 2026-10-23).
 
 ---
 
@@ -95,7 +95,7 @@ From our marketing-research corpus (over 10,000 papers; snapshot 2026-10-23; cou
 - World models for marketing
 - Autonomous decision systems
 
-**Gap:** No paper systematically bridges agentic capabilities with contextual intelligence (6 lexical co-mentions as of 2026-10-23; §5.3). Zero papers combine agentic with situational awareness.
+**Gap:** No paper systematically bridges agentic capabilities with contextual intelligence (7 lexical co-mentions as of 2026-10-23; §5.3). Zero papers combine agentic with situational awareness (exact phrase).
 
 ### 5.2 The Contextual Literature in Marketing (≥250 papers from corpus)
 - **Total:** ≥250 papers mentioning "contextual" (live lower bound)
@@ -111,8 +111,8 @@ From our marketing-research corpus (over 10,000 papers; snapshot 2026-10-23; cou
 
 ### 5.3 The Near-Zero-Intersection Problem
 **Critical Finding (snapshot 2026-10-23):**
-- **6 papers** in the corpus mention both "agentic" and "contextual" (all 2026); the closest is "Can AI Agents Simulate A/B Test Outcomes? A Validation Framework for Agentic Experimentation" (2026-08, AI-Marketing), and all are lexical co-mentions
-- **0 papers** mention both "agentic" and "situational" — the intersection relevant to this paper's construct
+- **7 papers** in the corpus mention both "agentic" and "contextual" (all 2026); the closest is "Can AI Agents Simulate A/B Test Outcomes? A Validation Framework for Agentic Experimentation" (2026-08, AI-Marketing), and all are lexical co-mentions
+- **1 paper** mentions both "agentic" and "situational" (Darwin-Claw, about agent self-evolution — not marketing situational awareness); **0 papers** mention both "agentic" and "situational awareness" (exact phrase) — the intersection relevant to this paper's construct
 - **No paper** systematically bridges agentic reasoning with an explicit situational-awareness framework
 
 **Scope caveat:** This is a keyword co-occurrence search (title/abstract) within our corpus of over 10,000 papers (snapshot 2026-10-23), not a systematic literature review, and the corpus is live and growing — counts drift between snapshots. Adjacent literatures — **contextual bandits** (Agrawal & Goyal, 2013; Li et al., 2010; production deployments at every major ad platform), **context-aware recommender systems** (Adomavicius & Tuzhilin, 2011), and **pervasive/ubiquitous computing** (Dey, 2001) — address context-aware action selection but do not use the "agentic + situational awareness" terminology. The near-zero-intersection finding is a terminological gap, not evidence of conceptual novelty; a systematic review is needed to substantiate a first-mover claim (§9.2 #13).
