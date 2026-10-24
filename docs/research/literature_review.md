@@ -1,7 +1,7 @@
 # Literature Review
 
 **Generated:** 2026-10-24  
-**Corpus:** 14,221 papers across 11 categories
+**Corpus:** 14,222 papers across 11 categories
 
 > Synthesis of the corpus. Category insights are grounded in title/abstract analysis of the papers themselves.
 
@@ -14,14 +14,14 @@
 | 1 | AI & Marketing | 3101 |
 | 2 | Surveys, Trends & Meta-Studies | 2068 |
 | 3 | Social Media & Creator Marketing | 1572 |
-| 4 | Consumer Behavior & Psychology | 1535 |
+| 4 | Consumer Behavior & Psychology | 1536 |
 | 5 | Digital & Performance Marketing | 1503 |
 | 6 | Brand Strategy & Management | 1456 |
 | 7 | Customer Experience, Omnichannel & Retail | 1116 |
 | 8 | Analytics, Attribution & Measurement | 581 |
 
 **Time span:** 1987–2026 (median year 2016)
-**Dominant aspects:** Empirical Studies (5404), Frameworks & Models (2601), Reviews & Surveys (2129)
+**Dominant aspects:** Empirical Studies (5405), Frameworks & Models (2601), Reviews & Surveys (2129)
 
 ---
 
@@ -33,7 +33,7 @@
 | Brand | 1456 | 1025 | 242 | +324% | 70% | 85.4 |
 | Social Media | 1572 | 1061 | 261 | +306% | 68% | 88.4 |
 | Digital Marketing | 1503 | 1012 | 255 | +297% | 67% | 84.3 |
-| Consumer Behavior | 1535 | 1033 | 275 | +276% | 67% | 86.1 |
+| Consumer Behavior | 1536 | 1034 | 275 | +276% | 67% | 86.2 |
 | Cx Retail | 1116 | 731 | 252 | +190% | 66% | 60.9 |
 | Ai Marketing | 3101 | 1891 | 724 | +161% | 61% | 157.6 |
 | Analytics | 581 | 354 | 160 | +121% | 61% | 29.5 |
@@ -120,7 +120,7 @@
 
 ### Consumer Behavior & Psychology (`consumer-behavior`)
 
-**Corpus size:** 1535 papers
+**Corpus size:** 1536 papers
 
 **Recent papers:**
 

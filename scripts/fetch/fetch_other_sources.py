@@ -449,9 +449,14 @@ def append_to_yaml(yaml_path, new_papers):
             entry["venue"] = e["venue"]
         papers.append(entry)
     data["papers"] = papers
-    with open(yaml_path, "w", encoding="utf-8") as f:
+    # Atomic write: temp file + os.replace so a crash/timeout mid-write
+    # never truncates papers.yaml (plain open('w') once lost 14k lines).
+    import os
+    _tmp = str(yaml_path) + f".tmp.{os.getpid()}"
+    with open(_tmp, "w", encoding="utf-8") as f:
         yaml.dump(data, f, default_flow_style=False,
                   allow_unicode=True, sort_keys=False)
+    os.replace(_tmp, yaml_path)
 
 
 # ── Main ─────────────────────────────────────────────────────────────────

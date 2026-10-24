@@ -1,6 +1,6 @@
 # 📚 Paper list
 
-14221 papers · generated from `papers.yaml` — do not edit by hand.
+14222 papers · generated from `papers.yaml` — do not edit by hand.
 
 
 - [📚 AI & Marketing](#ai-&-marketing)
@@ -7554,6 +7554,7 @@
 - [2026] **What is the Role of Advertising Appeals and Emotional Resonance in Buying Behavior?** *PPR* [[paper](https://doi.org/10.20944/preprints202609.0442.v1)]
 - [2026] **Neuromarketing and the gaming consumer: a systematic review of attention, emotion, and memory in player engagement and retention.** *MED* [[paper](https://doi.org/10.3389/fnrgo.2026.1918889)]
 - [2026] **Perceived micro-learning based consumer education and sustainable purchase behavior: The mediating role of perceived consumer effectiveness and the moderating role of environmental concern.** *MED* [[paper](https://doi.org/10.1016/j.actpsy.2026.107943)]
+- [2026] **Digital Archiving of Direct-to-Consumer Marketing Claims Made by Businesses Selling Unproven Stem Cell Interventions. ** *MED* [[paper](https://doi.org/10.2196/95156)]
 
 ##### 2025
 

@@ -362,8 +362,8 @@ repo, it didn't happen. If it is, you can check it.
 [Not read:] BWL students may never have used git — the lab-notebook
 framing is the point; hands-on comes in the leads exercise
 (fork, commit, pull request). Numbers are thresholds, not snapshots:
-on 23 Oct 2026 the true counts were 181 commits / 114 in the last
-month / 14,221 papers / 306,811 lines. ">X" stays true as counts
+on 23 Oct 2026 the true counts were 182 commits / 114 in the last
+month / 14,222 papers / 306,825 lines. ">X" stays true as counts
 grow; only the rolling "last month" figure can decay. If probed,
 re-read exact counts from `git rev-list` and `wc -l papers.yaml`.
 -->
@@ -403,7 +403,7 @@ is still free.
 [Not read — honesty note if probed:] Slide shows lower bounds so
 they stay true as the corpus grows. Exact snapshot 23 Oct 2026,
 keyword search over title/abstract of our own corpus
-(docs/papers.json, 14,221 papers, regenerated today): agentic 140
+(docs/papers.json, 14,222 papers, regenerated today): agentic 140
 (128 in 2026), lead-gen 36, strict intersection 2, broader 5,
 context-aware 25. Definitions: strict = substring 'agentic' AND
 'lead generation'; broader = (agentic | ai agents | ai agent |
@@ -413,9 +413,9 @@ paper 'AI agents, agentic AI, and the future of sales' (2026) and
 'The Augmented Rep' (IRJAEM, 2026). Broader adds GTM-Bench,
 Governing Machines (SSRN), The Transformative Role of AI Agents in
 Marketing (TechRxiv). Context-aware = 'context-aware' or
-'contextual intelligence'. Corpus grew 14,088 → 14,221 this round
-(arXiv 3-month catch-up, 133 new papers all ai-marketing; 21 unique
-after dedup against the prior 14,088). All URLs resolve; all DOIs verified;
+'contextual intelligence'. Corpus grew 14,088 → 14,222 this round
+(arXiv 3-month catch-up, 133 new papers all ai-marketing; +1 JMIR MED
+via Crossref on top of the prior rounds). All URLs resolve; all DOIs verified;
 lower-evidence candidates excluded rather than inflating the count;
 validation passes.
 -->
@@ -576,7 +576,7 @@ beforehand — same task, same prompt, several timed runs. Let's go.
 
 ```text
 marketing-research/               github.com/tobias-weiss-ai-xr/marketing-research
-├─ papers.yaml                    14,221 papers — single source of truth
+├─ papers.yaml                    14,222 papers — single source of truth
 ├─ config/taxonomy.yaml           categories + discovery queries
 ├─ scripts/validate_papers.py     the contract, executable
 ├─ leads/leads.yaml              your starting point: schema + rubric

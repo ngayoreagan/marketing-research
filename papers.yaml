@@ -306809,3 +306809,17 @@ papers:
     leading to skills ultimately selected for use. Together, these findings show that
     skill evolution can turn a weaker model's partial progress into reusable procedural
     knowledge for improving more capable agents.
+- title: 'Digital Archiving of Direct-to-Consumer Marketing Claims Made by Businesses
+    Selling Unproven Stem Cell Interventions. '
+  date: 2026-01
+  url: https://doi.org/10.2196/95156
+  category: consumer-behavior
+  subcategory: empirical
+  authors:
+  - Turner L
+  abstract: 'Over the last 2 decades, a large global marketplace has emerged in which
+    businesses use direct-to-consumer advertising to sell putative stem cell treatments
+    that are unsupported by convincing scientific evidence of safety and efficacy.
+    It is common for such purported stem cell therapies not to have '
+  doi: 10.2196/95156
+  venue: MED

@@ -102,7 +102,7 @@
   {
    "id": "consumer-behavior",
    "name": "Consumer Behavior & Psychology",
-   "count": 1535,
+   "count": 1536,
    "trajectory": {
     "2011": 1,
     "2013": 2,
@@ -117,18 +117,18 @@
     "2023": 6,
     "2024": 273,
     "2025": 251,
-    "2026": 989
+    "2026": 990
    },
    "momentum": {
     "id": "consumer-behavior",
     "name": "Consumer Behavior",
-    "total": 1535,
-    "recent": 1033,
+    "total": 1536,
+    "recent": 1034,
     "prior": 275,
-    "growth_pct": 275.6,
+    "growth_pct": 276.0,
     "recent_share": 0.673,
-    "papers_per_month": 86.1,
-    "score": 342.9
+    "papers_per_month": 86.2,
+    "score": 343.3
    }
   },
   {
@@ -279,7 +279,7 @@
   {
    "id": "empirical",
    "name": "Empirical Studies",
-   "count": 5404
+   "count": 5405
   },
   {
    "id": "framework",
@@ -28377,6 +28377,11 @@
    "2026-01",
    "brand",
    "theory"
+  ],
+  [
+   "2026-01",
+   "consumer-behavior",
+   "empirical"
   ],
   [
    "2026-01",

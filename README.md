@@ -102,8 +102,8 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 
 ## 📊 Corpus Statistics
 
-**14,221 papers** across **11 categories**.
-Sources: **arXiv** 1196 (8%) · **DOI** 11915 (84%) · **Other** 1110 (8%).
+**14,222 papers** across **11 categories**.
+Sources: **arXiv** 1196 (8%) · **DOI** 11916 (84%) · **Other** 1110 (8%).
 Full paper list: [GitHub Pages site](https://tobias-weiss-ai-xr.github.io/marketing-research).
 
 ### Top categories
@@ -113,7 +113,7 @@ Full paper list: [GitHub Pages site](https://tobias-weiss-ai-xr.github.io/market
 | AI & Marketing | **3101** | 1891 | ████████████ |
 | Surveys, Trends & Meta-Studies | **2068** | 1645 | ████████░░░░ |
 | Social Media & Creator Marketing | **1572** | 1061 | ██████░░░░░░ |
-| Consumer Behavior & Psychology | **1535** | 1033 | ██████░░░░░░ |
+| Consumer Behavior & Psychology | **1536** | 1034 | ██████░░░░░░ |
 | Digital & Performance Marketing | **1503** | 1012 | ██████░░░░░░ |
 | Brand Strategy & Management | **1456** | 1025 | ██████░░░░░░ |
 | Customer Experience, Omnichannel & Retail | **1116** | 731 | ████░░░░░░░░ |
@@ -124,7 +124,7 @@ Full paper list: [GitHub Pages site](https://tobias-weiss-ai-xr.github.io/market
 
 ## 📚 Paper list
 
-All **14221 papers** (grouped by category, subcategory and year) live in **[PAPERS.md](PAPERS.md)** — kept out of this README to keep it readable.
+All **14222 papers** (grouped by category, subcategory and year) live in **[PAPERS.md](PAPERS.md)** — kept out of this README to keep it readable.
 
 Browsable alternatives:
 
