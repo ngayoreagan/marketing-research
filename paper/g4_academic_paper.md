@@ -7,7 +7,7 @@
 > **Type:** Empirical (Reproducible Benchmark + Ablation Study)  
 > **Word Target:** 8,000-10,000 words  
 > **Key Contribution:** A reproducible paired-seed benchmark (CAM-Sim) for situational-awareness ablations in marketing agents: 11-agent ladder, 9 environments, matched-family ablation (same NCC classifier, 1 vs 3 signals, +$103.85 signal-driven gap), standard classifier baselines (LR + RF on 1 and 3 signals — multi-signal gain confirmed across 3 classifier families: NCC +$103.85, LR +$65.48, RF +$75.98), context-blind policy search (channel-cost arbitrage: EDUCATIONAL|EMAIL|bid 0.3 = +$252 beats every deployable context-aware agent in 7 of 9 environments — §8.7), macro-F1 per-class metric, CRN check, paired-difference bootstrap (B = 2000); v1.3: adversarial-mapping condition (0.4% match, -$269), channel-dependent reward (arbitrage fixed), bandit baselines (epsilon-greedy, LinUCB), class-conditional noise, convergence trend (Spearman + Geweke), perception dose-response (rho=0.998), crisis bid policy (pause > counter), sensing fidelity (identical)  
-**Caveat:** The "first" claim rests on a title/abstract keyword search of our corpus of over 10,000 papers (snapshot 2026-10-23), not a systematic review; contextual-bandit and context-aware-recommender literatures are adjacent but use different terminology (§5.3, §9.2 #13)  
+**Caveat:** The "first" claim rests on a title/abstract keyword search of our corpus of over 15,000 papers (snapshot 2026-10-25), not a systematic review; contextual-bandit and context-aware-recommender literatures are adjacent but use different terminology (§5.3, §9.2 #13)  
 
 ---
 
@@ -29,7 +29,7 @@ We present **CAM-Sim**, a reproducible paired-seed benchmark for situational-awa
 ## 3. Introduction
 
 ### 3.1 The Agentic Revolution in Marketing
-The marketing corpus (snapshot 2026-10-23; over 10,000 papers) shows **at least 100 agentic papers** (all from 2025-2026; the count is a live lower bound — the corpus only grows) — the highest-momentum trend. Yet **zero papers** connect agentic capabilities with **marketing situational awareness** (at least 250 contextual papers, a small number of situational papers, and none combined with agentic).
+The marketing corpus (snapshot 2026-10-25; over 15,000 papers) shows **at least 100 agentic papers** (all from 2025-2026; the count is a live lower bound — the corpus only grows) — the highest-momentum trend. Yet **zero papers** connect agentic capabilities with **marketing situational awareness** (at least 250 contextual papers, a small number of situational papers, and none combined with agentic).
 
 **Research Gap:** Agents can plan and execute, but cannot **understand marketing context**.
 
@@ -44,7 +44,7 @@ Emil Häglund's 2025 thesis (*"Contextual intelligence: leveraging AI for target
 - **RQ3 (Performance):** Do context-aware agents outperform non-context-aware agents on marketing outcomes?
 - **RQ4 (Mechanism):** Through which mechanisms does situational awareness improve marketing performance?
 
-**Key Insight:** No paper in our corpus combines agentic reasoning with an explicit situational-awareness framework (agentic ∩ "situational awareness" = 0; agentic ∩ "situational" = 1 — Darwin-Claw, a lexical co-mention about agent self-evolution, not marketing situational awareness); agentic ∩ contextual has exactly 7 lexical co-mentions (snapshot 2026-10-23).
+**Key Insight:** No paper in our corpus combines agentic reasoning with an explicit situational-awareness framework (agentic ∩ "situational awareness" = 0; agentic ∩ "situational" = 1 — Darwin-Claw, a lexical co-mention about agent self-evolution, not marketing situational awareness); agentic ∩ contextual has exactly 10 lexical co-mentions (snapshot 2026-10-25).
 
 ---
 
@@ -85,7 +85,7 @@ Russell & Norvig define an **agent** as "anything that can be viewed as perceivi
 ## 5. Related Work
 
 ### 5.1 The Agentic Literature in Marketing (≥100 papers from corpus)
-From our marketing-research corpus (over 10,000 papers; snapshot 2026-10-23; counts are live lower bounds — the corpus only grows):
+From our marketing-research corpus (over 15,000 papers; snapshot 2026-10-25; counts are live lower bounds — the corpus only grows):
 - **Definition:** Works that mention "agentic" in title/abstract
 - **Total:** ≥100 papers, all from 2025–2026 (a sustained, highest-momentum trend; the exact total grows with the corpus)
 - **Categories:** concentrated in AI-Marketing (≥60) and Digital-Marketing (≥15), with smaller counts across Consumer-Behavior, Brand, Survey, and B2B
@@ -95,7 +95,7 @@ From our marketing-research corpus (over 10,000 papers; snapshot 2026-10-23; cou
 - World models for marketing
 - Autonomous decision systems
 
-**Gap:** No paper systematically bridges agentic capabilities with contextual intelligence (7 lexical co-mentions as of 2026-10-23; §5.3). Zero papers combine agentic with situational awareness (exact phrase).
+**Gap:** No paper systematically bridges agentic capabilities with contextual intelligence (10 lexical co-mentions as of 2026-10-25; §5.3). Zero papers combine agentic with situational awareness (exact phrase).
 
 ### 5.2 The Contextual Literature in Marketing (≥250 papers from corpus)
 - **Total:** ≥250 papers mentioning "contextual" (live lower bound)
@@ -110,12 +110,12 @@ From our marketing-research corpus (over 10,000 papers; snapshot 2026-10-23; cou
 **Gap:** No address **agentic systems**. All contextual work assumes **human-driven** systems.
 
 ### 5.3 The Near-Zero-Intersection Problem
-**Critical Finding (snapshot 2026-10-23):**
-- **7 papers** in the corpus mention both "agentic" and "contextual" (all 2026); the closest is "Can AI Agents Simulate A/B Test Outcomes? A Validation Framework for Agentic Experimentation" (2026-08, AI-Marketing), and all are lexical co-mentions
+**Critical Finding (snapshot 2026-10-25):**
+- **10 papers** in the corpus mention both "agentic" and "contextual" (all 2026); the closest is "Can AI Agents Simulate A/B Test Outcomes? A Validation Framework for Agentic Experimentation" (2026-08, AI-Marketing), and all are lexical co-mentions
 - **1 paper** mentions both "agentic" and "situational" (Darwin-Claw, about agent self-evolution — not marketing situational awareness); **0 papers** mention both "agentic" and "situational awareness" (exact phrase) — the intersection relevant to this paper's construct
 - **No paper** systematically bridges agentic reasoning with an explicit situational-awareness framework
 
-**Scope caveat:** This is a keyword co-occurrence search (title/abstract) within our corpus of over 10,000 papers (snapshot 2026-10-23), not a systematic literature review, and the corpus is live and growing — counts drift between snapshots. Adjacent literatures — **contextual bandits** (Agrawal & Goyal, 2013; Li et al., 2010; production deployments at every major ad platform), **context-aware recommender systems** (Adomavicius & Tuzhilin, 2011), and **pervasive/ubiquitous computing** (Dey, 2001) — address context-aware action selection but do not use the "agentic + situational awareness" terminology. The near-zero-intersection finding is a terminological gap, not evidence of conceptual novelty; a systematic review is needed to substantiate a first-mover claim (§9.2 #13).
+**Scope caveat:** This is a keyword co-occurrence search (title/abstract) within our corpus of over 15,000 papers (snapshot 2026-10-25), not a systematic literature review, and the corpus is live and growing — counts drift between snapshots. Adjacent literatures — **contextual bandits** (Agrawal & Goyal, 2013; Li et al., 2010; production deployments at every major ad platform), **context-aware recommender systems** (Adomavicius & Tuzhilin, 2011), and **pervasive/ubiquitous computing** (Dey, 2001) — address context-aware action selection but do not use the "agentic + situational awareness" terminology. The near-zero-intersection finding is a terminological gap, not evidence of conceptual novelty; a systematic review is needed to substantiate a first-mover claim (§9.2 #13).
 
 ### 5.4 Häglund (2025) — CS/NLP
 **Key Differentiation:**
@@ -661,8 +661,8 @@ We presented **CAM-Sim** — a reproducible paired-seed benchmark for situationa
 - Böhm, E., Eggert, A., Terho, H., Ulaga, W., & Haas, A. (2020). Drivers and outcomes of salespersons' value opportunity recognition competence in solution selling. *Journal of Personal Selling & Sales Management*, 40(3), 180–197.
 
 ### Marketing AI Corpus Papers
-- All agentic papers in the marketing-research corpus (papers.yaml; ≥100 at snapshot 2026-10-23, live)
-- All contextual papers in the marketing-research corpus (papers.yaml; ≥250 at snapshot 2026-10-23, live)
+- All agentic papers in the marketing-research corpus (papers.yaml; ≥100 at snapshot 2026-10-25, live)
+- All contextual papers in the marketing-research corpus (papers.yaml; ≥250 at snapshot 2026-10-25, live)
 - Paper: "Can AI Agents Simulate A/B Test Outcomes? A Validation Framework for Agentic Experimentation" (2026-08)
 
 ---

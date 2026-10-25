@@ -1,7 +1,7 @@
 # Literature Review
 
-**Generated:** 2026-10-24  
-**Corpus:** 14,222 papers across 11 categories
+**Generated:** 2026-10-25  
+**Corpus:** 15,495 papers across 11 categories
 
 > Synthesis of the corpus. Category insights are grounded in title/abstract analysis of the papers themselves.
 
@@ -11,17 +11,17 @@
 
 | Rank | Category | Papers |
 |------|----------|--------|
-| 1 | AI & Marketing | 3101 |
-| 2 | Surveys, Trends & Meta-Studies | 2068 |
-| 3 | Social Media & Creator Marketing | 1572 |
-| 4 | Consumer Behavior & Psychology | 1536 |
-| 5 | Digital & Performance Marketing | 1503 |
-| 6 | Brand Strategy & Management | 1456 |
-| 7 | Customer Experience, Omnichannel & Retail | 1116 |
-| 8 | Analytics, Attribution & Measurement | 581 |
+| 1 | AI & Marketing | 3406 |
+| 2 | Surveys, Trends & Meta-Studies | 2204 |
+| 3 | Social Media & Creator Marketing | 1736 |
+| 4 | Consumer Behavior & Psychology | 1688 |
+| 5 | Digital & Performance Marketing | 1632 |
+| 6 | Brand Strategy & Management | 1622 |
+| 7 | Customer Experience, Omnichannel & Retail | 1231 |
+| 8 | Analytics, Attribution & Measurement | 613 |
 
 **Time span:** 1987–2026 (median year 2016)
-**Dominant aspects:** Empirical Studies (5405), Frameworks & Models (2601), Reviews & Surveys (2129)
+**Dominant aspects:** Empirical Studies (5960), Frameworks & Models (2847), Reviews & Surveys (2351)
 
 ---
 
@@ -29,17 +29,17 @@
 
 | Category | Total | Last 12m | Prior 12m | Growth | 12-m share | Papers/mo |
 |----------|------:|---------:|----------:|-------:|----------:|----------:|
-| Survey | 2068 | 1645 | 229 | +618% | 80% | 137.1 |
-| Brand | 1456 | 1025 | 242 | +324% | 70% | 85.4 |
-| Social Media | 1572 | 1061 | 261 | +306% | 68% | 88.4 |
-| Digital Marketing | 1503 | 1012 | 255 | +297% | 67% | 84.3 |
-| Consumer Behavior | 1536 | 1034 | 275 | +276% | 67% | 86.2 |
-| Cx Retail | 1116 | 731 | 252 | +190% | 66% | 60.9 |
-| Ai Marketing | 3101 | 1891 | 724 | +161% | 61% | 157.6 |
-| Analytics | 581 | 354 | 160 | +121% | 61% | 29.5 |
-| B2B | 349 | 180 | 98 | +84% | 52% | 15.0 |
-| Content Marketing | 491 | 266 | 165 | +61% | 54% | 22.2 |
-| Privacy Data | 449 | 215 | 160 | +34% | 48% | 17.9 |
+| Survey | 2204 | 1781 | 229 | +678% | 81% | 148.4 |
+| Brand | 1622 | 1191 | 242 | +392% | 73% | 99.2 |
+| Social Media | 1736 | 1225 | 261 | +369% | 71% | 102.1 |
+| Digital Marketing | 1632 | 1141 | 255 | +348% | 70% | 95.1 |
+| Consumer Behavior | 1688 | 1186 | 275 | +331% | 70% | 98.8 |
+| Cx Retail | 1231 | 846 | 252 | +236% | 69% | 70.5 |
+| Ai Marketing | 3406 | 2196 | 724 | +203% | 64% | 183.0 |
+| Analytics | 613 | 386 | 160 | +141% | 63% | 32.2 |
+| B2B | 361 | 192 | 98 | +96% | 53% | 16.0 |
+| Content Marketing | 528 | 303 | 165 | +84% | 57% | 25.2 |
+| Privacy Data | 474 | 240 | 160 | +50% | 51% | 20.0 |
 
 ---
 
@@ -48,13 +48,13 @@
 | Cell | Papers |
 |------|--------:|
 | `b2b/measurement` | 8 |
-| `analytics/theory` | 36 |
-| `b2b/review` | 40 |
+| `analytics/theory` | 39 |
+| `b2b/review` | 41 |
 | `b2b/theory` | 43 |
 | `content-marketing/measurement` | 44 |
-| `content-marketing/empirical` | 49 |
-| `b2b/case-study` | 51 |
-| `privacy-data/case-study` | 54 |
+| `b2b/case-study` | 53 |
+| `analytics/case-study` | 54 |
+| `privacy-data/case-study` | 55 |
 
 ---
 
@@ -72,8 +72,8 @@
 |--------|-----------------|
 | Loso Judijanto | 16 |
 | Tony Wijaya | 15 |
+| Worldly Knowledge Publishing Centre | 14 |
 | Alberto Regis | 12 |
-| Worldly Knowledge Publishing Centre | 12 |
 | Rhian Indradewa | 10 |
 | Hassan Ali Al-Ababneh | 10 |
 
@@ -84,7 +84,7 @@
 
 ### AI & Marketing (`ai-marketing`)
 
-**Corpus size:** 3101 papers
+**Corpus size:** 3406 papers
 
 **Recent papers:**
 
@@ -96,7 +96,7 @@
 
 ### Surveys, Trends & Meta-Studies (`survey`)
 
-**Corpus size:** 2068 papers
+**Corpus size:** 2204 papers
 
 **Recent papers:**
 
@@ -108,7 +108,7 @@
 
 ### Social Media & Creator Marketing (`social-media`)
 
-**Corpus size:** 1572 papers
+**Corpus size:** 1736 papers
 
 **Recent papers:**
 
@@ -120,7 +120,7 @@
 
 ### Consumer Behavior & Psychology (`consumer-behavior`)
 
-**Corpus size:** 1536 papers
+**Corpus size:** 1688 papers
 
 **Recent papers:**
 
@@ -132,7 +132,7 @@
 
 ### Digital & Performance Marketing (`digital-marketing`)
 
-**Corpus size:** 1503 papers
+**Corpus size:** 1632 papers
 
 **Recent papers:**
 
@@ -144,7 +144,7 @@
 
 ### Brand Strategy & Management (`brand`)
 
-**Corpus size:** 1456 papers
+**Corpus size:** 1622 papers
 
 **Recent papers:**
 
@@ -156,7 +156,7 @@
 
 ### Customer Experience, Omnichannel & Retail (`cx-retail`)
 
-**Corpus size:** 1116 papers
+**Corpus size:** 1231 papers
 
 **Recent papers:**
 
@@ -168,7 +168,7 @@
 
 ### Analytics, Attribution & Measurement (`analytics`)
 
-**Corpus size:** 581 papers
+**Corpus size:** 613 papers
 
 **Recent papers:**
 
@@ -180,19 +180,19 @@
 
 ### Content & Storytelling (`content-marketing`)
 
-**Corpus size:** 491 papers
+**Corpus size:** 528 papers
 
 **Recent papers:**
 
 - [2026-10] A Semiotic Analysis of Abbas Kiarostami’s International Film Posters in the 1990s with an Empha — https://doi.org/10.22070/negareh.2025.19968.3481
-- [2026-09] The Role of Narrative Scripting and Brand Storytelling in Shaping Consumer Engagement and Brand — https://doi.org/10.64643/ijirt.208539-459
-- [2026-09] The Influence of Storytelling Marketing and Narrative Transportation on Scarlett Whitening Purc — https://doi.org/10.58578/mikailalsys.v4i3.11997
+- [2026-10] Systematic Literature Review Strategi Komunikasi Pemasaran dalam Membangun Brand Image Pergurua — https://doi.org/10.59841/saber.v4i4.4295
+- [2026-10] Digital Destination Branding in Tourism: Intellectual Structure and Emerging Research Trends — https://doi.org/10.20961/jkb.v31i1.121377
 
 ---
 
 ### Data, Privacy & Cookieless Advertising (`privacy-data`)
 
-**Corpus size:** 449 papers
+**Corpus size:** 474 papers
 
 **Recent papers:**
 
@@ -204,13 +204,13 @@
 
 ### B2B & Account-Based Marketing (`b2b`)
 
-**Corpus size:** 349 papers
+**Corpus size:** 361 papers
 
 **Recent papers:**
 
 - [2026-10] The yin–yang of coopetition: reframing paradox in business-to-business marketing — https://doi.org/10.1108/jbim-08-2025-0818
 - [2026-10] Dejavniki in posledice uporabe pogovornih robotov s strani poslovnih kupcev — https://repozitorij.uni-lj.si/IzpisGradiva.php?id=189255
-- [2026-09] The greenwashing dilemma: Understanding tolerance to sustainability deception in buyer-supplier — https://doi.org/10.1016/j.indmarman.2026.09.002
+- [2026-10] AI SDR vs Human SDR: Computing Your Break-Even Cost per Qualified Opportunity — https://doi.org/10.5281/zenodo.23352979
 
 ---
 

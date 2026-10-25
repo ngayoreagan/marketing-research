@@ -13,7 +13,7 @@
 
 ## 🎯 Executive Summary
 
-**Problem:** Agentic marketing systems can plan and execute, but **cannot understand marketing context** (audience situation, channel journey, moment-of-truth) — the corpus has **≥100 agentic papers** but **only 7** connect agentic with contextual understanding (as of 2026-10-23; live corpus, counts drift).
+**Problem:** Agentic marketing systems can plan and execute, but **cannot understand marketing context** (audience situation, channel journey, moment-of-truth) — the corpus has **≥100 agentic papers** but **only 10** connect agentic with contextual understanding (as of 2026-10-25; live corpus, counts drift).
 
 **Solution:** **Context-Aware Agentic Marketing (CAM)** — a framework that gives autonomous marketing agents **situational awareness** by:
 1. **Sensing Layer** — real-time ingestion of multi-modal marketing context signals
@@ -39,7 +39,7 @@ From `papers.yaml` (live; counts are lower bounds as of snapshot — the corpus 
 ### The Contextual Vacuum
 | Keyword | Lower bound | Combined with "agentic" |
 |---------|-------------|------------------------|
-| contextual | ≥250 | **7 (2026-10-23)** |
+| contextual | ≥250 | **10 (2026-10-25)** |
 | context-aware | ≥3 | **0** |
 | situational | ≥20 | **1** (Darwin-Claw, agent self-evolution) |
 | intent | ≥800 | **0** |
@@ -48,7 +48,7 @@ From `papers.yaml` (live; counts are lower bounds as of snapshot — the corpus 
 
 ### Cross-Cell White Space
 - **analytics** + **contextual** + **agentic:** 0 papers
-- **ai-marketing** + **agentic** + **framework:** 46 papers (keyword) / 10 (subcategory) — but none bridges agentic with situational awareness
+- **ai-marketing** + **agentic** + **framework:** 53 papers (keyword) / 14 (subcategory) — but none bridges agentic with situational awareness
 - **omnichannel** + **agentic:** 0 papers
 
 ---
@@ -687,7 +687,7 @@ Concentrated in **AI-marketing** and **Survey**, with the remainder across Digit
 **None are in agentic categories.**
 
 ### Zero-Intersection Confirmation
-As of 2026-10-23, exactly 7 papers mention both "agentic" and "contextual" — all superficial lexical co-mentions; **no academic paper builds the bridge** (agentic ∩ "situational" = 1, a lexical co-mention about agent self-evolution; agentic ∩ "situational awareness" = 0). See `paper/g4_academic_paper.md` §5.3.
+As of 2026-10-25, exactly 10 papers mention both "agentic" and "contextual" — all superficial lexical co-mentions; **no academic paper builds the bridge** (agentic ∩ "situational" = 1, a lexical co-mention about agent self-evolution; agentic ∩ "situational awareness" = 0). See `paper/g4_academic_paper.md` §5.3.
 
 ---
 
