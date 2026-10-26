@@ -3,7 +3,7 @@
   {
    "id": "ai-marketing",
    "name": "AI & Marketing",
-   "count": 3406,
+   "count": 3431,
    "trajectory": {
     "2017": 1,
     "2020": 1,
@@ -11,24 +11,24 @@
     "2023": 76,
     "2024": 572,
     "2025": 727,
-    "2026": 2028
+    "2026": 2053
    },
    "momentum": {
     "id": "ai-marketing",
     "name": "Ai Marketing",
-    "total": 3406,
-    "recent": 2196,
+    "total": 3431,
+    "recent": 2221,
     "prior": 724,
-    "growth_pct": 203.3,
-    "recent_share": 0.645,
-    "papers_per_month": 183.0,
-    "score": 267.8
+    "growth_pct": 206.8,
+    "recent_share": 0.647,
+    "papers_per_month": 185.1,
+    "score": 271.5
    }
   },
   {
    "id": "analytics",
    "name": "Analytics, Attribution & Measurement",
-   "count": 613,
+   "count": 614,
    "trajectory": {
     "1987": 1,
     "1988": 1,
@@ -42,18 +42,18 @@
     "2021": 1,
     "2024": 81,
     "2025": 177,
-    "2026": 345
+    "2026": 346
    },
    "momentum": {
     "id": "analytics",
     "name": "Analytics",
-    "total": 613,
-    "recent": 386,
+    "total": 614,
+    "recent": 387,
     "prior": 160,
-    "growth_pct": 141.2,
+    "growth_pct": 141.9,
     "recent_share": 0.63,
     "papers_per_month": 32.2,
-    "score": 204.2
+    "score": 204.9
    }
   },
   {
@@ -81,28 +81,28 @@
   {
    "id": "brand",
    "name": "Brand Strategy & Management",
-   "count": 1622,
+   "count": 1671,
    "trajectory": {
     "2024": 249,
     "2025": 218,
-    "2026": 1155
+    "2026": 1204
    },
    "momentum": {
     "id": "brand",
     "name": "Brand",
-    "total": 1622,
-    "recent": 1191,
+    "total": 1671,
+    "recent": 1240,
     "prior": 242,
-    "growth_pct": 392.1,
-    "recent_share": 0.734,
-    "papers_per_month": 99.2,
-    "score": 465.5
+    "growth_pct": 412.4,
+    "recent_share": 0.742,
+    "papers_per_month": 103.3,
+    "score": 486.6
    }
   },
   {
    "id": "consumer-behavior",
    "name": "Consumer Behavior & Psychology",
-   "count": 1688,
+   "count": 1730,
    "trajectory": {
     "2011": 1,
     "2013": 2,
@@ -117,113 +117,113 @@
     "2023": 6,
     "2024": 273,
     "2025": 251,
-    "2026": 1142
+    "2026": 1184
    },
    "momentum": {
     "id": "consumer-behavior",
     "name": "Consumer Behavior",
-    "total": 1688,
-    "recent": 1186,
+    "total": 1730,
+    "recent": 1228,
     "prior": 275,
-    "growth_pct": 331.3,
-    "recent_share": 0.703,
-    "papers_per_month": 98.8,
-    "score": 401.6
+    "growth_pct": 346.5,
+    "recent_share": 0.71,
+    "papers_per_month": 102.3,
+    "score": 417.5
    }
   },
   {
    "id": "content-marketing",
    "name": "Content & Storytelling",
-   "count": 528,
+   "count": 529,
    "trajectory": {
     "2024": 94,
     "2025": 175,
-    "2026": 259
+    "2026": 260
    },
    "momentum": {
     "id": "content-marketing",
     "name": "Content Marketing",
-    "total": 528,
-    "recent": 303,
+    "total": 529,
+    "recent": 304,
     "prior": 165,
-    "growth_pct": 83.6,
-    "recent_share": 0.574,
-    "papers_per_month": 25.2,
-    "score": 141.0
+    "growth_pct": 84.2,
+    "recent_share": 0.575,
+    "papers_per_month": 25.3,
+    "score": 141.7
    }
   },
   {
    "id": "cx-retail",
    "name": "Customer Experience, Omnichannel & Retail",
-   "count": 1231,
+   "count": 1241,
    "trajectory": {
     "2020": 2,
     "2021": 1,
     "2024": 199,
     "2025": 226,
-    "2026": 803
+    "2026": 813
    },
    "momentum": {
     "id": "cx-retail",
     "name": "Cx Retail",
-    "total": 1231,
-    "recent": 846,
+    "total": 1241,
+    "recent": 856,
     "prior": 252,
-    "growth_pct": 235.7,
-    "recent_share": 0.687,
-    "papers_per_month": 70.5,
-    "score": 304.4
+    "growth_pct": 239.7,
+    "recent_share": 0.69,
+    "papers_per_month": 71.3,
+    "score": 308.7
    }
   },
   {
    "id": "digital-marketing",
    "name": "Digital & Performance Marketing",
-   "count": 1632,
+   "count": 1662,
    "trajectory": {
     "2023": 40,
     "2024": 273,
     "2025": 222,
-    "2026": 1097
+    "2026": 1127
    },
    "momentum": {
     "id": "digital-marketing",
     "name": "Digital Marketing",
-    "total": 1632,
-    "recent": 1141,
+    "total": 1662,
+    "recent": 1171,
     "prior": 255,
-    "growth_pct": 347.5,
-    "recent_share": 0.699,
-    "papers_per_month": 95.1,
-    "score": 417.4
+    "growth_pct": 359.2,
+    "recent_share": 0.705,
+    "papers_per_month": 97.6,
+    "score": 429.7
    }
   },
   {
    "id": "privacy-data",
    "name": "Data, Privacy & Cookieless Advertising",
-   "count": 474,
+   "count": 475,
    "trajectory": {
     "2016": 1,
     "2019": 1,
     "2024": 109,
     "2025": 153,
-    "2026": 210
+    "2026": 211
    },
    "momentum": {
     "id": "privacy-data",
     "name": "Privacy Data",
-    "total": 474,
-    "recent": 240,
+    "total": 475,
+    "recent": 241,
     "prior": 160,
-    "growth_pct": 50.0,
-    "recent_share": 0.506,
-    "papers_per_month": 20.0,
-    "score": 100.6
+    "growth_pct": 50.6,
+    "recent_share": 0.507,
+    "papers_per_month": 20.1,
+    "score": 101.3
    }
   },
   {
    "id": "social-media",
    "name": "Social Media & Creator Marketing",
-   "count": 1736,
+   "count": 1777,
    "trajectory": {
     "2012": 1,
     "2016": 1,
@@ -234,39 +234,39 @@
     "2023": 27,
     "2024": 296,
     "2025": 219,
-    "2026": 1187
+    "2026": 1228
    },
    "momentum": {
     "id": "social-media",
     "name": "Social Media",
-    "total": 1736,
-    "recent": 1225,
+    "total": 1777,
+    "recent": 1266,
     "prior": 261,
-    "growth_pct": 369.3,
-    "recent_share": 0.706,
-    "papers_per_month": 102.1,
-    "score": 439.9
+    "growth_pct": 385.1,
+    "recent_share": 0.712,
+    "papers_per_month": 105.5,
+    "score": 456.3
    }
   },
   {
    "id": "survey",
    "name": "Surveys, Trends & Meta-Studies",
-   "count": 2204,
+   "count": 2242,
    "trajectory": {
     "2024": 263,
     "2025": 190,
-    "2026": 1751
+    "2026": 1789
    },
    "momentum": {
     "id": "survey",
     "name": "Survey",
-    "total": 2204,
-    "recent": 1781,
+    "total": 2242,
+    "recent": 1819,
     "prior": 229,
-    "growth_pct": 677.7,
-    "recent_share": 0.808,
-    "papers_per_month": 148.4,
-    "score": 758.5
+    "growth_pct": 694.3,
+    "recent_share": 0.811,
+    "papers_per_month": 151.6,
+    "score": 775.4
    }
   }
  ],
@@ -274,32 +274,32 @@
   {
    "id": "case-study",
    "name": "Case Studies & Practice",
-   "count": 1600
+   "count": 1618
   },
   {
    "id": "empirical",
    "name": "Empirical Studies",
-   "count": 5960
+   "count": 6064
   },
   {
    "id": "framework",
    "name": "Frameworks & Models",
-   "count": 2847
+   "count": 2897
   },
   {
    "id": "measurement",
    "name": "Measurement & Methods",
-   "count": 1520
+   "count": 1525
   },
   {
    "id": "review",
    "name": "Reviews & Surveys",
-   "count": 2351
+   "count": 2404
   },
   {
    "id": "theory",
    "name": "Theory & Conceptual",
-   "count": 1217
+   "count": 1225
   }
  ],
  "timeline": [
@@ -50316,6 +50316,11 @@
   [
    "2026-08",
    "ai-marketing",
+   "review"
+  ],
+  [
+   "2026-08",
+   "ai-marketing",
    "theory"
   ],
   [
@@ -60791,6 +60796,16 @@
   [
    "2026-09",
    "ai-marketing",
+   "empirical"
+  ],
+  [
+   "2026-09",
+   "ai-marketing",
+   "empirical"
+  ],
+  [
+   "2026-09",
+   "ai-marketing",
    "framework"
   ],
   [
@@ -61682,6 +61697,11 @@
    "2026-09",
    "ai-marketing",
    "review"
+  ],
+  [
+   "2026-09",
+   "ai-marketing",
+   "theory"
   ],
   [
    "2026-09",
@@ -61757,6 +61777,11 @@
    "2026-09",
    "analytics",
    "case-study"
+  ],
+  [
+   "2026-09",
+   "analytics",
+   "empirical"
   ],
   [
    "2026-09",
@@ -62946,6 +62971,31 @@
   [
    "2026-09",
    "brand",
+   "empirical"
+  ],
+  [
+   "2026-09",
+   "brand",
+   "empirical"
+  ],
+  [
+   "2026-09",
+   "brand",
+   "empirical"
+  ],
+  [
+   "2026-09",
+   "brand",
+   "framework"
+  ],
+  [
+   "2026-09",
+   "brand",
+   "framework"
+  ],
+  [
+   "2026-09",
+   "brand",
    "framework"
   ],
   [
@@ -63785,8 +63835,8 @@
   ],
   [
    "2026-09",
-   "consumer-behavior",
-   "case-study"
+   "brand",
+   "theory"
   ],
   [
    "2026-09",
@@ -63862,6 +63912,16 @@
    "2026-09",
    "consumer-behavior",
    "case-study"
+  ],
+  [
+   "2026-09",
+   "consumer-behavior",
+   "case-study"
+  ],
+  [
+   "2026-09",
+   "consumer-behavior",
+   "empirical"
   ],
   [
    "2026-09",
@@ -65141,6 +65201,41 @@
   [
    "2026-09",
    "consumer-behavior",
+   "review"
+  ],
+  [
+   "2026-09",
+   "consumer-behavior",
+   "review"
+  ],
+  [
+   "2026-09",
+   "consumer-behavior",
+   "review"
+  ],
+  [
+   "2026-09",
+   "consumer-behavior",
+   "review"
+  ],
+  [
+   "2026-09",
+   "consumer-behavior",
+   "review"
+  ],
+  [
+   "2026-09",
+   "consumer-behavior",
+   "review"
+  ],
+  [
+   "2026-09",
+   "consumer-behavior",
+   "review"
+  ],
+  [
+   "2026-09",
+   "consumer-behavior",
    "theory"
   ],
   [
@@ -66536,6 +66631,21 @@
   [
    "2026-09",
    "digital-marketing",
+   "case-study"
+  ],
+  [
+   "2026-09",
+   "digital-marketing",
+   "empirical"
+  ],
+  [
+   "2026-09",
+   "digital-marketing",
+   "empirical"
+  ],
+  [
+   "2026-09",
+   "digital-marketing",
    "empirical"
   ],
   [
@@ -67122,6 +67232,21 @@
    "2026-09",
    "digital-marketing",
    "empirical"
+  ],
+  [
+   "2026-09",
+   "digital-marketing",
+   "empirical"
+  ],
+  [
+   "2026-09",
+   "digital-marketing",
+   "empirical"
+  ],
+  [
+   "2026-09",
+   "digital-marketing",
+   "framework"
   ],
   [
    "2026-09",
@@ -67622,6 +67747,16 @@
    "2026-09",
    "digital-marketing",
    "review"
+  ],
+  [
+   "2026-09",
+   "digital-marketing",
+   "review"
+  ],
+  [
+   "2026-09",
+   "digital-marketing",
+   "theory"
   ],
   [
    "2026-09",
@@ -67981,6 +68116,21 @@
   [
    "2026-09",
    "social-media",
+   "case-study"
+  ],
+  [
+   "2026-09",
+   "social-media",
+   "empirical"
+  ],
+  [
+   "2026-09",
+   "social-media",
+   "empirical"
+  ],
+  [
+   "2026-09",
+   "social-media",
    "empirical"
   ],
   [
@@ -70566,6 +70716,41 @@
   [
    "2026-09",
    "survey",
+   "empirical"
+  ],
+  [
+   "2026-09",
+   "survey",
+   "empirical"
+  ],
+  [
+   "2026-09",
+   "survey",
+   "empirical"
+  ],
+  [
+   "2026-09",
+   "survey",
+   "empirical"
+  ],
+  [
+   "2026-09",
+   "survey",
+   "framework"
+  ],
+  [
+   "2026-09",
+   "survey",
+   "framework"
+  ],
+  [
+   "2026-09",
+   "survey",
+   "framework"
+  ],
+  [
+   "2026-09",
+   "survey",
    "framework"
   ],
   [
@@ -71266,6 +71451,56 @@
   [
    "2026-10",
    "ai-marketing",
+   "case-study"
+  ],
+  [
+   "2026-10",
+   "ai-marketing",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "ai-marketing",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "ai-marketing",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "ai-marketing",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "ai-marketing",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "ai-marketing",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "ai-marketing",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "ai-marketing",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "ai-marketing",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "ai-marketing",
    "empirical"
   ],
   [
@@ -72227,6 +72462,26 @@
    "2026-10",
    "ai-marketing",
    "empirical"
+  ],
+  [
+   "2026-10",
+   "ai-marketing",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "ai-marketing",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "ai-marketing",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "ai-marketing",
+   "framework"
   ],
   [
    "2026-10",
@@ -72687,6 +72942,41 @@
    "2026-10",
    "ai-marketing",
    "measurement"
+  ],
+  [
+   "2026-10",
+   "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-10",
+   "ai-marketing",
+   "measurement"
+  ],
+  [
+   "2026-10",
+   "ai-marketing",
+   "review"
+  ],
+  [
+   "2026-10",
+   "ai-marketing",
+   "review"
+  ],
+  [
+   "2026-10",
+   "ai-marketing",
+   "review"
+  ],
+  [
+   "2026-10",
+   "ai-marketing",
+   "review"
+  ],
+  [
+   "2026-10",
+   "ai-marketing",
+   "review"
   ],
   [
    "2026-10",
@@ -73151,6 +73441,101 @@
   [
    "2026-10",
    "brand",
+   "case-study"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "case-study"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "case-study"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "case-study"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "brand",
    "empirical"
   ],
   [
@@ -73482,6 +73867,91 @@
    "2026-10",
    "brand",
    "empirical"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "framework"
   ],
   [
    "2026-10",
@@ -73636,6 +74106,41 @@
   [
    "2026-10",
    "brand",
+   "measurement"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "review"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "review"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "review"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "review"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "review"
+  ],
+  [
+   "2026-10",
+   "brand",
+   "review"
+  ],
+  [
+   "2026-10",
+   "brand",
    "review"
   ],
   [
@@ -73831,6 +74336,71 @@
   [
    "2026-10",
    "consumer-behavior",
+   "case-study"
+  ],
+  [
+   "2026-10",
+   "consumer-behavior",
+   "case-study"
+  ],
+  [
+   "2026-10",
+   "consumer-behavior",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "consumer-behavior",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "consumer-behavior",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "consumer-behavior",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "consumer-behavior",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "consumer-behavior",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "consumer-behavior",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "consumer-behavior",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "consumer-behavior",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "consumer-behavior",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "consumer-behavior",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "consumer-behavior",
    "empirical"
   ],
   [
@@ -74157,6 +74727,46 @@
    "2026-10",
    "consumer-behavior",
    "empirical"
+  ],
+  [
+   "2026-10",
+   "consumer-behavior",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "consumer-behavior",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "consumer-behavior",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "consumer-behavior",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "consumer-behavior",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "consumer-behavior",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "consumer-behavior",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "consumer-behavior",
+   "framework"
   ],
   [
    "2026-10",
@@ -74367,6 +74977,71 @@
    "2026-10",
    "consumer-behavior",
    "measurement"
+  ],
+  [
+   "2026-10",
+   "consumer-behavior",
+   "review"
+  ],
+  [
+   "2026-10",
+   "consumer-behavior",
+   "review"
+  ],
+  [
+   "2026-10",
+   "consumer-behavior",
+   "review"
+  ],
+  [
+   "2026-10",
+   "consumer-behavior",
+   "review"
+  ],
+  [
+   "2026-10",
+   "consumer-behavior",
+   "review"
+  ],
+  [
+   "2026-10",
+   "consumer-behavior",
+   "review"
+  ],
+  [
+   "2026-10",
+   "consumer-behavior",
+   "review"
+  ],
+  [
+   "2026-10",
+   "consumer-behavior",
+   "review"
+  ],
+  [
+   "2026-10",
+   "consumer-behavior",
+   "review"
+  ],
+  [
+   "2026-10",
+   "consumer-behavior",
+   "review"
+  ],
+  [
+   "2026-10",
+   "consumer-behavior",
+   "review"
+  ],
+  [
+   "2026-10",
+   "consumer-behavior",
+   "review"
+  ],
+  [
+   "2026-10",
+   "consumer-behavior",
+   "review"
   ],
   [
    "2026-10",
@@ -74615,8 +75290,8 @@
   ],
   [
    "2026-10",
-   "cx-retail",
-   "case-study"
+   "content-marketing",
+   "review"
   ],
   [
    "2026-10",
@@ -74651,7 +75326,7 @@
   [
    "2026-10",
    "cx-retail",
-   "empirical"
+   "case-study"
   ],
   [
    "2026-10",
@@ -74867,6 +75542,46 @@
    "2026-10",
    "cx-retail",
    "empirical"
+  ],
+  [
+   "2026-10",
+   "cx-retail",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "cx-retail",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "cx-retail",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "cx-retail",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "cx-retail",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "cx-retail",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "cx-retail",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "cx-retail",
+   "framework"
   ],
   [
    "2026-10",
@@ -74992,6 +75707,21 @@
    "2026-10",
    "cx-retail",
    "measurement"
+  ],
+  [
+   "2026-10",
+   "cx-retail",
+   "review"
+  ],
+  [
+   "2026-10",
+   "cx-retail",
+   "review"
+  ],
+  [
+   "2026-10",
+   "cx-retail",
+   "review"
   ],
   [
    "2026-10",
@@ -75281,6 +76011,71 @@
   [
    "2026-10",
    "digital-marketing",
+   "case-study"
+  ],
+  [
+   "2026-10",
+   "digital-marketing",
+   "case-study"
+  ],
+  [
+   "2026-10",
+   "digital-marketing",
+   "case-study"
+  ],
+  [
+   "2026-10",
+   "digital-marketing",
+   "case-study"
+  ],
+  [
+   "2026-10",
+   "digital-marketing",
+   "case-study"
+  ],
+  [
+   "2026-10",
+   "digital-marketing",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "digital-marketing",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "digital-marketing",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "digital-marketing",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "digital-marketing",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "digital-marketing",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "digital-marketing",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "digital-marketing",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "digital-marketing",
    "empirical"
   ],
   [
@@ -75652,6 +76447,16 @@
    "2026-10",
    "digital-marketing",
    "empirical"
+  ],
+  [
+   "2026-10",
+   "digital-marketing",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "digital-marketing",
+   "framework"
   ],
   [
    "2026-10",
@@ -75817,6 +76622,36 @@
    "2026-10",
    "digital-marketing",
    "measurement"
+  ],
+  [
+   "2026-10",
+   "digital-marketing",
+   "measurement"
+  ],
+  [
+   "2026-10",
+   "digital-marketing",
+   "review"
+  ],
+  [
+   "2026-10",
+   "digital-marketing",
+   "review"
+  ],
+  [
+   "2026-10",
+   "digital-marketing",
+   "review"
+  ],
+  [
+   "2026-10",
+   "digital-marketing",
+   "review"
+  ],
+  [
+   "2026-10",
+   "digital-marketing",
+   "review"
   ],
   [
    "2026-10",
@@ -75955,6 +76790,16 @@
   ],
   [
    "2026-10",
+   "digital-marketing",
+   "theory"
+  ],
+  [
+   "2026-10",
+   "privacy-data",
+   "empirical"
+  ],
+  [
+   "2026-10",
    "privacy-data",
    "empirical"
   ],
@@ -76126,6 +76971,106 @@
   [
    "2026-10",
    "social-media",
+   "case-study"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "case-study"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "case-study"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "case-study"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "social-media",
    "empirical"
   ],
   [
@@ -76547,6 +77492,36 @@
    "2026-10",
    "social-media",
    "empirical"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "framework"
   ],
   [
    "2026-10",
@@ -76762,6 +77737,51 @@
    "2026-10",
    "social-media",
    "measurement"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "measurement"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "review"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "review"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "review"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "review"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "review"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "review"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "review"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "review"
   ],
   [
    "2026-10",
@@ -76955,8 +77975,18 @@
   ],
   [
    "2026-10",
-   "survey",
-   "case-study"
+   "social-media",
+   "theory"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "theory"
+  ],
+  [
+   "2026-10",
+   "social-media",
+   "theory"
   ],
   [
    "2026-10",
@@ -76981,6 +78011,106 @@
   [
    "2026-10",
    "survey",
+   "case-study"
+  ],
+  [
+   "2026-10",
+   "survey",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "survey",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "survey",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "survey",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "survey",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "survey",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "survey",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "survey",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "survey",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "survey",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "survey",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "survey",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "survey",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "survey",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "survey",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "survey",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "survey",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "survey",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "survey",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "survey",
    "empirical"
   ],
   [
@@ -77427,6 +78557,46 @@
    "2026-10",
    "survey",
    "empirical"
+  ],
+  [
+   "2026-10",
+   "survey",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "survey",
+   "empirical"
+  ],
+  [
+   "2026-10",
+   "survey",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "survey",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "survey",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "survey",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "survey",
+   "framework"
+  ],
+  [
+   "2026-10",
+   "survey",
+   "framework"
   ],
   [
    "2026-10",
@@ -77752,6 +78922,26 @@
    "2026-10",
    "survey",
    "review"
+  ],
+  [
+   "2026-10",
+   "survey",
+   "review"
+  ],
+  [
+   "2026-10",
+   "survey",
+   "review"
+  ],
+  [
+   "2026-10",
+   "survey",
+   "review"
+  ],
+  [
+   "2026-10",
+   "survey",
+   "theory"
   ],
   [
    "2026-10",
@@ -77782,7 +78972,7 @@
  "venues": [
   {
    "name": "Zenodo (CERN European Organization for Nuclear Research)",
-   "papers": 1126
+   "papers": 1152
   },
   {
    "name": "SSRN Electronic Journal",
@@ -77790,7 +78980,7 @@
   },
   {
    "name": "Advances in computational intelligence and robotics book series",
-   "papers": 140
+   "papers": 141
   },
   {
    "name": "Sustainability",
@@ -77798,7 +78988,7 @@
   },
   {
    "name": "Advances in Economics Management and Political Sciences",
-   "papers": 94
+   "papers": 96
   },
   {
    "name": "Int. Journal For Multidisciplinary Research",
@@ -77806,7 +78996,7 @@
   },
   {
    "name": "Routledge eBooks",
-   "papers": 79
+   "papers": 81
   },
   {
    "name": "Journal of theoretical and applied electronic commerce research",
@@ -77818,11 +79008,11 @@
   },
   {
    "name": "INTERANTIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT",
-   "papers": 68
+   "papers": 72
   },
   {
    "name": "DOAJ (DOAJ: Directory of Open Access Journals)",
-   "papers": 66
+   "papers": 67
   },
   {
    "name": "Advances in marketing, customer relationship management, and e-services book series",
@@ -77837,11 +79027,11 @@
    "papers": 59
   },
   {
-   "name": "Asia Pacific Journal of Marketing and Logistics",
-   "papers": 55
+   "name": "Research Square",
+   "papers": 56
   },
   {
-   "name": "Research Square",
+   "name": "Asia Pacific Journal of Marketing and Logistics",
    "papers": 55
   },
   {
@@ -77864,108 +79054,108 @@
  "keyword_bursts": [
   {
    "keyword": "benchmark",
-   "recent": 282,
-   "total": 302,
+   "recent": 285,
+   "total": 305,
    "burst_score": 1.35,
-   "recent_share": 0.0264
+   "recent_share": 0.0261
   },
   {
    "keyword": "survey",
-   "recent": 1394,
-   "total": 1508,
-   "burst_score": 1.34,
-   "recent_share": 0.1304
+   "recent": 1433,
+   "total": 1547,
+   "burst_score": 1.33,
+   "recent_share": 0.1312
   },
   {
    "keyword": "evaluation",
-   "recent": 783,
-   "total": 860,
-   "burst_score": 1.32,
-   "recent_share": 0.0733
+   "recent": 798,
+   "total": 875,
+   "burst_score": 1.31,
+   "recent_share": 0.073
   },
   {
    "keyword": "framework",
-   "recent": 2929,
-   "total": 3323,
-   "burst_score": 1.28,
-   "recent_share": 0.2741
+   "recent": 3005,
+   "total": 3399,
+   "burst_score": 1.27,
+   "recent_share": 0.2751
   },
   {
    "keyword": "autonomous",
-   "recent": 159,
-   "total": 184,
+   "recent": 161,
+   "total": 186,
    "burst_score": 1.25,
-   "recent_share": 0.0149
+   "recent_share": 0.0147
   },
   {
    "keyword": "model",
-   "recent": 3492,
-   "total": 4134,
+   "recent": 3590,
+   "total": 4232,
    "burst_score": 1.22,
-   "recent_share": 0.3268
+   "recent_share": 0.3286
   },
   {
    "keyword": "method",
-   "recent": 2532,
-   "total": 2999,
+   "recent": 2615,
+   "total": 3082,
    "burst_score": 1.22,
-   "recent_share": 0.2369
+   "recent_share": 0.2394
   },
   {
    "keyword": "scalable",
-   "recent": 124,
-   "total": 149,
-   "burst_score": 1.21,
-   "recent_share": 0.0116
+   "recent": 126,
+   "total": 151,
+   "burst_score": 1.2,
+   "recent_share": 0.0115
   },
   {
    "keyword": "system",
-   "recent": 2952,
-   "total": 3593,
+   "recent": 3024,
+   "total": 3665,
    "burst_score": 1.19,
-   "recent_share": 0.2762
+   "recent_share": 0.2768
   },
   {
    "keyword": "dataset",
-   "recent": 381,
-   "total": 468,
+   "recent": 394,
+   "total": 481,
    "burst_score": 1.18,
-   "recent_share": 0.0357
+   "recent_share": 0.0361
   },
   {
    "keyword": "analysis",
-   "recent": 3037,
-   "total": 3762,
+   "recent": 3144,
+   "total": 3869,
    "burst_score": 1.17,
-   "recent_share": 0.2842
+   "recent_share": 0.2878
   },
   {
    "keyword": "human",
-   "recent": 1004,
-   "total": 1248,
-   "burst_score": 1.17,
-   "recent_share": 0.0939
+   "recent": 1022,
+   "total": 1266,
+   "burst_score": 1.16,
+   "recent_share": 0.0935
   },
   {
    "keyword": "review",
-   "recent": 2473,
-   "total": 3169,
+   "recent": 2550,
+   "total": 3246,
    "burst_score": 1.13,
-   "recent_share": 0.2314
+   "recent_share": 0.2334
   },
   {
    "keyword": "tool",
-   "recent": 1341,
-   "total": 1767,
+   "recent": 1382,
+   "total": 1808,
    "burst_score": 1.1,
-   "recent_share": 0.1255
+   "recent_share": 0.1265
   },
   {
    "keyword": "novel",
-   "recent": 354,
-   "total": 467,
+   "recent": 359,
+   "total": 472,
    "burst_score": 1.1,
-   "recent_share": 0.0331
+   "recent_share": 0.0329
   }
  ]
 }
