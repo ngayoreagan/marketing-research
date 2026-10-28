@@ -2,7 +2,18 @@
 ## Working Title: Context-Aware Agentic Marketing (CAM): A Framework for Situational Awareness in Autonomous Marketing Systems
 
 > **File:** `g4_situational_awareness_framework.md`  
-> **Status:** DRAFT (v0.2)  
+> **Status:** DRAFT (v0.2)
+>
+> **TL;DR (1 page):** Marketing agents can plan and execute but cannot *understand* marketing
+> context. CAM (Context-Aware Agentic Marketing) gives autonomous marketing agents
+> situational awareness via four layers — Sensing (multi-modal signals) → Context Model
+> (unified representation) → Awareness Engine (scoring + classification + prediction) →
+> Action Layer (context-conditioned actions) — grounded in Endsley's 3-level
+> situational-awareness model. Corpus evidence: ≥100 agentic papers (2025–2026, highest
+> momentum) but at most a handful combine agentic with contextual/situational awareness.
+> The companion benchmark CAM-Sim shows multi-signal classification raises profit
+> +$50 over single-signal (+$102 vs a hand-tuned classifier). Priority #1 research gap
+> (weighted score 4.75/5.0). Target: Marketing Science / JM, RaAM 2027.  
 > **Gap:** G4 (Situational Awareness for Autonomous Marketing Agents)  
 > **Priority:** #1 (Weighted Score: 4.75/5.0)  
 > **Lead Authors:** Tobias Weiss (proposed) + [TBD co-authors]  

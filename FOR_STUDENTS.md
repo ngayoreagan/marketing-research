@@ -175,6 +175,8 @@ guest lecture, the slides and demo live in [lecture/](lecture/README.md):
 
 ## 8. Want to go deeper?
 
+- **Guided assignments** with rubrics: [docs/students/assignments.md](docs/students/assignments.md) (5 tasks, 2–4 h each)
+- **How to write a literature review** with this corpus: [docs/students/how_to_lit_review.md](docs/students/how_to_lit_review.md)
 - Full paper list (every entry, grouped & by year): **[PAPERS.md](PAPERS.md)**
 - How the corpus is built and kept fresh: [README.md](README.md) and `AGENTS.md`
 - The data is machine-readable in `docs/papers.json` (great for a data/analytics

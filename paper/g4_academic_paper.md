@@ -1,6 +1,19 @@
 # CAM-Sim: A Reproducible Benchmark for Situational-Awareness Ablations in Marketing Agents
 ## Benchmark Paper
 
+> **TL;DR (1 page):** CAM-Sim is a reproducible paired-seed benchmark (50 seeds × 200 scenarios)
+> for situational-awareness ablations in marketing agents. Multi-signal situation classification
+> (intent + competitive density + channel quality) raises match from 87.5% to 98.7% and profit
+> from +$155 to +$205 (+$50, p = 8.5e-32). The gain is **signal-driven, not
+> classifier-capacity-driven** (confirmed across NCC, logistic regression, and random forest).
+> A context-blind policy search reveals a channel-cost arbitrage (cheapest channel dominates
+> when reward is channel-independent). The advantage replicates across 9 environments,
+> survives 30% label noise and budget pacing, and is checked by paired-difference bootstrap
+> (B = 2,000), macro-F1, and common random numbers. All profits are scaled-reward proxies.
+> **Practical takeaway:** invest first in multi-signal situation classification, then in
+> mechanism-calibrated bidding — never in unvalidated bid heuristics.
+
+
 > **File:** `g4_academic_paper.md`  
 > **Status:** DRAFT (v1.3) — results auto-generated from the CAM-Sim benchmark (v0.4 core + v1.3 extensions); peer-reviewed (5 rounds: stats-audit, citation-audit, threats-to-validity, 5× journal-editor, 5× adversarial-reviewer, 5× domain-expert, 5× ml-methodology); all numbers regenerate from cam_sim.py, cam_sim_ablations.py, and cam_sim_extensions.py  
 > **Target:** *NeurIPS Datasets & Benchmarks* / *KDD* / *Journal of Interactive Marketing* / *Journal of Marketing Analytics* (reframed as benchmark paper per round-3 reviewer consensus: JM/MS requires field data; computational venues reward reproducible benchmarks)  

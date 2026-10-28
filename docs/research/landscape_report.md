@@ -1,33 +1,32 @@
 # Paper Landscape Report
 
-**Generated:** 2026-10-20  
-**Corpus:** 14,067 papers (1987-2026) | 1,046 arXiv preprints · 13,021 journal/publisher records
+**Generated:** 2026-10-28  
+**Corpus:** 15,733 papers (1987-2026) | 1,202 arXiv preprints · 14,531 journal/publisher records
 
 ## Category Landscape
 
 | Category | Total | Prev Yr | This Yr | YoY | 12m Share |
 |----------|------:|--------:|--------:|----:|----------:|
-| Ai Marketing | 2952 | 727 | 1574 | +117% | 19% |
-| Survey | 2068 | 190 | 1615 | +750% | 18% |
-| Social Media | 1571 | 219 | 1022 | +367% | 11% |
-| Consumer Behavior | 1533 | 251 | 987 | +293% | 11% |
-| Digital Marketing | 1501 | 222 | 966 | +335% | 11% |
-| Brand | 1456 | 218 | 989 | +354% | 11% |
-| Cx Retail | 1116 | 226 | 688 | +204% | 8% |
-| Analytics | 581 | 177 | 313 | +77% | 4% |
-| Content Marketing | 491 | 175 | 222 | +27% | 3% |
-| Privacy Data | 449 | 153 | 185 | +21% | 2% |
-| B2B | 349 | 104 | 155 | +49% | 2% |
+| Ai Marketing | 3431 | 727 | 2053 | +182% | 20% |
+| Survey | 2242 | 190 | 1789 | +842% | 17% |
+| Social Media | 1777 | 219 | 1228 | +461% | 12% |
+| Consumer Behavior | 1730 | 251 | 1184 | +372% | 11% |
+| Brand | 1671 | 218 | 1204 | +452% | 11% |
+| Digital Marketing | 1662 | 222 | 1127 | +408% | 11% |
+| Cx Retail | 1241 | 226 | 813 | +260% | 8% |
+| Analytics | 614 | 177 | 346 | +95% | 4% |
+| Content Marketing | 529 | 175 | 260 | +49% | 3% |
+| Privacy Data | 475 | 153 | 211 | +38% | 2% |
+| B2B | 361 | 104 | 167 | +61% | 2% |
 
 ## Research Aspects
 
-- **Case Study**: 1478 papers (11%) #####
-- **Empirical**: 5254 papers (37%) ##################
-- **Framework**: 2601 papers (18%) #########
-- **Measurement**: 1461 papers (10%) #####
-- **Review**: 2128 papers (15%) #######
-- **Survey**: 1 papers (0%) 
-- **Theory**: 1144 papers (8%) ####
+- **Case Study**: 1618 papers (10%) #####
+- **Empirical**: 6064 papers (39%) ###################
+- **Framework**: 2897 papers (18%) #########
+- **Measurement**: 1525 papers (10%) ####
+- **Review**: 2404 papers (15%) #######
+- **Theory**: 1225 papers (8%) ###
 
 ## Year Trend
 
@@ -54,77 +53,77 @@
 | 2023 | 169 |
 | 2024 | 2479 |
 | 2025 | 2662 |
-| 2026 | 8716 |
+| 2026 | 10382 |
 
 ## Emerging Themes (12-Month Bursts)
 
 | Keyword | Recent | Total | Burst |
 |---------|-------:|------:|------:|
-| world model | 3 | 3 | 1.52× |
-| agentic | 106 | 112 | 1.44× |
-| uncertainty | 201 | 215 | 1.42× |
-| survey | 1169 | 1283 | 1.38× |
-| benchmark | 194 | 214 | 1.38× |
-| transfer | 134 | 148 | 1.38× |
-| hierarchical | 76 | 84 | 1.37× |
-| causal | 275 | 309 | 1.35× |
-| embodied | 8 | 9 | 1.35× |
-| imitation | 368 | 416 | 1.34× |
-| memory | 79 | 91 | 1.32× |
-| planning | 236 | 275 | 1.3× |
+| world model | 8 | 8 | 1.44× |
+| deep rl | 1 | 1 | 1.44× |
+| agentic | 159 | 165 | 1.39× |
+| uncertainty | 236 | 250 | 1.36× |
+| benchmark | 285 | 305 | 1.35× |
+| embodied | 15 | 16 | 1.35× |
+| survey | 1433 | 1547 | 1.33× |
+| transfer | 175 | 189 | 1.33× |
+| hierarchical | 91 | 99 | 1.32× |
+| causal | 346 | 380 | 1.31× |
+| memory | 125 | 137 | 1.31× |
+| agent | 698 | 772 | 1.3× |
 
 ## Top Venues
 
 | Venue | Papers |
 |-------|-------:|
-| Zenodo (CERN European Organization for Nuclear Research) | 962 |
+| Zenodo (CERN European Organization for Nuclear Research) | 1152 |
 | SSRN Electronic Journal | 149 |
-| Advances in computational intelligence and robotics book series | 120 |
-| Sustainability | 102 |
-| International Journal For Multidisciplinary Research | 88 |
-| Advances in Economics Management and Political Sciences | 81 |
-| Journal of theoretical and applied electronic commerce research | 73 |
-| INTERANTIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT | 65 |
-| Routledge eBooks | 65 |
-| Advances in marketing, customer relationship management, and e-services book series | 64 |
+| Advances in computational intelligence and robotics book series | 141 |
+| Sustainability | 104 |
+| Advances in Economics Management and Political Sciences | 96 |
+| International Journal For Multidisciplinary Research | 92 |
+| Routledge eBooks | 81 |
+| Journal of theoretical and applied electronic commerce research | 76 |
+| Figshare | 74 |
+| INTERANTIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT | 72 |
 
 ## Top Authors
 
 | Author | Papers |
 |--------|-------:|
-| Loso Judijanto | 21 |
+| Loso Judijanto | 22 |
 | Tony Wijaya | 15 |
 | Hassan Ali Al-Ababneh | 15 |
-| Albérico Travassos Rosário | 12 |
+| Worldly Knowledge Publishing Centre | 14 |
+| Albérico Travassos Rosário | 13 |
 | Weng Marc Lim | 12 |
 | Murali Krishna Pasupuleti | 12 |
 | Alberto Regis | 12 |
-| Worldly Knowledge Publishing Centre | 12 |
 | Philip Kotler | 11 |
 | Sanjeev Kumar | 11 |
 
 ## Hottest Cells
 
-- `ai-marketing/empirical` — 1341
-- `social-media/empirical` — 763
-- `survey/empirical` — 758
-- `consumer-behavior/empirical` — 675
-- `digital-marketing/empirical` — 576
-- `brand/empirical` — 531
-- `survey/review` — 529
-- `ai-marketing/framework` — 466
-- `survey/framework` — 409
-- `ai-marketing/measurement` — 397
+- `ai-marketing/empirical` — 1657
+- `social-media/empirical` — 856
+- `survey/empirical` — 856
+- `consumer-behavior/empirical` — 750
+- `digital-marketing/empirical` — 622
+- `brand/empirical` — 613
+- `survey/review` — 557
+- `ai-marketing/framework` — 534
+- `survey/framework` — 445
+- `ai-marketing/measurement` — 418
 
 ## Thin Cells (White Space)
 
-- `ai-marketing/survey` — 1
 - `b2b/measurement` — 8
-- `analytics/theory` — 36
-- `b2b/review` — 40
+- `analytics/theory` — 39
+- `b2b/review` — 41
 - `b2b/theory` — 43
 - `content-marketing/measurement` — 44
-- `content-marketing/empirical` — 49
-- `b2b/case-study` — 51
-- `privacy-data/case-study` — 54
+- `b2b/case-study` — 53
 - `analytics/case-study` — 54
+- `privacy-data/case-study` — 55
+- `privacy-data/measurement` — 56
+- `analytics/review` — 59

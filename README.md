@@ -20,6 +20,8 @@
 | 🎓 **Onboard fast (students)** | **[FOR_STUDENTS.md](FOR_STUDENTS.md)** — value path + curated reading paths |
 | 📚 **Curated starter papers** | [docs/students/starter_reading_list.md](docs/students/starter_reading_list.md) — hand-picked high-quality papers per category |
 | 🧭 **Per-topic briefs** | [docs/students/topic_briefs.md](docs/students/topic_briefs.md) — one-page framing + thesis gaps per category |
+| 📝 **Guided assignments** | [docs/students/assignments.md](docs/students/assignments.md) — 5 coursework tasks with rubrics |
+| 📖 **Lit-review workflow** | [docs/students/how_to_lit_review.md](docs/students/how_to_lit_review.md) — step-by-step literature review guide |
 | 🔎 **Search & filter papers** | [docs/index.html](docs/index.html) — interactive browser |
 | 📚 **Read the full paper list** | [PAPERS.md](PAPERS.md) — every entry grouped by category & year |
 | 📊 **Read the corpus synthesis** | [docs/research/literature_review.md](docs/research/literature_review.md) · [trends.md](docs/research/trends.md) · [concept_map.md](docs/research/concept_map.md) |
