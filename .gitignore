@@ -4,7 +4,8 @@ __pycache__/
 .DS_Store
 
 # Pipeline outputs (generated — never commit)
-papers.json
+/papers.json
+# docs/papers.json is committed so GitHub Pages (served from /docs) works
 statistics.json
 docs/topics/
 verify-sources-report.json
