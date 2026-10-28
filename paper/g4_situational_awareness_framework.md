@@ -21,7 +21,7 @@
 3. **Awareness Engine** — reasoning algorithms (neuro-symbolic hybrid: rules + ML classifiers)
 4. **Action Layer** — context-conditioned marketing actions (messaging, bid adj., channel selection)
 
-**Novelty:** First framework connecting **agentic AI** (corpus trend: 1.79x burst) with **marketing situational awareness** (corpus: 0 papers).
+**Novelty:** First framework connecting **agentic AI** (the highest-momentum trend in the corpus, 2025-2026) with **marketing situational awareness** (at most a handful of papers combine the two).
 
 **Product Synergy:** Directly implements the **contextual-intelligence.org** product architecture.
 

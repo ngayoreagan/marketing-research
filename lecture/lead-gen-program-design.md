@@ -92,7 +92,7 @@ Output wird 2027 zum Datensatz.
 
 | RQ | Track | Frage (Kurzform) | Konstrukt / Einheit | Daten & Benchmark | Bezug |
 |---|---|---|---|---|---|
-| **H7** | Bachelor | Schließt sich das agentic×lead-gen-Gap 2026→SS27? | Gap-Rate / Korpus-Keywords | bestehender Korpus; Keyword-Sensitivität | Methodik-Zubringer |
+| **H7** | Bachelor | Schließt sich das agentic×lead-gen-Gap 2026→SS27? | Gap-Rate / Korpus-Keywords (konstrukt-level, nicht roher Keyword-Count) | bestehender Korpus; Keyword-Sensitivität; Strenge-Definition: systematische Brücke, nicht bloße Ko-Mention (sonst trivialisierbar durch Korpuswachstum) | Methodik-Zubringer |
 | **H8** | Bachelor | Wie ehrlich sind Agent-Shortlists — und senkt die Source-URL-Pflicht die Fehlerrate? | Claim-Verifikationsrate / Claim | mehrere Demo-Runs (mit/ohne URL-Pflicht) | Güte/Methodik |
 | **H1** | Bachelor | Erkennen unabhängige Experten Opportunity-Fenster reliabel (κ ≥ 0.6)? | Opportunity-Fenster (binär) / Vignette | Haas-Panel (3–5 Rater), 30 Vignetten | Fundament (Voraussetzung für RQ5/6/7) |
 | **H4** | Bachelor | Gewichten M+E-Experten operative/relationale Werte höher als ökonomische? | Wertdimensions-Präferenzrang | Forced-Choice-Umfrage | RQ6 |

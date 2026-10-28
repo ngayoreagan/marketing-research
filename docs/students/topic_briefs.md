@@ -109,8 +109,8 @@ buyer journeys, and B2B contextual intelligence.
 matters at each stage of the buying journey?
 **Start here:** *Unpacking account-based marketing* (2026) → *Sales funnel
 structures in B2B digital platforms* (2025).
-**Gap/angle:** the **fastest-growing** category with the **thinnest measurement
-cell** (`b2b/measurement`) — a prime thesis spot. See the [B2B contextual
+**Gap/angle:** a **smaller, fast-rising** category with the **thinnest measurement
+cell** (`b2b/measurement`, ≤10 papers) — a prime thesis spot. See the [B2B contextual
 intelligence framework](../../paper/g6_b2b_contextual_intelligence.md).
 
 ## 📊 Surveys, Trends & Meta-Studies

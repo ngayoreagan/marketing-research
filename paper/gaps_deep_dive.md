@@ -1,7 +1,7 @@
 # Deep Dive: Ranking the Contextual Intelligence Research Gaps
 
 > **Date:** 2026-08-29  
-> **Scope:** Marketing-Research corpus (7,778 papers)  
+> **Scope:** Marketing-Research corpus (live; lower bounds below — the corpus only grows)  
 > **Goal:** Re-rank gaps considering momentum, novelty, white-space, effort, and strategic value
 
 ---
@@ -34,15 +34,15 @@ Each gap is evaluated across 8 dimensions, scored 1-5 (1=weak, 5=strong), with r
 **Definition:** Define and dimensionalize *contextual intelligence for marketing*—situational, spatial/temporal, channel, social, and intent context as a measurable capability, distinct from traditional profile/identity-based targeting.
 
 #### Evidence Recap
-- **Corpus:** "contextual intelligence" = **0 papers**; "situational" = **4**; "context-aware" = **3**; Theory subcategory = **928 papers** (but none define CI).
+- **Corpus:** "contextual intelligence" = **0 papers** defining a marketing construct (≤1 lexical mentions overall); "situational" = **≥20**; "context-aware" = **≥20**; Theory subcategory = **≥1,200 papers** (but none define CI). (live lower bounds)
 - **External:** Haaglund 2025 thesis (Umea, CS/NLP) claimed the phrase in a *CS* context; management literature (Kutz 2016) uses it for *leadership*; no *marketing* construct exists.
-- **Thin cells:** `analytics/theory` = **35 papers** (thinnest theory cell).
+- **Thin cells:** `analytics/theory` = **≤40 papers** (thinnest theory cell). (live lower bound)
 
 #### Dimensional Scoring
 
 | Dim | Score | Rationale |
 |-----|-------|-----------|
-| **Momentum** | 4 | External claim is live (Haaglund 2025); now-or-never to anchor marketing definition first. Internal corpus has momentum in adjacent areas (analytics growth +106%, intent 823 hits). |
+| **Momentum** | 4 | External claim is live (Haaglund 2025); now-or-never to anchor marketing definition first. Internal corpus has momentum in adjacent areas (analytics growth, intent ≥1,700 hits). |
 | **Novelty** | 5 | Zero corpus coverage + external search confirms absence of marketing construct. Pure white space. |
 | **Strategic Fit** | 5 | Fills foundational gap; aligns with Haas's conceptual-papers agenda; constant corpus background. |
 | **Publication Potential** | 5 | High for both academic (theory) and practitioner (industry yearning for this construct). |
@@ -60,15 +60,15 @@ Each gap is evaluated across 8 dimensions, scored 1-5 (1=weak, 5=strong), with r
 **Definition:** Framework + prototype for how agentic marketing systems acquire and act on marketing context (audience situation, channel journey, moment-of-truth) - bridging the corpus's agentic burst with marketing situational awareness.
 
 #### Evidence Recap
-- **Corpus:** "agentic" = **61 papers total** (burst 1.79x in last 12m); **41 in 2024-2026**; only **2 papers** combine agentic with contextual/context.
-- **Momentum:** Velocity - 2026-07: **12 papers**, 2026-06: 6, 2026-04: 7. Exponential.
+- **Corpus:** "agentic" = **≥100 papers** (all 2025–2026; live lower bound); **at most a handful** combine agentic with contextual/context.
+- **Momentum:** Sustained acceleration through 2026 (live lower bound; per-month counts drift and are not reproduced here).
 - **External:** Zero papers connect agentic AI with marketing situational awareness.
 
 #### Dimensional Scoring
 
 | Dim | Score | Rationale |
 |-----|-------|-----------|
-| **Momentum** | 5 | Highest in corpus - agentic burst = 1.79x; 12 papers in July 2026 alone. |
+| **Momentum** | 5 | Highest-momentum trend in the corpus (agentic, 2025–2026); sustained acceleration. |
 | **Novelty** | 5 | Zero corpus papers combine agentic with marketing context; pure white space. |
 | **Strategic Fit** | 5 | #1 burst trend (agentic) + product differentiator (contextual-intelligence.org). Perfect synergy. |
 | **Publication Potential** | 5 | Frontier + novel; high buy-in in AI/marketing venues (MKTG, RaAM, Marketing Science). |
@@ -86,7 +86,7 @@ Each gap is evaluated across 8 dimensions, scored 1-5 (1=weak, 5=strong), with r
 **Definition:** Operationalize contextual intelligence as a validated scale/instrument (survey-based capability assessment for firms/teams).
 
 #### Evidence Recap
-- **Corpus:** Zero CI measurement instruments; Measurement subcategory = 1,025 papers (but none for CI); analytics/measurement = dense cell.
+- **Corpus:** Zero CI measurement instruments; Measurement subcategory = **≥1,500 papers** (but none for CI); analytics/measurement = dense cell. (live lower bound)
 - **External:** No academic instrument for marketing CI found.
 
 #### Dimensional Scoring
@@ -111,16 +111,16 @@ Each gap is evaluated across 8 dimensions, scored 1-5 (1=weak, 5=strong), with r
 **Definition:** Contextual intelligence in B2B/ABM - firmographic + buying-situation + journey-stage context for account engagement.
 
 #### Evidence Recap
-- **Corpus:** B2B category = 330 papers, 310 in 2024-2026; momentum 75.3% growth, #6 by score (126.8).
-- **Thin cells:** b2b/theory = 42 papers, b2b/measurement = 7 papers (thinnest cell in corpus, recent_share = 85.7%).
+- **Corpus:** B2B category = **≥350 papers**, the vast majority from 2024–2026 (live lower bound).
+- **Thin cells:** b2b/measurement = **≤10 papers** (thinnest cell in the corpus); b2b/theory = **≤45 papers** (2nd thinnest). (live lower bounds)
 - **External:** No external B2B CI construct found.
 
 #### Dimensional Scoring
 
 | Dim | Score | Rationale |
 |-----|-------|-----------|
-| **Momentum** | 5 | B2B is fastest-growing category in corpus (+75.3% growth; 126.8 score). |
-| **Novelty** | 5 | Thinnest cell (b2b/measurement = 7 papers); zero B2B CI construct exists. |
+| **Momentum** | 4 | Smaller category with strong recent growth; not the fastest-growing by 12-month momentum. |
+| **Novelty** | 5 | Thinnest cell (b2b/measurement ≤10 papers); zero B2B CI construct exists. |
 | **Strategic Fit** | 5 | Natural hook for HAAS collaboration (value-based selling, B2B sales management). |
 | **Publication Potential** | 4 | High in Industrial Marketing Management, Journal of Business & Industrial Marketing, B2B conferences. |
 | **Effort** | 3 | Conceptual + empirical validation; may require B2B partner data. |
@@ -128,7 +128,7 @@ Each gap is evaluated across 8 dimensions, scored 1-5 (1=weak, 5=strong), with r
 | **Cross-disciplinary Leverage** | 4 | Leverages B2B selling frameworks, CRM analytics. |
 | **Monetization** | 5 | High - B2B is the most lucrative market for a CI product (enterprise budgets). |
 
-**Weighted Score:** 0.20*5 + 0.20*5 + 0.15*5 + 0.15*4 + 0.10*3 + 0.10*3 + 0.05*4 + 0.05*5 = **4.55**
+**Weighted Score:** 0.20*4 + 0.20*5 + 0.15*5 + 0.15*4 + 0.10*3 + 0.10*3 + 0.05*4 + 0.05*5 = **4.45**
 
 ---
 
@@ -137,7 +137,7 @@ Each gap is evaluated across 8 dimensions, scored 1-5 (1=weak, 5=strong), with r
 **Definition:** Fuse context across touchpoints in real time into a single situational state, and evaluate when context fusion improves the customer journey vs adds noise/privacy cost.
 
 #### Evidence Recap
-- **Corpus:** omnichannel = 339 papers, journey = 149; Cx-Retail category = 814 papers.
+- **Corpus:** omnichannel = **≥300 papers**, journey = **≥350 papers**; Cx-Retail category = **≥1,200 papers**. (live lower bounds)
 - **Thin cells:** N/A cross-cell problem, but white space around fusion algorithms.
 - **External:** Industry practice exists (CDPs, journey orchestration); academic framework absent.
 
@@ -145,7 +145,7 @@ Each gap is evaluated across 8 dimensions, scored 1-5 (1=weak, 5=strong), with r
 
 | Dim | Score | Rationale |
 |-----|-------|-----------|
-| **Momentum** | 4 | Cx-Retail = 65.9% growth (#8 by score). Omnichannel maturing but growing. |
+| **Momentum** | 4 | Cx-Retail growing steadily; omnichannel maturing but growing. |
 | **Novelty** | 4 | Cross-cell white space - academic frameworks do NOT address fusion noise/privacy trade-offs. |
 | **Strategic Fit** | 3 | Aligns with CX-Retail cluster, but situational fusion is more technical frontier. |
 | **Publication Potential** | 3 | Moderate - requires very specialized journals (JSR, Decision Support Systems). |
@@ -163,14 +163,14 @@ Each gap is evaluated across 8 dimensions, scored 1-5 (1=weak, 5=strong), with r
 **Definition:** Controlled comparison of contextual-intelligence-driven targeting vs identity/behavioral targeting on outcomes (engagement, conversion, incrementality) - especially relevant post-cookie world.
 
 #### Evidence Recap
-- **Corpus:** cookie/privacy = 398 papers; contextual targeting papers exist (~32) but no causal study vs identity.
+- **Corpus:** cookie/privacy = **≥900 papers** (live lower bound); contextual-targeting papers exist (a few dozen) but no causal study vs identity.
 - **External:** Industry privacy-first wave (cookieless) creates opportunity; academia has not delivered controlled empirical comparison.
 
 #### Dimensional Scoring
 
 | Dim | Score | Rationale |
 |-----|-------|-----------|
-| **Momentum** | 3 | Privacy/Data category has momentum (398 papers) but no recent burst. |
+| **Momentum** | 3 | Privacy/Data category has momentum (>=450 papers, live lower bound) but no recent burst. |
 | **Novelty** | 4 | No corpus papers do head-to-head causal studies; industry needs this evidence. |
 | **Strategic Fit** | 4 | Post-cookie era = strategic relevance; fits privacy-first corpus narrative. |
 | **Publication Potential** | 4 | High in Journal of Advertising, Marketing Science (empirical papers sought). |
@@ -188,7 +188,7 @@ Each gap is evaluated across 8 dimensions, scored 1-5 (1=weak, 5=strong), with r
 | Rank | Gap | Weighted Score | Priority Rationale | Next Concrete Step |
 |------|-----|----------------|---------------------|---------------------|
 | **1** | **G4** | **4.75** | **Highest momentum + monetization + novelty;** ties corpus #1 trend (agentic) to our product (contextual-intelligence.org). | Define situation-aware agent framework + benchmark; scope pilot with HAAS. |
-| **2** | **G6** | **4.55** | **Fastest-growing domain + monetization** + HAAS partnership; **thinnest cell** (b2b/measurement = 7 papers). | B2B CI construct paper (fast track with HAAS validation hook). |
+| **2** | **G6** | **4.45** | High-growth domain + monetization + HAAS partnership; **thinnest cell** (b2b/measurement ≤10 papers). | B2B CI construct paper (fast track with HAAS validation hook). |
 | **3** | **G1** | **4.60** | **Foundational + urgent** (Haaglund 2025 prior art); positions us as the marketing authority versus his CS/NLP framing. | Publish conceptual framework paper (explicitly differentiating from Haaglund). |
 | **4** | **G2** | **4.00** | **Methodological rigor** for CI; measurement is corpus top durable trend, but **high effort** multi-study. | Begin instrument development (literature review -> survey design). |
 | **5** | **G3** | **3.85** | **Empirical validation** of CIM vs identity; **time-sensitive** (cookieless) but **very high effort** partnerships. | Build industry partners for field experiment. |
@@ -200,9 +200,9 @@ Each gap is evaluated across 8 dimensions, scored 1-5 (1=weak, 5=strong), with r
 
 ### Why G4 Flips to #1
 Earlier ranking had G1 first as foundational. **Deep-dive promotes G4 to #1** because:
-- **Highest momentum:** Agentic burst = 1.79x; **12 papers in July 2026 alone**
+- **Highest momentum:** Agentic is the highest-momentum trend in the corpus (2025–2026); sustained acceleration.
 - **Perfect product synergy:** Directly maps to the contextual-intelligence.org product you're building
-- **Novel white space:** Zero papers connect agentic with marketing context
+- **Novel white space:** At most a handful of papers connect agentic with marketing context
 - **Faster to market:** Framework work requires only existing corpus evidence - no new data
 
 ### The Strategic Stack
@@ -228,13 +228,13 @@ Earlier ranking had G1 first as foundational. **Deep-dive promotes G4 to #1** be
 
 | Metric | Value |
 |--------|-------|
-| Corpus size | 7,778 papers |
-| Agentic total | 61 papers |
-| Agentic 2024-2026 | 41 papers |
-| Agentic July 2026 | **12 papers** (exponential trajectory) |
-| Contextual total | 44 papers |
-| Contextual 2024-2026 | 32 papers |
-| Situational total | 4 papers |
-| B2B category | 330 papers (+75.3% growth) |
-| Analytics/theory cell | 35 papers (thinnest theory) |
-| B2B/measurement cell | 7 papers (absolute thinnest) |
+| Corpus size | live (≥15,000 papers; counts below are lower bounds) |
+| Agentic total | ≥100 papers |
+| Agentic 2024-2026 | ≥100 papers (all 2025–2026) |
+| Agentic (2026) | sustained acceleration |
+| Contextual total | ≥250 papers |
+| Contextual 2024-2026 | ≥250 papers |
+| Situational total | ≥20 papers |
+| B2B category | ≥350 papers (small, fast-rising) |
+| Analytics/theory cell | ≤40 papers (thinnest theory) |
+| B2B/measurement cell | ≤10 papers (absolute thinnest) |

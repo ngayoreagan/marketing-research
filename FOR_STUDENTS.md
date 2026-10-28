@@ -83,7 +83,7 @@ Measurement*). That two-tag system is why you can slice the corpus so precisely.
 | **Analytics, Attribution & Measurement** | MMM, attribution, marketing analytics | 📈 growing |
 | **Data, Privacy & Cookieless Advertising** | cookieless, first-party data, privacy trade-offs | 📈 growing |
 | **Customer Experience, Omnichannel & Retail** | omnichannel, customer journey, retail media | 📈 growing |
-| **B2B & Account-Based Marketing** | account-based, buyer journey, B2B contextual | 🔥 fastest-growing |
+| **B2B & Account-Based Marketing** | account-based, buyer journey, B2B contextual | 📈 smaller, fast-rising |
 | **Surveys, Trends & Meta-Studies** | literature reviews, meta-analyses, bibliometrics | 🔥 very high |
 
 *Momentum reflects the last-12-months burst in the corpus (see trends report).*

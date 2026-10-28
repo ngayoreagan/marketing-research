@@ -4,7 +4,7 @@
 > **File:** `g6_b2b_contextual_intelligence.md`  
 > **Status:** DRAFT (v0.1)  
 > **Gap:** G6 (B2B Contextual Intelligence)  
-> **Priority:** #2 (Weighted Score: 4.55/5.0)  
+> **Priority:** #2 (Weighted Score: 4.45/5.0)  
 > **Lead Authors:** Tobias Weiss + Alexander Haas (JLU Giessen)  
 > **Target Venues:** *Industrial Marketing Management*, *Journal of Business & Industrial Marketing*, ISBM 2027, B2B Summit  
 > **Last Updated:** 2026-08-29  
@@ -13,7 +13,7 @@
 
 ## 🎯 Executive Summary
 
-**Problem:** B2B marketing lacks a **situational context framework** — existing approaches rely on firmographics and past behavior but neglect **buying-situation dynamics, journey-stage context, and real-time account signals**. The B2B category is the **fastest-growing** in the corpus (+75.3% growth), yet `b2b/measurement` = **7 papers** (thinnest cell).
+**Problem:** B2B marketing lacks a **situational context framework** — existing approaches rely on firmographics and past behavior but neglect **buying-situation dynamics, journey-stage context, and real-time account signals**. The B2B category is a **smaller, fast-rising** category in the corpus, yet `b2b/measurement` = **at most 10 papers** (thinnest cell).
 
 **Solution:** **B2B Contextual Intelligence (BCI)** — a framework that equips B2B marketing with:
 1. **Firmographic Context** — company attributes, industry, size, growth stage
@@ -21,7 +21,7 @@
 3. **Journey-Stage Context** — where the account is in the buying process (awareness → consideration → decision)
 4. **Real-Time Account Signals** — intent spikes, content engagement, competitive bid activity
 
-**Novelty:** First comprehensive **contextual intelligence framework specifically for B2B marketing**. Corpus has **1 paper** on B2B+contextual (Hook: *"The four Cs of B2B targeting: Using company, customer, channel and contextual data to shrink the audience bullseye"*, 2024-12).
+**Novelty:** First comprehensive **contextual intelligence framework specifically for B2B marketing**. Corpus has **at most a handful** of papers on B2B+contextual (Hook: *"The four Cs of B2B targeting: Using company, customer, channel and contextual data to shrink the audience bullseye"*, 2024-12).
 
 **Partnership Opportunity:** Alexander Haas (JLU Giessen) focuses on **value-based selling and B2B sales management** — perfect collaboration vector.
 
@@ -32,25 +32,25 @@
 ## 📊 Corpus Evidence
 
 ### B2B Momentum
-- **Corpus:** B2B category = **330 papers** total |
-- **Recent Growth:** **310 papers in 2024-2026** (+75.3% growth rate)
-- **Momentum Score:** **126.8** (#6 highest in corpus)
+- **Corpus:** B2B category = **at least 350 papers** total |
+- **Recent Growth:** the vast majority from 2024-2026 (live lower bound; per-year counts drift)
+- **Momentum Score:** mid-tier by 12-month momentum (live; not the fastest-growing category)
 - **Subcategory Distribution:**
-  - empirical: 112 papers
-  - framework: 84 papers  
-  - case-study: 58 papers
-  - review: 41 papers
-  - measurement: **7 papers** ← **THINNEST**
-  - theory: **42 papers** ← 2nd thinnest
+  - empirical: >=120 papers
+  - framework: >=80 papers  
+  - case-study: >=50 papers
+  - review: >=40 papers
+  - measurement: **at most 10 papers** ← **THINNEST**
+  - theory: **at most 45 papers** ← 2nd thinnest
 
 ### Agentic + B2B Intersection  
-- Only **2 papers** combine B2B + agentic:
+- Only **a handful** of papers combine B2B + agentic (live lower bound):
   1. "The Dual-Journey Model of Marketing in the Agentic Era" (2026-01)
   2. "Agentic Decision Systems for Enterprise Revenue Operations: A Reference Architecture Beyond Account-Based Marketing" (2026-05)
 - **→ Zero papers on B2B + agentic + contextual intelligence**
 
 ### Contextual + B2B Intersection
-- Only **1 paper** combines B2B + contextual:
+- Only **a handful** of papers combine B2B + contextual (live lower bound):
   - "The four Cs of B2B targeting: Using company, customer, channel and contextual data to shrink the audience bullseye" (2024-12)
 - **→ Our foundation paper**
 
@@ -298,16 +298,16 @@ Alexander Haas (JLU Giessen):
 ## 📚 References (from corpus)
 
 ### Existing B2B-Contextual Work
-1. **Hook paper:** "The four Cs of B2B targeting: Using company, customer, channel and contextual data to shrink the audience bullseye" (2024-12) — *only* B2B+contextual paper in corpus
+1. **Hook paper:** "The four Cs of B2B targeting: Using company, customer, channel and contextual data to shrink the audience bullseye" (2024-12) — one of very few B2B+contextual papers in the corpus
 
 ### B2B Agency Papers  
 1. "The Dual-Journey Model of Marketing in the Agentic Era" (2026-01)
 2. "Agentic Decision Systems for Enterprise Revenue Operations: A Reference Architecture Beyond Account-Based Marketing" (2026-05)
 
 ### B2B Core Corpus
-- All **330 B2Bpaper** papers (from `papers.yaml` category:b2b)
-- **b2b/measurement** = 7 papers (priority review list)
-- **b2b/theory** = 42 papers (priority review list)
+- All **B2B papers** in the corpus (from `papers.yaml`, category:b2b; live lower bound >=350)
+- **b2b/measurement** = at most 10 papers (priority review list)
+- **b2b/theory** = at most 45 papers (priority review list)
 
 ---
 
