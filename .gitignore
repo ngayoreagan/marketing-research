@@ -14,6 +14,17 @@ results/
 af-campaigns/research-sophistication/run.log
 af-campaigns/research-sophistication/run-code.log
 
+# Generated deck binaries — build locally (marp-cli, see lecture/README.md),
+# ship final versions as Release assets, don't track 5 MB of churn per rebuild
+lecture/agentic-ai-for-lead-generation.html
+lecture/agentic-ai-for-lead-generation.pdf
+lecture/agentic-ai-for-lead-generation.pptx
+
+# Generated graph data (tools/relate_concepts.py, tools/analyze_concept_graph.py)
+docs/concepts.json
+docs/concept_graph.json
+assets/graph_analysis.json
+
 # Agent/tooling state (local only)
 .omo/
 .pytest_cache/
