@@ -1,7 +1,7 @@
 # Literature Review
 
-**Generated:** 2026-10-25  
-**Corpus:** 15,495 papers across 11 categories
+**Generated:** 2026-10-28  
+**Corpus:** 15,733 papers across 11 categories
 
 > Synthesis of the corpus. Category insights are grounded in title/abstract analysis of the papers themselves.
 
@@ -11,17 +11,17 @@
 
 | Rank | Category | Papers |
 |------|----------|--------|
-| 1 | AI & Marketing | 3406 |
-| 2 | Surveys, Trends & Meta-Studies | 2204 |
-| 3 | Social Media & Creator Marketing | 1736 |
-| 4 | Consumer Behavior & Psychology | 1688 |
-| 5 | Digital & Performance Marketing | 1632 |
-| 6 | Brand Strategy & Management | 1622 |
-| 7 | Customer Experience, Omnichannel & Retail | 1231 |
-| 8 | Analytics, Attribution & Measurement | 613 |
+| 1 | AI & Marketing | 3431 |
+| 2 | Surveys, Trends & Meta-Studies | 2242 |
+| 3 | Social Media & Creator Marketing | 1777 |
+| 4 | Consumer Behavior & Psychology | 1730 |
+| 5 | Brand Strategy & Management | 1671 |
+| 6 | Digital & Performance Marketing | 1662 |
+| 7 | Customer Experience, Omnichannel & Retail | 1241 |
+| 8 | Analytics, Attribution & Measurement | 614 |
 
 **Time span:** 1987–2026 (median year 2016)
-**Dominant aspects:** Empirical Studies (5960), Frameworks & Models (2847), Reviews & Surveys (2351)
+**Dominant aspects:** Empirical Studies (6064), Frameworks & Models (2897), Reviews & Surveys (2404)
 
 ---
 
@@ -29,17 +29,17 @@
 
 | Category | Total | Last 12m | Prior 12m | Growth | 12-m share | Papers/mo |
 |----------|------:|---------:|----------:|-------:|----------:|----------:|
-| Survey | 2204 | 1781 | 229 | +678% | 81% | 148.4 |
-| Brand | 1622 | 1191 | 242 | +392% | 73% | 99.2 |
-| Social Media | 1736 | 1225 | 261 | +369% | 71% | 102.1 |
-| Digital Marketing | 1632 | 1141 | 255 | +348% | 70% | 95.1 |
-| Consumer Behavior | 1688 | 1186 | 275 | +331% | 70% | 98.8 |
-| Cx Retail | 1231 | 846 | 252 | +236% | 69% | 70.5 |
-| Ai Marketing | 3406 | 2196 | 724 | +203% | 64% | 183.0 |
-| Analytics | 613 | 386 | 160 | +141% | 63% | 32.2 |
+| Survey | 2242 | 1819 | 229 | +694% | 81% | 151.6 |
+| Brand | 1671 | 1240 | 242 | +412% | 74% | 103.3 |
+| Social Media | 1777 | 1266 | 261 | +385% | 71% | 105.5 |
+| Digital Marketing | 1662 | 1171 | 255 | +359% | 70% | 97.6 |
+| Consumer Behavior | 1730 | 1228 | 275 | +346% | 71% | 102.3 |
+| Cx Retail | 1241 | 856 | 252 | +240% | 69% | 71.3 |
+| Ai Marketing | 3431 | 2221 | 724 | +207% | 65% | 185.1 |
+| Analytics | 614 | 387 | 160 | +142% | 63% | 32.2 |
 | B2B | 361 | 192 | 98 | +96% | 53% | 16.0 |
-| Content Marketing | 528 | 303 | 165 | +84% | 57% | 25.2 |
-| Privacy Data | 474 | 240 | 160 | +50% | 51% | 20.0 |
+| Content Marketing | 529 | 304 | 165 | +84% | 57% | 25.3 |
+| Privacy Data | 475 | 241 | 160 | +51% | 51% | 20.1 |
 
 ---
 
@@ -70,7 +70,7 @@
 
 | Author | Papers (recent) |
 |--------|-----------------|
-| Loso Judijanto | 16 |
+| Loso Judijanto | 17 |
 | Tony Wijaya | 15 |
 | Worldly Knowledge Publishing Centre | 14 |
 | Alberto Regis | 12 |
@@ -84,7 +84,7 @@
 
 ### AI & Marketing (`ai-marketing`)
 
-**Corpus size:** 3406 papers
+**Corpus size:** 3431 papers
 
 **Recent papers:**
 
@@ -96,7 +96,7 @@
 
 ### Surveys, Trends & Meta-Studies (`survey`)
 
-**Corpus size:** 2204 papers
+**Corpus size:** 2242 papers
 
 **Recent papers:**
 
@@ -108,7 +108,7 @@
 
 ### Social Media & Creator Marketing (`social-media`)
 
-**Corpus size:** 1736 papers
+**Corpus size:** 1777 papers
 
 **Recent papers:**
 
@@ -120,7 +120,7 @@
 
 ### Consumer Behavior & Psychology (`consumer-behavior`)
 
-**Corpus size:** 1688 papers
+**Corpus size:** 1730 papers
 
 **Recent papers:**
 
@@ -130,21 +130,9 @@
 
 ---
 
-### Digital & Performance Marketing (`digital-marketing`)
-
-**Corpus size:** 1632 papers
-
-**Recent papers:**
-
-- [2026-10] Architecture Without an Architect? Global Governance of Artificial Intelligence in a Divided Wo — https://arxiv.org/abs/2610.01716
-- [2026-10] Digital Marketing Strategy Canvas — https://doi.org/10.5281/zenodo.23107262
-- [2026-10] Strategies for digital marketing in the luxury fashion apparel sector — https://doi.org/10.22271/allresearch.2026.v12.i10a.14180
-
----
-
 ### Brand Strategy & Management (`brand`)
 
-**Corpus size:** 1622 papers
+**Corpus size:** 1671 papers
 
 **Recent papers:**
 
@@ -154,9 +142,21 @@
 
 ---
 
+### Digital & Performance Marketing (`digital-marketing`)
+
+**Corpus size:** 1662 papers
+
+**Recent papers:**
+
+- [2026-10] Architecture Without an Architect? Global Governance of Artificial Intelligence in a Divided Wo — https://arxiv.org/abs/2610.01716
+- [2026-10] Digital Marketing Strategy Canvas — https://doi.org/10.5281/zenodo.23107262
+- [2026-10] Strategies for digital marketing in the luxury fashion apparel sector — https://doi.org/10.22271/allresearch.2026.v12.i10a.14180
+
+---
+
 ### Customer Experience, Omnichannel & Retail (`cx-retail`)
 
-**Corpus size:** 1231 papers
+**Corpus size:** 1241 papers
 
 **Recent papers:**
 
@@ -168,7 +168,7 @@
 
 ### Analytics, Attribution & Measurement (`analytics`)
 
-**Corpus size:** 613 papers
+**Corpus size:** 614 papers
 
 **Recent papers:**
 
@@ -180,7 +180,7 @@
 
 ### Content & Storytelling (`content-marketing`)
 
-**Corpus size:** 528 papers
+**Corpus size:** 529 papers
 
 **Recent papers:**
 
@@ -192,7 +192,7 @@
 
 ### Data, Privacy & Cookieless Advertising (`privacy-data`)
 
-**Corpus size:** 474 papers
+**Corpus size:** 475 papers
 
 **Recent papers:**
 
