@@ -356080,3 +356080,736 @@ papers:
     studies should validate QRM across industries and develop measurement scales for
     depth of penetration.'
   venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Whether Is Not When: Separating Occurrence from Timing in Polymarket Prices'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.36639v1
+  category: digital-marketing
+  subcategory: empirical
+  authors:
+  - Sizheng Fan
+  - Yinghe Sun
+  - Rong Zhao
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Prices formed by Web users on Polymarket, a blockchain-based prediction
+    market, are now cited in the news and in a U.S. Army intelligence bulletin as
+    early warnings of geopolitical events. However, it remains unclear whether these
+    prices can serve as such warnings. This cannot be judged from accuracy, because
+    most markets resolve No and accuracy can remain high even when many of the events
+    that did happen are missed. In this paper, we study this question from two aspects,
+    using all 1.24 billion on-chain trades in 2.37 million Polymarket markets through
+    September 2026. First, from 3,686 markets on geopolitical conflicts, we derive
+    208 unscheduled events that did happen and measure how far in advance prices move
+    before the first Web report of each event. Second, we separate the information
+    in prices about whether an event happens from the information about when it happens.
+    To do so, we group 1,551 contracts into 338 deadline ladders and read each ladder
+    as one forecast of the event date. We then split its log score, and the profit
+    of 9.3 million trades by 491,000 accounts, exactly into these two parts. We find
+    that one day before they were reported, prices correctly predicted only 56% of
+    the geopolitical events but all 51 scheduled central-bank decisions. Separating
+    the two parts shows that only about one eighth of the information in prices concerns
+    timing. A small group of large accounts earns timing profits, but beyond current
+    prices, no group of accounts helps predict an event within days. A high price
+    is therefore a sign that an event is likely rather than imminent. Near-term warnings
+    read from the whole ladder are more often right than those read from a single
+    contract. Platforms should report recall alongside accuracy, and show near-term
+    probabilities read from the whole ladder.
+- title: 'Penny for Your Prompts: A Measurement Study of Contextual Leakage in AI
+    Chat Platforms'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.37467v1
+  category: digital-marketing
+  subcategory: empirical
+  authors:
+  - Paschalis Bekos
+  - Billy Tsouvalas
+  - Nick Nikiforakis
+  - Michalis Polychronakis
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: AI chatbot platforms have become one of the most popular web interfaces
+    users interact with online, routinely receiving personal and intimate information
+    shared under an expectation of privacy. Yet, on the web application side, these
+    platforms have the ability to embed third-party analytics, advertising, and session
+    replay scripts that operate silently alongside the chatbot, creating an underexamined
+    channel for conversational data leakage towards third parties. We conduct the
+    first systematic large-scale measurement study of contextual leakage in AI chatbots,
+    auditing the web interfaces of 42 general-purpose and domain-specific (health,
+    legal, and education) platforms. Beyond standard network interception, we instrument
+    the browser at the JavaScript engine level to attribute each data flow to the
+    exact user action that triggered it, and the DOM capture mechanism used to retrieve
+    its content, a granularity invisible to network-layer analysis alone. We find
+    that 21 of these platforms leak conversation titles to third-party trackers, while
+    nine leak verbatim user prompts. Beyond content, we observe a substantial amount
+    of chatbot platforms sending user emails to third-party trackers, enabling the
+    association of conversational context with a user's identity. Our findings cast
+    traditional web privacy issues under a new light, highlighting the privacy issues
+    that are inherent in how users interact with modern AI chatbots.
+- title: 'OpenHamoye: A Multi-Scale Open Geospatial Intelligence Framework for Decision
+    Support Across Nigeria'
+  date: 2026-08
+  url: https://arxiv.org/abs/2610.32984v1
+  category: digital-marketing
+  subcategory: empirical
+  authors:
+  - Richard Oduntan
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Decision-making in urban planning, infrastructure prioritization and
+    commercial strategy benefits from granular spatial information. In Nigeria, official
+    statistics are often published at coarse scales and with temporal lag. We present
+    OpenHamoye, an open geospatial intelligence framework that integrates nine public
+    remote-sensing and crowd-sourced datasets into reproducible, multi-scale proxy
+    indicators for development conditions across Nigeria. OpenHamoye organizes the
+    country into kilometre-scale analytical cells within a six-tier hierarchy: country,
+    state, LGA, metropolitan area, corridor and cell. The framework constructs six
+    composite indices: market potential, growth index, development momentum, infrastructure
+    stress, commercial readiness, and housing pressure. Inputs include WorldPop, VIIRS
+    Black Marble, ESA WorldCover, Google Open Buildings, Copernicus vegetation indices,
+    OpenStreetMap, Overture Maps, GRID3, and geoBoundaries. We report a multi-scale
+    assessment covering 37 states, 774 LGAs, and 8 metropolitan areas, using GRID3
+    facility points (46,146 health facilities and 204,513 schools) and Google Open
+    Buildings data (479,088 building-positive cells). Results show large within-state
+    disparities in the night-time-light proxy: the coefficient of variation across
+    LGAs exceeds 4.5 in Borno and 3.8 in Katsina. The framework also flags high-scoring
+    candidate cells in metros such as Benin City. OpenHamoye outputs are proxy-based
+    screening signals for planning, infrastructure prioritization, resilience screening,
+    market intelligence, and service-access context; they do not measure census population,
+    GDP, income, poverty, welfare, firm revenue, transaction volume, commercial demand,
+    infrastructure capacity, facility access, service quality, investment return,
+    or official planning designation. Derived tables, index definitions, and reproducibility
+    materials are released through GitHub.'
+- title: Game theory of academic effort and hiring in the age of AI
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.35802v1
+  category: digital-marketing
+  subcategory: empirical
+  authors:
+  - Saptarshi Pal
+  - Peter S. Park
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Many academic disciplines (in particular, mathematics and the theoretical
+    sciences) face difficult questions about how to adapt their practices to the rise
+    of highly capable artificial intelligence (AI). Before AI, a well-written research
+    paper with a strong theoretical result acted as a reliable signal that its authors
+    understood their field in depth. Now that AI is widely accessible, such signals
+    have become cheaper to produce. As a result, they no longer reliably sort academics
+    by their level of understanding. This has direct consequences for academic hiring.
+    The age of AI raises a question for each side of the academic job market. Should
+    an early-career researcher invest in a deep understanding of their field, or instead
+    use AI to build a longer resume with many papers? Should a recruiter favor applicants
+    with fewer papers who pass an interview aimed at probing understanding, or insist
+    on both publication volume and a pass? In this paper, we develop a game-theoretic
+    model of this two-sided dilemma. We classify all pure-strategy equilibria that
+    can arise in this game and use learning simulations to identify the behaviors
+    that populations of applicants and recruiters may learn to adopt. Our analysis
+    provides a framework for reasoning about how academic hiring can adapt to AI and
+    for evaluating practices that preserve the value of deep understanding.
+- title: 'Governing Artificial Intelligence as a Macro Socio-Technical Regime: The
+    F-I-C-P Framework for Regime-Level AI Infrastructure and Governance'
+  date: 2026-08
+  url: https://arxiv.org/abs/2610.32985v1
+  category: digital-marketing
+  subcategory: empirical
+  authors:
+  - Francisco Herrera
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Artificial intelligence (AI) is often analysed through technical, organisational,
+    or regulatory perspectives that treat capability, adoption, and governance as
+    separate issues. This article conceptualises AI instead as an emerging macro socio-technical
+    regime generated through the interaction of finance, infrastructure, capability,
+    and productivity. It develops the F-I-C-P framework to explain how finance enables
+    infrastructure, infrastructure conditions capability, and capability creates the
+    possibility--but not the guarantee--of productivity and value realisation. The
+    article also introduces the concept of regime-level AI infrastructure to identify
+    concrete configurations, such as AI Gigafactories, foundation-model platforms,
+    national compute infrastructures, public AI platforms, sectoral AI ecosystems,
+    and corporate AI infrastructures, through which the macro-regime becomes observable
+    and evaluable. The central analytical problem is structural misalignment: the
+    risk that financial expectations, infrastructural expansion, technical capability,
+    organisational absorption, productivity realisation, governance capacity, and
+    societal outcomes evolve at different speeds or under unequal conditions of power.
+    Governance is therefore conceptualised not as a final stage after technological
+    deployment, but as a transversal and anticipatory steering capacity. Briefly illustrated
+    through Spain and Chile as non-frontier configurations, the article argues that
+    AI governance should be understood as regime alignment: the task of anticipating,
+    evaluating, and correcting structural misalignments before they become embedded
+    in infrastructural dependencies, organisational routines, market structures, and
+    international asymmetries.'
+- title: Economic Corridor Detection from Multi-Source Earth Observation and Commercial
+    Geospatial Data Across Nigeria's Kilometre-Scale Grid
+  date: 2026-08
+  url: https://arxiv.org/abs/2610.31675v1
+  category: digital-marketing
+  subcategory: empirical
+  authors:
+  - Richard Oduntan
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Identifying economic corridors at national scale is challenging where
+    firm registries, transaction flows, and local economic-output statistics are incomplete
+    or unavailable. This paper develops a reproducible multi-proxy screening framework
+    for detecting economic-corridor candidates across Nigeria using a kilometre-scale
+    analytical grid. The framework combines built-up land cover from ESA WorldCover,
+    night-time light radiance from NASA VIIRS Black Marble, building-footprint density
+    from Google Open Buildings, a static urban-intensity proxy derived from population,
+    built-up share and night-time light level, and commercial point-of-interest density
+    from Overture Places and OpenStreetMap. A dual proxy gate requiring both built-up
+    evidence, defined as built-up fraction above 0.1, and night-time luminosity, defined
+    as radiance above 1 nW cm-2 sr-1, identifies active corridor cells, which are
+    then clustered into corridor objects and assigned interpretable typologies. The
+    analytical frame contains 762,751 cells: national, state, and geopolitical-zone
+    summaries use 749,191 canonical national-grid cells, while 13,560 configured metropolitan
+    area-of-interest overlay cells are reserved for an eight-metro comparison. Applied
+    to Nigeria, the framework identifies 11,243 active corridor cells on the national
+    grid, representing 1.50% of cells, and 598 corridor objects spanning 10,682 retained
+    cells and approximately 36.3 million people. Corridor activity concentrates around
+    Lagos and other southern commercial geographies, while the method also surfaces
+    emerging and constrained corridor candidates for review. All outputs are proxy-based
+    screening signals for spatial planning, infrastructure prioritisation, and market-intelligence
+    triage; they do not measure GDP, firm revenue, transaction volume, freight movement,
+    infrastructure capacity, service adequacy, or official corridor designation.'
+- title: 'Tradeoff-Aware Territory Design: A Multi-Objective Decision System for Enterprise
+    Customer-to-Seller Allocation'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.31701v1
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Nan Wang
+  - Mitchell Turiel
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Enterprise customer journeys are shaped not only by product experiences
+    and marketing, but also by recurring resource-allocation decisions. In B2B go-to-market
+    (GTM) organizations, territory carving determines which accounts receive seller
+    coverage, which seller-account relationships are preserved, and how limited field
+    capacity is distributed. Yet the process often remains manual, making it difficult
+    to compare opportunities, value continuity, and evaluate tradeoffs among growth,
+    balance, capacity, and feasibility. We present a production decision system for
+    tradeoff-aware customer-to-seller allocation in enterprise GTM planning. It integrates
+    three components: a multidimensional account-value layer that combines predictive
+    signals to score opportunity; an observational continuity-valuation layer that
+    estimates the cost of breaking seller-account relationships using a synthetic-control-style
+    counterfactual framework; and a multi-objective optimization layer that allocates
+    coverage to high-value accounts while considering continuity, opportunity balance,
+    and operational constraints. Deployed as a scenario-based decision-support system,
+    the framework enables planners to inspect and compare allocation tradeoffs. Historical
+    backtesting shows that optimizer-generated scenarios substantially improve assignment
+    compliance while maintaining comparable seller-level opportunity distribution.
+    In production planning, adopted scenarios improved both assignment compliance
+    and opportunity balance relative to the previous baseline. Directing scarce seller
+    capacity toward higher-value accounts also offers incremental revenue potential
+    at enterprise scale. The key contribution is an integrated, inspectable framework
+    that turns territory carving into a governable decision process.'
+- title: 'Financial Context-Rich Strategy for Actor-Critic based Agents: A Deep Reinforcement
+    Learning Approach for Stock Trading'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.32237v1
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Hrishikesh Singh
+  - Aarti Sharma
+  - Millie Pant
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'In modern financial markets, more than 3/4th of the large volume trade
+    is executed by algorithmic trading based on advanced trading strategies to attain
+    higher precision and speed than traditional human traders. The conventional strategies
+    focused on price-based indicators are inadequate in capturing the market dynamism
+    arising from real-world events such as social sentiments, political instability,
+    or sudden economic shifts. With the rise of Deep Reinforcement Learning (DRL)
+    and data availability, there is a requirement for more efficient algorithms that
+    can incorporate these external factors in trading strategies. DRL has shown potential
+    in simulating real-world scenarios and in simplifying complex decision-making
+    since DRL agents can automate the trading process i.e. executing trades in a manner
+    comparable to human traders. They have shown reliable performance since they can
+    update their policies based on risk and quantitative factors. In this paper, we
+    propose a DRL approach based on partial and deep-infusion of sentimental analysis.
+    It features distinct policy designs of actor-critic-based agents: only policy
+    optimization (A2C &amp; PPO) and policy optimization along with Q-learning principles
+    (DDPG, TD3 &amp; SAC). Our findings reveal, that the agents based on policy optimization
+    combined with Q-learning, significantly and consistently demonstrate improved
+    performance upon sentiment deep-infusion in profit maximization as well as risk-averse
+    trading.'
+- title: LLM-Augmented Agent-Based Simulation of Cyber Social Agents
+  date: 2026-08
+  url: https://arxiv.org/abs/2610.32988v1
+  category: social-media
+  subcategory: empirical
+  authors:
+  - Lynnette Hui Xian Ng
+  - Kathleen M. Carley
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Social media bots are often portrayed as malicious automations to be detected
+    and removed, but automation on social media platforms encompasses a wide spectrum
+    of roles, behaviors, and rhetorical strategies that can shape online discourse
+    in both constructive and destructive ways. This work conceptualizes these automated
+    actors as \textbf{Cyber Social Agents} through a taxonomy of archetypes characterized
+    by their operational tactics and rhetorical style. We integrate this taxonomy
+    into an LLM-driven social simulation, where agents communicate and coordinate
+    in a network environment. Using empirically grounded CSA personas, we simulate
+    heterogeneous online societies to study how agent diversity shapes information
+    diffusion and social influence. Our approach bridges the gap between rule-based
+    agent models and LLM-powered simulations with generated agents that are parameterized
+    from empirical data.
+- title: When AI Gets Cheaper, Do Prices Follow? Information Delays and Algorithmic
+    Pricing
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.31693v1
+  category: consumer-behavior
+  subcategory: empirical
+  authors:
+  - Krish Tadigotla
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: We examine whether lower costs of running AI models lead to lower prices,
+    and whether delays in observing competitors' prices and limits on price changes
+    affect how much consumers benefit. We study a simulated market with two differentiated
+    sellers, logit demand, and tabular Q learning. A factorial experiment varies the
+    age of rival price information, how often sellers can revise prices, whether production
+    costs fall, and differences in firm quality and costs. We evaluate policies trained
+    on 60 paired market seeds in each of 16 conditions, for 960 training runs, and
+    measure expected consumer surplus after learning ends. In the main setting with
+    identical firms and falling costs, the estimated interaction between information
+    delay and repricing frequency on consumer surplus is -0.00025 normalized units,
+    with a 95% paired seed bootstrap interval of [-0.0402, 0.0393]. The interval includes
+    zero, as do intervals for tests of whether the interaction changes with the cost
+    regime or differences between firms. With the shortest information delay and the
+    ability to revise prices every period, average price reductions equal 55.6% and
+    44.0% of the imposed cost reduction for the two firms. Mean consumer surplus under
+    the learned policies is below the corresponding static grid Nash benchmark in
+    all 16 conditions. The findings show that simulated cost savings need not be fully
+    passed on to buyers. They do not establish collusion or describe pricing by actual
+    AI providers.
+- title: 'The proton structure one mode at a time: a Neural Tangent Kernel analysis
+    of a DIS fit'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.36034v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Amedeo Chiefa
+  - Luigi Del Debbio
+  - Richard Kenway
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: We study the training dynamics of a feed-forward neural network (NN) through
+    the analysis of the neural tangent kernel (NTK) in a phenomenologically relevant
+    fit of parton distribution functions (PDFs) from deep inelastic scattering (DIS)
+    data. The exact integration of the gradient flow derived in a previous single-flavour
+    analysis is generalised to the multi-flavour case, yielding an analytical perspective
+    on the relationship between data and methodology during training. The Shapley
+    value recently used in the context of PDFs is derived within our statistical framework
+    for observables that depend linearly on the PDFs, and we outline a geometric interpretation
+    of training. We expose the role of gradient-based optimisation algorithms and
+    of the parametrisation in the regularisation of the ill-posed inverse problem
+    that affects the determination of PDFs from experimental data, demonstrating that
+    the regularisation amounts to the incremental inclusion of NTK modes, each learned
+    at the timescale set by the corresponding eigenvalue. We find that only a few
+    leading modes of the NTK are necessary to reconstruct the target PDFs, while the
+    noise of the data is carried by the sub-leading ones learned at later stages of
+    training. Finally, we consider the impact of the initialisation on the training
+    dynamics, and recover a transient behaviour observed in the previous analysis
+    and in the machine learning (ML) literature. Beyond sharpening our understanding
+    of the training dynamics, our framework can be applied to other parametrisations
+    (such as fixed functional forms) and ML applications in physics, as well as to
+    stress tests in the presence of inconsistent data.
+- title: Accelerating SO(2)-Equivariant Materials Models through Low-Precision Emulation
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.35164v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Denghui Lu
+  - Alexander Maeder
+  - Alexandros Nikolaos Ziogas
+  - Mathieu Luisier
+  - Manasa Kaniselvan
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Rotationally equivariant architectures improve the physical fidelity of
+    machine-learned (ML) universal materials models based on graph neural networks
+    (GNNs). However, their scalability is limited by the use of non-trivial, high-precision
+    tensor operations during both training and inference. Adopting the reduced-precision
+    formats of matrix multiplication units (MMUs), e.g., FP8 instead of FP32, provides
+    massive increases in throughput, up to 30x (60x) on NVIDIA Hopper (Blackwell)
+    GPUs, but may lead to drastic loss of accuracy. Here, we introduce tailored 'emulated'
+    low-precision operations under the integer Ozaki scheme to accelerate the 'SO(2)-equivariant'
+    processing layers of GNNs, which dominate the runtime of (1) many state-of-the-art
+    ML interatomic potentials (MLIPs) and (2) most universal ML Hamiltonian (MLH)
+    models. Our framework, FlashSO(2), outperforms TF32, the most accurate native
+    low-precision MMU format, in throughput, accuracy, and memory footprint at once.
+    At the SO(2) layer level, it reaches 40x (7x) the throughput of MALOQ's (UMA's)
+    reference implementation, an MLH (MLIP) model, sustaining up to 236 (232) effective
+    Tflop/s on an NVIDIA GH200, 3.5x the FP32 peak. At the model level, FlashSO(2)
+    helps train MALOQ 3.9x faster than its pure-FP32 version while reducing peak memory
+    by 58% at no loss in accuracy. In molecular dynamics simulations with UMA, the
+    speedup factor is 3.3x, and the peak memory is reduced by 51%. FlashSO(2) thus
+    pushes the speed-accuracy Pareto frontier of equivariant materials models beyond
+    the native low-precision formats and substantially lowers the resources required
+    to exploit their scaling laws.
+- title: Biologically Informed Representation Learning for Robust Cross-Center Generalization
+    of MALDI-TOF Mass Spectrometry
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.08182v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Alejandro L. García-Navarro
+  - Carlos Sevilla-Salcedo
+  - Belén Rodríguez-Sánchez
+  - Vanessa Gómez-Verdejo
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Machine learning models for MALDI-TOF mass spectrometry have shown considerable
+    promise for clinical microbiology tasks such as microbial identification and antimicrobial
+    resistance prediction. However, their deployment across institutions remains limited
+    by domain shift, as acquisition-specific variability often leads models to capture
+    technical artifacts rather than transferable biological information. Existing
+    representation learning approaches primarily address this problem through statistical
+    domain alignment while largely overlooking the biological supervision naturally
+    available in microbiology datasets. We introduce DALMA, a probabilistic representation
+    learning framework that jointly models acquisition-specific variability and biological
+    supervision to learn biologically structured latent representations. By combining
+    domain-specific reconstruction with biologically guided representation learning,
+    DALMA learns transferable representations that generalize across heterogeneous
+    clinical centers without requiring institution-specific components at inference,
+    enabling zero-shot deployment on previously unseen sites. We evaluate DALMA on
+    a multi-center benchmark comprising seven datasets from three countries. DALMA
+    consistently achieves state-of-the-art zero-shot microbial identification across
+    two held-out clinical centers, while the learned representations also transfer
+    effectively to antimicrobial resistance prediction. Furthermore, latent-space
+    novelty estimation enables reliable selective prediction under previously unseen
+    domain shifts. These results demonstrate that biologically informed representation
+    learning provides an effective strategy for robust and transferable ML in clinical
+    microbiology.
+- title: Predicting Train Delays in Finland Using Machine Learning and Weather Data
+  date: 2026-09
+  url: https://arxiv.org/abs/2609.11277v1
+  category: ai-marketing
+  subcategory: measurement
+  authors:
+  - Vinicius Pozzobon Borin
+  - Jean Michel de Souza Sant'Ana
+  - Nurul Huda Mahmood
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Reliable railway operations depend increasingly on real-time environmental
+    intelligence delivered through wireless sensor infrastructures, a capability that
+    6G networks will substantially enhance through integrated sensing and edge computing.
+    Adverse weather, particularly in Arctic regions with extreme temperatures and
+    heavy precipitation, remains a leading cause of train delays, yet most prediction
+    approaches rely on raw meteorological inputs without exploiting domain-informed
+    feature engineering. This paper investigates machine learning for train delay
+    prediction using the Finland Integrated Train-Weather (FI-TW) dataset, which fuses
+    railway operational records with observations from the Finnish Meteorological
+    Institute''s nationwide sensor network of approximately 200 stations communicating
+    over wireless links. We evaluate three feature configurations using XGBoost at
+    Oulu central station (101,146 observations): full weather features, instant weather
+    observations only, and derived weather category scenarios. The category-based
+    approach, employing hierarchical classifications such as Blizzard, Heavy Snow,
+    and Extreme Cold, achieved an R^2 of 0.78, root mean squared error of 8.5 minutes,
+    and mean absolute error of 3.7 minutes, representing an 11% R^2 improvement and
+    10% error reduction over alternative configurations. These results demonstrate
+    that compact, domain-informed features derived from sensor streams outperform
+    raw meteorological observations, offering bandwidth-efficient representations
+    suitable for edge deployment over current and emerging wireless infrastructures.'
+- title: 'R2A-Sales: A Policy-Atom-Matched Benchmark for Rule-to-Action Gaps in Goal-Directed
+    Sales Agents'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.34185v1
+  category: ai-marketing
+  subcategory: empirical
+  authors: []
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'LLM-based sales agents are often evaluated on static policy questions
+    or task success, but deployment asks a sharper question: when a model can state
+    a rule, will it choose compliant, tool-grounded actions under commercial pressure?
+    We introduce R2A-Sales (Rule-to-Action), a policy-atom-matched benchmark for this
+    question. Each item pairs a static probe with a multi-turn sales scenario sharing
+    the same versioned policy atom, facts, evidence, behavioral constraints, and tool
+    contract, so differences cannot be attributed to policy-content mismatch. In the
+    interactive arm, a code-owned ledger verifies committed tool effects and terminal
+    states; unsupported action claims receive no credit. We report static compliance
+    $K$, grounded action compliance $A=\Pr(\text{safe terminal}\land\text{no hard
+    violation}\land\text{non-echo})$, and the matched gap $G=K-A$. The frozen release
+    spans three controlled Chinese-language sales domains, 24 policy atoms, 42 semantic
+    cores, and 2,016 matched pairs. The confirmatory study audits 21,888 runs over
+    19 cores, covering eight backbones plus four Qwen3-8B prompt treatments (12 configurations).
+    Static compliance is near ceiling $(K=89.9\%\text{--}99.1\%)$, yet eight-backbone
+    action compliance is only $A=3.0\%\text{--}17.3\%$, giving $G=80.4\text{--}92.5$
+    percentage points. Since $A$ also requires safe termination, $G$ upper-bounds
+    rule-to-action degradation rather than isolating pressure alone. No prompt-only
+    treatment dominates all metrics. R2A-Sales shows that sales-agent reliability
+    must be measured at committed action, not rule recital or task completion alone.'
+- title: 'ConMem: Counterfactual Multi-Scenario Probing for Resolving LLM Memory Misalignment'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.33432v1
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Shuning Zhang
+  - Tenghao Ji
+  - Jingruo Chen
+  - Eryue Xu
+  - Bohao Chu
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Long-term memory is critical for autonomous Large Language Model (LLM)
+    agents executing multi-session, long-horizon tasks. However, existing memories
+    often inappropriately store, retain, or retrieve over-generalized, misattributed,
+    or privacy-sensitive information, a problem we term memory misalignment. To study
+    this problem, we construct \textbf{MemAlign}, a benchmark comprising 1,079 curated
+    memory cases grounded in synthetic, validated multi-session conversational contexts
+    covering diverse misalignment taxonomies. We then propose ConMem, an algorithm
+    that reframes retention decisions as prospective counterfactual causal inference.
+    \textbf{ConMem} synthesizes counterfactual interaction scenarios to prospectively
+    audit downstream intervention effects across three aspects: relevant task execution,
+    irrelevant invariance checks, and risk-sensitive boundary shifts. Experiments
+    show that ConMem outperforms other methods, achieving 75.16\% accuracy, 64.15\%
+    balanced accuracy, and a Macro-F1 of 65.31\%, effectively mitigating over-retention
+    biases without sacrificing personalization utility.'
+- title: 'ProbeID: Verifying MCP Tool Identity for LLM Agents under Registry Drift'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.33633v1
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Guanxing Chen
+  - Sining Zhang
+  - Haohuai He
+  - Qiujie Lv
+  - Yu-An Huang
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Agents select tools by copyable descriptions, which cannot establish which
+    implementation runs. ProbeID compares canonicalized responses to schema-valid
+    probes with a trusted admission reference and abstains on ambiguity, so a squatter
+    must copy probe-observable behavior. With the gold present, independent probes
+    and a fixed margin, standard concentration arguments give a shared probe budget
+    logarithmic in the candidate count and bound the joint probability of a wrong
+    decision. On cached MCP-IdentityDrift cases, strict choice reaches \(0.956\) hit@1
+    while description routers fall near chance, but simpler exact comparisons tie
+    it, MMD better tolerates heavy value noise, and a 32B behavioral judge is similarly
+    accurate at higher cost. Random probes from agent banks and a prospective held-out
+    study of 38 tools test theory-set thresholds. On the agent banks, equality refuses
+    every reachable replacement from 64 probes and the bounded distance from 512,
+    and sharper post hoc gates halve both. Two tools whose drift no bank probe reaches
+    always pass. In an MCP-Bench agent, verification cuts tainted tasks from 15 to
+    9 of 16 at unchanged task success. Over eleven weeks, 7 of 59 real tools changed
+    responses despite version pins. Verification depends on reference integrity, probe
+    coverage, and response noise.
+- title: 'Intrinsic Goals for Autonomous Agents: Hierarchical Exploration Captures
+    Future Volitional Action in Drosophila'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.34638v1
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Declan Kutscher
+  - Reece Keller
+  - Alyn Kirsch
+  - Felix Pei
+  - Aran Nayebi
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Animals have a remarkable capacity for autonomy---driven by intrinsic
+    motivation---without external sensory cues or extrinsic objectives, yet the computational
+    mechanisms behind this ability largely remain a mystery. We combine whole-brain
+    recordings in the fruit fly (Drosophila melanogaster), which reveal neural representations
+    of spontaneous exploratory decisions more than 10 seconds in advance, with a neuromechanical
+    digital twin to test whether optimizing intrinsic goals yields realistically embodied
+    artificial agents that quantitatively match fly behavior and internal representations
+    of future volitional action during exploration. Our hierarchical policy selects
+    from a discrete library of low-level motor primitives, consistent with ethological
+    theories of behavioral syllables. We train agents without external reward using
+    20 intrinsic motivation algorithms spanning curiosity, entropy, and competency
+    methods. The agents are evaluated in a virtual tethered-ball assay modeled on
+    the fly experiment, comparing spontaneous locomotor statistics and internal representations
+    and decoding future turn direction from kinematics and neural activity on the
+    same timescales observed in flies. DIAYN, a hierarchical competency algorithm
+    learning discrete policies that maximize behavioral entropy and the separability
+    of induced sensory observations, achieves the strongest joint behavioral and neural
+    prospective coding performance relative to flies. Its learned policies closely
+    capture individual variability in fly exploration strategies, suggesting that
+    this diversity serves to maximize state-space coverage at the population level.
+    DIAYN's latent activity also closely captures the sum-difference rule for interhemispheric
+    encoding of kinematics in biological flies. These results establish hierarchical,
+    intrinsically motivated agents as a powerful framework for reverse-engineering
+    animal autonomy.
+- title: 'Monitor Accuracy Isn''t the Answer: A Decision-Value Framework for Evaluating
+    AI Agent Restart Monitors'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.36544v1
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Siddharth Jain
+  - Venkat N. Vedam
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Classification accuracy and true-positive and false-positive rates alone
+    do not determine whether restarting an AI agent improves success. Using an exact
+    alarm-to-action identity for an independent clean restart with zero monitoring
+    overhead, we show analytically that a monitor with fixed 90% accuracy can swing
+    from a five-percentage-point loss to a 35-point gain in success rate, depending
+    solely on the replacement attempt's residual-budget success probability. We introduce
+    two techniques for evaluating monitors and progress signals in decision terms.
+    First, a decision-sufficiency criterion, a binary-action specialization of Blackwell's
+    comparison of experiments, identifies which progress representations or context
+    compressions preserve the information needed to choose optimally between the specified
+    actions, independent of trace reconstruction fidelity. Second, a finite-sample,
+    model-free decision audit uses simultaneous binomial intervals over existing agent
+    traces, without additional model calls, to certify a preference for "restart"
+    or "continue" under stated sampling assumptions, or return "abstain" when evidence
+    is insufficient. In a study of 194 externally evaluated model executions on 19
+    selected SymPy issues from SWE-bench Verified, with a retrospective audit of 130
+    of these traces, we find a 2.29-point apparent restart gain traced to a single
+    surviving failed attempt, a 42.29-point loss on a second model, no positive replication
+    of the initial gain on prospective task cohorts, and zero of 103 live comparisons
+    meeting the specified certification bar. These results motivate evaluating agent
+    monitors through recovery opportunity, decision value, and statistical support,
+    rather than classification performance alone.
+- title: 'Permission to Retry: A Study of Authorization and Recovery in AI Agent Workflows'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.31916v1
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Deekshith Marla
+  - Kushagra Bhatnagar
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'A durable agent can resume a consequential action while its authority
+    changes and the action''s external outcome remains uncertain. We study execution-time
+    reliability of tool-using AI agents, isolating recovery decisions from language-model
+    behavior. Checkpoint state, permission to dispatch, evidence of an external effect
+    and permission to reconcile are distinct obligations. We present a finite conformance
+    study that checks these obligations through histories scored against a provider
+    effect ledger hidden from the recovering application. A prospectively frozen campaign
+    executes 336 histories on native LangGraph and Temporal hosts, crossing 14 schedules,
+    three provider contracts and four matched application policies. All 168 paired
+    host cells have identical checked outcomes. Per host, retained-ledger reconciliation
+    passes all 42 histories: 21 checked completions, 15 denials and six unknown outcomes
+    with reservations retained. Cached retry, revalidation before retry and stable-key
+    retry pass 30, 36 and 31 histories respectively. A separate 16-case component
+    study of InfinityOS, an enterprise AI platform developed by Arya.ai, exercises
+    exported authority, worker, recovery and settlement code over repository fakes.
+    The results isolate the roles of current authority, provider contracts and retained
+    observations in recovery, with safety, completion and unresolved obligations reported
+    separately for the declared application profile.'
+- title: 'Babysitting AI Agents: A User-Centered Taxonomy and Study of Agentic Delegation
+    Failures'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.34748v1
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Shravika Mittal
+  - Sunnie S. Y. Kim
+  - Scott Counts
+  - Jennifer Neville
+  - Debarati Das
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Users are increasingly delegating tasks to AI agents, allowing agents
+    to perform long-running, multi-step workflows on their behalf. However, agents
+    may perform these tasks in ways that depart from users'' expectations for how
+    they should be carried out, leading to what we call agentic delegation failures.
+    We leverage a large corpus of 163,487 Reddit posts, describing AI agent use, to
+    develop MANDATE: a taxonomy of 23 failure categories organized into seven groups.
+    A follow-up study with 73 AI agent users examined the relationship between prevalence
+    and perceptions of severity and noticeability, finding that failures rated as
+    more severe are considered harder to notice, and that prior experience with a
+    failure is associated with greater noticeability. Finally, we assess the maturity
+    of research on each failure and identify commonly encountered failures that have
+    received little attention (e.g., agents running without making progress). Our
+    findings inform opportunities to make delegation easier for users to oversee and
+    better studied by the research community.'
+- title: 'AutoVend: Benchmarking LLM Agents on Long-Horizon Autonomous Vending Operations'
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.36980v1
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Qiming Shi
+  - Yikun Li
+  - Beidi Luan
+  - Rui Sun
+  - Yan Ma
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Large language model (LLM) agents are extending agent-mediated commerce
+    on the Web from shopping for consumers to operating businesses for sellers. In
+    online-to-offline (O2O) commerce, decisions are issued through Web-based platforms
+    but realized through costly physical execution. Evaluating such agents requires
+    going beyond individual transactions to ask whether decisions made online turn
+    into sustained economic returns. We introduce AutoVend, a benchmark in which one
+    LLM agent manages 20 vending machines across five site types through a Web-based
+    operating interface for 180 simulated days. Its data-grounded simulator combines
+    a shared warehouse, procurement lead times, paid replenishment, inventory expiration,
+    and recurring operating costs. We evaluate five LLM agents against a rule-based
+    inventory-control baseline and diagnose their site coordination, execution, and
+    performance over time. Four of five evaluated LLM agents fall short of this baseline,
+    and returns per dollar of inference cost rank models differently from returns
+    alone. Operational analyses show that gains in individual metrics do not consistently
+    yield stronger economic growth, as inventory and execution costs erode these gains.
+    Trajectory analysis further reveals difficulties in grounding feasible actions,
+    managing inventory commitments, and converting feedback into effective policy
+    revisions.
+- title: Lifelong Context Adaptation through Bidirectional Memory-Skill Learning
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.32295v1
+  category: ai-marketing
+  subcategory: empirical
+  authors:
+  - Tianyi Xu
+  - Huazheng Wang
+  venue: ''
+  code_url: https://github.com/tianyi0216/Memcryst.git
+  project_url: ''
+  abstract: Lifelong LLM agents must learn from an expanding history of interactions
+    while making each decision within a bounded context window. Memory makes past
+    experience available, but the agent may still need to infer how to solve each
+    new task from the retrieved records. Skills provide reusable procedures, yet may
+    omit the task-specific facts needed to apply them. Because retrieved memory and
+    skills shape the agent's behavior, they also influence the experience available
+    for future learning. We introduce MemCryst, a framework for lifelong context adaptation
+    through bidirectional learning of memory and skills with a frozen language model.
+    Recurring episodes stored in memory support skill creation and revision, and the
+    interactions guided by those skills supply new memory for subsequent learning.
+    Facts retrieved from memory and learned skills jointly form the agent's context,
+    while task outcomes adjust the future retrieval influence of the records actually
+    served without rewriting their content. Across ten settings spanning embodied
+    control, long-document reading, conversation, mathematics, and code, MemCryst
+    leads seven reported comparisons. On ALFWorld, joint serving achieves 63.17% success,
+    compared with 59.83% for memory-only and 50.50% for skill-only serving. Code is
+    available at https://github.com/tianyi0216/Memcryst.git
