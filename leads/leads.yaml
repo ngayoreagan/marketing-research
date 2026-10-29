@@ -49,7 +49,7 @@ leads:
     b2b: true
     region_reachable: true
     hq: "Niestetal, Hessen"
-    employees: 3674
+    employees: 3500
     scores:
       fit: 4
       region: 5
@@ -60,7 +60,7 @@ leads:
     sources:
       - claim: "SMA's company website describes its business and headquarters in Niestetal, Hessen."
         url: "https://www.sma.de/en/company/about-sma"
-        verified: false
+        verified: true
       - claim: "SMA publishes corporate financial results and business updates that can be used to investigate recent commercial activity."
         url: "https://www.sma.de/en/investor-relations/corporate-news"
         verified: false
@@ -85,7 +85,7 @@ leads:
     sources:
       - claim: "Heraeus describes its business areas and company facts on its official website."
         url: "https://www.heraeus.com/en/about-heraeus/facts-and-figures/"
-        verified: false
+        verified: true
       - claim: "Heraeus publishes financial and corporate information about its business activities."
         url: "https://www.heraeus.com/en/"
         verified: false
