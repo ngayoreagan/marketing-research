@@ -231,9 +231,17 @@ def main():
         "top_authors_recent": top_authors_recent,
     }
 
+    _stats_json = json.dumps(stats, ensure_ascii=False, separators=(",", ":"))
     (REPO / "statistics.json").write_text(json.dumps(stats, indent=2), encoding="utf-8")
     (REPO / "docs" / "statistics.json").write_text(json.dumps(stats, indent=2), encoding="utf-8")
-    print(f"Wrote statistics.json ({total} papers, {saturation}% saturation) + docs/statistics.json")
+    # Keep the precompiled STATS_DATA in docs/index.html in sync (GitHub Pages).
+    _html_path = REPO / "docs" / "index.html"
+    if _html_path.exists():
+        _html = _html_path.read_text(encoding="utf-8")
+        import re as _re
+        _html = _re.sub(r"const STATS_DATA = .*?;", "const STATS_DATA = " + _stats_json + ";", _html, count=1, flags=_re.DOTALL)
+        _html_path.write_text(_html, encoding="utf-8")
+    print(f"Wrote statistics.json ({total} papers, {saturation}% saturation) + docs/statistics.json + embedded stats")
 
     pub_dates = [(e.get("date", "")[:7], e.get("category", ""), e.get("subcategory", ""))
                  for e in entries if e.get("date")]
