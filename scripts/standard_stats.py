@@ -232,7 +232,8 @@ def main():
     }
 
     (REPO / "statistics.json").write_text(json.dumps(stats, indent=2), encoding="utf-8")
-    print(f"Wrote statistics.json ({total} papers, {saturation}% saturation)")
+    (REPO / "docs" / "statistics.json").write_text(json.dumps(stats, indent=2), encoding="utf-8")
+    print(f"Wrote statistics.json ({total} papers, {saturation}% saturation) + docs/statistics.json")
 
     pub_dates = [(e.get("date", "")[:7], e.get("category", ""), e.get("subcategory", ""))
                  for e in entries if e.get("date")]

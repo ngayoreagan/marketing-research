@@ -6,7 +6,8 @@ __pycache__/
 # Pipeline outputs (generated — never commit)
 /papers.json
 # docs/papers.json is committed so GitHub Pages (served from /docs) works
-statistics.json
+/statistics.json
+# docs/statistics.json is committed so GitHub Pages can render stats
 docs/topics/
 verify-sources-report.json
 results/

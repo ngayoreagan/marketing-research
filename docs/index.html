@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Research Corpus — Paper Browser</title>
+    <title>Marketing Research Corpus — Paper Browser</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
@@ -35,6 +35,10 @@
         }
         header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; flex-wrap: wrap; gap: .5rem; }
         h1 { font-size: 1.6rem; }
+        .tabs { display: flex; gap: .5rem; margin-bottom: 1.25rem; }
+        .tab-btn { background: var(--bg-secondary); border: 1px solid var(--border-color); color: var(--text-primary);
+                   border-radius: var(--radius); padding: .45rem 1rem; cursor: pointer; font-size: .9rem; font-weight: 500; }
+        .tab-btn.active { background: var(--primary); color: #fff; border-color: var(--primary); }
         .controls { display: flex; gap: .5rem; flex-wrap: wrap; margin-bottom: 1.25rem; }
         input[type="text"], select {
             padding: .5rem .75rem; border: 1px solid var(--border-color); border-radius: var(--radius);
@@ -54,26 +58,53 @@
         .theme-btn { background: var(--bg-secondary); border: 1px solid var(--border-color); color: var(--text-primary);
                      border-radius: var(--radius); padding: .4rem .75rem; cursor: pointer; font-size: .85rem; }
         .empty { color: var(--text-secondary); font-style: italic; padding: 2rem 0; text-align: center; }
+        .card { border: 1px solid var(--border-color); border-radius: var(--radius); padding: 1rem 1.1rem;
+                margin-bottom: 1rem; background: var(--bg-secondary); }
+        .card h2 { font-size: 1.15rem; margin-bottom: .75rem; color: var(--primary); }
+        .bar-row { display: flex; align-items: center; gap: .6rem; margin-bottom: .35rem; font-size: .85rem; }
+        .bar-label { width: 200px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .bar-track { flex: 1; height: 14px; background: var(--border-color); border-radius: 7px; overflow: hidden; }
+        .bar-fill { height: 100%; background: var(--primary); border-radius: 7px; }
+        .bar-val { width: 55px; text-align: right; color: var(--text-secondary); }
+        table.stats-tbl { width: 100%; border-collapse: collapse; font-size: .85rem; }
+        table.stats-tbl th, table.stats-tbl td { padding: .35rem .5rem; border-bottom: 1px solid var(--border-color); text-align: left; }
+        table.stats-tbl th { color: var(--text-secondary); font-weight: 600; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+        @media (max-width: 720px) { .grid { grid-template-columns: 1fr; } .bar-label { width: 120px; } }
+        .kpi { display: flex; gap: 1.5rem; flex-wrap: wrap; margin-bottom: 1rem; }
+        .kpi .k { font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .kpi .lbl { font-size: .75rem; color: var(--text-secondary); }
+        .hidden { display: none; }
     </style>
 </head>
 <body>
 <header>
-    <h1><i class="fas fa-graduation-cap" style="color:var(--primary)"></i> Research Corpus</h1>
+    <h1><i class="fas fa-graduation-cap" style="color:var(--primary)"></i> Marketing Research Corpus</h1>
     <button class="theme-btn" onclick="toggleTheme()"><i class="fas fa-moon"></i> Theme</button>
 </header>
 
-<div class="stats" id="stats">Loading…</div>
-
-<div class="controls">
-    <input type="text" id="search" placeholder="Search title, abstract, authors…" oninput="render()">
-    <select id="catFilter" onchange="render()"><option value="">All categories</option></select>
-    <select id="subFilter" onchange="render()"><option value="">All subcategories</option></select>
+<div class="tabs">
+    <button class="tab-btn active" onclick="showTab('papers')">📄 Papers</button>
+    <button class="tab-btn" onclick="showTab('stats')">📊 Statistics</button>
 </div>
 
-<div id="list"></div>
+<div id="papersView">
+    <div class="stats" id="stats">Loading…</div>
+    <div class="controls">
+        <input type="text" id="search" placeholder="Search title, abstract, authors…" oninput="render()">
+        <select id="catFilter" onchange="render()"><option value="">All categories</option></select>
+        <select id="subFilter" onchange="render()"><option value="">All subcategories</option></select>
+    </div>
+    <div id="list"></div>
+</div>
+
+<div id="statsView" class="hidden">
+    <div id="statsContent">Loading statistics…</div>
+</div>
 
 <script>
 let papers = [];
+let stats = null;
 let theme = localStorage.getItem('theme') || 'light';
 if (theme === 'dark') document.documentElement.dataset.theme = 'dark';
 
@@ -81,6 +112,14 @@ function toggleTheme() {
     theme = theme === 'light' ? 'dark' : 'light';
     document.documentElement.dataset.theme = theme;
     localStorage.setItem('theme', theme);
+}
+
+function showTab(name) {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    event.target.classList.add('active');
+    document.getElementById('papersView').classList.toggle('hidden', name !== 'papers');
+    document.getElementById('statsView').classList.toggle('hidden', name !== 'stats');
+    if (name === 'stats' && !stats) loadStats();
 }
 
 async function load() {
@@ -107,7 +146,7 @@ function fillFilters() {
     const years = papers.map(p => (p.date || '').slice(0,4)).filter(Boolean);
     const range = years.length ? Math.min(...years) + '–' + Math.max(...years) : '—';
     document.getElementById('stats').innerHTML =
-        `<span><i class="fas fa-file-alt"></i> ${total} papers</span>` +
+        `<span><i class="fas fa-file-alt"></i> ${total.toLocaleString()} papers</span>` +
         `<span><i class="fas fa-calendar"></i> ${range}</span>` +
         `<span><i class="fas fa-tags"></i> ${cats.length} categories · ${subs.length} subcategories</span>`;
 }
@@ -131,7 +170,7 @@ function render() {
 
     if (!filtered.length) { list.innerHTML = '<div class="empty">No papers match your filters.</div>'; return; }
 
-    list.innerHTML = filtered.map(p => `
+    list.innerHTML = filtered.slice(0, 200).map(p => `
         <div class="paper">
             <h3>${esc(p.title)} ${p.url ? `<a href="${esc(p.url)}" target="_blank"><i class="fas fa-external-link-alt"></i></a>` : ''}</h3>
             <div class="meta">
@@ -142,7 +181,103 @@ function render() {
                 ${(p.authors && p.authors.length) ? ' · ' + esc(p.authors.slice(0,4).join(', ')) : ''}
             </div>
             ${p.abstract ? `<div class="abstract">${esc(p.abstract.slice(0, 400))}${p.abstract.length > 400 ? '…' : ''}</div>` : ''}
-        </div>`).join('');
+        </div>`).join('') +
+        (filtered.length > 200 ? `<div class="empty">Showing 200 of ${filtered.length.toLocaleString()} matches. Refine your search.</div>` : '');
+}
+
+async function loadStats() {
+    try {
+        const resp = await fetch('statistics.json');
+        stats = await resp.json();
+        renderStats();
+    } catch (e) {
+        document.getElementById('statsContent').innerHTML =
+            '<div class="empty">Could not load statistics.json.</div>';
+    }
+}
+
+function bar(label, value, max, suffix) {
+    const pct = max ? (value / max * 100) : 0;
+    return `<div class="bar-row">
+        <div class="bar-label" title="${esc(label)}">${esc(label)}</div>
+        <div class="bar-track"><div class="bar-fill" style="width:${pct}%"></div></div>
+        <div class="bar-val">${value.toLocaleString()}${suffix || ''}</div>
+    </div>`;
+}
+
+function renderStats() {
+    const m = stats.metadata || {};
+    const cats = Object.entries(stats.by_category || {}).sort((a,b) => b[1]-a[1]);
+    const maxCat = cats.length ? cats[0][1] : 1;
+    const subs = Object.entries(stats.by_subcategory || {}).sort((a,b) => b[1]-a[1]);
+    const maxSub = subs.length ? subs[0][1] : 1;
+    const bursts = (stats.keyword_bursts || []).slice(0, 12);
+    const maxBurst = bursts.length ? Math.max(...bursts.map(b => b.total)) : 1;
+    const gaps = (stats.gaps && stats.gaps.thinnest_cells) ? stats.gaps.thinnest_cells.slice(0, 10) : [];
+    const venues = (stats.venues || []).slice(0, 10);
+    const maxVenue = venues.length ? venues[0][1] : 1;
+
+    const catDisplay = {
+        'ai-marketing':'AI & Marketing','digital-marketing':'Digital & Performance Marketing',
+        'social-media':'Social Media & Creator Marketing','content-marketing':'Content & Storytelling',
+        'consumer-behavior':'Consumer Behavior & Psychology','brand':'Brand Strategy & Management',
+        'analytics':'Analytics, Attribution & Measurement','privacy-data':'Data, Privacy & Cookieless Advertising',
+        'cx-retail':'Customer Experience, Omnichannel & Retail','b2b':'B2B & Account-Based Marketing',
+        'survey':'Surveys, Trends & Meta-Studies'
+    };
+
+    let html = '';
+    // KPIs
+    html += `<div class="card"><h2>Corpus overview</h2>
+        <div class="kpi">
+            <div><div class="k">${(m.total_papers||0).toLocaleString()}</div><div class="lbl">Papers</div></div>
+            <div><div class="k">${Object.keys(stats.by_category||{}).length}</div><div class="lbl">Categories</div></div>
+            <div><div class="k">${m.year_span || '—'}</div><div class="lbl">Year span</div></div>
+            <div><div class="k">${(m.recent_12m||0).toLocaleString()}</div><div class="lbl">Last 12 months</div></div>
+            <div><div class="k">${((stats.source_breakdown||{}).arxiv||0).toLocaleString()}</div><div class="lbl">arXiv</div></div>
+        </div></div>`;
+
+    // Categories
+    html += `<div class="card"><h2>Categories</h2>`;
+    cats.forEach(([k,v]) => { html += bar(catDisplay[k]||k, v, maxCat); });
+    html += `</div>`;
+
+    // Subcategories
+    html += `<div class="card"><h2>Research lens (subcategory)</h2>`;
+    subs.forEach(([k,v]) => { html += bar(k.charAt(0).toUpperCase()+k.slice(1).replace('-',' '), v, maxSub); });
+    html += `</div>`;
+
+    // Bursts
+    html += `<div class="card"><h2>Keyword bursts (12-month)</h2>
+        <table class="stats-tbl"><thead><tr><th>Keyword</th><th>Recent</th><th>Total</th><th>Burst</th></tr></thead><tbody>`;
+    bursts.forEach(b => {
+        html += `<tr><td>${esc(b.keyword)}</td><td>${b.recent}</td><td>${b.total}</td><td>${b.burst}×</td></tr>`;
+    });
+    html += `</tbody></table></div>`;
+
+    // Gaps
+    html += `<div class="card"><h2>Thinnest cells (research gaps)</h2>
+        <table class="stats-tbl"><thead><tr><th>Cell</th><th>Papers</th></tr></thead><tbody>`;
+    gaps.forEach(g => { html += `<tr><td>${esc(g.cell)}</td><td>${g.papers}</td></tr>`; });
+    html += `</tbody></table></div>`;
+
+    // Venues
+    html += `<div class="card"><h2>Top venues</h2>`;
+    venues.forEach(([v,n]) => { html += bar(v, n, maxVenue); });
+    html += `</div>`;
+
+    // Momentum
+    const mom = (stats.momentum || []).slice(0, 8);
+    if (mom.length) {
+        html += `<div class="card"><h2>Research momentum (last 12 months)</h2>
+            <table class="stats-tbl"><thead><tr><th>Category</th><th>Total</th><th>Last 12m</th><th>Growth</th></tr></thead><tbody>`;
+        mom.forEach(r => {
+            html += `<tr><td>${esc(catDisplay[r.id]||r.id)}</td><td>${r.total}</td><td>${r.recent}</td><td>+${r.growth_pct}%</td></tr>`;
+        });
+        html += `</tbody></table></div>`;
+    }
+
+    document.getElementById('statsContent').innerHTML = html;
 }
 
 load();
