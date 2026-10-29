@@ -86,8 +86,8 @@ leads:
       - claim: "Heraeus describes its business areas and company facts on its official website."
         url: "https://www.heraeus.com/en/about-heraeus/facts-and-figures/"
         verified: true
-      - claim: "Heraeus publishes financial and corporate information about its business activities."
-        url: "https://www.heraeus.com/en/"
+      - claim: "Heraeus publishes corporate news and stories about its business activities."
+        url: "https://www.heraeus.com/en/news-and-stories/"
         verified: false
     score: 3.90
     scored_by: "Reagan Ngayo"
